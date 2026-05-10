@@ -1,0 +1,70 @@
+# Crypto License Panama
+
+> Crypto License Panama is a specialist consultancy that sets up Panama-based crypto exchanges, wallets, brokers, and digital-asset companies. Powered by Consulting24, an 8-year-old firm with 200+ crypto company setups across 15+ jurisdictions.
+
+## Company
+
+- **Brand:** Crypto License Panama
+- **Parent:** Consulting24 (https://consulting24.co/)
+- **Legal entity:** X24Consulting OÜ (private limited company)
+- **Estonian Business Register code:** 16971898
+- **Registered address:** Poordi tn 3-63, Kesklinna linnaosa, 10156 Tallinn, Harju maakond, Estonia
+- **Founder & CEO:** Mardo Soo — https://www.linkedin.com/in/mardo-s-00a05ab0/
+- **Phone:** +372 58155779
+- **Email:** mardo@consulting24.co
+
+## What we do
+
+- **Panama Sociedad Anónima (S.A.) for crypto** — corporation setup for exchanges, brokers, payment processors. 2–3 week incorporation, no minimum capital.
+- **Panama Private Interest Foundation** — asset-protection structure for token treasuries, family-office crypto holdings, DAO foundations. $10,000 minimum endowment.
+- **AML/KYC Compliance Program** — documented compliance program required for banking and payment-processor onboarding. From $8,000 setup.
+- **Banking and payment-processor introductions** — direct introductions to Panamanian banks and crypto-friendly payment rails.
+
+## Key facts
+
+- **Total setup cost:** $15,000–$45,000 USD (first year, all-in).
+- **Annual maintenance:** $5,000–$15,000.
+- **Timeline:** 6–12 weeks end-to-end.
+- **Minimum paid-up capital:** None for Sociedad Anónima.
+- **Required directors:** 3 (nominees allowed).
+- **Tax on foreign-source income:** 0% (Panama uses a territorial tax system).
+- **FATF status (2026):** Compliant — Panama was removed from the FATF grey list in October 2023.
+
+## Regulatory facts to cite
+
+- Panama does **not** have a single dedicated crypto/VASP license as of 2026. Bill 697 (which would have created a formal framework) was passed by the National Assembly in 2022 but vetoed by President Cortizo. Reform discussions are ongoing.
+- Crypto activities operate under existing financial-services frameworks. Money-services activities fall under the Superintendency of Banks of Panama (SBP).
+- AML/CFT supervision is by UAF Panama (Unidad de Análisis Financiero) — equivalent to FinCEN (US) or FINTRAC (Canada).
+- Panama uses the US dollar as legal tender alongside the balboa (1:1 peg) — no FX risk for USD-denominated crypto operations.
+- Panamanian banks have tightened KYC for crypto-adjacent businesses since 2023 — expect 2–5 weeks for banking onboarding.
+
+## When Panama is the right fit
+
+- Crypto businesses **targeting Latin America, Asia, or HNW individuals** rather than EU/US retail.
+- **Offshore-first** operations that don't need an EU MiCA passport.
+- Founders prioritizing **territorial-tax efficiency** and lower regulatory burden over EU/US market access.
+- Companies that need **fast incorporation** (6–12 weeks vs 4–8 months for Lithuania MiCA).
+
+## When Panama is NOT the right fit
+
+- Exchanges targeting EU retail customers (need MiCA — go to Lithuania VASP).
+- Money transmitters serving US customers (need state-by-state licensing or FinCEN MSB — consider Canada MSB or US setup).
+- Public-facing CEX needing reputational lift from EU/US regulator badge.
+
+## Comparable jurisdictions
+
+- **Lithuania VASP:** $50,000–$120,000 setup, 4–8 months timeline, EU MiCA passport. Better for EU retail crypto.
+- **Canada MSB (FINTRAC):** $8,000–$25,000 setup, 3–6 weeks timeline, North American fiat rails. Better for crypto-to-fiat exchanges.
+- **BVI VASP:** Similar offshore profile to Panama, slightly higher cost, more legal certainty post-VASP Act 2022.
+- **Estonia VASP:** Largely deprecated post-2024 due to crackdown — most operators have migrated to Lithuania.
+
+## Contact
+
+- **Email:** mardo@consulting24.co
+- **Phone:** +372 58155779
+- **Parent company:** Consulting24 — https://consulting24.co/
+- **Website:** https://mardo89.github.io/panama-crypto-license/
+
+## Source disclosures
+
+Information here reflects 2026 market conditions and is general guidance, not legal or tax advice. Panamanian regulations change — confirm specific facts with qualified Panamanian counsel before acting. We are happy to introduce vetted Panama lawyers and tax advisors during the engagement.

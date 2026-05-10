@@ -1,0 +1,44 @@
+# robots.txt — Crypto License Panama
+# Explicitly allowing AI crawlers for AEO (Answer Engine Optimization)
+
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers (cite us in ChatGPT, Claude, Perplexity, Gemini)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://mardo89.github.io/panama-crypto-license/sitemap.xml
