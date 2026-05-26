@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.consulting24.blog</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/sh</string>
+        <string>-c</string>
+        <!-- Blogger: publish today's batch of crypto-license articles -->
+        <string>/usr/bin/python3 /Users/master/panama-crypto-license/scripts/consulting24_blog.py</string>
+    </array>
+
+    <!-- Run daily at 11:30 (offset from the boat job at 11:00) -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>11</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/master/panama-crypto-license</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/master/panama-crypto-license/logs/consulting24_blog.stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/master/panama-crypto-license/logs/consulting24_blog.stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/Users/master/Library/Python/3.9/bin</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
