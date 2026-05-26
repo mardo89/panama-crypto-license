@@ -16,11 +16,11 @@ Requirements & How to Get One".
 
 ## Tier 1 — Jurisdiction money pages  (`/<country>-crypto-license/`)
 - [x] panama   (exists at site root — rework into hub later)
-- [ ] lithuania        → /lithuania-crypto-license/        (CASP/MiCA)
-- [ ] estonia          → /estonia-crypto-license/          (VASP/MiCA)
-- [ ] dubai            → /dubai-crypto-license/             (VARA)
-- [ ] el-salvador      → /el-salvador-crypto-license/       (DASP)
-- [ ] czech-republic   → /czech-republic-crypto-license/
+- [x] lithuania        → /lithuania-crypto-license/        (CASP/MiCA)
+- [x] estonia          → /estonia-crypto-license/          (VASP/MiCA)
+- [x] dubai            → /dubai-crypto-license/             (VARA)
+- [x] el-salvador      → /el-salvador-crypto-license/       (DASP)
+- [x] czech-republic   → /czech-republic-crypto-license/
 - [ ] poland           → /poland-crypto-license/
 - [ ] malta            → /malta-crypto-license/             (MiCA)
 - [ ] switzerland      → /switzerland-crypto-license/       (VQF/FINMA)

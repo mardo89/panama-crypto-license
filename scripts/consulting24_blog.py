@@ -154,14 +154,162 @@ def _disclaimer() -> str:
             "qualified counsel before acting. Consulting24 (X24Consulting O&Uuml;, Estonian reg. "
             "16971898) introduces vetted local lawyers and tax advisors during every engagement.</em></p>")
 
+def _evergreen_landscape(topic: dict) -> str:
+    kw = topic["keyword"]
+    return f"""
+<h2>Crypto Licensing in {YEAR}: The Bigger Picture</h2>
+<p>Choosing where to license a crypto business in {YEAR} is no longer a simple cost calculation.
+The regulatory map has hardened considerably over the last three years. In the European Union, the
+Markets in Crypto-Assets Regulation (MiCA) has replaced the patchwork of national VASP registers
+with a single Crypto-Asset Service Provider (CASP) authorisation that passports across all 27 member
+states. That passport is powerful &mdash; but it comes with capital requirements, governance
+obligations and a multi-month authorisation process that smaller projects often underestimate.</p>
+<p>Outside the EU, the picture is more varied. Offshore and territorial-tax jurisdictions compete on
+speed, cost and privacy, while major financial centres such as Switzerland, the UAE and Singapore
+compete on credibility and institutional access. The Financial Action Task Force (FATF) sits over all
+of them: its &ldquo;travel rule&rdquo; and AML standards now apply, in some form, almost everywhere a
+serious crypto business would consider basing itself. Jurisdictions that ignore FATF expectations end
+up grey-listed, which quietly closes correspondent-banking doors for every company registered there.</p>
+<p>This is why the question behind <strong>{kw}</strong> is rarely &ldquo;which licence is cheapest?&rdquo;
+It is &ldquo;which regime matches my customers, my risk appetite and my banking needs?&rdquo; An EU-retail
+exchange and an offshore OTC desk serving high-net-worth clients in Latin America have almost nothing in
+common in terms of the right base. Getting this decision right at the start saves you from the single most
+expensive mistake in the industry: licensing in the wrong place and having to re-domicile a live business.</p>
+<p>Consulting24 has guided more than 200 crypto company setups across 15+ jurisdictions since 2017, which
+means we have seen how each of these regimes behaves in practice rather than just on paper. The summary
+below is the same framework we use with clients &mdash; and we are always happy to map it to your specific
+model. Start with our <a href="{SITE}/vs-lithuania/">Panama vs Lithuania comparison</a> to see how the
+trade-offs play out between an offshore base and an EU-passported one.</p>
+"""
+
+def _evergreen_banking(topic: dict) -> str:
+    return f"""
+<h2>Banking and Compliance: Where Most Setups Actually Stall</h2>
+<p>Incorporation is the easy part of any crypto project. Banking is where timelines slip and where
+under-prepared founders lose months. Since 2023, banks and payment processors worldwide have tightened
+their onboarding of crypto-adjacent businesses, and they now expect a genuinely professional application
+&mdash; not a one-page business summary. A thin file is simply rejected, and re-applying with the same bank
+is far harder than getting it right the first time.</p>
+<p>Three documents do the heavy lifting. The first is a written <strong>AML/KYC compliance program</strong>:
+your customer-onboarding flow, transaction-monitoring rules, sanctions and PEP screening, a named compliance
+officer, and record-keeping policies. The second is a clear, evidenced <strong>source-of-funds</strong> file
+for both the company and its beneficial owners. The third is a coherent <strong>business description</strong>
+that explains who your customers are, how money moves, and what volumes you project. Banks approve businesses
+they understand; ambiguity reads as risk.</p>
+<p>Sequencing matters as much as substance. The correct order is: incorporate the operating entity, build the
+compliance program, assemble the source-of-funds package, and only then approach banking &mdash; ideally
+through a warm introduction rather than a cold application. Founders who approach banks mid-setup, before
+their file is complete, create the very delays they are trying to avoid. We make direct introductions to
+banks and crypto-friendly payment rails as part of every engagement, but the introduction only works if the
+file behind it is ready.</p>
+<p>None of this is optional, and none of it changes much from one jurisdiction to the next &mdash; the
+compliance bar is now broadly global. What changes is the appetite of local banks and the speed of
+onboarding. Our <a href="{SITE}/requirements/">requirements checklist</a> sets out exactly what you need to
+assemble before you approach a bank.</p>
+"""
+
+def _evergreen_choosing(topic: dict) -> str:
+    return f"""
+<h2>How to Choose the Right Jurisdiction</h2>
+<p>Work the decision in this order &mdash; customers first, everything else second:</p>
+<ul>
+  <li><strong>Who are your customers?</strong> EU retail means you need a MiCA passport (Lithuania, Malta or
+  another EU CASP). US customers mean state-by-state money-transmitter licensing or a FinCEN MSB &mdash; consider
+  a Canada MSB or a US setup. Latin America, Asia or HNW clients mean an offshore or territorial base such as
+  Panama is usually the better fit.</li>
+  <li><strong>Do you need a regulator badge?</strong> A public-facing exchange chasing institutional partners
+  and fundraising often needs the reputational lift of an EU, Swiss or VARA licence. An OTC desk or token
+  treasury usually does not.</li>
+  <li><strong>What is your budget and timeline?</strong> Offshore and territorial routes set up in weeks for
+  tens of thousands; premium onshore licences take many months and six figures.</li>
+  <li><strong>What about tax?</strong> Territorial-tax jurisdictions like Panama charge 0% on foreign-source
+  income; EU jurisdictions apply standard corporate tax. Factor total cost of ownership, not just setup fees.</li>
+</ul>
+<p>For many offshore-first founders, Panama lands at the intersection of fast incorporation, low cost and 0%
+tax on foreign-source income, which is why it features so heavily in our work. But the honest answer is that
+the &ldquo;best&rdquo; jurisdiction is the one that matches the four answers above &mdash; and that is a
+conversation worth having before you spend a cent. See our <a href="{SITE}/cost/">cost breakdown</a> and
+<a href="{SITE}/application-process/">application process</a> to ground the decision in real numbers.</p>
+"""
+
+def _evergreen_mistakes(topic: dict) -> str:
+    kw = topic["keyword"]
+    return f"""
+<h2>Common Mistakes to Avoid</h2>
+<p>The failures we see when founders research <strong>{kw}</strong> on their own are remarkably
+consistent, and almost all of them are avoidable. The first is <em>licensing to the headline tax rate</em>.
+A 0% jurisdiction is worthless if your customers legally require a regulated provider you cannot become
+there &mdash; you will simply have to start again. Decide who you are allowed to serve first, then optimise
+for tax.</p>
+<p>The second is <em>treating the compliance program as paperwork</em>. The AML/KYC program is not a
+formality to satisfy a regulator; it is the document your bank reads most closely. A generic template
+downloaded from the internet is transparent to any compliance officer and will sink your banking
+application. It needs to reflect your actual product, customer base and risk profile.</p>
+<p>The third is <em>underestimating banking lead time</em>. Founders routinely budget for incorporation and
+forget that the bank account &mdash; the thing that actually lets the business operate &mdash; can take longer
+than the licence itself. Build banking into your launch timeline from day one, not as an afterthought.</p>
+<p>The fourth is <em>ignoring personal tax residency</em>. A company in a low-tax jurisdiction does not erase
+your obligations where you personally live. Many founders create unexpected liabilities by structuring the
+company perfectly and ignoring themselves. We introduce qualified tax advisors precisely to close this gap.</p>
+<p>The fifth and most expensive is <em>choosing a provider on price alone</em>. The cheapest setup that
+results in a rejected bank application or a re-domiciliation is far more expensive than doing it properly
+once. Ask any provider to itemise their fee and explain their banking track record before you commit.</p>
+"""
+
+def _evergreen_aftercare(topic: dict) -> str:
+    return f"""
+<h2>What Happens After You Are Licensed</h2>
+<p>Getting licensed and banked is the start, not the finish. Every regulated or registered crypto business
+carries ongoing obligations, and letting them lapse is how companies lose their standing &mdash; and their
+banking. At minimum you will maintain a registered agent or local presence, file annual renewals or
+supervision fees, keep accounting records, and keep your compliance program live with periodic reviews and
+updated sanctions and PEP screening lists.</p>
+<p>Most jurisdictions also expect you to keep your beneficial-ownership information current and to report
+material changes &mdash; new directors, new shareholders, a pivot in business activity &mdash; promptly.
+Transaction monitoring is not a one-time setup either; screening rules need tuning as your volumes and
+customer mix evolve. Banks may request periodic refreshes of your KYC and source-of-funds documentation,
+particularly after a year of trading or a significant change in activity.</p>
+<p>This is why we offer ongoing maintenance on an annual retainer rather than treating setup as a one-off
+transaction. The cost of staying compliant is a fraction of the cost of losing a banking relationship and
+having to rebuild one from scratch. Plan for it in your year-two budget from the outset, and treat your
+compliance function as a living part of the business rather than a box you ticked at launch.</p>
+<p>It is also worth planning ahead for growth. A structure that suits a pre-revenue startup may not suit
+the same company once it is processing meaningful volume, adding new product lines, or expanding into new
+markets. Many of the businesses we work with begin in a fast, low-cost offshore base to validate the model,
+then add a second regulated entity &mdash; an EU CASP, for example &mdash; once revenue justifies the cost
+and the market access genuinely matters. Designing the first structure with that possible second step in
+mind keeps your options open and avoids a disruptive re-domiciliation later. We map this growth path out
+with clients during the initial planning stage so the early decisions support, rather than constrain, where
+the business is heading.</p>
+"""
+
+def _why_consulting24() -> str:
+    return f"""
+<h2>Why Work With Consulting24</h2>
+<p>Consulting24 is an eight-year-old advisory firm that has completed more than 200 crypto company setups
+across 15+ jurisdictions. We are the team behind Crypto License Panama, operated by X24Consulting O&Uuml;
+(Estonian business register code 16971898), and led by founder and CEO Mardo Soo. We do not sell a single
+&ldquo;best&rdquo; jurisdiction &mdash; we map your business to the regime that actually fits, then handle
+incorporation, the compliance program, and banking and payment-processor introductions end to end.</p>
+<p>Every engagement starts with an honest conversation about your customers, your budget and your timeline,
+and ends with a fixed-fee proposal so you know the all-in number before you commit. We also introduce vetted
+local lawyers and tax advisors wherever your structure requires them, so nothing falls through the cracks.</p>
+"""
+
 def render_article(topic: dict) -> str:
-    """Build the full post HTML from a topic spec."""
+    """Build the full ~2000-word post HTML from a topic spec."""
     parts = [f"<p><strong>{topic['lede']}</strong></p>"]
     for heading, paras in topic["sections"]:
         parts.append(f"<h2>{heading}</h2>")
         for p in paras:
             parts.append(f"<p>{p}</p>")
+    parts.append(_evergreen_choosing(topic))
+    parts.append(_evergreen_banking(topic))
+    parts.append(_evergreen_landscape(topic))
+    parts.append(_evergreen_mistakes(topic))
+    parts.append(_evergreen_aftercare(topic))
     parts.append(_cta(topic["keyword"], topic["landing"]))
+    parts.append(_why_consulting24())
     parts.append(_faq(topic["faqs"]))
     parts.append(_related(topic["related"]))
     parts.append(_disclaimer())
@@ -933,6 +1081,318 @@ def _generate() -> list[dict]:
 # Final queue: hand-authored Panama articles first, then generated coverage.
 ARTICLES: list[dict] = PANAMA_ARTICLES + _generate()
 
+# ── pillar PAGES (head keywords, LLM + SEO optimised) ────────────────────────
+# Blogger Pages are static cornerstone pages. They target broad head terms and
+# act as the hubs of the topic cluster; the daily posts are the long-tail spokes.
+# Each page is answer-first (TL;DR), carries a citable comparison table and
+# FAQPage JSON-LD schema, and cross-links the other pages + consulting24.co.
+
+def _tldr(text: str) -> str:
+    return (f'<div style="background:#eef4ff;border:1px solid #cfe0f5;border-radius:8px;'
+            f'padding:16px 20px;margin:0 0 26px;">'
+            f'<strong style="color:#0b1f3a;">In short:</strong> {text}</div>')
+
+def _comparison_table() -> str:
+    rows = [
+        ("Panama", "Sociedad An&oacute;nima (no dedicated VASP regime)", PANAMA_COST,
+         PANAMA_TIME, "0% on foreign-source income", "Offshore / LatAm / Asia / HNW"),
+    ]
+    pick = {"Lithuania", "Canada (MSB)", "Dubai (VARA)", "BVI", "Estonia"}
+    for j in JURISDICTIONS:
+        if j["name"] in pick:
+            rows.append((j["name"], j["regime"].split("(")[0].strip(), j["cost"],
+                         j["timeline"], j["tax"].split(",")[0], j["region"]))
+    head = ("<tr style='background:#0b1f3a;color:#fff;'>"
+            "<th style='padding:8px;text-align:left;'>Jurisdiction</th>"
+            "<th style='padding:8px;text-align:left;'>Regime</th>"
+            "<th style='padding:8px;text-align:left;'>Setup cost</th>"
+            "<th style='padding:8px;text-align:left;'>Timeline</th>"
+            "<th style='padding:8px;text-align:left;'>Tax</th>"
+            "<th style='padding:8px;text-align:left;'>Best for</th></tr>")
+    body = ""
+    for i, r in enumerate(rows):
+        bg = "#f7fafd" if i % 2 else "#ffffff"
+        body += f"<tr style='background:{bg};'>" + "".join(
+            f"<td style='padding:8px;border-bottom:1px solid #e6eef7;'>{c}</td>" for c in r
+        ) + "</tr>"
+    return ("<h2>Crypto License Comparison by Jurisdiction (2026)</h2>"
+            "<div style='overflow-x:auto;'><table style='border-collapse:collapse;width:100%;"
+            "font-size:14px;margin:8px 0 4px;'>" + head + body + "</table></div>"
+            "<p style='font-size:13px;color:#777;'>Figures are indicative 2026 ranges. "
+            "Ask us for a fixed-fee proposal for your specific model.</p>")
+
+def _faq_jsonld(faqs: list[tuple[str, str]]) -> str:
+    import json as _json, re as _re
+    entities = []
+    for q, a in faqs:
+        clean = _re.sub("<[^>]+>", "", a)
+        entities.append({"@type": "Question", "name": q,
+                         "acceptedAnswer": {"@type": "Answer", "text": clean}})
+    data = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": entities}
+    return f'<script type="application/ld+json">{_json.dumps(data)}</script>'
+
+PAGES: list[dict] = [
+    {
+        "slug": "crypto-license-panama",
+        "title": "Crypto License in Panama: Cost, Requirements & Setup (2026)",
+        "keyword": "crypto license Panama",
+        "landing": "/",
+        "tldr": "Panama has no single dedicated crypto/VASP licence. Crypto businesses incorporate a "
+                "Panama Sociedad An&oacute;nima (2&ndash;3 weeks, no minimum capital) and operate under "
+                "existing financial-services and AML law, supervised in spirit by UAF Panama. Expect "
+                f"{PANAMA_COST} all-in for year one, {PANAMA_TIME} end to end, and 0% tax on "
+                "foreign-source income. Best for offshore-facing businesses serving LatAm, Asia or HNW "
+                "clients &mdash; not EU retail (use a MiCA jurisdiction for that).",
+        "table": True,
+        "sections": [
+            ("How Crypto Is Regulated in Panama",
+             ["Panama does not have a standalone crypto or VASP licence as of 2026. Bill 697, which would "
+              "have created one, was vetoed in 2022 and reform is still pending. Instead, crypto activities "
+              "run under Panama's existing financial-services frameworks, with AML/CFT supervised by UAF "
+              "Panama (the local FinCEN equivalent) and money-services activity falling under the "
+              "Superintendency of Banks of Panama.",
+              "In practice this means you incorporate a Panama Sociedad An&oacute;nima, run a documented "
+              "AML/KYC program, and operate lawfully &mdash; rather than applying for a named licence. For "
+              "asset-holding structures such as token treasuries, a Panama Private Interest Foundation is "
+              f"paired with the operating company. See our <a href='{SITE}/company-setup/'>company setup</a> "
+              "guidance for the full picture."]),
+            ("Cost, Timeline and Tax",
+             [f"Budget {PANAMA_COST} all-in for the first year and {PANAMA_TIME} end to end &mdash; materially "
+              "faster and cheaper than an EU MiCA authorisation. Annual maintenance runs $5,000&ndash;$15,000.",
+              "Panama's territorial tax system charges 0% on foreign-source income, and the country uses the "
+              "US dollar as legal tender (1:1 with the balboa), removing FX risk on USD settlement. See the "
+              f"full <a href='{SITE}/cost/'>cost breakdown</a> and <a href='{SITE}/requirements/'>requirements "
+              "checklist</a>."]),
+        ],
+        "faqs": [
+            ("Does Panama have a crypto license?",
+             "No. Panama has no dedicated crypto/VASP licence as of 2026. Businesses incorporate a Sociedad "
+             "An&oacute;nima and operate under existing financial-services and AML law."),
+            ("How much does a Panama crypto setup cost?",
+             f"Around {PANAMA_COST} all-in for year one, with $5,000&ndash;$15,000 annual maintenance."),
+            ("Is crypto income taxed in Panama?",
+             "Foreign-source income is taxed at 0% under Panama's territorial system. Panama-source income "
+             "can be taxable."),
+            ("Who should choose Panama?",
+             "Offshore-facing businesses serving Latin America, Asia or high-net-worth clients. EU-retail "
+             "exchanges should use a MiCA jurisdiction such as Lithuania."),
+        ],
+    },
+    {
+        "slug": "crypto-exchange-license",
+        "title": "Crypto Exchange License: How and Where to Get One in 2026",
+        "keyword": "crypto exchange license",
+        "landing": "/exchange-license/",
+        "tldr": "There is no single global “crypto exchange license.” The right route depends on your "
+                "customers: EU retail needs a MiCA CASP authorisation (e.g. Lithuania); North American "
+                "fiat exchanges fit a Canada MSB; offshore/HNW operators often choose Panama or BVI; "
+                "institutional MENA players choose Dubai VARA. Cost ranges from ~$8,000 (Canada MSB) to "
+                "$120,000+ (EU/VARA), and timelines from 3 weeks to 12 months.",
+        "table": True,
+        "sections": [
+            ("There Is No Universal Exchange License",
+             ["“Crypto exchange license” is shorthand for several very different regimes. What you "
+              "actually need is determined by where your customers are and whether you require a regulator "
+              "badge. An EU-retail order-book exchange needs a MiCA CASP authorisation to passport across "
+              "Europe. A crypto-to-fiat exchange serving North America fits a FINTRAC MSB registration in "
+              "Canada. An OTC desk serving offshore and HNW clients often runs from Panama or the BVI.",
+              "The most expensive mistake is licensing to the wrong audience and having to re-domicile a live "
+              f"exchange. Map customers first. Our <a href='{SITE}/exchange-license/'>exchange license "
+              "page</a> walks through order-book, brokerage and OTC structures."]),
+            ("Structure, Banking and Fiat Rails",
+             ["Most exchange operators use a clean operating entity plus a separate vehicle for any token or "
+              "treasury. Banking is the real gating factor everywhere: you need fiat on/off-ramps, which means "
+              "a bank account and crypto-friendly payment-processor relationships, backed by a documented "
+              "compliance program and source-of-funds file.",
+              "If you serve EU retail you additionally need an EU-licensed entity under MiCA &mdash; an offshore "
+              f"base alone does not passport into Europe. Compare the routes on our "
+              f"<a href='{SITE}/vs-lithuania/'>Panama vs Lithuania</a> page."]),
+        ],
+        "faqs": [
+            ("What license do I need to run a crypto exchange?",
+             "It depends on your customers: MiCA CASP for EU retail, Canada MSB for North American fiat, "
+             "Panama or BVI for offshore/HNW, Dubai VARA for institutional MENA."),
+            ("How much does a crypto exchange license cost?",
+             "From roughly $8,000 (Canada MSB) to $120,000+ (EU MiCA or Dubai VARA), depending on the regime."),
+            ("Can one license cover the whole world?",
+             "No. There is no global passport. Many operators combine an offshore base with a regulated EU "
+             "entity to cover both markets."),
+            ("What is the fastest exchange license to get?",
+             "A Canada MSB registration is among the fastest at 3&ndash;6 weeks; Panama incorporation is "
+             "2&ndash;3 weeks."),
+        ],
+    },
+    {
+        "slug": "crypto-license-cost",
+        "title": "Crypto License Cost by Jurisdiction: 2026 Comparison",
+        "keyword": "crypto license cost",
+        "landing": "/cost/",
+        "tldr": "Crypto licence costs in 2026 range from ~$8,000 (Canada MSB) and ~$15,000 (Panama) at the "
+                "low end to $120,000+ for EU MiCA and Dubai VARA. The setup fee is only part of the picture "
+                "&mdash; budget for the AML/KYC compliance program, banking introductions, and year-two "
+                "maintenance. The cheapest licence that gets your bank application rejected is the most "
+                "expensive option of all.",
+        "table": True,
+        "sections": [
+            ("What Drives Crypto License Cost",
+             ["Across every jurisdiction the cost drivers are the same: the licence or registration fee, a "
+              "documented AML/KYC compliance program, banking and payment-processor onboarding, corporate "
+              "incorporation, and any nominee or local-substance requirements. The jurisdiction's regime is "
+              "usually the largest single line, but compliance is the one founders underbudget.",
+              f"Panama sits near the affordable end at {PANAMA_COST} all-in for year one; EU MiCA and Dubai "
+              "VARA sit at the premium end because you are paying for market access and a regulator badge. "
+              f"See the itemised <a href='{SITE}/cost/'>Panama cost breakdown</a>."]),
+            ("Ongoing Costs and Total Cost of Ownership",
+             ["Setup is one-time; maintenance is forever. Plan for annual renewal/supervision fees, "
+              "accounting, and keeping the compliance program live. Tax treatment matters too &mdash; a 0% "
+              "territorial regime like Panama's can outweigh a lower headline setup fee elsewhere over a few "
+              "years.",
+              "Always ask a provider to itemise setup versus year-two costs, and to explain their banking "
+              "track record. Open-ended hourly engagements are where budgets overrun."]),
+        ],
+        "faqs": [
+            ("What is the cheapest crypto license?",
+             "A Canada MSB (~$8,000) and Panama (~$15,000) are among the most affordable credible routes in "
+             "2026."),
+            ("Why are EU and Dubai licenses so expensive?",
+             "You pay for market access and a top-tier regulator badge &mdash; MiCA passporting and VARA "
+             "credibility carry higher capital, governance and process costs."),
+            ("What hidden costs should I expect?",
+             "The two most underestimated are banking lead time and a proper compliance program. Skimping on "
+             "either causes rejections and delays."),
+            ("Is a cheaper license worse?",
+             "Not necessarily &mdash; it is about fit. A cheap offshore base is ideal for offshore-facing "
+             "businesses but useless if you legally need an EU passport."),
+        ],
+    },
+    {
+        "slug": "best-crypto-license-jurisdiction",
+        "title": "Best Country for a Crypto License in 2026: Jurisdiction Guide",
+        "keyword": "best crypto license jurisdiction",
+        "landing": "/vs-lithuania/",
+        "tldr": "There is no single “best” crypto jurisdiction &mdash; only the best fit for your "
+                "customers. EU retail → Lithuania or Malta (MiCA). North American fiat → Canada MSB. "
+                "Offshore / LatAm / Asia / HNW → Panama or BVI. Institutional MENA → Dubai VARA. "
+                "Premium token issuance → Switzerland. Decide on customers and the need for a regulator "
+                "badge first; optimise for cost and tax second.",
+        "table": True,
+        "sections": [
+            ("The “Best” Jurisdiction Depends on Your Customers",
+             ["Every ranking you read online is really answering a different question. The honest framework "
+              "is simple: who are you allowed and required to serve, and do you need a regulator badge? EU "
+              "retail forces a MiCA route; US customers force money-transmitter or MSB routes; offshore-facing "
+              "businesses get to optimise for speed, cost and tax.",
+              "For offshore-first founders, Panama frequently lands at the sweet spot of fast incorporation, "
+              "low cost and 0% tax on foreign-source income. For EU retail, Lithuania is the default. For "
+              f"North American fiat, Canada. Read the full logic on our "
+              f"<a href='{SITE}/vs-lithuania/'>Panama vs Lithuania</a> comparison."]),
+            ("Matching Profile to Jurisdiction",
+             ["Use the comparison table below as a starting shortlist, then pressure-test it against your real "
+              "banking needs. A jurisdiction is only as good as the banking and payment rails your business "
+              "can actually access from it &mdash; which is why we pair every recommendation with a realistic "
+              "banking plan.",
+              f"When you are ready, our <a href='{SITE}/application-process/'>application process</a> shows the "
+              "end-to-end steps for the Panama route, and we can map the same sequence to any jurisdiction on "
+              "the list."]),
+        ],
+        "faqs": [
+            ("What is the best country for a crypto license?",
+             "It depends on your customers. Lithuania for EU retail, Canada for North American fiat, Panama or "
+             "BVI for offshore/HNW, Dubai for institutional MENA, Switzerland for premium token issuance."),
+            ("What is the best low-cost crypto jurisdiction?",
+             "Panama and Canada MSB are among the most affordable credible routes; Georgia and Seychelles are "
+             "cheaper offshore options with lower international recognition."),
+            ("Which jurisdiction is best for an EU exchange?",
+             "An EU MiCA jurisdiction such as Lithuania or Malta, which passports across all 27 member states."),
+            ("Can I start offshore and move later?",
+             "Yes. Many founders validate in a fast offshore base like Panama, then add an EU entity once "
+             "revenue justifies MiCA."),
+        ],
+    },
+    {
+        "slug": "how-to-get-crypto-license",
+        "title": "How to Get a Crypto License: Step-by-Step Guide (2026)",
+        "keyword": "how to get a crypto license",
+        "landing": "/application-process/",
+        "table": True,
+        "tldr": "Getting a crypto licence in 2026 follows the same five steps everywhere: (1) choose the "
+                "jurisdiction that matches your customers; (2) incorporate the operating entity; (3) build a "
+                "documented AML/KYC compliance program; (4) assemble a source-of-funds file and open banking "
+                "and payment rails; (5) maintain the licence with ongoing compliance. Timelines run from "
+                "3 weeks (Canada MSB / Panama incorporation) to 12 months (EU MiCA / Dubai VARA).",
+        "sections": [
+            ("The Five Steps to a Crypto License",
+             ["<strong>1. Choose the jurisdiction.</strong> Start with your customers and whether you need a "
+              "regulator badge. This single decision drives cost, timeline and everything downstream. "
+              "<strong>2. Incorporate the operating entity.</strong> A Panama Sociedad An&oacute;nima takes "
+              "2&ndash;3 weeks; EU entities take longer. "
+              "<strong>3. Build the AML/KYC compliance program</strong> &mdash; the document your bank reads "
+              "most closely.",
+              "<strong>4. Open banking and payment rails.</strong> Assemble a clean source-of-funds file and "
+              "approach banks through warm introductions, not cold applications. "
+              "<strong>5. Maintain the licence</strong> with renewals, accounting and live compliance. "
+              f"Our <a href='{SITE}/application-process/'>application process</a> details each step for "
+              "Panama."]),
+            ("How Long It Takes and What Trips People Up",
+             ["End-to-end timelines range from about 3 weeks for a Canada MSB or Panama incorporation to "
+              "6&ndash;12 months for EU MiCA or Dubai VARA. The controllable parts &mdash; document collection "
+              "and the compliance program &mdash; are also the ones founders most often rush, which is exactly "
+              "why banking then stalls.",
+              f"Get the file right once and the process is smooth. See the "
+              f"<a href='{SITE}/requirements/'>requirements checklist</a> for everything you need to assemble "
+              "before you start."]),
+        ],
+        "faqs": [
+            ("How do I get a crypto license?",
+             "Choose a jurisdiction that matches your customers, incorporate, build an AML/KYC compliance "
+             "program, open banking with a source-of-funds file, then maintain the licence."),
+            ("How long does it take to get a crypto license?",
+             "From about 3 weeks (Canada MSB / Panama incorporation) to 6&ndash;12 months (EU MiCA / Dubai "
+             "VARA)."),
+            ("Do I need a lawyer to get a crypto license?",
+             "You need qualified local counsel for most regimes. Consulting24 coordinates incorporation, "
+             "compliance and banking and introduces vetted local lawyers."),
+            ("What is the hardest part of getting a crypto license?",
+             "Banking. Incorporation is straightforward; opening bank and payment-processor accounts requires "
+             "a complete compliance program and source-of-funds file."),
+        ],
+    },
+]
+
+def _page_related(current_slug: str, blog_url: str = "", url_map: dict | None = None) -> str:
+    base = blog_url.rstrip("/") if blog_url else "https://consultinglegalnews.blogspot.com"
+    url_map = url_map or {}
+    sib = "".join(
+        f'<li><a href="{url_map.get(p["slug"], base + "/p/" + p["slug"] + ".html")}">{p["title"]}</a></li>'
+        for p in PAGES if p["slug"] != current_slug
+    )
+    ext = "".join(f'<li><a href="{SITE}{path}">{label}</a></li>' for label, path in [
+        ("Panama crypto license &mdash; consulting24.co", "/"),
+        ("Cost breakdown", "/cost/"),
+        ("Application process", "/application-process/"),
+    ])
+    return f"<h2>Related guides</h2><ul>{sib}{ext}</ul>"
+
+def render_page(page: dict) -> str:
+    parts = [_tldr(page["tldr"])]
+    for heading, paras in page["sections"]:
+        parts.append(f"<h2>{heading}</h2>")
+        for p in paras:
+            parts.append(f"<p>{p}</p>")
+    if page.get("table"):
+        parts.append(_comparison_table())
+    parts.append(_evergreen_choosing(page))
+    parts.append(_evergreen_banking(page))
+    parts.append(_evergreen_landscape(page))
+    parts.append(_evergreen_mistakes(page))
+    parts.append(_cta(page["keyword"], page["landing"]))
+    parts.append(_why_consulting24())
+    parts.append(_faq(page["faqs"]))
+    parts.append(_faq_jsonld(page["faqs"]))
+    parts.append(_page_related(page["slug"]))
+    parts.append(_disclaimer())
+    return "\n".join(parts)
+
 # ── posting ───────────────────────────────────────────────────────────────
 
 def insert_post(blogger, blog_id: str, topic: dict, dry_run: bool) -> dict:
@@ -951,8 +1411,27 @@ def insert_post(blogger, blog_id: str, topic: dict, dry_run: bool) -> dict:
     resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
     return resp
 
+def insert_page(blogger, blog_id: str, page: dict, blog_url: str, dry_run: bool) -> dict:
+    # re-render related links against the real blog URL so cross-links resolve
+    html = render_page(page).replace(
+        _page_related(page["slug"]), _page_related(page["slug"], blog_url))
+    body = {
+        "kind": "blogger#page",
+        "blog": {"id": blog_id},
+        "title": page["title"],
+        "content": html,
+    }
+    if dry_run:
+        log(f"[dry-run] would publish PAGE '{page['title']}' ({len(html)} chars)")
+        return {"id": "(dry-run)", "url": f"{blog_url.rstrip('/')}/p/{page['slug']}.html"}
+    return blogger.pages().insert(blogId=blog_id, body=body, isDraft=False).execute()
+
 def next_unposted(state: dict) -> list[dict]:
     return [a for a in ARTICLES if not posted(state, a["slug"])]
+
+def next_unposted_pages(state: dict) -> list[dict]:
+    done = state.get("pages", {})
+    return [p for p in PAGES if p["slug"] not in done]
 
 def cmd_list(state: dict):
     done = set(state.get("posts", {}).keys())
@@ -970,6 +1449,7 @@ def main():
     ap.add_argument("--list", action="store_true", help="show queue + posted state and exit")
     ap.add_argument("--dry-run", action="store_true", help="render next post without publishing")
     ap.add_argument("--once", metavar="SLUG", help="publish one specific article slug")
+    ap.add_argument("--pages", action="store_true", help="publish unpublished pillar PAGES and exit")
     ap.add_argument("--limit", type=int, default=DAILY_LIMIT)
     args = ap.parse_args()
 
@@ -995,6 +1475,29 @@ def main():
         log(f"Connected to blog: {info.get('name')} ({info.get('url')})")
     except Exception as e:
         sys.exit(f"ERROR: cannot access BLOGGER_BLOG_ID={blog_id}: {e}")
+
+    blog_url = info.get("url", "https://consultinglegalnews.blogspot.com")
+
+    if args.pages:
+        page_targets = next_unposted_pages(state)
+        if not page_targets:
+            log("No pages to publish — all pillar pages already published.")
+            return
+        for page in page_targets:
+            try:
+                resp = insert_page(blogger, blog_id, page, blog_url, args.dry_run)
+                if not args.dry_run:
+                    state.setdefault("pages", {})[page["slug"]] = {
+                        "title": page["title"], "url": resp.get("url", ""),
+                        "page_id": resp.get("id", ""),
+                        "posted_at": datetime.datetime.now().isoformat(),
+                    }
+                    save_state(state)
+                    log(f"Published PAGE: {page['title']} → {resp.get('url','')}")
+            except Exception as e:
+                log(f"ERROR publishing page {page['slug']}: {e}")
+                log(traceback.format_exc())
+        return
 
     if args.once:
         topic = next((a for a in ARTICLES if a["slug"] == args.once), None)
