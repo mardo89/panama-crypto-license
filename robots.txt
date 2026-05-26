@@ -41,4 +41,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://mardo89.github.io/panama-crypto-license/sitemap.xml
+Sitemap: https://www.consulting24.co/sitemap.xml
