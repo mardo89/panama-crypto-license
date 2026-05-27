@@ -24,7 +24,13 @@ cards = ['    <a class="jx-card" href="/"><strong>Panama 🇵🇦</strong><span>
 for d in sorted(glob.glob(os.path.join(ROOT, "*-crypto-license"))):
     slug = os.path.basename(d)
     if not os.path.exists(os.path.join(d, "index.html")): continue
-    name = slug.replace("-crypto-license", "").replace("-", " ").title()
+    SPECIAL = {"bvi":"BVI","usa":"USA","uae":"UAE","el-salvador":"El Salvador","czech-republic":"Czech Republic",
+               "hong-kong":"Hong Kong","cayman-islands":"Cayman Islands","saudi-arabia":"Saudi Arabia",
+               "south-africa":"South Africa","south-korea":"South Korea","new-zealand":"New Zealand",
+               "costa-rica":"Costa Rica","isle-of-man":"Isle of Man","marshall-islands":"Marshall Islands",
+               "saint-lucia":"Saint Lucia","abu-dhabi":"Abu Dhabi"}
+    base = slug.replace("-crypto-license", "")
+    name = SPECIAL.get(base, base.replace("-", " ").title())
     cards.append(f'    <a class="jx-card" href="/{slug}/"><strong>{name}</strong><span>Crypto licensing guide &amp; Panama comparison</span></a>')
 hub_block = '  <div class="jx-grid">\n' + "\n".join(cards) + "\n  </div>"
 splice(os.path.join(ROOT, "jurisdictions", "index.html"), "<!-- JURISDICTIONS_START -->", "<!-- JURISDICTIONS_END -->", hub_block)
