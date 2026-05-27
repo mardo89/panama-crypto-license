@@ -168,6 +168,16 @@ def assemble(slug, crumb, d, kind="landing"):
 </body></html>
 '''
 
+def _trim_meta(d):
+    # auto-fix near-miss meta lengths so a 1-2 char overflow never wastes a good page
+    t = (d.get("meta_title") or "").strip()
+    if len(t) > 65: t = t[:64].rsplit(" ", 1)[0]
+    d["meta_title"] = t
+    desc = (d.get("meta_description") or "").strip()
+    if len(desc) > 160: desc = desc[:157].rsplit(" ", 1)[0].rstrip(".,;: ") + "…"
+    d["meta_description"] = desc
+    return d
+
 def qc(d, page_html, keyword=""):
     text = re.sub("<[^>]+>"," "," ".join([d["intro_html"]] + [s["html"] for s in d["sections"]] + [f["a"] for f in d["faqs"]]))
     words = len(text.split())
@@ -197,7 +207,7 @@ def qc(d, page_html, keyword=""):
 def build(kind, slug, keyword, brief):
     crumb = brief.split("|")[0].strip() if "|" in brief else slug.replace("-crypto-license","").replace("-"," ").title()
     user = f"Write a {kind} page. Primary keyword: \"{keyword}\". Slug: /{slug}/. Brief & facts: {brief}\nReturn STRICT JSON per the schema. Remember: 2000+ words, 8+ FAQs, full section structure, internal links from the allow-list, validated official authority links only."
-    d = call_deepseek(user)
+    d = _trim_meta(call_deepseek(user))
     page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/')  # guard: old project path → root
     report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
@@ -206,7 +216,7 @@ def build(kind, slug, keyword, brief):
         tries += 1
         cur = report["words"]
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
-        d = call_deepseek(exp)
+        d = _trim_meta(call_deepseek(exp))
         page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/')  # guard: old project path → root
         report = qc(d, page, keyword)
         print(f"  expand retry {tries}: {report['words']} words")
