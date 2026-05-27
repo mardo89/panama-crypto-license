@@ -121,6 +121,11 @@ def run():
         checkpoint()
     print(sh("python3 scripts/linkcheck.py").stdout[-400:])
     checkpoint(force=True)   # final flush of the remainder
+    # indexing watchdog: re-submit / audit pages not indexed within a few days
+    print(sh("python3 scripts/index_monitor.py").stdout[-600:])
+    sh("git add config/index_status.json")
+    sh(f'git commit -q -m "index_monitor: indexing status checkpoint ({datetime.date.today()})"')
+    sh("git push origin main")
     print(f"DONE: published {len(published)} pages")
 
 if __name__ == "__main__":
