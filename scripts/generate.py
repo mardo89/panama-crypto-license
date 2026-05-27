@@ -198,7 +198,7 @@ def build(kind, slug, keyword, brief):
     crumb = brief.split("|")[0].strip() if "|" in brief else slug.replace("-crypto-license","").replace("-"," ").title()
     user = f"Write a {kind} page. Primary keyword: \"{keyword}\". Slug: /{slug}/. Brief & facts: {brief}\nReturn STRICT JSON per the schema. Remember: 2000+ words, 8+ FAQs, full section structure, internal links from the allow-list, validated official authority links only."
     d = call_deepseek(user)
-    page = assemble(slug, crumb, d, kind)
+    page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/')  # guard: old project path → root
     report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
     tries = 0
@@ -207,7 +207,7 @@ def build(kind, slug, keyword, brief):
         cur = report["words"]
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
         d = call_deepseek(exp)
-        page = assemble(slug, crumb, d, kind)
+        page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/')  # guard: old project path → root
         report = qc(d, page, keyword)
         print(f"  expand retry {tries}: {report['words']} words")
     outdir = os.path.join(ROOT, slug) if kind=="landing" else os.path.join(ROOT, "blog", slug)
