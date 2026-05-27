@@ -387,6 +387,35 @@ def _hero_image(headline: str, sub: str = "Crypto licensing across 15+ jurisdict
     )
     return f"<div style='margin:0 0 26px;'>{svg}</div>"
 
+def _process_graphic() -> str:
+    """In-content infographic: the 4 stages of getting a crypto licence (SVG, copyright-free)."""
+    steps = [("1", "Choose jurisdiction", "match your customers"),
+             ("2", "Incorporate", "set up the entity"),
+             ("3", "AML / KYC program", "the banking key"),
+             ("4", "Open banking", "fiat on/off-ramps")]
+    xs = [180, 460, 740, 1020]
+    nodes = ""
+    for (num, lbl, sub), x in zip(steps, xs):
+        nodes += (
+            f"<circle cx='{x}' cy='96' r='40' fill='#0b1f3a'/>"
+            f"<circle cx='{x}' cy='96' r='40' fill='none' stroke='#25D366' stroke-width='3'/>"
+            f"<text x='{x}' y='108' fill='#ffffff' text-anchor='middle' "
+            f"font-family='Arial,Helvetica,sans-serif' font-size='30' font-weight='bold'>{num}</text>"
+            f"<text x='{x}' y='168' fill='#0b1f3a' text-anchor='middle' "
+            f"font-family='Arial,Helvetica,sans-serif' font-size='22' font-weight='bold'>{lbl}</text>"
+            f"<text x='{x}' y='196' fill='#56708f' text-anchor='middle' "
+            f"font-family='Arial,Helvetica,sans-serif' font-size='17'>{sub}</text>")
+    svg = (
+        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 230' width='100%' role='img' "
+        "aria-label='The four stages of getting a crypto licence' "
+        "style='display:block;height:auto;'>"
+        "<rect width='1200' height='230' rx='12' fill='#f2f7fc' stroke='#e6eef7'/>"
+        "<text x='40' y='44' fill='#0b1f3a' font-family='Arial,Helvetica,sans-serif' "
+        "font-size='20' font-weight='bold'>The 4 stages of getting licensed</text>"
+        "<line x1='180' y1='96' x2='1020' y2='96' stroke='#cfe0f5' stroke-width='4'/>"
+        + nodes + "</svg>")
+    return f"<div style='margin:26px 0;'>{svg}</div>"
+
 def _blog_pillar_links_html(current_slug: str = "") -> str:
     """Links to the blog's own pillar PAGES (read live URLs from state). Hub-and-spoke."""
     try:
@@ -417,10 +446,12 @@ def render_article(topic: dict) -> str:
     """Build the full ~2000-word post HTML from a topic spec."""
     body = [_hero_image(topic["keyword"]),
             f"<p><strong>{topic['lede']}</strong></p>"]
-    for heading, paras in topic["sections"]:
+    for i, (heading, paras) in enumerate(topic["sections"]):
         body.append(f"<h2>{heading}</h2>")
         for p in paras:
             body.append(f"<p>{p}</p>")
+        if i == 0:
+            body.append(_process_graphic())   # in-content visual after first section
     body.append(_evergreen_choosing(topic))
     body.append(_evergreen_banking(topic))
     body.append(_evergreen_landscape(topic))
@@ -1499,10 +1530,12 @@ def _page_related(current_slug: str, blog_url: str = "", url_map: dict | None = 
 
 def render_page(page: dict) -> str:
     body = [_hero_image(page["keyword"]), _tldr(page["tldr"])]
-    for heading, paras in page["sections"]:
+    for i, (heading, paras) in enumerate(page["sections"]):
         body.append(f"<h2>{heading}</h2>")
         for p in paras:
             body.append(f"<p>{p}</p>")
+        if i == 0:
+            body.append(_process_graphic())   # in-content visual after first section
     if page.get("table"):
         body.append(_comparison_table())
     body.append(_evergreen_choosing(page))
