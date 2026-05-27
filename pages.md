@@ -74,3 +74,62 @@ Requirements & How to Get One".
 - [ ] lithuania-vs-dubai     → /lithuania-vs-dubai-crypto-license/
 - [ ] el-salvador-vs-panama  → /el-salvador-vs-panama-crypto-license/
 - [ ] estonia-vs-lithuania   → /estonia-vs-lithuania-crypto-license/
+
+## Tier 1b — more jurisdictions (added for 10/day runway)
+- [ ] liechtenstein     → /liechtenstein-crypto-license/    (TVTG)
+- [ ] luxembourg        → /luxembourg-crypto-license/        (MiCA)
+- [ ] ireland           → /ireland-crypto-license/           (MiCA, dup-check)
+- [ ] netherlands       → /netherlands-crypto-license/       (MiCA)
+- [ ] france            → /france-crypto-license/            (PSAN/MiCA)
+- [ ] spain             → /spain-crypto-license/             (MiCA)
+- [ ] italy             → /italy-crypto-license/             (MiCA)
+- [ ] slovakia          → /slovakia-crypto-license/          (MiCA)
+- [ ] romania           → /romania-crypto-license/           (MiCA)
+- [ ] gibraltar         → /gibraltar-crypto-license/         (DLT)
+- [ ] isle-of-man       → /isle-of-man-crypto-license/
+- [ ] jersey            → /jersey-crypto-license/
+- [ ] bahamas           → /bahamas-crypto-license/           (DARE)
+- [ ] bermuda           → /bermuda-crypto-license/           (DABA)
+- [ ] vanuatu           → /vanuatu-crypto-license/
+- [ ] marshall-islands  → /marshall-islands-crypto-license/
+- [ ] saint-lucia       → /saint-lucia-crypto-license/
+- [ ] belize            → /belize-crypto-license/
+- [ ] kazakhstan        → /kazakhstan-crypto-license/        (AIFC)
+- [ ] bahrain           → /bahrain-crypto-license/           (CBB)
+- [ ] qatar             → /qatar-crypto-license/
+- [ ] saudi-arabia      → /saudi-arabia-crypto-license/
+- [ ] turkey            → /turkey-crypto-license/
+- [ ] south-korea       → /south-korea-crypto-license/
+- [ ] japan             → /japan-crypto-license/             (FSA/JVCEA)
+- [ ] thailand          → /thailand-crypto-license/          (SEC)
+- [ ] philippines       → /philippines-crypto-license/       (BSP)
+- [ ] indonesia         → /indonesia-crypto-license/
+- [ ] vietnam           → /vietnam-crypto-license/
+- [ ] india             → /india-crypto-license/
+- [ ] brazil            → /brazil-crypto-license/
+- [ ] argentina         → /argentina-crypto-license/
+- [ ] mexico            → /mexico-crypto-license/
+- [ ] australia         → /australia-crypto-license/         (AUSTRAC)
+- [ ] new-zealand       → /new-zealand-crypto-license/
+- [ ] nigeria           → /nigeria-crypto-license/
+- [ ] south-africa-fsca → /south-africa-fsca-crypto-license/
+
+## Tier 2b — activity × jurisdiction (high-intent long-tail)
+- [ ] crypto-exchange-license-lithuania → /crypto-exchange-license-lithuania/
+- [ ] crypto-exchange-license-estonia   → /crypto-exchange-license-estonia/
+- [ ] crypto-exchange-license-dubai     → /crypto-exchange-license-dubai/
+- [ ] crypto-exchange-license-panama    → /crypto-exchange-license-panama/
+- [ ] vasp-license-lithuania            → /vasp-license-lithuania/
+- [ ] casp-license-cyprus               → /casp-license-cyprus/
+- [ ] crypto-custody-license-eu         → /crypto-custody-license-eu/
+- [ ] crypto-payment-license-eu         → /crypto-payment-institution-license/
+- [ ] otc-desk-license                  → /otc-crypto-desk-license/
+- [ ] crypto-fund-license               → /crypto-fund-license/
+
+## Tier 4b — more comparisons
+- [ ] estonia-vs-dubai       → /estonia-vs-dubai-crypto-license/
+- [ ] dubai-vs-cayman        → /dubai-vs-cayman-crypto-license/
+- [ ] malta-vs-cyprus        → /malta-vs-cyprus-crypto-license/
+- [ ] lithuania-vs-poland    → /lithuania-vs-poland-crypto-license/
+- [ ] cayman-vs-bvi          → /cayman-vs-bvi-crypto-license/
+- [ ] switzerland-vs-liechtenstein → /switzerland-vs-liechtenstein-crypto-license/
