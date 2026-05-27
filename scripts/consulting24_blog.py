@@ -25,7 +25,7 @@ Setup:
 """
 from __future__ import annotations
 
-import argparse, json, os, pathlib, sys, datetime, traceback
+import argparse, json, os, pathlib, sys, datetime, traceback, re
 
 ROOT        = pathlib.Path(__file__).resolve().parents[1]
 STATE_PATH  = ROOT / "config" / "blog_posted.json"
@@ -283,36 +283,160 @@ with clients during the initial planning stage so the early decisions support, r
 the business is heading.</p>
 """
 
+LINKEDIN = "https://www.linkedin.com/in/mardo-s-00a05ab0/"
+
 def _why_consulting24() -> str:
     return f"""
-<h2>Why Work With Consulting24</h2>
-<p>Consulting24 is an eight-year-old advisory firm that has completed more than 200 crypto company setups
-across 15+ jurisdictions. We are the team behind Crypto License Panama, operated by X24Consulting O&Uuml;
-(Estonian business register code 16971898), and led by founder and CEO Mardo Soo. We do not sell a single
-&ldquo;best&rdquo; jurisdiction &mdash; we map your business to the regime that actually fits, then handle
-incorporation, the compliance program, and banking and payment-processor introductions end to end.</p>
-<p>Every engagement starts with an honest conversation about your customers, your budget and your timeline,
-and ends with a fixed-fee proposal so you know the all-in number before you commit. We also introduce vetted
-local lawyers and tax advisors wherever your structure requires them, so nothing falls through the cracks.</p>
+<h2>About Consulting24 &amp; Mardo Soo</h2>
+<div style="border:1px solid #e6eef7;border-radius:10px;padding:22px 24px;margin:14px 0 8px;background:#f7fafd;">
+  <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;">
+    <div style="flex:0 0 auto;width:58px;height:58px;border-radius:50%;background:#0b1f3a;color:#fff;
+         font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:20px;line-height:58px;text-align:center;">MS</div>
+    <div style="line-height:1.4;">
+      <strong style="font-size:17px;color:#0b1f3a;">Mardo Soo</strong><br>
+      <span style="color:#56708f;">Founder &amp; CEO, Consulting24 &middot;
+      <a href="{LINKEDIN}" rel="noopener nofollow" target="_blank">LinkedIn</a></span>
+    </div>
+  </div>
+  <p style="margin:0 0 12px;">Consulting24 is an eight-year-old advisory firm that has completed
+  <strong>200+ crypto company setups across 15+ jurisdictions</strong> since 2017. Founder and CEO
+  <strong>Mardo Soo</strong> and the team specialise in
+  crypto, VASP and exchange licensing &mdash; from Panama and the EU (MiCA) to Dubai, Canada and the
+  offshore world. We don't push a single &ldquo;best&rdquo; jurisdiction; we map your business to the regime
+  that actually fits, then handle incorporation, the AML/KYC compliance program, and banking and
+  payment-processor introductions end to end.</p>
+  <p style="margin:0 0 12px;">Every engagement begins with an honest conversation about your customers,
+  budget and timeline and ends with a <strong>fixed-fee proposal</strong>, so you know the all-in number
+  before you commit. We also introduce vetted local lawyers and tax advisors wherever your structure
+  requires them.</p>
+  <p style="margin:0;color:#56708f;font-size:14px;">Operated by <strong>X24Consulting O&Uuml;</strong>
+  (Estonian Business Register code 16971898), P&otilde;rdi tn 3-63, 10156 Tallinn, Estonia &middot;
+  <a href="mailto:{EMAIL}">{EMAIL}</a> &middot; {PHONE}</p>
+</div>
 """
+
+def _author_org_jsonld() -> str:
+    data = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "Organization", "name": "Consulting24", "legalName": "X24Consulting OÜ",
+             "url": SITE, "email": EMAIL, "telephone": PHONE, "foundingDate": "2017",
+             "taxID": "16971898",
+             "address": {"@type": "PostalAddress", "streetAddress": "Põrdi tn 3-63",
+                         "addressLocality": "Tallinn", "postalCode": "10156", "addressCountry": "EE"},
+             "founder": {"@type": "Person", "name": "Mardo Soo"},
+             "areaServed": "Worldwide",
+             "knowsAbout": ["Crypto license", "VASP license", "Crypto exchange license",
+                            "MiCA", "AML/KYC compliance"]},
+            {"@type": "Person", "name": "Mardo Soo", "jobTitle": "Founder & CEO",
+             "worksFor": {"@type": "Organization", "name": "Consulting24"},
+             "sameAs": [LINKEDIN]},
+        ],
+    }
+    return f'<script type="application/ld+json">{json.dumps(data)}</script>'
+
+def _esc(s: str) -> str:
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+def _hero_image(headline: str, sub: str = "Crypto licensing across 15+ jurisdictions") -> str:
+    """Always-present, on-brand inline-SVG hero banner (copyright-free, no hotlinking).
+    Brand gradient + blockchain dot-grid + compliance-shield emblem + accent underline."""
+    h = _esc(headline.title() if headline.islower() else headline)
+    n = len(h)
+    fs = 58 if n <= 22 else 46 if n <= 30 else 38 if n <= 40 else 31
+    svg = (
+        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 480' width='100%' role='img' "
+        f"aria-label='{h}' style='display:block;height:auto;border-radius:10px;'>"
+        "<defs>"
+        "<linearGradient id='cg' x1='0' y1='0' x2='1' y2='1'>"
+        "<stop offset='0' stop-color='#08172b'/><stop offset='0.55' stop-color='#0b2a52'/>"
+        "<stop offset='1' stop-color='#1e88e5'/></linearGradient>"
+        "<radialGradient id='gl' cx='0.8' cy='0.28' r='0.55'>"
+        "<stop offset='0' stop-color='#42a5f5' stop-opacity='0.5'/>"
+        "<stop offset='1' stop-color='#42a5f5' stop-opacity='0'/></radialGradient>"
+        "<pattern id='dots' width='34' height='34' patternUnits='userSpaceOnUse'>"
+        "<circle cx='2' cy='2' r='2' fill='#ffffff' opacity='0.06'/></pattern>"
+        "</defs>"
+        "<rect width='1200' height='480' fill='url(#cg)'/>"
+        "<rect width='1200' height='480' fill='url(#dots)'/>"
+        "<rect width='1200' height='480' fill='url(#gl)'/>"
+        # right-side compliance emblem (concentric rings + shield + check)
+        "<g transform='translate(1015,238)'>"
+        "<circle r='152' fill='none' stroke='#ffffff' stroke-opacity='0.10' stroke-width='2'/>"
+        "<circle r='112' fill='none' stroke='#ffffff' stroke-opacity='0.14' stroke-width='2'/>"
+        "<path d='M0,-72 L64,-45 L64,8 C64,54 34,80 0,94 C-34,80 -64,54 -64,8 L-64,-45 Z' "
+        "fill='#ffffff' fill-opacity='0.10' stroke='#9fd0ff' stroke-width='2'/>"
+        "<path d='M-27,4 L-6,27 L31,-23' fill='none' stroke='#25D366' stroke-width='11' "
+        "stroke-linecap='round' stroke-linejoin='round'/></g>"
+        # badge
+        "<rect x='80' y='92' width='372' height='40' rx='20' fill='#ffffff' fill-opacity='0.12'/>"
+        "<text x='102' y='118' fill='#cfe6ff' font-family='Arial,Helvetica,sans-serif' "
+        "font-size='18' letter-spacing='2' font-weight='bold'>CRYPTO LICENSE GUIDE &#183; 2026</text>"
+        # headline + accent underline
+        f"<text x='80' y='248' fill='#ffffff' font-family='Arial,Helvetica,sans-serif' "
+        f"font-size='{fs}' font-weight='bold'>{h}</text>"
+        "<rect x='82' y='268' width='120' height='6' rx='3' fill='#25D366'/>"
+        # subtitle
+        f"<text x='80' y='318' fill='#bcd6f5' font-family='Arial,Helvetica,sans-serif' "
+        f"font-size='25'>{_esc(sub)}</text>"
+        # wordmark
+        "<circle cx='86' cy='430' r='6' fill='#25D366'/>"
+        "<text x='104' y='437' fill='#9fb6d4' font-family='Arial,Helvetica,sans-serif' "
+        "font-size='22' letter-spacing='3' font-weight='bold'>CONSULTING24.CO</text>"
+        "</svg>"
+    )
+    return f"<div style='margin:0 0 26px;'>{svg}</div>"
+
+def _blog_pillar_links_html(current_slug: str = "") -> str:
+    """Links to the blog's own pillar PAGES (read live URLs from state). Hub-and-spoke."""
+    try:
+        pages = json.loads(STATE_PATH.read_text()).get("pages", {})
+    except Exception:
+        pages = {}
+    picked = [(s, m) for s, m in pages.items() if s != current_slug and m.get("url")][:3]
+    items = "".join(f'<li><a href="{m["url"]}">{_esc(m.get("title",""))}</a></li>' for s, m in picked)
+    if not items:
+        return ""
+    return ("<h2>More crypto-license guides on this blog</h2>"
+            f"<ul>{items}</ul>")
+
+def _dedupe_links(html: str, seen=None) -> str:
+    """Keep only the first link to each URL; unlink later repeats (avoid over-linking).
+    Pre-seed `seen` with hub URLs so the body won't duplicate links that live in the
+    curated Related / More-guides lists."""
+    seen = set(seen or [])
+    def repl(mo):
+        href = mo.group(1)
+        if href in seen:
+            return mo.group(2)        # drop the <a> wrapper, keep the anchor text
+        seen.add(href)
+        return mo.group(0)
+    return re.sub(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', repl, html, flags=re.S)
 
 def render_article(topic: dict) -> str:
     """Build the full ~2000-word post HTML from a topic spec."""
-    parts = [f"<p><strong>{topic['lede']}</strong></p>"]
+    body = [_hero_image(topic["keyword"]),
+            f"<p><strong>{topic['lede']}</strong></p>"]
     for heading, paras in topic["sections"]:
-        parts.append(f"<h2>{heading}</h2>")
+        body.append(f"<h2>{heading}</h2>")
         for p in paras:
-            parts.append(f"<p>{p}</p>")
-    parts.append(_evergreen_choosing(topic))
-    parts.append(_evergreen_banking(topic))
-    parts.append(_evergreen_landscape(topic))
-    parts.append(_evergreen_mistakes(topic))
-    parts.append(_evergreen_aftercare(topic))
-    parts.append(_cta(topic["keyword"], topic["landing"]))
-    parts.append(_why_consulting24())
-    parts.append(_faq(topic["faqs"]))
-    parts.append(_related(topic["related"]))
-    parts.append(_disclaimer())
+            body.append(f"<p>{p}</p>")
+    body.append(_evergreen_choosing(topic))
+    body.append(_evergreen_banking(topic))
+    body.append(_evergreen_landscape(topic))
+    body.append(_evergreen_mistakes(topic))
+    body.append(_evergreen_aftercare(topic))
+    related_html = _related(topic["related"])       # → consulting24.co landing pages (hub)
+    blog_html = _blog_pillar_links_html()            # → blog's own pillar pages (hub)
+    hub = set(re.findall(r'href="([^"]+)"', related_html + blog_html))
+    parts = [_dedupe_links("\n".join(body), seen=hub),  # body links to hub URLs unlinked
+             _cta(topic["keyword"], topic["landing"]),
+             _why_consulting24(),
+             _faq(topic["faqs"]),
+             related_html,
+             blog_html,
+             _disclaimer(),
+             _author_org_jsonld()]
     return "\n".join(parts)
 
 # ── articles ────────────────────────────────────────────────────────────────
@@ -1374,23 +1498,27 @@ def _page_related(current_slug: str, blog_url: str = "", url_map: dict | None = 
     return f"<h2>Related guides</h2><ul>{sib}{ext}</ul>"
 
 def render_page(page: dict) -> str:
-    parts = [_tldr(page["tldr"])]
+    body = [_hero_image(page["keyword"]), _tldr(page["tldr"])]
     for heading, paras in page["sections"]:
-        parts.append(f"<h2>{heading}</h2>")
+        body.append(f"<h2>{heading}</h2>")
         for p in paras:
-            parts.append(f"<p>{p}</p>")
+            body.append(f"<p>{p}</p>")
     if page.get("table"):
-        parts.append(_comparison_table())
-    parts.append(_evergreen_choosing(page))
-    parts.append(_evergreen_banking(page))
-    parts.append(_evergreen_landscape(page))
-    parts.append(_evergreen_mistakes(page))
-    parts.append(_cta(page["keyword"], page["landing"]))
-    parts.append(_why_consulting24())
-    parts.append(_faq(page["faqs"]))
-    parts.append(_faq_jsonld(page["faqs"]))
-    parts.append(_page_related(page["slug"]))
-    parts.append(_disclaimer())
+        body.append(_comparison_table())
+    body.append(_evergreen_choosing(page))
+    body.append(_evergreen_banking(page))
+    body.append(_evergreen_landscape(page))
+    body.append(_evergreen_mistakes(page))
+    related_html = _page_related(page["slug"])
+    hub = set(re.findall(r'href="([^"]+)"', related_html))
+    parts = [_dedupe_links("\n".join(body), seen=hub),
+             _cta(page["keyword"], page["landing"]),
+             _why_consulting24(),
+             _faq(page["faqs"]),
+             _faq_jsonld(page["faqs"]),
+             related_html,
+             _disclaimer(),
+             _author_org_jsonld()]
     return "\n".join(parts)
 
 # ── posting ───────────────────────────────────────────────────────────────
