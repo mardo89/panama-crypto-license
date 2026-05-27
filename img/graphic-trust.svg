@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Consulting24: 500+ crypto licenses obtained, AML-compliant, Estonia Lithuania Panama">
+  <rect width="1200" height="300" rx="18" fill="#0c1f29"/>
+  <g font-family="Arial, sans-serif" fill="#fff">
+    <text x="60" y="120" font-size="64" font-weight="800" fill="#116dff">500+</text>
+    <text x="60" y="170" font-size="24">crypto licenses obtained</text>
+    <line x1="430" y1="60" x2="430" y2="240" stroke="#243447" stroke-width="2"/>
+    <text x="480" y="110" font-size="26" font-weight="700">Direct delivery</text>
+    <text x="480" y="150" font-size="22" fill="#cbd5e1">Estonia · Lithuania · Panama</text>
+    <text x="480" y="200" font-size="22" font-weight="700">Advisory worldwide</text>
+    <g transform="translate(980,80)">
+      <path d="M70 0 L140 28 V92 C140 150 70 180 70 180 C70 180 0 150 0 92 V28 Z" fill="#116dff"/>
+      <path d="M40 92 L62 116 L104 64" stroke="#fff" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="980" y="285" font-size="18" fill="#94a3b8">AML / compliance-first</text>
+  </g>
+</svg>

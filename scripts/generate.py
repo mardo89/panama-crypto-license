@@ -102,8 +102,22 @@ def footer():
   </div><div class="foot-bottom">&copy; 2026 Consulting24 &middot; X24Consulting O&Uuml; &middot; Reg nr 16971898 &middot; Poordi 3-63, 10156 Tallinn, Estonia &middot; General guidance, not legal advice.</div></div></footer>
 <div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact" class="btn btn-primary">Free consultation</a></div>'''
 
+def fig(src, alt):
+    return f'  <figure style="margin:24px 0"><img src="{src}" alt="{html.escape(alt)}" loading="lazy" width="1200" height="320" style="width:100%;height:auto;border-radius:14px;border:1px solid var(--line)"></figure>'
+
 def assemble(slug, crumb, d, kind="landing"):
-    sections = "\n".join(f"  <h2>{html.escape(s['h2'])}</h2>\n{s['html']}" for s in d["sections"])
+    sec_list = [f"  <h2>{html.escape(s['h2'])}</h2>\n{s['html']}" for s in d["sections"]]
+    imgs = [("/img/graphic-process.svg", f"{crumb} crypto licence process: scope, incorporate, apply, operate"),
+            ("/img/graphic-jurisdictions.svg", f"{crumb} crypto licence compared with Panama, EU/MiCA, Gulf and offshore options"),
+            ("/img/graphic-trust.svg", "Consulting24 — 500+ crypto licenses obtained, compliance-first")]
+    out, placed = [], 0
+    for i, block in enumerate(sec_list):
+        out.append(block)
+        if i in (0, 2, 4) and placed < len(imgs):
+            out.append(fig(*imgs[placed])); placed += 1
+    while placed < len(imgs):  # ensure all 3 land even on short pages
+        out.append(fig(*imgs[placed])); placed += 1
+    sections = "\n".join(out)
     faqs_html = '<section class="faq"><h2>Frequently asked questions</h2>' + "".join(
         f"<details><summary>{html.escape(f['q'])}</summary><p>{f['a']}</p></details>" for f in d["faqs"]) + "</section>"
     auth = [a for a in d.get("authority_links",[]) if url_ok(a.get("url",""))]
@@ -153,20 +167,28 @@ def assemble(slug, crumb, d, kind="landing"):
 </body></html>
 '''
 
-def qc(d, page_html):
+def qc(d, page_html, keyword=""):
     text = re.sub("<[^>]+>"," "," ".join([d["intro_html"]] + [s["html"] for s in d["sections"]] + [f["a"] for f in d["faqs"]]))
     words = len(text.split())
     internal = len(set(re.findall(r'href="(/[^"]*)"', page_html)))
+    images = page_html.count("<img ")
+    kw = (keyword or "").lower().strip()
+    density = round(100 * text.lower().count(kw) * len(kw.split()) / max(words,1), 2) if kw else 0
     report = {
-        "words": words, "faqs": len(d["faqs"]),
-        "internal_links": internal,
-        "title_len": len(d["meta_title"]), "desc_len": len(d["meta_description"]),
+        "words": words, "faqs": len(d["faqs"]), "images": images, "internal_links": internal,
+        "title_len": len(d["meta_title"]), "desc_len": len(d["meta_description"]), "kw_density%": density,
     }
     fails = []
     if words < 2000: fails.append(f"words {words} < 2000")
     if len(d["faqs"]) < 8: fails.append(f"faqs {len(d['faqs'])} < 8")
+    if images < 3: fails.append(f"images {images} < 3")
+    if internal < 5: fails.append(f"internal_links {internal} < 5")
+    if 'href="/"' not in page_html: fails.append("no homepage link")
     if not (50 <= len(d["meta_title"]) <= 65): fails.append(f"title len {len(d['meta_title'])}")
     if not (110 <= len(d["meta_description"]) <= 160): fails.append(f"desc len {len(d['meta_description'])}")
+    if kw and kw not in d["h1"].lower(): fails.append("keyword not in H1")
+    if kw and kw not in d["meta_title"].lower(): fails.append("keyword not in title")
+    if density > 3.0: fails.append(f"keyword stuffing {density}%")
     report["pass"] = not fails
     report["fails"] = fails
     return report
@@ -176,7 +198,7 @@ def build(kind, slug, keyword, brief):
     user = f"Write a {kind} page. Primary keyword: \"{keyword}\". Slug: /{slug}/. Brief & facts: {brief}\nReturn STRICT JSON per the schema. Remember: 2000+ words, 8+ FAQs, full section structure, internal links from the allow-list, validated official authority links only."
     d = call_deepseek(user)
     page = assemble(slug, crumb, d, kind)
-    report = qc(d, page)
+    report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
     tries = 0
     while not report["pass"] and report["fails"] and all("words" in f for f in report["fails"]) and tries < 2:
@@ -185,7 +207,7 @@ def build(kind, slug, keyword, brief):
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
         d = call_deepseek(exp)
         page = assemble(slug, crumb, d, kind)
-        report = qc(d, page)
+        report = qc(d, page, keyword)
         print(f"  expand retry {tries}: {report['words']} words")
     outdir = os.path.join(ROOT, slug) if kind=="landing" else os.path.join(ROOT, "blog", slug)
     if report["pass"]:
