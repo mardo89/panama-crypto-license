@@ -156,6 +156,11 @@ def assemble(slug, crumb, d, kind="landing"):
         (json.dumps(f["q"]), json.dumps(re.sub("<[^>]+>","",f["a"]))) for f in d["faqs"])
     canon = f"{BASE}/{slug}/" if kind=="landing" else f"{BASE}/blog/{slug}/"
     css = "../styles.css" if kind=="landing" else "../../styles.css"
+    _pool = [("/lithuania-crypto-license/","Lithuania"),("/estonia-crypto-license/","Estonia"),("/dubai-crypto-license/","Dubai"),("/cyprus-crypto-license/","Cyprus"),("/malta-crypto-license/","Malta"),("/cayman-islands-crypto-license/","Cayman Islands"),("/switzerland-crypto-license/","Switzerland"),("/","Panama (EUR 6,000)")]
+    _rel = [(h,n) for h,n in _pool if h.strip("/") != slug][:4]
+    related_html = '<h2>Related jurisdictions</h2><div class="related">' + "".join(f'<a href="{h}"><strong>{n}</strong><span>Crypto licensing guide and Panama comparison</span></a>' for h,n in _rel) + '</div>'
+    topcta = '<div class="top-cta-row"><a href="'+WA+'" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free assessment</a></div>'
+    trust = '<div class="trust-strip"><b>500+ crypto licenses obtained.</b> <span class="logos">Binance &middot; LBank &middot; Coinify &middot; MultiversX &middot; UPay &middot; Vitalum</span></div>'
     return f'''<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -182,9 +187,12 @@ def assemble(slug, crumb, d, kind="landing"):
 <article class="wrap">
   <h1>{html.escape(d["h1"])}</h1>
 {d["intro_html"]}
+{topcta}
+{trust}
 {sections}
 {faqs_html}
 {auth_html}
+{related_html}
 {ADVISOR}
   <div class="cta-card"><h2>Talk to a crypto-licensing expert</h2><p>500+ licenses across Estonia, Lithuania, Panama and beyond. Tell us your model and we'll map the right route &mdash; honestly.</p>
   <a href="{WA}" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free consultation</a></div>

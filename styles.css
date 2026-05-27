@@ -117,3 +117,21 @@ footer{background:#0c0c0c;color:#a3a3a3;padding:48px 0 28px;font-size:.92rem;mar
 .related a:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-1px)}
 .related a strong{display:block;font-size:1.05rem;margin-bottom:4px;color:var(--ink)}
 .related a span{font-size:.9rem;color:var(--muted)}
+
+/* --- Design audit improvements --- */
+/* Mobile header declutter: wrap cleanly, shrink, drop the duplicate top quote button (sticky bar covers it) */
+@media(max-width:680px){
+  .top-inner{flex-wrap:wrap;gap:10px;padding:12px 16px}
+  .top-cta{gap:10px}
+  .top-cta .btn{padding:8px 12px;font-size:.85rem}
+  .top-cta>a.btn-primary{display:none}
+  .top-phone{font-size:.85rem;padding:8px 13px}
+}
+/* Slightly stronger body contrast for accessibility */
+:root{--ink-2:#3f4d5e;--muted:#566273}
+/* Above-the-fold CTA row on content pages */
+.top-cta-row{display:flex;gap:12px;flex-wrap:wrap;margin:6px 0 28px}
+/* Client trust strip */
+.trust-strip{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:24px 0;color:var(--muted);font-size:.9rem}
+.trust-strip b{color:var(--ink)}
+.trust-strip .logos{display:flex;flex-wrap:wrap;gap:8px 16px;font-weight:700;color:var(--ink-2)}
