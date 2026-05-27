@@ -26,16 +26,16 @@ Requirements & How to Get One".
 - [x] switzerland      → /switzerland-crypto-license/       (VQF/FINMA)
 - [x] cyprus           → /cyprus-crypto-license/            (CASP)
 - [x] cayman-islands   → /cayman-islands-crypto-license/
-- [ ] bvi              → /bvi-crypto-license/
-- [ ] seychelles       → /seychelles-crypto-license/
-- [ ] canada           → /canada-crypto-license/            (MSB)
+- [x] bvi              → /bvi-crypto-license/
+- [x] seychelles       → /seychelles-crypto-license/
+- [x] canada           → /canada-crypto-license/            (MSB)
 - [ ] usa              → /usa-crypto-license/               (MSB/MTL)
 - [ ] singapore        → /singapore-crypto-license/         (PSA)
 - [ ] hong-kong        → /hong-kong-crypto-license/
-- [ ] georgia          → /georgia-crypto-license/
+- [x] georgia          → /georgia-crypto-license/
 - [ ] mauritius        → /mauritius-crypto-license/
 - [ ] comoros-anjouan  → /anjouan-crypto-license/
-- [ ] costa-rica       → /costa-rica-crypto-license/
+- [x] costa-rica       → /costa-rica-crypto-license/
 - [ ] labuan           → /labuan-crypto-license/
 - [ ] abu-dhabi        → /abu-dhabi-crypto-license/         (ADGM)
 - [ ] germany          → /germany-crypto-license/           (BaFin/MiCA)

@@ -5,3 +5,5 @@ scripts/.dataforseo_auth
 .env
 
 scripts/_*.sh
+
+logs/

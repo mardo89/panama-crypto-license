@@ -11,9 +11,9 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Opening a bank / payment account for a Panama crypto company
 - [x] Panama Sociedad Anónima vs Private Interest Foundation for crypto
 - [x] Director & UBO privacy in Panama: what's public vs confidential
-- [ ] How to run a crypto exchange from a Panama company (legal scope)
-- [ ] Panama for OTC desks: structure, banking, compliance
-- [ ] Panama crypto company annual maintenance: real ongoing costs
+- [x] How to run a crypto exchange from a Panama company (legal scope)
+- [x] Panama for OTC desks: structure, banking, compliance
+- [x] Panama crypto company annual maintenance: real ongoing costs
 - [ ] NFT & token issuance from a Panama company
 - [ ] Staking and crypto fund activity under a Panama S.A.
 - [ ] Branded crypto debit cards via a Panama entity

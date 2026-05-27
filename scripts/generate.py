@@ -55,7 +55,25 @@ Hard requirements (this is a strict QC gate — pages failing are rejected):
 - FIGURES: you MAY and SHOULD state specific numbers (fees, capital, timelines, ongoing costs) that are EXPLICITLY GIVEN in the brief — treat brief figures as authoritative and present them clearly (e.g. in the cost table). Panama = EUR 6,000 fixed. You must NOT invent figures that are not in the brief: for anything not provided, use a hedged range and say exact pricing is confirmed in a consultation. No fabricated statistics, no invented laws. Hedge undocumented items with "typically", "as of 2026". Add 'general guidance, not legal advice' in compliance sections. Never promise approval or guarantees.
 - Honest delivery framing: say Consulting24 delivers directly for Estonia/Lithuania/Panama; for others it 'advises and coordinates'. EXCEPTION: if the brief contains "DELIVERY=comparison-only" (e.g. UAE/Dubai/Abu Dhabi VARA), Consulting24 does NOT provide that licence — write the page as neutral, informational, and COMPARISON-focused (especially vs Panama); do NOT claim Consulting24 advises/coordinates/files that licence; the CTA must steer the reader to Panama and the jurisdictions Consulting24 does serve (Estonia/Lithuania), framing C24's role as "we help you choose the right route and set up where we operate".
 - Every CTA points to talking to an expert on WhatsApp / booking a consultation (do not print the phone number as plain text).
-- No keyword stuffing (primary keyword density ~0.8-1.8%). No markdown, valid HTML only inside html fields.""".replace("__INTERNAL__", ", ".join(INTERNAL))
+- No keyword stuffing (primary keyword density ~0.8-1.8%). No markdown, valid HTML only inside html fields.
+- STYLE/VOICE (anti-AI-detection, strict): write naturally for a professional founder audience, varied sentence length, concrete and specific. NEVER use em-dashes or en-dashes — use commas, hyphens, or rephrase. NO exclamation marks. Do NOT use these AI-cliche words/phrases at all: delve, leverage, seamless, robust, cutting-edge, groundbreaking, game-changing, harness, unleash, empower, paradigm, synergy, holistic, navigate/navigating the landscape, "in today's world", "when it comes to", "that being said", "in essence", "in short", "at the end of the day", "in conclusion", "it's worth noting", "rest assured", "look no further".""".replace("__INTERNAL__", ", ".join(INTERNAL))
+
+BANNED = ["delve","leverage","seamless","robust","cutting-edge","groundbreaking","game-changing",
+  "harness","unleash","empower","paradigm","synergy","holistic","in today's world","when it comes to",
+  "that being said","in essence","at the end of the day","in conclusion","it's worth noting","look no further"]
+
+def _clean(s):
+    if not isinstance(s, str): return s
+    for a, b in (("—", "-"), ("–", "-"), ("&mdash;", "-"), ("&ndash;", "-"), ("!", ".")):
+        s = s.replace(a, b)
+    return s
+
+def _clean_d(d):
+    d["meta_title"] = _clean(d.get("meta_title", "")); d["meta_description"] = _clean(d.get("meta_description", ""))
+    d["h1"] = _clean(d.get("h1", "")); d["intro_html"] = _clean(d.get("intro_html", ""))
+    for s in d.get("sections", []): s["h2"] = _clean(s.get("h2", "")); s["html"] = _clean(s.get("html", ""))
+    for f in d.get("faqs", []): f["q"] = _clean(f.get("q", "")); f["a"] = _clean(f.get("a", ""))
+    return d
 
 def call_deepseek(user):
     body = json.dumps({
@@ -92,7 +110,7 @@ HEADER = '''<header class="top"><div class="top-inner">
 </div></header>'''
 ADVISOR = '''  <div class="advisor" style="display:flex;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:28px 0">
     <img src="/img/mardo-soo-profile.jpg" alt="Mardo Soo, CEO of Consulting24" width="92" height="92" loading="lazy" style="width:92px;height:92px;border-radius:50%;object-fit:cover;flex:none;border:3px solid var(--accent-soft)">
-    <div><strong style="display:block;font-size:1.05rem">Mardo Soo &middot; CEO, Consulting24</strong><span style="color:var(--ink-2);font-size:.92rem">Personally advises on jurisdiction selection &mdash; 500+ crypto licenses across Estonia, Lithuania &amp; Panama. <a href="https://www.linkedin.com/in/mardo-s-00a05ab0/" target="_blank" rel="noopener">LinkedIn &rarr;</a></span></div>
+    <div><strong style="display:block;font-size:1.05rem">Mardo Soo &middot; CEO, Consulting24</strong><span style="color:var(--ink-2);font-size:.92rem">Personally advises on jurisdiction selection. 500+ crypto licenses across Estonia, Lithuania &amp; Panama. <a href="https://www.linkedin.com/in/mardo-s-00a05ab0/" target="_blank" rel="noopener">LinkedIn &rarr;</a></span></div>
   </div>'''
 def footer():
     return '''<footer><div class="wrap"><div class="foot-grid">
@@ -200,6 +218,12 @@ def qc(d, page_html, keyword=""):
     if kw and kw not in d["h1"].lower(): fails.append("keyword not in H1")
     if kw and kw not in d["meta_title"].lower(): fails.append("keyword not in title")
     if density > 3.0: fails.append(f"keyword stuffing {density}%")
+    low=text.lower()
+    banned=[w for w in BANNED if w in low]
+    report["banned"]=banned
+    dashes = ("\u2014" in low) or ("\u2013" in low) or ("!" in re.sub(r"&[a-z]+;"," ",low))
+    if dashes: fails.append("em/en-dash or ! present")
+    if banned: fails.append("banned words: "+",".join(banned[:5]))
     report["pass"] = not fails
     report["fails"] = fails
     return report
@@ -207,7 +231,7 @@ def qc(d, page_html, keyword=""):
 def build(kind, slug, keyword, brief):
     crumb = brief.split("|")[0].strip() if "|" in brief else slug.replace("-crypto-license","").replace("-"," ").title()
     user = f"Write a {kind} page. Primary keyword: \"{keyword}\". Slug: /{slug}/. Brief & facts: {brief}\nReturn STRICT JSON per the schema. Remember: 2000+ words, 8+ FAQs, full section structure, internal links from the allow-list, validated official authority links only."
-    d = _trim_meta(call_deepseek(user))
+    d = _trim_meta(_clean_d(call_deepseek(user)))
     page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/')  # guard: old project path → root
     report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
@@ -216,7 +240,7 @@ def build(kind, slug, keyword, brief):
         tries += 1
         cur = report["words"]
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
-        d = _trim_meta(call_deepseek(exp))
+        d = _trim_meta(_clean_d(call_deepseek(exp)))
         page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/')  # guard: old project path → root
         report = qc(d, page, keyword)
         print(f"  expand retry {tries}: {report['words']} words")
