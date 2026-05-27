@@ -31,37 +31,37 @@ Requirements & How to Get One".
 - [x] canada           → /canada-crypto-license/            (MSB)
 - [x] usa              → /usa-crypto-license/               (MSB/MTL)
 - [x] singapore        → /singapore-crypto-license/         (PSA)
-- [ ] hong-kong        → /hong-kong-crypto-license/
+- [x] hong-kong        → /hong-kong-crypto-license/
 - [x] georgia          → /georgia-crypto-license/
-- [ ] mauritius        → /mauritius-crypto-license/
-- [ ] comoros-anjouan  → /anjouan-crypto-license/
+- [x] mauritius        → /mauritius-crypto-license/
+- [x] comoros-anjouan  → /anjouan-crypto-license/
 - [x] costa-rica       → /costa-rica-crypto-license/
-- [ ] labuan           → /labuan-crypto-license/
-- [ ] abu-dhabi        → /abu-dhabi-crypto-license/         (ADGM)
-- [ ] germany          → /germany-crypto-license/           (BaFin/MiCA)
-- [ ] ireland          → /ireland-crypto-license/           (MiCA)
-- [ ] bulgaria         → /bulgaria-crypto-license/
-- [ ] portugal         → /portugal-crypto-license/
-- [ ] south-africa     → /south-africa-crypto-license/
+- [x] labuan           → /labuan-crypto-license/
+- [x] abu-dhabi        → /abu-dhabi-crypto-license/         (ADGM)
+- [x] germany          → /germany-crypto-license/           (BaFin/MiCA)
+- [x] ireland          → /ireland-crypto-license/           (MiCA)
+- [x] bulgaria         → /bulgaria-crypto-license/
+- [x] portugal         → /portugal-crypto-license/
+- [x] south-africa     → /south-africa-crypto-license/
 
 ## Tier 2 — Regulatory-term + activity pages
-- [ ] vasp-license            → /vasp-license/
-- [ ] casp-license            → /casp-license/             (MiCA)
-- [ ] mica-license            → /mica-license/
-- [ ] msb-license             → /msb-license/
-- [ ] vara-license            → /vara-license/
-- [ ] crypto-exchange-license → /crypto-exchange-license/
-- [ ] crypto-wallet-license   → /crypto-wallet-custodian-license/
-- [ ] crypto-broker-license   → /crypto-broker-license/
-- [ ] emi-license-crypto      → /emi-license-crypto/
-- [ ] nft-marketplace-license → /nft-marketplace-license/
-- [ ] stablecoin-license      → /stablecoin-license/
-- [ ] token-issuance-legal    → /token-issuance-legal-structure/
+- [x] vasp-license            → /vasp-license/
+- [x] casp-license            → /casp-license/             (MiCA)
+- [x] mica-license            → /mica-license/
+- [x] msb-license             → /msb-license/
+- [x] vara-license            → /vara-license/
+- [x] crypto-exchange-license → /crypto-exchange-license/
+- [x] crypto-wallet-license   → /crypto-wallet-custodian-license/
+- [x] crypto-broker-license   → /crypto-broker-license/
+- [x] emi-license-crypto      → /emi-license-crypto/
+- [x] nft-marketplace-license → /nft-marketplace-license/
+- [x] stablecoin-license      → /stablecoin-license/
+- [x] token-issuance-legal    → /token-issuance-legal-structure/
 
 ## Tier 3 — Modifier / decision pages
-- [ ] cheapest-crypto-license      → /cheapest-crypto-license/
-- [ ] best-country-crypto-license  → /best-country-for-crypto-license/
-- [ ] easiest-crypto-license       → /easiest-crypto-license/
+- [x] cheapest-crypto-license      → /cheapest-crypto-license/
+- [x] best-country-crypto-license  → /best-country-for-crypto-license/
+- [x] easiest-crypto-license       → /easiest-crypto-license/
 - [ ] fastest-crypto-license       → /fastest-crypto-license/
 - [ ] offshore-crypto-license      → /offshore-crypto-license/
 - [ ] crypto-license-cost          → /crypto-license-cost/
@@ -78,7 +78,7 @@ Requirements & How to Get One".
 ## Tier 1b — more jurisdictions (added for 10/day runway)
 - [ ] liechtenstein     → /liechtenstein-crypto-license/    (TVTG)
 - [ ] luxembourg        → /luxembourg-crypto-license/        (MiCA)
-- [ ] ireland           → /ireland-crypto-license/           (MiCA, dup-check)
+- [x] ireland           → /ireland-crypto-license/           (MiCA, dup-check)
 - [ ] netherlands       → /netherlands-crypto-license/       (MiCA)
 - [ ] france            → /france-crypto-license/            (PSAN/MiCA)
 - [ ] spain             → /spain-crypto-license/             (MiCA)
@@ -605,18 +605,18 @@ Requirements & How to Get One".
 - [ ] cost-crypto-license-poland                              → /cost-crypto-license-poland/  
 - [ ] cost-crypto-license-singapore                           → /cost-crypto-license-singapore/  
 - [ ] cost-crypto-license-czech-republic                      → /cost-crypto-license-czech-republic/  
-- [ ] cheapest-crypto-license-panama                          → /cheapest-crypto-license-panama/  
-- [ ] cheapest-crypto-license-lithuania                       → /cheapest-crypto-license-lithuania/  
-- [ ] cheapest-crypto-license-estonia                         → /cheapest-crypto-license-estonia/  
-- [ ] cheapest-crypto-license-dubai                           → /cheapest-crypto-license-dubai/  
-- [ ] cheapest-crypto-license-el-salvador                     → /cheapest-crypto-license-el-salvador/  
-- [ ] cheapest-crypto-license-cayman-islands                  → /cheapest-crypto-license-cayman-islands/  
-- [ ] cheapest-crypto-license-switzerland                     → /cheapest-crypto-license-switzerland/  
-- [ ] cheapest-crypto-license-malta                           → /cheapest-crypto-license-malta/  
-- [ ] cheapest-crypto-license-cyprus                          → /cheapest-crypto-license-cyprus/  
-- [ ] cheapest-crypto-license-poland                          → /cheapest-crypto-license-poland/  
-- [ ] cheapest-crypto-license-singapore                       → /cheapest-crypto-license-singapore/  
-- [ ] cheapest-crypto-license-czech-republic                  → /cheapest-crypto-license-czech-republic/  
+- [x] cheapest-crypto-license-panama                          → /cheapest-crypto-license-panama/  
+- [x] cheapest-crypto-license-lithuania                       → /cheapest-crypto-license-lithuania/  
+- [x] cheapest-crypto-license-estonia                         → /cheapest-crypto-license-estonia/  
+- [x] cheapest-crypto-license-dubai                           → /cheapest-crypto-license-dubai/  
+- [x] cheapest-crypto-license-el-salvador                     → /cheapest-crypto-license-el-salvador/  
+- [x] cheapest-crypto-license-cayman-islands                  → /cheapest-crypto-license-cayman-islands/  
+- [x] cheapest-crypto-license-switzerland                     → /cheapest-crypto-license-switzerland/  
+- [x] cheapest-crypto-license-malta                           → /cheapest-crypto-license-malta/  
+- [x] cheapest-crypto-license-cyprus                          → /cheapest-crypto-license-cyprus/  
+- [x] cheapest-crypto-license-poland                          → /cheapest-crypto-license-poland/  
+- [x] cheapest-crypto-license-singapore                       → /cheapest-crypto-license-singapore/  
+- [x] cheapest-crypto-license-czech-republic                  → /cheapest-crypto-license-czech-republic/  
 - [ ] best-country-crypto-license-panama                      → /best-country-crypto-license-panama/  
 - [ ] best-country-crypto-license-lithuania                   → /best-country-crypto-license-lithuania/  
 - [ ] best-country-crypto-license-estonia                     → /best-country-crypto-license-estonia/  
@@ -641,18 +641,18 @@ Requirements & How to Get One".
 - [ ] fastest-crypto-license-poland                           → /fastest-crypto-license-poland/  
 - [ ] fastest-crypto-license-singapore                        → /fastest-crypto-license-singapore/  
 - [ ] fastest-crypto-license-czech-republic                   → /fastest-crypto-license-czech-republic/  
-- [ ] easiest-crypto-license-panama                           → /easiest-crypto-license-panama/  
-- [ ] easiest-crypto-license-lithuania                        → /easiest-crypto-license-lithuania/  
-- [ ] easiest-crypto-license-estonia                          → /easiest-crypto-license-estonia/  
-- [ ] easiest-crypto-license-dubai                            → /easiest-crypto-license-dubai/  
-- [ ] easiest-crypto-license-el-salvador                      → /easiest-crypto-license-el-salvador/  
-- [ ] easiest-crypto-license-cayman-islands                   → /easiest-crypto-license-cayman-islands/  
-- [ ] easiest-crypto-license-switzerland                      → /easiest-crypto-license-switzerland/  
-- [ ] easiest-crypto-license-malta                            → /easiest-crypto-license-malta/  
-- [ ] easiest-crypto-license-cyprus                           → /easiest-crypto-license-cyprus/  
-- [ ] easiest-crypto-license-poland                           → /easiest-crypto-license-poland/  
-- [ ] easiest-crypto-license-singapore                        → /easiest-crypto-license-singapore/  
-- [ ] easiest-crypto-license-czech-republic                   → /easiest-crypto-license-czech-republic/  
+- [x] easiest-crypto-license-panama                           → /easiest-crypto-license-panama/  
+- [x] easiest-crypto-license-lithuania                        → /easiest-crypto-license-lithuania/  
+- [x] easiest-crypto-license-estonia                          → /easiest-crypto-license-estonia/  
+- [x] easiest-crypto-license-dubai                            → /easiest-crypto-license-dubai/  
+- [x] easiest-crypto-license-el-salvador                      → /easiest-crypto-license-el-salvador/  
+- [x] easiest-crypto-license-cayman-islands                   → /easiest-crypto-license-cayman-islands/  
+- [x] easiest-crypto-license-switzerland                      → /easiest-crypto-license-switzerland/  
+- [x] easiest-crypto-license-malta                            → /easiest-crypto-license-malta/  
+- [x] easiest-crypto-license-cyprus                           → /easiest-crypto-license-cyprus/  
+- [x] easiest-crypto-license-poland                           → /easiest-crypto-license-poland/  
+- [x] easiest-crypto-license-singapore                        → /easiest-crypto-license-singapore/  
+- [x] easiest-crypto-license-czech-republic                   → /easiest-crypto-license-czech-republic/  
 - [ ] how-to-get-a-crypto-license-panama                      → /how-to-get-a-crypto-license-panama/  
 - [ ] how-to-get-a-crypto-license-lithuania                   → /how-to-get-a-crypto-license-lithuania/  
 - [ ] how-to-get-a-crypto-license-estonia                     → /how-to-get-a-crypto-license-estonia/  
