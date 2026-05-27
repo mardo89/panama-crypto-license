@@ -3,3 +3,5 @@ scripts/.deepseek_key
 scripts/.dataforseo_auth
 *.key
 .env
+
+scripts/_*.sh
