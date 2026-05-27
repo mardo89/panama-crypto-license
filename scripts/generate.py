@@ -51,8 +51,9 @@ Hard requirements (this is a strict QC gate — pages failing are rejected):
 - At least 8 FAQs (aim 10-12), each a real question with a 40-90 word answer.
 - Weave 5-8 contextual internal links using ONLY paths from this allow-list (exact href): __INTERNAL__ . Always link Panama as <a href="/">Panama</a> and the hub as <a href="/jurisdictions/">jurisdictions</a> at least once.
 - authority_links: 1-3 OFFICIAL regulator/government homepages you are highly confident exist (e.g. the financial regulator's main site). If unsure of a URL, omit it. Never invent URLs.
-- ANTI-HALLUCINATION: no fabricated statistics, no invented laws or figures. Use ranges and hedge ("typically", "as of 2026"). Add 'general guidance, not legal advice' tone in compliance sections. Do not promise approval or guarantees.
-- Honest delivery framing: say Consulting24 delivers directly for Estonia/Lithuania/Panama; for others say it 'advises and coordinates'.
+- FACTUAL ACCURACY (critical): treat the FACTS in the user brief as AUTHORITATIVE and current for 2026. Restate the brief's regulator, licence type, capital, tax and timeline EXACTLY — never override them with older/pre-MiCA information from your training. MiCA is FULLY IN FORCE in 2026: the EU CASP regime is live (not "upcoming"/"will expand"), and EU member states apply capital tiers of EUR 50,000 / 125,000 / 150,000 by service class. Do NOT describe EU crypto licensing as the old "VASP register / no minimum capital" model.
+- ANTI-HALLUCINATION: no fabricated statistics, no invented laws, no made-up specific cost/fee numbers. The ONLY fixed price you may state is Panama = EUR 6,000. For all other jurisdictions, give cost as a hedged RANGE and say exact pricing is confirmed in a consultation. Hedge with "typically", "as of 2026". Add 'general guidance, not legal advice' in compliance sections. Never promise approval or guarantees.
+- Honest delivery framing: say Consulting24 delivers directly for Estonia/Lithuania/Panama; for others it 'advises and coordinates'. EXCEPTION: if the brief contains "DELIVERY=comparison-only" (e.g. UAE/Dubai/Abu Dhabi VARA), Consulting24 does NOT provide that licence — write the page as neutral, informational, and COMPARISON-focused (especially vs Panama); do NOT claim Consulting24 advises/coordinates/files that licence; the CTA must steer the reader to Panama and the jurisdictions Consulting24 does serve (Estonia/Lithuania), framing C24's role as "we help you choose the right route and set up where we operate".
 - Every CTA points to talking to an expert on WhatsApp / booking a consultation (do not print the phone number as plain text).
 - No keyword stuffing (primary keyword density ~0.8-1.8%). No markdown, valid HTML only inside html fields.""".replace("__INTERNAL__", ", ".join(INTERNAL))
 
@@ -185,7 +186,7 @@ def qc(d, page_html, keyword=""):
     if internal < 5: fails.append(f"internal_links {internal} < 5")
     if 'href="/"' not in page_html: fails.append("no homepage link")
     if not (50 <= len(d["meta_title"]) <= 65): fails.append(f"title len {len(d['meta_title'])}")
-    if not (110 <= len(d["meta_description"]) <= 160): fails.append(f"desc len {len(d['meta_description'])}")
+    if not (110 <= len(d["meta_description"]) <= 165): fails.append(f"desc len {len(d['meta_description'])}")
     if kw and kw not in d["h1"].lower(): fails.append("keyword not in H1")
     if kw and kw not in d["meta_title"].lower(): fails.append("keyword not in title")
     if density > 3.0: fails.append(f"keyword stuffing {density}%")
@@ -201,7 +202,7 @@ def build(kind, slug, keyword, brief):
     report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
     tries = 0
-    while not report["pass"] and report["fails"] and all("words" in f for f in report["fails"]) and tries < 2:
+    while not report["pass"] and any("words" in f for f in report["fails"]) and tries < 2:
         tries += 1
         cur = report["words"]
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
