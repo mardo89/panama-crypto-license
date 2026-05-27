@@ -75,29 +75,33 @@ def require_env(name: str) -> str:
 # ── Google OAuth (Blogger) ──────────────────────────────────────────────────
 
 def get_credentials():
-    from google_auth_oauthlib.flow import InstalledAppFlow
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
 
-    creds_path = pathlib.Path(require_env("GOOGLE_CREDENTIALS"))
-    if not creds_path.exists():
-        sys.exit(f"ERROR: GOOGLE_CREDENTIALS not found: {creds_path}")
-
-    raw = json.loads(creds_path.read_text())
-    if raw.get("type") == "service_account":
-        sys.exit("ERROR: Blogger needs OAuth user credentials, not a service account.")
-
+    # Preferred path: the saved token already carries client_id/secret/refresh_token,
+    # so the daily job keeps working even if the original client_secrets file is gone.
     creds = None
     if TOKEN_PATH.exists():
         creds = Credentials.from_authorized_user_file(str(TOKEN_PATH), GOOGLE_SCOPES)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(str(creds_path), GOOGLE_SCOPES)
-            print("\n>>> A browser window will open. Sign in as", EMAIL, "<<<\n")
-            creds = flow.run_local_server(port=0)
+    if creds and creds.valid:
+        return creds
+    if creds and creds.expired and creds.refresh_token:
+        creds.refresh(Request())
         TOKEN_PATH.write_text(creds.to_json())
+        return creds
+
+    # No usable token → need the client_secrets file for a one-time interactive login.
+    from google_auth_oauthlib.flow import InstalledAppFlow
+    creds_path = pathlib.Path(require_env("GOOGLE_CREDENTIALS"))
+    if not creds_path.exists():
+        sys.exit(f"ERROR: no valid token at {TOKEN_PATH} and GOOGLE_CREDENTIALS not found: {creds_path}")
+    raw = json.loads(creds_path.read_text())
+    if raw.get("type") == "service_account":
+        sys.exit("ERROR: Blogger needs OAuth user credentials, not a service account.")
+    flow = InstalledAppFlow.from_client_secrets_file(str(creds_path), GOOGLE_SCOPES)
+    print("\n>>> A browser window will open. Sign in as", EMAIL, "<<<\n")
+    creds = flow.run_local_server(port=0)
+    TOKEN_PATH.write_text(creds.to_json())
     return creds
 
 def build_blogger(creds):
@@ -1542,6 +1546,7 @@ def render_page(page: dict) -> str:
     body.append(_evergreen_banking(page))
     body.append(_evergreen_landscape(page))
     body.append(_evergreen_mistakes(page))
+    body.append(_evergreen_aftercare(page))
     related_html = _page_related(page["slug"])
     hub = set(re.findall(r'href="([^"]+)"', related_html))
     parts = [_dedupe_links("\n".join(body), seen=hub),

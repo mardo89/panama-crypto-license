@@ -29,8 +29,8 @@ Requirements & How to Get One".
 - [x] bvi              → /bvi-crypto-license/
 - [x] seychelles       → /seychelles-crypto-license/
 - [x] canada           → /canada-crypto-license/            (MSB)
-- [ ] usa              → /usa-crypto-license/               (MSB/MTL)
-- [ ] singapore        → /singapore-crypto-license/         (PSA)
+- [x] usa              → /usa-crypto-license/               (MSB/MTL)
+- [x] singapore        → /singapore-crypto-license/         (PSA)
 - [ ] hong-kong        → /hong-kong-crypto-license/
 - [x] georgia          → /georgia-crypto-license/
 - [ ] mauritius        → /mauritius-crypto-license/

@@ -14,8 +14,8 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to run a crypto exchange from a Panama company (legal scope)
 - [x] Panama for OTC desks: structure, banking, compliance
 - [x] Panama crypto company annual maintenance: real ongoing costs
-- [ ] NFT & token issuance from a Panama company
-- [ ] Staking and crypto fund activity under a Panama S.A.
+- [x] NFT & token issuance from a Panama company
+- [x] Staking and crypto fund activity under a Panama S.A.
 - [ ] Branded crypto debit cards via a Panama entity
 - [ ] Panama AML/KYC program: what you actually need
 - [ ] Moving an existing crypto business to Panama: migration checklist
