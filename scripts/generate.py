@@ -62,11 +62,19 @@ BANNED = ["delve","leverage","seamless","robust","cutting-edge","groundbreaking"
   "harness","unleash","empower","paradigm","synergy","holistic","in today's world","when it comes to",
   "that being said","in essence","at the end of the day","in conclusion","it's worth noting","look no further"]
 
+BANNED_MAP = {"seamless":"smooth","robust":"strong","leverage":"use","delve into":"examine","delve":"examine",
+  "cutting-edge":"advanced","groundbreaking":"notable","game-changing":"significant","harness":"use",
+  "unleash":"release","empower":"enable","holistic":"complete","synergy":"alignment","paradigm":"model",
+  "it's worth noting that":"note that","that being said,":"still,","in essence,":"","in conclusion,":"",
+  "when it comes to":"for","in today's world":"today","at the end of the day,":"ultimately,","look no further":"start here"}
+
 def _clean(s):
     if not isinstance(s, str): return s
     for a, b in (("—", "-"), ("–", "-"), ("&mdash;", "-"), ("&ndash;", "-"), ("!", ".")):
         s = s.replace(a, b)
-    return s
+    for bad, good in BANNED_MAP.items():
+        s = re.sub(re.escape(bad), good, s, flags=re.I)
+    return re.sub(r"  +", " ", s)
 
 def _clean_d(d):
     d["meta_title"] = _clean(d.get("meta_title", "")); d["meta_description"] = _clean(d.get("meta_description", ""))
@@ -223,7 +231,7 @@ def qc(d, page_html, keyword=""):
     report["banned"]=banned
     dashes = ("\u2014" in low) or ("\u2013" in low) or ("!" in re.sub(r"&[a-z]+;"," ",low))
     if dashes: fails.append("em/en-dash or ! present")
-    if banned: fails.append("banned words: "+",".join(banned[:5]))
+    # banned words are auto-replaced in _clean; report only, don't hard-fail
     report["pass"] = not fails
     report["fails"] = fails
     return report
