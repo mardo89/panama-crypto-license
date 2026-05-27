@@ -1,6 +1,7 @@
 scripts/.deepseek_key
 .deepseek_key
 scripts/.dataforseo_auth
+scripts/.bing_api_key
 *.key
 .env
 

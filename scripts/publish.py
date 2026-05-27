@@ -74,3 +74,24 @@ if os.path.exists(keyfile):
         print(f"IndexNow ping failed (non-fatal): {e}")
 else:
     print("No .indexnow-key found; skipping IndexNow ping")
+
+# 4. Submit sitemap to Bing Webmaster Tools via its API (SubmitFeed).
+# Key from Bing Webmaster Tools > Settings > API access > API Key.
+# Bing dedupes feeds, so re-submitting the same sitemap is harmless.
+bing_keyfile = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".bing_api_key")
+if os.path.exists(bing_keyfile):
+    bing_key = read(bing_keyfile).strip()
+    payload = json.dumps({
+        "siteUrl": BASE + "/",
+        "feedUrl": f"{BASE}/sitemap.xml",
+    }).encode()
+    req = urllib.request.Request(
+        f"https://ssl.bing.com/webmaster/api.svc/json/SubmitFeed?apikey={bing_key}",
+        data=payload, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            print(f"Bing SubmitFeed: HTTP {r.status} for {BASE}/sitemap.xml")
+    except Exception as e:
+        print(f"Bing SubmitFeed failed (non-fatal): {e}")
+else:
+    print("No scripts/.bing_api_key found; skipping Bing sitemap submission")
