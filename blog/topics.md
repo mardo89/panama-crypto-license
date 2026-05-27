@@ -6,11 +6,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 /application-process/, and relevant blog posts. Avoid duplication/thin content.
 
 ## Panama
-- [ ] Panama crypto company vs offshore alternatives (BVI, Cayman, Seychelles) in 2026
-- [ ] Panama territorial tax for crypto: exactly what is and isn't taxed
-- [ ] Opening a bank / payment account for a Panama crypto company
-- [ ] Panama Sociedad Anónima vs Private Interest Foundation for crypto
-- [ ] Director & UBO privacy in Panama: what's public vs confidential
+- [x] Panama crypto company vs offshore alternatives (BVI, Cayman, Seychelles) in 2026
+- [x] Panama territorial tax for crypto: exactly what is and isn't taxed
+- [x] Opening a bank / payment account for a Panama crypto company
+- [x] Panama Sociedad Anónima vs Private Interest Foundation for crypto
+- [x] Director & UBO privacy in Panama: what's public vs confidential
 - [ ] How to run a crypto exchange from a Panama company (legal scope)
 - [ ] Panama for OTC desks: structure, banking, compliance
 - [ ] Panama crypto company annual maintenance: real ongoing costs

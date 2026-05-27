@@ -21,11 +21,11 @@ Requirements & How to Get One".
 - [x] dubai            → /dubai-crypto-license/             (VARA)
 - [x] el-salvador      → /el-salvador-crypto-license/       (DASP)
 - [x] czech-republic   → /czech-republic-crypto-license/
-- [ ] poland           → /poland-crypto-license/
-- [ ] malta            → /malta-crypto-license/             (MiCA)
-- [ ] switzerland      → /switzerland-crypto-license/       (VQF/FINMA)
-- [ ] cyprus           → /cyprus-crypto-license/            (CASP)
-- [ ] cayman-islands   → /cayman-islands-crypto-license/
+- [x] poland           → /poland-crypto-license/
+- [x] malta            → /malta-crypto-license/             (MiCA)
+- [x] switzerland      → /switzerland-crypto-license/       (VQF/FINMA)
+- [x] cyprus           → /cyprus-crypto-license/            (CASP)
+- [x] cayman-islands   → /cayman-islands-crypto-license/
 - [ ] bvi              → /bvi-crypto-license/
 - [ ] seychelles       → /seychelles-crypto-license/
 - [ ] canada           → /canada-crypto-license/            (MSB)
