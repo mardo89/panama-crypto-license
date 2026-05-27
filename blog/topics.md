@@ -41,3 +41,222 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [ ] Crypto banking in 2026: which rails work for licensed companies
 - [ ] Common mistakes founders make picking a crypto licence
 - [ ] What "regulated" actually means to exchanges, banks and users
+
+## Expansion — educational angles (for 40/day)
+- [ ] What is MiCA and how does CASP licensing work in 2026
+- [ ] VASP vs CASP vs MSB vs VARA: crypto licence types compared
+- [ ] How to choose the right crypto licensing jurisdiction
+- [ ] EU crypto passporting under MiCA explained
+- [ ] Crypto exchange licensing: a complete 2026 guide
+- [ ] Crypto custody licensing requirements explained
+- [ ] Stablecoin issuance: licensing and legal structure
+- [ ] Token launch legal structure: foundation + operating company
+- [ ] Tokenomics basics for a compliant token sale
+- [ ] How to open a bank account for a crypto company
+- [ ] Offshore vs onshore crypto licensing: pros and cons
+- [ ] What does a crypto AML compliance program include
+- [ ] Crypto company substance requirements: directors, office, MLRO
+- [ ] Cheapest vs fastest crypto licences in 2026
+- [ ] How long does a crypto licence take? Timelines by jurisdiction
+- [ ] Crypto licence costs in 2026: jurisdiction comparison
+- [ ] Do you need a crypto licence for an OTC desk?
+- [ ] NFT marketplace licensing: what you actually need
+- [ ] Crypto fund structuring and licensing basics
+- [ ] Crypto payment institution (EMI) licensing explained
+- [ ] Travel Rule compliance for crypto businesses
+- [ ] MiCA white paper requirements for token issuers
+- [ ] How regulators assess a crypto licence application
+- [ ] Crypto-friendly banking partners in 2026
+- [ ] Setting up a crypto company: the founder's roadmap
+- [ ] How to get a crypto license in Panama (step-by-step)
+- [ ] Panama crypto tax explained for founders
+- [ ] Crypto license requirements in Panama: full checklist
+- [ ] Crypto banking in Panama: what founders should expect
+- [ ] Panama vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Panama crypto license
+- [ ] Panama crypto company costs broken down
+- [ ] AML/KYC requirements for a Panama crypto company
+- [ ] How to get a crypto license in Lithuania (step-by-step)
+- [ ] Lithuania crypto tax explained for founders
+- [ ] Crypto license requirements in Lithuania: full checklist
+- [ ] Crypto banking in Lithuania: what founders should expect
+- [ ] Lithuania vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Lithuania crypto license
+- [ ] Lithuania crypto company costs broken down
+- [ ] AML/KYC requirements for a Lithuania crypto company
+- [ ] How to get a crypto license in Estonia (step-by-step)
+- [ ] Estonia crypto tax explained for founders
+- [ ] Crypto license requirements in Estonia: full checklist
+- [ ] Crypto banking in Estonia: what founders should expect
+- [ ] Estonia vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Estonia crypto license
+- [ ] Estonia crypto company costs broken down
+- [ ] AML/KYC requirements for a Estonia crypto company
+- [ ] How to get a crypto license in Dubai (step-by-step)
+- [ ] Dubai crypto tax explained for founders
+- [ ] Crypto license requirements in Dubai: full checklist
+- [ ] Crypto banking in Dubai: what founders should expect
+- [ ] Dubai vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Dubai crypto license
+- [ ] Dubai crypto company costs broken down
+- [ ] AML/KYC requirements for a Dubai crypto company
+- [ ] How to get a crypto license in El Salvador (step-by-step)
+- [ ] El Salvador crypto tax explained for founders
+- [ ] Crypto license requirements in El Salvador: full checklist
+- [ ] Crypto banking in El Salvador: what founders should expect
+- [ ] El Salvador vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a El Salvador crypto license
+- [ ] El Salvador crypto company costs broken down
+- [ ] AML/KYC requirements for a El Salvador crypto company
+- [ ] How to get a crypto license in Czech Republic (step-by-step)
+- [ ] Czech Republic crypto tax explained for founders
+- [ ] Crypto license requirements in Czech Republic: full checklist
+- [ ] Crypto banking in Czech Republic: what founders should expect
+- [ ] Czech Republic vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Czech Republic crypto license
+- [ ] Czech Republic crypto company costs broken down
+- [ ] AML/KYC requirements for a Czech Republic crypto company
+- [ ] How to get a crypto license in Poland (step-by-step)
+- [ ] Poland crypto tax explained for founders
+- [ ] Crypto license requirements in Poland: full checklist
+- [ ] Crypto banking in Poland: what founders should expect
+- [ ] Poland vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Poland crypto license
+- [ ] Poland crypto company costs broken down
+- [ ] AML/KYC requirements for a Poland crypto company
+- [ ] How to get a crypto license in Malta (step-by-step)
+- [ ] Malta crypto tax explained for founders
+- [ ] Crypto license requirements in Malta: full checklist
+- [ ] Crypto banking in Malta: what founders should expect
+- [ ] Malta vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Malta crypto license
+- [ ] Malta crypto company costs broken down
+- [ ] AML/KYC requirements for a Malta crypto company
+- [ ] How to get a crypto license in Switzerland (step-by-step)
+- [ ] Switzerland crypto tax explained for founders
+- [ ] Crypto license requirements in Switzerland: full checklist
+- [ ] Crypto banking in Switzerland: what founders should expect
+- [ ] Switzerland vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Switzerland crypto license
+- [ ] Switzerland crypto company costs broken down
+- [ ] AML/KYC requirements for a Switzerland crypto company
+- [ ] How to get a crypto license in Cyprus (step-by-step)
+- [ ] Cyprus crypto tax explained for founders
+- [ ] Crypto license requirements in Cyprus: full checklist
+- [ ] Crypto banking in Cyprus: what founders should expect
+- [ ] Cyprus vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Cyprus crypto license
+- [ ] Cyprus crypto company costs broken down
+- [ ] AML/KYC requirements for a Cyprus crypto company
+- [ ] How to get a crypto license in Cayman Islands (step-by-step)
+- [ ] Cayman Islands crypto tax explained for founders
+- [ ] Crypto license requirements in Cayman Islands: full checklist
+- [ ] Crypto banking in Cayman Islands: what founders should expect
+- [ ] Cayman Islands vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Cayman Islands crypto license
+- [ ] Cayman Islands crypto company costs broken down
+- [ ] AML/KYC requirements for a Cayman Islands crypto company
+- [ ] How to get a crypto license in BVI (step-by-step)
+- [ ] BVI crypto tax explained for founders
+- [ ] Crypto license requirements in BVI: full checklist
+- [ ] Crypto banking in BVI: what founders should expect
+- [ ] BVI vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a BVI crypto license
+- [ ] BVI crypto company costs broken down
+- [ ] AML/KYC requirements for a BVI crypto company
+- [ ] How to get a crypto license in Seychelles (step-by-step)
+- [ ] Seychelles crypto tax explained for founders
+- [ ] Crypto license requirements in Seychelles: full checklist
+- [ ] Crypto banking in Seychelles: what founders should expect
+- [ ] Seychelles vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Seychelles crypto license
+- [ ] Seychelles crypto company costs broken down
+- [ ] AML/KYC requirements for a Seychelles crypto company
+- [ ] How to get a crypto license in Canada (step-by-step)
+- [ ] Canada crypto tax explained for founders
+- [ ] Crypto license requirements in Canada: full checklist
+- [ ] Crypto banking in Canada: what founders should expect
+- [ ] Canada vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Canada crypto license
+- [ ] Canada crypto company costs broken down
+- [ ] AML/KYC requirements for a Canada crypto company
+- [ ] How to get a crypto license in Singapore (step-by-step)
+- [ ] Singapore crypto tax explained for founders
+- [ ] Crypto license requirements in Singapore: full checklist
+- [ ] Crypto banking in Singapore: what founders should expect
+- [ ] Singapore vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Singapore crypto license
+- [ ] Singapore crypto company costs broken down
+- [ ] AML/KYC requirements for a Singapore crypto company
+- [ ] How to get a crypto license in Georgia (step-by-step)
+- [ ] Georgia crypto tax explained for founders
+- [ ] Crypto license requirements in Georgia: full checklist
+- [ ] Crypto banking in Georgia: what founders should expect
+- [ ] Georgia vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Georgia crypto license
+- [ ] Georgia crypto company costs broken down
+- [ ] AML/KYC requirements for a Georgia crypto company
+- [ ] How to get a crypto license in UAE (step-by-step)
+- [ ] UAE crypto tax explained for founders
+- [ ] Crypto license requirements in UAE: full checklist
+- [ ] Crypto banking in UAE: what founders should expect
+- [ ] UAE vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a UAE crypto license
+- [ ] UAE crypto company costs broken down
+- [ ] AML/KYC requirements for a UAE crypto company
+- [ ] How to get a crypto license in Germany (step-by-step)
+- [ ] Germany crypto tax explained for founders
+- [ ] Crypto license requirements in Germany: full checklist
+- [ ] Crypto banking in Germany: what founders should expect
+- [ ] Germany vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Germany crypto license
+- [ ] Germany crypto company costs broken down
+- [ ] AML/KYC requirements for a Germany crypto company
+- [ ] How to get a crypto license in Ireland (step-by-step)
+- [ ] Ireland crypto tax explained for founders
+- [ ] Crypto license requirements in Ireland: full checklist
+- [ ] Crypto banking in Ireland: what founders should expect
+- [ ] Ireland vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Ireland crypto license
+- [ ] Ireland crypto company costs broken down
+- [ ] AML/KYC requirements for a Ireland crypto company
+- [ ] How to get a crypto license in Portugal (step-by-step)
+- [ ] Portugal crypto tax explained for founders
+- [ ] Crypto license requirements in Portugal: full checklist
+- [ ] Crypto banking in Portugal: what founders should expect
+- [ ] Portugal vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Portugal crypto license
+- [ ] Portugal crypto company costs broken down
+- [ ] AML/KYC requirements for a Portugal crypto company
+- [ ] How to get a crypto license in Liechtenstein (step-by-step)
+- [ ] Liechtenstein crypto tax explained for founders
+- [ ] Crypto license requirements in Liechtenstein: full checklist
+- [ ] Crypto banking in Liechtenstein: what founders should expect
+- [ ] Liechtenstein vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Liechtenstein crypto license
+- [ ] Liechtenstein crypto company costs broken down
+- [ ] AML/KYC requirements for a Liechtenstein crypto company
+- [ ] How to get a crypto license in Kazakhstan (step-by-step)
+- [ ] Kazakhstan crypto tax explained for founders
+- [ ] Crypto license requirements in Kazakhstan: full checklist
+- [ ] Crypto banking in Kazakhstan: what founders should expect
+- [ ] Kazakhstan vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Kazakhstan crypto license
+- [ ] Kazakhstan crypto company costs broken down
+- [ ] AML/KYC requirements for a Kazakhstan crypto company
+- [ ] How to get a crypto license in Bahrain (step-by-step)
+- [ ] Bahrain crypto tax explained for founders
+- [ ] Crypto license requirements in Bahrain: full checklist
+- [ ] Crypto banking in Bahrain: what founders should expect
+- [ ] Bahrain vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Bahrain crypto license
+- [ ] Bahrain crypto company costs broken down
+- [ ] AML/KYC requirements for a Bahrain crypto company
+- [ ] How to get a crypto license in Hong Kong (step-by-step)
+- [ ] Hong Kong crypto tax explained for founders
+- [ ] Crypto license requirements in Hong Kong: full checklist
+- [ ] Crypto banking in Hong Kong: what founders should expect
+- [ ] Hong Kong vs Panama for a crypto company: which to choose
+- [ ] Common mistakes when applying for a Hong Kong crypto license
+- [ ] Hong Kong crypto company costs broken down
+- [ ] AML/KYC requirements for a Hong Kong crypto company
