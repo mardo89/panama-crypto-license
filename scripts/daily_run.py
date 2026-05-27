@@ -84,18 +84,29 @@ def slugify(title):
 def run():
     sh("git pull --no-edit origin main")
     published = []
+    CHUNK = int(os.environ.get("CHUNK", "5"))   # commit+push every CHUNK pages so a kill never loses progress
+
+    def checkpoint(force=False):
+        if not published: return
+        if not force and len(published) % CHUNK != 0: return
+        sh("python3 scripts/rebuild_indexes.py")
+        sh("python3 scripts/publish.py")
+        sh("git add -A")
+        sh(f'git commit -q -m "Auto-publish checkpoint: {len(published)} pages ({datetime.date.today()})\n\nCo-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>"')
+        out = sh("git push origin main")
+        print(f"checkpoint pushed at {len(published)} pages {out.stderr[-120:]}")
+
     # --- landing pages ---
     for entry in next_unchecked(os.path.join(ROOT, "pages.md"), N_LANDING):
         m = re.search(r"([a-z0-9-]+)\s*(?:→|->)\s*/([a-z0-9-]+)/", entry)
         slug = (m.group(2) if m else entry.split()[0]).strip("/")
-        if not slug.endswith("-crypto-license") and "/" not in slug and "-" in slug:
-            pass
         try:
             rep = gen.build("landing", slug, keyword_from(slug), landing_brief(slug))
             if rep.get("pass"): published.append("/"+slug+"/")
         except Exception as e:
             print("landing err", slug, e)
         mark_done(os.path.join(ROOT, "pages.md"), entry)
+        checkpoint()
     # --- blog posts ---
     for title in next_unchecked(os.path.join(ROOT, "blog", "topics.md"), N_BLOG):
         slug = slugify(title)
@@ -107,15 +118,9 @@ def run():
         except Exception as e:
             print("blog err", slug, e)
         mark_done(os.path.join(ROOT, "blog", "topics.md"), title)
-    # --- finalize ---
-    for s in ("rebuild_indexes.py", "publish.py"):
-        print(sh(f"python3 scripts/{s}").stdout)
+        checkpoint()
     print(sh("python3 scripts/linkcheck.py").stdout[-400:])
-    print(sh("python3 scripts/qc_audit.py").stdout.splitlines()[0] if published else "nothing published")
-    if published:
-        sh("git add -A")
-        sh(f'git commit -q -m "Daily autopublish: {len(published)} pages ({datetime.date.today()})\n\nCo-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>"')
-        print(sh("git push origin main").stderr[-200:])
+    checkpoint(force=True)   # final flush of the remainder
     print(f"DONE: published {len(published)} pages")
 
 if __name__ == "__main__":
