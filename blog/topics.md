@@ -55,11 +55,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to open a bank account for a crypto company
 - [x] Offshore vs onshore crypto licensing: pros and cons
 - [x] What does a crypto AML compliance program include
-- [ ] Crypto company substance requirements: directors, office, MLRO
-- [ ] Cheapest vs fastest crypto licences in 2026
-- [ ] How long does a crypto licence take? Timelines by jurisdiction
-- [ ] Crypto licence costs in 2026: jurisdiction comparison
-- [ ] Do you need a crypto licence for an OTC desk?
+- [x] Crypto company substance requirements: directors, office, MLRO
+- [x] Cheapest vs fastest crypto licences in 2026
+- [x] How long does a crypto licence take? Timelines by jurisdiction
+- [x] Crypto licence costs in 2026: jurisdiction comparison
+- [x] Do you need a crypto licence for an OTC desk?
 - [ ] NFT marketplace licensing: what you actually need
 - [ ] Crypto fund structuring and licensing basics
 - [ ] Crypto payment institution (EMI) licensing explained
