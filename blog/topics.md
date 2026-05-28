@@ -20,7 +20,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Panama AML/KYC program: what you actually need
 - [x] Moving an existing crypto business to Panama: migration checklist
 - [x] Panama vs Dubai VARA for crypto founders
-- [ ] Panama vs El Salvador for crypto businesses
+- [x] Panama vs El Salvador for crypto businesses
 
 ## Estonia
 - [ ] Estonia crypto (VASP/MiCA) licensing in 2026: current state
