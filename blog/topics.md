@@ -53,8 +53,8 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Token launch legal structure: foundation + operating company
 - [x] Tokenomics basics for a compliant token sale
 - [x] How to open a bank account for a crypto company
-- [ ] Offshore vs onshore crypto licensing: pros and cons
-- [ ] What does a crypto AML compliance program include
+- [x] Offshore vs onshore crypto licensing: pros and cons
+- [x] What does a crypto AML compliance program include
 - [ ] Crypto company substance requirements: directors, office, MLRO
 - [ ] Cheapest vs fastest crypto licences in 2026
 - [ ] How long does a crypto licence take? Timelines by jurisdiction
