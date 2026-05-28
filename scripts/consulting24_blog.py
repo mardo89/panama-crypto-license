@@ -193,14 +193,18 @@ def _landing_directory(current_landing: str = "") -> str:
             "consulting24.co:</p>"
             f"<div style='line-height:1.9;font-size:14px;'>{items}</div>")
 
-def _labels_for(topic: dict, cap: int = 20) -> list[str]:
-    """Build up to `cap` Blogger labels from the topic spec + keyword + jurisdiction terms."""
+def _labels_for(topic: dict, cap: int = 20, max_chars: int = 200) -> list[str]:
+    """Build Blogger labels from the topic spec + keyword + jurisdiction terms.
+    Capped at `cap` labels AND a `max_chars` budget on the comma-joined string,
+    since Blogger rejects (HTTP 400) overly long total label strings."""
     seen, out = set(), []
     def add(x):
         x = (x or "").strip()
         if not x: return
         k = x.lower()
         if k in seen or len(out) >= cap: return
+        joined = len(", ".join(out + [x]))
+        if joined > max_chars: return
         seen.add(k); out.append(x)
     for l in topic.get("labels", []):
         add(l)
