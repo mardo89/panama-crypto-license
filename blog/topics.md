@@ -25,11 +25,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 ## Estonia
 - [x] Estonia crypto (VASP/MiCA) licensing in 2026: current state
 - [x] Estonia e-Residency for crypto founders: pros and limits
-- [ ] Estonia vs Lithuania for a crypto company
-- [ ] Estonia crypto company tax: 0% retained, 22% on distribution explained
+- [x] Estonia vs Lithuania for a crypto company
+- [x] Estonia crypto company tax: 0% retained, 22% on distribution explained
 
 ## Lithuania
-- [ ] Lithuania CASP licence under MiCA: requirements and timeline
+- [x] Lithuania CASP licence under MiCA: requirements and timeline
 - [ ] Lithuania CASP €125,000 capital requirement: what counts
 - [ ] Lithuania vs Panama: capital, tax, privacy, timeline compared
 - [ ] MiCA passporting from Lithuania across the EU
