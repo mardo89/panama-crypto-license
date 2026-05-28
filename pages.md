@@ -94,7 +94,7 @@ Requirements & How to Get One".
 - [x] marshall-islands  → /marshall-islands-crypto-license/
 - [x] saint-lucia       → /saint-lucia-crypto-license/
 - [x] belize            → /belize-crypto-license/
-- [ ] kazakhstan        → /kazakhstan-crypto-license/        (AIFC)
+- [x] kazakhstan        → /kazakhstan-crypto-license/        (AIFC)
 - [ ] bahrain           → /bahrain-crypto-license/           (CBB)
 - [ ] qatar             → /qatar-crypto-license/
 - [ ] saudi-arabia      → /saudi-arabia-crypto-license/
