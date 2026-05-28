@@ -16,9 +16,9 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Panama crypto company annual maintenance: real ongoing costs
 - [x] NFT & token issuance from a Panama company
 - [x] Staking and crypto fund activity under a Panama S.A.
-- [ ] Branded crypto debit cards via a Panama entity
-- [ ] Panama AML/KYC program: what you actually need
-- [ ] Moving an existing crypto business to Panama: migration checklist
+- [x] Branded crypto debit cards via a Panama entity
+- [x] Panama AML/KYC program: what you actually need
+- [x] Moving an existing crypto business to Panama: migration checklist
 - [ ] Panama vs Dubai VARA for crypto founders
 - [ ] Panama vs El Salvador for crypto businesses
 

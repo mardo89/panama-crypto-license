@@ -62,14 +62,14 @@ Requirements & How to Get One".
 - [x] cheapest-crypto-license      → /cheapest-crypto-license/
 - [x] best-country-crypto-license  → /best-country-for-crypto-license/
 - [x] easiest-crypto-license       → /easiest-crypto-license/
-- [ ] fastest-crypto-license       → /fastest-crypto-license/
-- [ ] offshore-crypto-license      → /offshore-crypto-license/
-- [ ] crypto-license-cost          → /crypto-license-cost/
-- [ ] how-to-get-crypto-license    → /how-to-get-a-crypto-license/
-- [ ] ready-made-crypto-license    → /ready-made-crypto-license/
+- [x] fastest-crypto-license       → /fastest-crypto-license/
+- [x] offshore-crypto-license      → /offshore-crypto-license/
+- [x] crypto-license-cost          → /crypto-license-cost/
+- [x] how-to-get-crypto-license    → /how-to-get-a-crypto-license/
+- [x] ready-made-crypto-license    → /ready-made-crypto-license/
 
 ## Tier 4 — Comparison pages
-- [ ] lithuania-vs-estonia   → /lithuania-vs-estonia-crypto-license/
+- [x] lithuania-vs-estonia   → /lithuania-vs-estonia-crypto-license/
 - [ ] panama-vs-dubai        → /panama-vs-dubai-crypto-license/
 - [ ] lithuania-vs-dubai     → /lithuania-vs-dubai-crypto-license/
 - [ ] el-salvador-vs-panama  → /el-salvador-vs-panama-crypto-license/
