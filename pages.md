@@ -82,13 +82,13 @@ Requirements & How to Get One".
 - [x] netherlands       → /netherlands-crypto-license/       (MiCA)
 - [x] france            → /france-crypto-license/            (PSAN/MiCA)
 - [x] spain             → /spain-crypto-license/             (MiCA)
-- [ ] italy             → /italy-crypto-license/             (MiCA)
-- [ ] slovakia          → /slovakia-crypto-license/          (MiCA)
-- [ ] romania           → /romania-crypto-license/           (MiCA)
-- [ ] gibraltar         → /gibraltar-crypto-license/         (DLT)
-- [ ] isle-of-man       → /isle-of-man-crypto-license/
-- [ ] jersey            → /jersey-crypto-license/
-- [ ] bahamas           → /bahamas-crypto-license/           (DARE)
+- [x] italy             → /italy-crypto-license/             (MiCA)
+- [x] slovakia          → /slovakia-crypto-license/          (MiCA)
+- [x] romania           → /romania-crypto-license/           (MiCA)
+- [x] gibraltar         → /gibraltar-crypto-license/         (DLT)
+- [x] isle-of-man       → /isle-of-man-crypto-license/
+- [x] jersey            → /jersey-crypto-license/
+- [x] bahamas           → /bahamas-crypto-license/           (DARE)
 - [ ] bermuda           → /bermuda-crypto-license/           (DABA)
 - [ ] vanuatu           → /vanuatu-crypto-license/
 - [ ] marshall-islands  → /marshall-islands-crypto-license/
