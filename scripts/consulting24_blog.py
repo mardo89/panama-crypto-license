@@ -25,7 +25,7 @@ Setup:
 """
 from __future__ import annotations
 
-import argparse, json, os, pathlib, sys, datetime, traceback, re
+import argparse, json, os, pathlib, sys, datetime, traceback, re, time
 
 ROOT        = pathlib.Path(__file__).resolve().parents[1]
 STATE_PATH  = ROOT / "config" / "blog_posted.json"
@@ -342,6 +342,17 @@ def _author_org_jsonld() -> str:
 def _esc(s: str) -> str:
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+def _hero_photo(headline: str) -> str:
+    """Real hosted raster image so Blogger has a usable thumbnail and a genuine
+    photo (inline SVG is not picked up as a Blogger thumbnail). Deterministically
+    varied per topic across the 9 live gallery photos on www.consulting24.co."""
+    h = _esc(headline.title() if headline.islower() else headline)
+    idx = (sum(ord(c) for c in headline) % 9) + 1
+    src = f"{SITE}/img/gallery-{idx:02d}.jpg"
+    return (f"<div style='margin:0 0 18px;'><img src='{src}' alt='{h} &#8212; Consulting24' "
+            "width='1200' height='800' loading='eager' "
+            "style='display:block;width:100%;height:auto;border-radius:10px;'/></div>")
+
 def _hero_image(headline: str, sub: str = "Crypto licensing across 15+ jurisdictions") -> str:
     """Always-present, on-brand inline-SVG hero banner (copyright-free, no hotlinking).
     Brand gradient + blockchain dot-grid + compliance-shield emblem + accent underline."""
@@ -448,7 +459,7 @@ def _dedupe_links(html: str, seen=None) -> str:
 
 def render_article(topic: dict) -> str:
     """Build the full ~2000-word post HTML from a topic spec."""
-    body = [_hero_image(topic["keyword"]),
+    body = [_hero_photo(topic["keyword"]), _hero_image(topic["keyword"]),
             f"<p><strong>{topic['lede']}</strong></p>"]
     for i, (heading, paras) in enumerate(topic["sections"]):
         body.append(f"<h2>{heading}</h2>")
@@ -1518,6 +1529,22 @@ PAGES: list[dict] = [
     },
 ]
 
+# Merge DeepSeek-generated pillar pages (config/extra_pages.json).
+# Each entry: {slug,title,keyword,landing,tldr,table,sections:[[h,[p,...]],...],faqs:[[q,a],...]}
+_EXTRA_PAGES_PATH = ROOT / "config" / "extra_pages.json"
+if _EXTRA_PAGES_PATH.exists():
+    try:
+        _extra = json.loads(_EXTRA_PAGES_PATH.read_text())
+        _seen = {p["slug"] for p in PAGES}
+        for _p in _extra:
+            if _p.get("slug") and _p["slug"] not in _seen:
+                _p["sections"] = [tuple(s) for s in _p.get("sections", [])]
+                _p["faqs"] = [tuple(f) for f in _p.get("faqs", [])]
+                PAGES.append(_p)
+                _seen.add(_p["slug"])
+    except Exception as _e:
+        print(f"WARN: could not load extra_pages.json: {_e}", file=sys.stderr)
+
 def _page_related(current_slug: str, blog_url: str = "", url_map: dict | None = None) -> str:
     base = blog_url.rstrip("/") if blog_url else "https://consultinglegalnews.blogspot.com"
     url_map = url_map or {}
@@ -1533,7 +1560,7 @@ def _page_related(current_slug: str, blog_url: str = "", url_map: dict | None = 
     return f"<h2>Related guides</h2><ul>{sib}{ext}</ul>"
 
 def render_page(page: dict) -> str:
-    body = [_hero_image(page["keyword"]), _tldr(page["tldr"])]
+    body = [_hero_photo(page["keyword"]), _hero_image(page["keyword"]), _tldr(page["tldr"])]
     for i, (heading, paras) in enumerate(page["sections"]):
         body.append(f"<h2>{heading}</h2>")
         for p in paras:
@@ -1560,6 +1587,24 @@ def render_page(page: dict) -> str:
     return "\n".join(parts)
 
 # ── posting ───────────────────────────────────────────────────────────────
+
+def _is_rate_limit(e: Exception) -> bool:
+    s = str(e)
+    status = getattr(getattr(e, "resp", None), "status", None)
+    return status in (429, 403, 503) or "rateLimit" in s or "Resource has been exhausted" in s or "quota" in s.lower()
+
+def with_retry(fn, *args, max_tries: int = 6, base: int = 30, **kwargs):
+    """Call fn with exponential backoff on Blogger rate-limit / quota (429/403)."""
+    for attempt in range(max_tries):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as e:
+            if _is_rate_limit(e) and attempt < max_tries - 1:
+                wait = base * (2 ** attempt)  # 30,60,120,240,480s
+                log(f"rate-limited (attempt {attempt+1}/{max_tries}); backing off {wait}s")
+                time.sleep(wait)
+                continue
+            raise
 
 def insert_post(blogger, blog_id: str, topic: dict, dry_run: bool) -> dict:
     html = render_article(topic)
@@ -1592,6 +1637,19 @@ def insert_page(blogger, blog_id: str, page: dict, blog_url: str, dry_run: bool)
         return {"id": "(dry-run)", "url": f"{blog_url.rstrip('/')}/p/{page['slug']}.html"}
     return blogger.pages().insert(blogId=blog_id, body=body, isDraft=False).execute()
 
+def update_post(blogger, blog_id: str, post_id: str, topic: dict) -> dict:
+    html = render_article(topic)
+    body = {"kind": "blogger#post", "blog": {"id": blog_id}, "id": post_id,
+            "title": topic["title"], "content": html, "labels": topic.get("labels", [])}
+    return blogger.posts().update(blogId=blog_id, postId=post_id, body=body).execute()
+
+def update_page(blogger, blog_id: str, page_id: str, page: dict, blog_url: str) -> dict:
+    html = render_page(page).replace(
+        _page_related(page["slug"]), _page_related(page["slug"], blog_url))
+    body = {"kind": "blogger#page", "blog": {"id": blog_id}, "id": page_id,
+            "title": page["title"], "content": html}
+    return blogger.pages().update(blogId=blog_id, pageId=page_id, body=body).execute()
+
 def next_unposted(state: dict) -> list[dict]:
     return [a for a in ARTICLES if not posted(state, a["slug"])]
 
@@ -1617,6 +1675,9 @@ def main():
     ap.add_argument("--once", metavar="SLUG", help="publish one specific article slug")
     ap.add_argument("--pages", action="store_true", help="publish unpublished pillar PAGES and exit")
     ap.add_argument("--limit", type=int, default=DAILY_LIMIT)
+    ap.add_argument("--delay", type=int, default=20, help="seconds to wait between publishes (rate-limit spacing)")
+    ap.add_argument("--update-images", action="store_true",
+                    help="re-render and update already-published posts/pages (adds the hero image)")
     args = ap.parse_args()
 
     state = load_state()
@@ -1644,14 +1705,55 @@ def main():
 
     blog_url = info.get("url", "https://consultinglegalnews.blogspot.com")
 
+    if args.update_images:
+        art_by_slug = {a["slug"]: a for a in ARTICLES}
+        page_by_slug = {p["slug"]: p for p in PAGES}
+        done = 0
+        # posts
+        for slug, meta in list(state.get("posts", {}).items()):
+            topic = art_by_slug.get(slug)
+            pid = meta.get("post_id")
+            if not topic or not pid:
+                log(f"skip post {slug} (no spec or id)"); continue
+            try:
+                if done and not args.dry_run:
+                    time.sleep(args.delay)
+                if args.dry_run:
+                    log(f"[dry-run] would update post {slug}"); done += 1; continue
+                with_retry(update_post, blogger, blog_id, pid, topic)
+                done += 1
+                log(f"updated post [{done}]: {topic['title']}")
+            except Exception as e:
+                log(f"ERROR updating post {slug}: {e}")
+        # pages
+        for slug, meta in list(state.get("pages", {}).items()):
+            page = page_by_slug.get(slug)
+            pgid = meta.get("page_id")
+            if not page or not pgid:
+                log(f"skip page {slug} (no spec or id)"); continue
+            try:
+                if done and not args.dry_run:
+                    time.sleep(args.delay)
+                if args.dry_run:
+                    log(f"[dry-run] would update page {slug}"); done += 1; continue
+                with_retry(update_page, blogger, blog_id, pgid, page, blog_url)
+                done += 1
+                log(f"updated page [{done}]: {page['title']}")
+            except Exception as e:
+                log(f"ERROR updating page {slug}: {e}")
+        log(f"update-images done: {done} items updated")
+        return
+
     if args.pages:
         page_targets = next_unposted_pages(state)[: args.limit]
         if not page_targets:
             log("No pages to publish — all pillar pages already published.")
             return
-        for page in page_targets:
+        for idx, page in enumerate(page_targets):
             try:
-                resp = insert_page(blogger, blog_id, page, blog_url, args.dry_run)
+                if idx and not args.dry_run:
+                    time.sleep(args.delay)
+                resp = with_retry(insert_page, blogger, blog_id, page, blog_url, args.dry_run)
                 if not args.dry_run:
                     state.setdefault("pages", {})[page["slug"]] = {
                         "title": page["title"], "url": resp.get("url", ""),
@@ -1677,9 +1779,11 @@ def main():
         log("Nothing to publish — all articles posted.")
         return
 
-    for topic in targets:
+    for idx, topic in enumerate(targets):
         try:
-            resp = insert_post(blogger, blog_id, topic, args.dry_run)
+            if idx and not args.dry_run:
+                time.sleep(args.delay)
+            resp = with_retry(insert_post, blogger, blog_id, topic, args.dry_run)
             if not args.dry_run:
                 mark_posted(state, topic["slug"], {
                     "title": topic["title"], "url": resp.get("url", ""),
