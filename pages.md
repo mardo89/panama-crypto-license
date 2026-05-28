@@ -124,13 +124,13 @@ Requirements & How to Get One".
 - [x] crypto-custody-license-eu         → /crypto-custody-license-eu/
 - [x] crypto-payment-license-eu         → /crypto-payment-institution-license/
 - [x] otc-desk-license                  → /otc-crypto-desk-license/
-- [ ] crypto-fund-license               → /crypto-fund-license/
+- [x] crypto-fund-license               → /crypto-fund-license/
 
 ## Tier 4b — more comparisons
-- [ ] estonia-vs-dubai       → /estonia-vs-dubai-crypto-license/
-- [ ] dubai-vs-cayman        → /dubai-vs-cayman-crypto-license/
-- [ ] malta-vs-cyprus        → /malta-vs-cyprus-crypto-license/
-- [ ] lithuania-vs-poland    → /lithuania-vs-poland-crypto-license/
+- [x] estonia-vs-dubai       → /estonia-vs-dubai-crypto-license/
+- [x] dubai-vs-cayman        → /dubai-vs-cayman-crypto-license/
+- [x] malta-vs-cyprus        → /malta-vs-cyprus-crypto-license/
+- [x] lithuania-vs-poland    → /lithuania-vs-poland-crypto-license/
 - [ ] cayman-vs-bvi          → /cayman-vs-bvi-crypto-license/
 - [ ] switzerland-vs-liechtenstein → /switzerland-vs-liechtenstein-crypto-license/
 

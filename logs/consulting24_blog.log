@@ -45,3 +45,499 @@
 [2026-05-28 21:30:06] Published: Dubai (VARA) Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/dubai-vara-crypto-license-2026-cost.html
 [2026-05-28 21:30:07] Published: How Much Does a Dubai (VARA) Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-dubai-vara-crypto-license.html
 [2026-05-28 21:30:08] Published: Dubai (VARA) Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/dubai-vara-crypto-license-requirements.html
+[2026-05-29 00:09:15] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-29 00:09:16] Published: Dubai (VARA) vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/dubai-vara-vs-panama-for-crypto-license.html
+[2026-05-29 00:09:16] Published: Canada (MSB) Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/canada-msb-crypto-license-2026-cost.html
+[2026-05-29 00:09:17] Published: How Much Does a Canada (MSB) Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-canada-msb-crypto-license.html
+[2026-05-29 00:09:18] Published: Canada (MSB) Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/canada-msb-crypto-license-requirements.html
+[2026-05-29 00:09:19] Published: Canada (MSB) vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/canada-msb-vs-panama-for-crypto-license.html
+[2026-05-29 00:09:19] ERROR publishing bvi-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:19] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:19] ERROR publishing bvi-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:19] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:19] ERROR publishing bvi-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:19] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:20] ERROR publishing bvi-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:20] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:20] ERROR publishing estonia-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:20] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:20] ERROR publishing estonia-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:20] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:21] ERROR publishing estonia-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:21] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:21] ERROR publishing estonia-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:21] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:21] ERROR publishing el-salvador-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:21] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:22] ERROR publishing el-salvador-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:22] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:22] ERROR publishing el-salvador-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:22] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:23] ERROR publishing el-salvador-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:23] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:23] ERROR publishing switzerland-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:23] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:23] ERROR publishing switzerland-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:23] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:24] ERROR publishing switzerland-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:24] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:24] ERROR publishing switzerland-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:24] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:25] ERROR publishing malta-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:25] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:25] ERROR publishing malta-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:25] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:25] ERROR publishing malta-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:25] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:26] ERROR publishing malta-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:26] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:26] ERROR publishing cayman-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:26] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:27] ERROR publishing cayman-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:27] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:27] ERROR publishing cayman-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:27] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:28] ERROR publishing cayman-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:28] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:28] ERROR publishing czech-republic-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:28] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:28] ERROR publishing czech-republic-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:28] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:29] ERROR publishing czech-republic-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:29] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:29] ERROR publishing czech-republic-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:29] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:30] ERROR publishing poland-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:30] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:30] ERROR publishing poland-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:30] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:30] ERROR publishing poland-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:30] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:31] ERROR publishing poland-vs-panama-crypto-license: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:31] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:31] ERROR publishing georgia-crypto-license-2026-guide: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:31] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:31] ERROR publishing georgia-crypto-license-cost: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:31] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:09:32] ERROR publishing georgia-crypto-license-requirements: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+[2026-05-29 00:09:32] Traceback (most recent call last):
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1682, in main
+    resp = insert_post(blogger, blog_id, topic, args.dry_run)
+  File "/Users/master/panama-crypto-license/scripts/consulting24_blog.py", line 1577, in insert_post
+    resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/master/Library/Python/3.9/lib/python/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts?isDraft=false&alt=json returned "Resource has been exhausted (e.g. check quota).". Details: "[{'message': 'Resource has been exhausted (e.g. check quota).', 'domain': 'global', 'reason': 'rateLimitExceeded'}]">
+
+[2026-05-29 00:11:04] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-29 00:11:05] Published: BVI Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/bvi-crypto-license-2026-cost.html
+[2026-05-29 00:11:31] Published: How Much Does a BVI Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-bvi-crypto-license-cost.html
+[2026-05-29 00:11:57] Published: BVI Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/bvi-crypto-license-requirements-2026.html
+[2026-05-29 00:12:22] Published: BVI vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/bvi-vs-panama-for-crypto-license-which.html
+[2026-05-29 00:12:48] Published: Estonia Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/estonia-crypto-license-2026-cost.html
+[2026-05-29 00:13:14] Published: How Much Does a Estonia Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-estonia-crypto-license.html
+[2026-05-29 00:13:40] Published: Estonia Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/estonia-crypto-license-requirements.html
+[2026-05-29 00:14:06] Published: Estonia vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/estonia-vs-panama-for-crypto-license.html
+[2026-05-29 00:14:32] Published: El Salvador Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/el-salvador-crypto-license-2026-cost.html
+[2026-05-29 00:14:58] Published: How Much Does a El Salvador Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-el-salvador-crypto.html
+[2026-05-29 00:15:24] Published: El Salvador Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/el-salvador-crypto-license-requirements.html
+[2026-05-29 00:15:50] Published: El Salvador vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/el-salvador-vs-panama-for-crypto.html
+[2026-05-29 00:16:16] Published: Switzerland Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/switzerland-crypto-license-2026-cost.html
+[2026-05-29 00:16:22] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-29 00:16:22] [dry-run] would publish PAGE 'Crypto License in Lithuania (MiCA CASP): Cost, Capital & Timeline 2026' (31505 chars)
+[2026-05-29 00:16:42] Published: How Much Does a Switzerland Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-switzerland-crypto.html
+[2026-05-29 00:17:07] Published: Switzerland Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/switzerland-crypto-license-requirements.html
+[2026-05-29 00:17:33] Published: Switzerland vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/switzerland-vs-panama-for-crypto.html
+[2026-05-29 00:17:59] Published: Malta Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/malta-crypto-license-2026-cost.html
+[2026-05-29 00:18:25] Published: How Much Does a Malta Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-malta-crypto-license-cost.html
+[2026-05-29 00:18:51] Published: Malta Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/malta-crypto-license-requirements-2026.html
+[2026-05-29 00:19:17] Published: Malta vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/malta-vs-panama-for-crypto-license.html
+[2026-05-29 00:19:43] Published: Cayman Islands Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/cayman-islands-crypto-license-2026-cost.html
+[2026-05-29 00:20:08] Published: How Much Does a Cayman Islands Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-cayman-islands-crypto.html
+[2026-05-29 00:20:34] Published: Cayman Islands Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/cayman-islands-crypto-license.html
+[2026-05-29 00:21:00] Published: Cayman Islands vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/cayman-islands-vs-panama-for-crypto.html
+[2026-05-29 00:21:26] Published: Czech Republic Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/czech-republic-crypto-license-2026-cost.html
+[2026-05-29 00:21:52] Published: How Much Does a Czech Republic Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-czech-republic-crypto.html
+[2026-05-29 00:22:18] Published: Czech Republic Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/czech-republic-crypto-license.html
+[2026-05-29 00:22:44] Published: Czech Republic vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/czech-republic-vs-panama-for-crypto.html
+[2026-05-29 00:23:09] Published: Poland Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/poland-crypto-license-2026-cost.html
+[2026-05-29 00:23:35] Published: How Much Does a Poland Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-poland-crypto-license.html
+[2026-05-29 00:24:01] Published: Poland Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/poland-crypto-license-requirements-2026.html
+[2026-05-29 00:24:10] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-29 00:24:10] [dry-run] would publish PAGE 'Crypto License in Lithuania (MiCA CASP): Cost, Capital & Timeline 2026' (36221 chars)
+[2026-05-29 00:24:27] Published: Poland vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/poland-vs-panama-for-crypto-license.html
+[2026-05-29 00:24:53] Published: Georgia Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/georgia-crypto-license-2026-cost.html
+[2026-05-29 00:25:19] Published: How Much Does a Georgia Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-georgia-crypto-license.html
+[2026-05-29 00:25:45] Published: Georgia Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/georgia-crypto-license-requirements.html
+[2026-05-29 00:26:11] Published: Georgia vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/georgia-vs-panama-for-crypto-license.html
+[2026-05-29 00:26:37] Published: Seychelles Crypto License 2026: Cost, Requirements and Timeline → https://blog.consulting24.co/2026/05/seychelles-crypto-license-2026-cost.html
+[2026-05-29 00:27:03] Published: How Much Does a Seychelles Crypto License Cost in 2026? → https://blog.consulting24.co/2026/05/how-much-does-seychelles-crypto-license.html
+[2026-05-29 00:27:29] Published: Seychelles Crypto License Requirements: 2026 Checklist → https://blog.consulting24.co/2026/05/seychelles-crypto-license-requirements.html
+[2026-05-29 00:27:54] Published: Seychelles vs Panama for a Crypto License: Which Should You Choose? → https://blog.consulting24.co/2026/05/seychelles-vs-panama-for-crypto-license.html
+[2026-05-29 00:28:41] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-29 00:28:42] updated post [1]: Crypto License in Panama 2026: The Complete Setup Guide
+[2026-05-29 00:29:08] updated post [2]: Panama vs Lithuania for a Crypto License: Which Should You Choose in 2026?
+[2026-05-29 00:29:34] updated post [3]: How Much Does a Panama Crypto Company Cost in 2026? Full Breakdown
+[2026-05-29 00:30:00] updated post [4]: Panama Crypto License Requirements: The 2026 Documentation Checklist
+[2026-05-29 00:30:26] updated post [5]: Setting Up a Crypto Exchange in Panama: License, Structure and Banking
+[2026-05-29 00:30:52] updated post [6]: Panama's Territorial Tax System: What It Means for a Crypto Business
+[2026-05-29 00:31:18] updated post [7]: Panama Private Interest Foundation: The Crypto Treasury Structure Explained
+[2026-05-29 00:31:44] updated post [8]: Banking a Panama Crypto Company in 2026: How to Get Approved
+[2026-05-29 00:32:10] updated post [9]: Lithuania Crypto License 2026: Cost, Requirements and Timeline
+[2026-05-29 00:32:36] updated post [10]: How Much Does a Lithuania Crypto License Cost in 2026?
+[2026-05-29 00:33:02] updated post [11]: Lithuania Crypto License Requirements: 2026 Checklist
+[2026-05-29 00:33:28] updated post [12]: Lithuania vs Panama for a Crypto License: Which Should You Choose?
+[2026-05-29 00:33:54] updated post [13]: Dubai (VARA) Crypto License 2026: Cost, Requirements and Timeline
+[2026-05-29 00:34:05] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-29 00:34:06] updated post [1]: Crypto License in Panama 2026: The Complete Setup Guide
+[2026-05-29 00:34:32] ERROR updating post panama-vs-lithuania-crypto-license: <HttpError 400 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts/6245040502270066926?alt=json returned "Request contains an invalid argument.". Details: "[{'message': 'Request contains an invalid argument.', 'domain': 'global', 'reason': 'badRequest'}]">
+[2026-05-29 00:34:58] updated post [2]: How Much Does a Panama Crypto Company Cost in 2026? Full Breakdown
+[2026-05-29 00:35:23] ERROR updating post panama-crypto-license-requirements-checklist: <HttpError 400 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts/5238975167914858061?alt=json returned "Request contains an invalid argument.". Details: "[{'message': 'Request contains an invalid argument.', 'domain': 'global', 'reason': 'badRequest'}]">
+[2026-05-29 00:35:49] updated post [3]: Setting Up a Crypto Exchange in Panama: License, Structure and Banking
+[2026-05-29 00:36:15] updated post [4]: Panama's Territorial Tax System: What It Means for a Crypto Business
+[2026-05-29 00:36:41] ERROR updating post panama-private-interest-foundation-crypto-treasury: <HttpError 400 when requesting https://blogger.googleapis.com/v3/blogs/6813733584028978733/posts/6834054897998266982?alt=json returned "Request contains an invalid argument.". Details: "[{'message': 'Request contains an invalid argument.', 'domain': 'global', 'reason': 'badRequest'}]">
+[2026-05-29 00:37:07] updated post [5]: Banking a Panama Crypto Company in 2026: How to Get Approved
+[2026-05-29 00:37:44] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-29 00:37:45] updated post [1]: Crypto License in Panama 2026: The Complete Setup Guide

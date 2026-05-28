@@ -72,11 +72,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Panama crypto tax explained for founders
 - [x] Crypto license requirements in Panama: full checklist
 - [x] Crypto banking in Panama: what founders should expect
-- [ ] Panama vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Panama crypto license
-- [ ] Panama crypto company costs broken down
-- [ ] AML/KYC requirements for a Panama crypto company
-- [ ] How to get a crypto license in Lithuania (step-by-step)
+- [x] Panama vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a Panama crypto license
+- [x] Panama crypto company costs broken down
+- [x] AML/KYC requirements for a Panama crypto company
+- [x] How to get a crypto license in Lithuania (step-by-step)
 - [ ] Lithuania crypto tax explained for founders
 - [ ] Crypto license requirements in Lithuania: full checklist
 - [ ] Crypto banking in Lithuania: what founders should expect
