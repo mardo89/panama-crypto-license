@@ -72,16 +72,16 @@ Requirements & How to Get One".
 - [x] lithuania-vs-estonia   → /lithuania-vs-estonia-crypto-license/
 - [x] panama-vs-dubai        → /panama-vs-dubai-crypto-license/
 - [x] lithuania-vs-dubai     → /lithuania-vs-dubai-crypto-license/
-- [ ] el-salvador-vs-panama  → /el-salvador-vs-panama-crypto-license/
-- [ ] estonia-vs-lithuania   → /estonia-vs-lithuania-crypto-license/
+- [x] el-salvador-vs-panama  → /el-salvador-vs-panama-crypto-license/
+- [x] estonia-vs-lithuania   → /estonia-vs-lithuania-crypto-license/
 
 ## Tier 1b — more jurisdictions (added for 10/day runway)
-- [ ] liechtenstein     → /liechtenstein-crypto-license/    (TVTG)
-- [ ] luxembourg        → /luxembourg-crypto-license/        (MiCA)
+- [x] liechtenstein     → /liechtenstein-crypto-license/    (TVTG)
+- [x] luxembourg        → /luxembourg-crypto-license/        (MiCA)
 - [x] ireland           → /ireland-crypto-license/           (MiCA, dup-check)
-- [ ] netherlands       → /netherlands-crypto-license/       (MiCA)
-- [ ] france            → /france-crypto-license/            (PSAN/MiCA)
-- [ ] spain             → /spain-crypto-license/             (MiCA)
+- [x] netherlands       → /netherlands-crypto-license/       (MiCA)
+- [x] france            → /france-crypto-license/            (PSAN/MiCA)
+- [x] spain             → /spain-crypto-license/             (MiCA)
 - [ ] italy             → /italy-crypto-license/             (MiCA)
 - [ ] slovakia          → /slovakia-crypto-license/          (MiCA)
 - [ ] romania           → /romania-crypto-license/           (MiCA)
