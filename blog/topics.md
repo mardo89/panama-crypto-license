@@ -60,11 +60,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How long does a crypto licence take? Timelines by jurisdiction
 - [x] Crypto licence costs in 2026: jurisdiction comparison
 - [x] Do you need a crypto licence for an OTC desk?
-- [ ] NFT marketplace licensing: what you actually need
-- [ ] Crypto fund structuring and licensing basics
-- [ ] Crypto payment institution (EMI) licensing explained
-- [ ] Travel Rule compliance for crypto businesses
-- [ ] MiCA white paper requirements for token issuers
+- [x] NFT marketplace licensing: what you actually need
+- [x] Crypto fund structuring and licensing basics
+- [x] Crypto payment institution (EMI) licensing explained
+- [x] Travel Rule compliance for crypto businesses
+- [x] MiCA white paper requirements for token issuers
 - [ ] How regulators assess a crypto licence application
 - [ ] Crypto-friendly banking partners in 2026
 - [ ] Setting up a crypto company: the founder's roadmap
