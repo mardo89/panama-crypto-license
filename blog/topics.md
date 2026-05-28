@@ -19,7 +19,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Branded crypto debit cards via a Panama entity
 - [x] Panama AML/KYC program: what you actually need
 - [x] Moving an existing crypto business to Panama: migration checklist
-- [ ] Panama vs Dubai VARA for crypto founders
+- [x] Panama vs Dubai VARA for crypto founders
 - [ ] Panama vs El Salvador for crypto businesses
 
 ## Estonia

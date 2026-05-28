@@ -70,8 +70,8 @@ Requirements & How to Get One".
 
 ## Tier 4 — Comparison pages
 - [x] lithuania-vs-estonia   → /lithuania-vs-estonia-crypto-license/
-- [ ] panama-vs-dubai        → /panama-vs-dubai-crypto-license/
-- [ ] lithuania-vs-dubai     → /lithuania-vs-dubai-crypto-license/
+- [x] panama-vs-dubai        → /panama-vs-dubai-crypto-license/
+- [x] lithuania-vs-dubai     → /lithuania-vs-dubai-crypto-license/
 - [ ] el-salvador-vs-panama  → /el-salvador-vs-panama-crypto-license/
 - [ ] estonia-vs-lithuania   → /estonia-vs-lithuania-crypto-license/
 
