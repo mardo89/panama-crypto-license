@@ -119,11 +119,11 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-estonia   → /crypto-exchange-license-estonia/
 - [x] crypto-exchange-license-dubai     → /crypto-exchange-license-dubai/
 - [x] crypto-exchange-license-panama    → /crypto-exchange-license-panama/
-- [ ] vasp-license-lithuania            → /vasp-license-lithuania/
-- [ ] casp-license-cyprus               → /casp-license-cyprus/
-- [ ] crypto-custody-license-eu         → /crypto-custody-license-eu/
-- [ ] crypto-payment-license-eu         → /crypto-payment-institution-license/
-- [ ] otc-desk-license                  → /otc-crypto-desk-license/
+- [x] vasp-license-lithuania            → /vasp-license-lithuania/
+- [x] casp-license-cyprus               → /casp-license-cyprus/
+- [x] crypto-custody-license-eu         → /crypto-custody-license-eu/
+- [x] crypto-payment-license-eu         → /crypto-payment-institution-license/
+- [x] otc-desk-license                  → /otc-crypto-desk-license/
 - [ ] crypto-fund-license               → /crypto-fund-license/
 
 ## Tier 4b — more comparisons

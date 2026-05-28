@@ -65,13 +65,13 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto payment institution (EMI) licensing explained
 - [x] Travel Rule compliance for crypto businesses
 - [x] MiCA white paper requirements for token issuers
-- [ ] How regulators assess a crypto licence application
-- [ ] Crypto-friendly banking partners in 2026
-- [ ] Setting up a crypto company: the founder's roadmap
-- [ ] How to get a crypto license in Panama (step-by-step)
-- [ ] Panama crypto tax explained for founders
-- [ ] Crypto license requirements in Panama: full checklist
-- [ ] Crypto banking in Panama: what founders should expect
+- [x] How regulators assess a crypto licence application
+- [x] Crypto-friendly banking partners in 2026
+- [x] Setting up a crypto company: the founder's roadmap
+- [x] How to get a crypto license in Panama (step-by-step)
+- [x] Panama crypto tax explained for founders
+- [x] Crypto license requirements in Panama: full checklist
+- [x] Crypto banking in Panama: what founders should expect
 - [ ] Panama vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a Panama crypto license
 - [ ] Panama crypto company costs broken down
