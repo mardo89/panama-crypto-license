@@ -95,11 +95,11 @@ Requirements & How to Get One".
 - [x] saint-lucia       → /saint-lucia-crypto-license/
 - [x] belize            → /belize-crypto-license/
 - [x] kazakhstan        → /kazakhstan-crypto-license/        (AIFC)
-- [ ] bahrain           → /bahrain-crypto-license/           (CBB)
-- [ ] qatar             → /qatar-crypto-license/
-- [ ] saudi-arabia      → /saudi-arabia-crypto-license/
-- [ ] turkey            → /turkey-crypto-license/
-- [ ] south-korea       → /south-korea-crypto-license/
+- [x] bahrain           → /bahrain-crypto-license/           (CBB)
+- [x] qatar             → /qatar-crypto-license/
+- [x] saudi-arabia      → /saudi-arabia-crypto-license/
+- [x] turkey            → /turkey-crypto-license/
+- [x] south-korea       → /south-korea-crypto-license/
 - [ ] japan             → /japan-crypto-license/             (FSA/JVCEA)
 - [ ] thailand          → /thailand-crypto-license/          (SEC)
 - [ ] philippines       → /philippines-crypto-license/       (BSP)

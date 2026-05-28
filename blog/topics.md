@@ -23,8 +23,8 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Panama vs El Salvador for crypto businesses
 
 ## Estonia
-- [ ] Estonia crypto (VASP/MiCA) licensing in 2026: current state
-- [ ] Estonia e-Residency for crypto founders: pros and limits
+- [x] Estonia crypto (VASP/MiCA) licensing in 2026: current state
+- [x] Estonia e-Residency for crypto founders: pros and limits
 - [ ] Estonia vs Lithuania for a crypto company
 - [ ] Estonia crypto company tax: 0% retained, 22% on distribution explained
 
