@@ -151,6 +151,77 @@ def _related(related: list[tuple[str, str]]) -> str:
     items = "".join(f'<li><a href="{SITE}{path}">{label}</a></li>' for label, path in related)
     return f"<h2>Related reading</h2><ul>{items}</ul>"
 
+# ── consulting24.co keyword landing-page directory (built from real on-disk pages) ──
+_SPECIAL = {
+    "mica":"MiCA","vasp":"VASP","casp":"CASP","msb":"MSB","vara":"VARA","bvi":"BVI",
+    "usa":"USA","uae":"UAE","eu":"EU","otc":"OTC","ieo":"IEO","nft":"NFT","ai":"AI",
+    "and":"and","for":"for","vs":"vs","of":"of","a":"a","to":"to","the":"the",
+    "el":"El","salvador":"Salvador","isle":"Isle","man":"Man","hong":"Hong","kong":"Kong",
+    "south":"South","korea":"Korea","africa":"Africa","costa":"Costa","rica":"Rica",
+    "saudi":"Saudi","arabia":"Arabia","czech":"Czech","republic":"Republic",
+    "marshall":"Marshall","islands":"Islands","cayman":"Cayman","saint":"Saint","lucia":"Lucia",
+    "abu":"Abu","dhabi":"Dhabi","saint-lucia":"Saint Lucia",
+}
+def _label_from_slug(slug: str) -> str:
+    words = []
+    for w in slug.split("-"):
+        words.append(_SPECIAL.get(w.lower(), w.capitalize()))
+    return " ".join(words)
+
+def _scan_landings() -> list[tuple[str, str]]:
+    """All real consulting24.co keyword landing pages (dir/index.html), as (label, path)."""
+    skip = {"blog","scripts","config","img","logs","jurisdictions"}
+    out = []
+    for p in sorted(ROOT.glob("*/index.html")):
+        slug = p.parent.name
+        if slug in skip:
+            continue
+        out.append((_label_from_slug(slug), f"/{slug}/"))
+    return out
+
+LANDING_DIR: list[tuple[str, str]] = _scan_landings()
+
+def _landing_directory(current_landing: str = "") -> str:
+    """Wide internal-link block to consulting24.co keyword landing pages (SEO crosslinking)."""
+    links = [(lbl, path) for lbl, path in LANDING_DIR if path != current_landing]
+    if not links:
+        return ""
+    items = "".join(f'<a href="{SITE}{path}" style="display:inline-block;margin:0 10px 8px 0;">{lbl}</a>'
+                     for lbl, path in links)
+    return ("<h2>Crypto licenses by jurisdiction and topic</h2>"
+            "<p>Compare every route we cover, each with cost, capital, timeline and requirements on "
+            "consulting24.co:</p>"
+            f"<div style='line-height:1.9;font-size:14px;'>{items}</div>")
+
+def _labels_for(topic: dict, cap: int = 20) -> list[str]:
+    """Build up to `cap` Blogger labels from the topic spec + keyword + jurisdiction terms."""
+    seen, out = set(), []
+    def add(x):
+        x = (x or "").strip()
+        if not x: return
+        k = x.lower()
+        if k in seen or len(out) >= cap: return
+        seen.add(k); out.append(x)
+    for l in topic.get("labels", []):
+        add(l)
+    kw = topic.get("keyword", "")
+    add(kw.title())
+    for w in re.split(r"[\s/]+", kw):
+        if len(w) > 2 and w.lower() not in {"the","for","and","crypto","license"}:
+            add(w.capitalize())
+    # jurisdiction from landing slug
+    land = topic.get("landing", "").strip("/")
+    if land:
+        base = land.replace("-crypto-license", "")
+        if base and base not in {"cost","requirements","exchange-license","company-setup",
+                                 "application-process","vs-lithuania"}:
+            add(_label_from_slug(base))
+    for g in ("Crypto License","Crypto Regulation","VASP","CASP","MiCA","Crypto Compliance",
+              "Crypto Company","Consulting24","Crypto Licensing 2026","Fintech",
+              "AML","Crypto Tax","Crypto Exchange","Blockchain","Web3"):
+        add(g)
+    return out[:cap]
+
 def _disclaimer() -> str:
     return ("<p style='color:#777;font-size:13px;margin-top:28px;border-top:1px solid #eee;"
             "padding-top:14px;'><em>This article reflects 2026 market conditions and is general "
@@ -474,13 +545,15 @@ def render_article(topic: dict) -> str:
     body.append(_evergreen_aftercare(topic))
     related_html = _related(topic["related"])       # → consulting24.co landing pages (hub)
     blog_html = _blog_pillar_links_html()            # → blog's own pillar pages (hub)
-    hub = set(re.findall(r'href="([^"]+)"', related_html + blog_html))
+    directory_html = _landing_directory(topic.get("landing", ""))  # → all keyword landing pages
+    hub = set(re.findall(r'href="([^"]+)"', related_html + blog_html + directory_html))
     parts = [_dedupe_links("\n".join(body), seen=hub),  # body links to hub URLs unlinked
              _cta(topic["keyword"], topic["landing"]),
              _why_consulting24(),
              _faq(topic["faqs"]),
              related_html,
              blog_html,
+             directory_html,
              _disclaimer(),
              _author_org_jsonld()]
     return "\n".join(parts)
@@ -1576,12 +1649,15 @@ def render_page(page: dict) -> str:
     body.append(_evergreen_aftercare(page))
     related_html = _page_related(page["slug"])
     hub = set(re.findall(r'href="([^"]+)"', related_html))
+    directory_html = _landing_directory(page.get("landing", ""))
+    hub |= set(re.findall(r'href="([^"]+)"', directory_html))
     parts = [_dedupe_links("\n".join(body), seen=hub),
              _cta(page["keyword"], page["landing"]),
              _why_consulting24(),
              _faq(page["faqs"]),
              _faq_jsonld(page["faqs"]),
              related_html,
+             directory_html,
              _disclaimer(),
              _author_org_jsonld()]
     return "\n".join(parts)
@@ -1613,11 +1689,11 @@ def insert_post(blogger, blog_id: str, topic: dict, dry_run: bool) -> dict:
         "blog": {"id": blog_id},
         "title": topic["title"],
         "content": html,
-        "labels": topic.get("labels", []),
+        "labels": _labels_for(topic),
     }
     if dry_run:
         log(f"[dry-run] would publish '{topic['title']}' ({len(html)} chars, "
-            f"{len(topic['labels'])} labels)")
+            f"{len(_labels_for(topic))} labels)")
         return {"id": "(dry-run)", "url": f"{SITE}{topic['landing']}"}
     resp = blogger.posts().insert(blogId=blog_id, body=body, isDraft=False).execute()
     return resp
@@ -1640,7 +1716,7 @@ def insert_page(blogger, blog_id: str, page: dict, blog_url: str, dry_run: bool)
 def update_post(blogger, blog_id: str, post_id: str, topic: dict) -> dict:
     html = render_article(topic)
     body = {"kind": "blogger#post", "blog": {"id": blog_id}, "id": post_id,
-            "title": topic["title"], "content": html, "labels": topic.get("labels", [])}
+            "title": topic["title"], "content": html, "labels": _labels_for(topic)}
     return blogger.posts().update(blogId=blog_id, postId=post_id, body=body).execute()
 
 def update_page(blogger, blog_id: str, page_id: str, page: dict, blog_url: str) -> dict:
