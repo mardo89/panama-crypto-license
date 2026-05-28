@@ -100,25 +100,25 @@ Requirements & How to Get One".
 - [x] saudi-arabia      → /saudi-arabia-crypto-license/
 - [x] turkey            → /turkey-crypto-license/
 - [x] south-korea       → /south-korea-crypto-license/
-- [ ] japan             → /japan-crypto-license/             (FSA/JVCEA)
-- [ ] thailand          → /thailand-crypto-license/          (SEC)
-- [ ] philippines       → /philippines-crypto-license/       (BSP)
-- [ ] indonesia         → /indonesia-crypto-license/
-- [ ] vietnam           → /vietnam-crypto-license/
-- [ ] india             → /india-crypto-license/
-- [ ] brazil            → /brazil-crypto-license/
-- [ ] argentina         → /argentina-crypto-license/
-- [ ] mexico            → /mexico-crypto-license/
-- [ ] australia         → /australia-crypto-license/         (AUSTRAC)
-- [ ] new-zealand       → /new-zealand-crypto-license/
-- [ ] nigeria           → /nigeria-crypto-license/
-- [ ] south-africa-fsca → /south-africa-fsca-crypto-license/
+- [x] japan             → /japan-crypto-license/             (FSA/JVCEA)
+- [x] thailand          → /thailand-crypto-license/          (SEC)
+- [x] philippines       → /philippines-crypto-license/       (BSP)
+- [x] indonesia         → /indonesia-crypto-license/
+- [x] vietnam           → /vietnam-crypto-license/
+- [x] india             → /india-crypto-license/
+- [x] brazil            → /brazil-crypto-license/
+- [x] argentina         → /argentina-crypto-license/
+- [x] mexico            → /mexico-crypto-license/
+- [x] australia         → /australia-crypto-license/         (AUSTRAC)
+- [x] new-zealand       → /new-zealand-crypto-license/
+- [x] nigeria           → /nigeria-crypto-license/
+- [x] south-africa-fsca → /south-africa-fsca-crypto-license/
 
 ## Tier 2b — activity × jurisdiction (high-intent long-tail)
-- [ ] crypto-exchange-license-lithuania → /crypto-exchange-license-lithuania/
-- [ ] crypto-exchange-license-estonia   → /crypto-exchange-license-estonia/
-- [ ] crypto-exchange-license-dubai     → /crypto-exchange-license-dubai/
-- [ ] crypto-exchange-license-panama    → /crypto-exchange-license-panama/
+- [x] crypto-exchange-license-lithuania → /crypto-exchange-license-lithuania/
+- [x] crypto-exchange-license-estonia   → /crypto-exchange-license-estonia/
+- [x] crypto-exchange-license-dubai     → /crypto-exchange-license-dubai/
+- [x] crypto-exchange-license-panama    → /crypto-exchange-license-panama/
 - [ ] vasp-license-lithuania            → /vasp-license-lithuania/
 - [ ] casp-license-cyprus               → /casp-license-cyprus/
 - [ ] crypto-custody-license-eu         → /crypto-custody-license-eu/

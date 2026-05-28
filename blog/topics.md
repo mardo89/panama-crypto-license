@@ -30,29 +30,29 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 
 ## Lithuania
 - [x] Lithuania CASP licence under MiCA: requirements and timeline
-- [ ] Lithuania CASP €125,000 capital requirement: what counts
-- [ ] Lithuania vs Panama: capital, tax, privacy, timeline compared
-- [ ] MiCA passporting from Lithuania across the EU
+- [x] Lithuania CASP €125,000 capital requirement: what counts
+- [x] Lithuania vs Panama: capital, tax, privacy, timeline compared
+- [x] MiCA passporting from Lithuania across the EU
 
 ## Cross-jurisdiction / strategy
-- [ ] How to choose a crypto jurisdiction: a decision framework
-- [ ] Tokenomics basics for a compliant token launch
-- [ ] Legal structure for a token launch: foundation + operating company
-- [ ] Crypto banking in 2026: which rails work for licensed companies
-- [ ] Common mistakes founders make picking a crypto licence
-- [ ] What "regulated" actually means to exchanges, banks and users
+- [x] How to choose a crypto jurisdiction: a decision framework
+- [x] Tokenomics basics for a compliant token launch
+- [x] Legal structure for a token launch: foundation + operating company
+- [x] Crypto banking in 2026: which rails work for licensed companies
+- [x] Common mistakes founders make picking a crypto licence
+- [x] What "regulated" actually means to exchanges, banks and users
 
 ## Expansion — educational angles (for 40/day)
-- [ ] What is MiCA and how does CASP licensing work in 2026
-- [ ] VASP vs CASP vs MSB vs VARA: crypto licence types compared
-- [ ] How to choose the right crypto licensing jurisdiction
-- [ ] EU crypto passporting under MiCA explained
-- [ ] Crypto exchange licensing: a complete 2026 guide
-- [ ] Crypto custody licensing requirements explained
-- [ ] Stablecoin issuance: licensing and legal structure
-- [ ] Token launch legal structure: foundation + operating company
-- [ ] Tokenomics basics for a compliant token sale
-- [ ] How to open a bank account for a crypto company
+- [x] What is MiCA and how does CASP licensing work in 2026
+- [x] VASP vs CASP vs MSB vs VARA: crypto licence types compared
+- [x] How to choose the right crypto licensing jurisdiction
+- [x] EU crypto passporting under MiCA explained
+- [x] Crypto exchange licensing: a complete 2026 guide
+- [x] Crypto custody licensing requirements explained
+- [x] Stablecoin issuance: licensing and legal structure
+- [x] Token launch legal structure: foundation + operating company
+- [x] Tokenomics basics for a compliant token sale
+- [x] How to open a bank account for a crypto company
 - [ ] Offshore vs onshore crypto licensing: pros and cons
 - [ ] What does a crypto AML compliance program include
 - [ ] Crypto company substance requirements: directors, office, MLRO

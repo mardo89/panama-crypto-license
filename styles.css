@@ -135,3 +135,4 @@ footer{background:#0c0c0c;color:#a3a3a3;padding:48px 0 28px;font-size:.92rem;mar
 .trust-strip{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:24px 0;color:var(--muted);font-size:.9rem}
 .trust-strip b{color:var(--ink)}
 .trust-strip .logos{display:flex;flex-wrap:wrap;gap:8px 16px;font-weight:700;color:var(--ink-2)}
+.eyebrow{display:inline-block;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-dark);background:var(--accent-soft);padding:5px 12px;border-radius:999px;margin-bottom:12px}
