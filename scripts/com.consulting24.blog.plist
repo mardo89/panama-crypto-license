@@ -9,8 +9,8 @@
     <array>
         <string>/bin/sh</string>
         <string>-c</string>
-        <!-- Blogger: publish today's batch of crypto-license articles -->
-        <string>/usr/bin/python3 /Users/master/panama-crypto-license/scripts/consulting24_blog.py</string>
+        <!-- Publish Blogger batch → link all guides from the site → deploy -->
+        <string>/bin/bash /Users/master/panama-crypto-license/scripts/daily_blog.sh</string>
     </array>
 
     <!-- Run daily at 11:30 (offset from the boat job at 11:00) -->
