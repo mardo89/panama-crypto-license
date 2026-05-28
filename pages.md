@@ -89,11 +89,11 @@ Requirements & How to Get One".
 - [x] isle-of-man       → /isle-of-man-crypto-license/
 - [x] jersey            → /jersey-crypto-license/
 - [x] bahamas           → /bahamas-crypto-license/           (DARE)
-- [ ] bermuda           → /bermuda-crypto-license/           (DABA)
-- [ ] vanuatu           → /vanuatu-crypto-license/
-- [ ] marshall-islands  → /marshall-islands-crypto-license/
-- [ ] saint-lucia       → /saint-lucia-crypto-license/
-- [ ] belize            → /belize-crypto-license/
+- [x] bermuda           → /bermuda-crypto-license/           (DABA)
+- [x] vanuatu           → /vanuatu-crypto-license/
+- [x] marshall-islands  → /marshall-islands-crypto-license/
+- [x] saint-lucia       → /saint-lucia-crypto-license/
+- [x] belize            → /belize-crypto-license/
 - [ ] kazakhstan        → /kazakhstan-crypto-license/        (AIFC)
 - [ ] bahrain           → /bahrain-crypto-license/           (CBB)
 - [ ] qatar             → /qatar-crypto-license/
