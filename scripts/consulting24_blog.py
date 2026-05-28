@@ -1645,7 +1645,7 @@ def main():
     blog_url = info.get("url", "https://consultinglegalnews.blogspot.com")
 
     if args.pages:
-        page_targets = next_unposted_pages(state)
+        page_targets = next_unposted_pages(state)[: args.limit]
         if not page_targets:
             log("No pages to publish — all pillar pages already published.")
             return

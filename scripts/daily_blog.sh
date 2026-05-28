@@ -13,8 +13,10 @@ mkdir -p logs
 ts() { date "+%Y-%m-%d %H:%M:%S"; }
 echo "[$(ts)] daily_blog: start" >> logs/daily_blog.log
 
-# 1) publish today's Blogger batch (don't abort the rest on failure)
-"$PY" scripts/consulting24_blog.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
+# 1a) publish 5 pillar PAGES (don't abort the rest on failure)
+"$PY" scripts/consulting24_blog.py --pages --limit 5 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] pages nonzero" >> logs/daily_blog.log
+# 1b) publish 5 supporting POSTS
+"$PY" scripts/consulting24_blog.py --limit 5 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
 
 # 2) link ALL published Blogger guides from the site blog hub
 "$PY" scripts/link_blogger.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] linker nonzero" >> logs/daily_blog.log
