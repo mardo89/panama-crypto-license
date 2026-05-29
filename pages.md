@@ -156,20 +156,20 @@ Requirements & How to Get One".
 - [x] crypto-otc-desk-license-panama                          → /crypto-otc-desk-license-panama/  
 - [x] crypto-fund-license-panama                              → /crypto-fund-license-panama/  
 - [x] crypto-nft-marketplace-license-panama                   → /crypto-nft-marketplace-license-panama/  
-- [ ] crypto-payment-institution-license-panama               → /crypto-payment-institution-license-panama/  
-- [ ] crypto-gambling-license-panama                          → /crypto-gambling-license-panama/  
-- [ ] crypto-staking-license-panama                           → /crypto-staking-license-panama/  
-- [ ] crypto-token-issuance-license-panama                    → /crypto-token-issuance-license-panama/  
-- [ ] crypto-stablecoin-license-panama                        → /crypto-stablecoin-license-panama/  
-- [ ] crypto-wallet-custody-license-lithuania                 → /crypto-wallet-custody-license-lithuania/  
-- [ ] crypto-broker-license-lithuania                         → /crypto-broker-license-lithuania/  
-- [ ] crypto-otc-desk-license-lithuania                       → /crypto-otc-desk-license-lithuania/  
-- [ ] crypto-fund-license-lithuania                           → /crypto-fund-license-lithuania/  
-- [ ] crypto-nft-marketplace-license-lithuania                → /crypto-nft-marketplace-license-lithuania/  
-- [ ] crypto-payment-institution-license-lithuania            → /crypto-payment-institution-license-lithuania/  
-- [ ] crypto-gambling-license-lithuania                       → /crypto-gambling-license-lithuania/  
-- [ ] crypto-staking-license-lithuania                        → /crypto-staking-license-lithuania/  
-- [ ] crypto-token-issuance-license-lithuania                 → /crypto-token-issuance-license-lithuania/  
+- [x] crypto-payment-institution-license-panama               → /crypto-payment-institution-license-panama/  
+- [x] crypto-gambling-license-panama                          → /crypto-gambling-license-panama/  
+- [x] crypto-staking-license-panama                           → /crypto-staking-license-panama/  
+- [x] crypto-token-issuance-license-panama                    → /crypto-token-issuance-license-panama/  
+- [x] crypto-stablecoin-license-panama                        → /crypto-stablecoin-license-panama/  
+- [x] crypto-wallet-custody-license-lithuania                 → /crypto-wallet-custody-license-lithuania/  
+- [x] crypto-broker-license-lithuania                         → /crypto-broker-license-lithuania/  
+- [x] crypto-otc-desk-license-lithuania                       → /crypto-otc-desk-license-lithuania/  
+- [x] crypto-fund-license-lithuania                           → /crypto-fund-license-lithuania/  
+- [x] crypto-nft-marketplace-license-lithuania                → /crypto-nft-marketplace-license-lithuania/  
+- [x] crypto-payment-institution-license-lithuania            → /crypto-payment-institution-license-lithuania/  
+- [x] crypto-gambling-license-lithuania                       → /crypto-gambling-license-lithuania/  
+- [x] crypto-staking-license-lithuania                        → /crypto-staking-license-lithuania/  
+- [x] crypto-token-issuance-license-lithuania                 → /crypto-token-issuance-license-lithuania/  
 - [ ] crypto-stablecoin-license-lithuania                     → /crypto-stablecoin-license-lithuania/  
 - [ ] crypto-wallet-custody-license-estonia                   → /crypto-wallet-custody-license-estonia/  
 - [ ] crypto-broker-license-estonia                           → /crypto-broker-license-estonia/  
