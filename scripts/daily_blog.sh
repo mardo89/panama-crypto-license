@@ -18,7 +18,18 @@ echo "[$(ts)] daily_blog: start" >> logs/daily_blog.log
 # 1b) publish 5 supporting POSTS
 "$PY" scripts/consulting24_blog.py --limit 5 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
 
-# 1c) ALWAYS audit that every published post/page has a real image, and auto-fix any that don't
+# 1c) generate a UNIQUE branded hero image per (newly) published post/page, then deploy them
+#     so they are live before we attach them to Blogger.
+"$PY" scripts/gen_blog_images.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] image gen nonzero" >> logs/daily_blog.log
+git add img/blog 2>/dev/null
+if ! git diff --cached --quiet 2>/dev/null; then
+  git commit -q -m "daily: unique blog hero images" >> logs/daily_blog.log 2>&1
+  git push -q origin main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] images pushed" >> logs/daily_blog.log
+  sleep 90   # let GitHub Pages deploy the new images before Blogger fetches them
+fi
+
+# 1d) attach now-live unique images to any post/page that still needs it, then audit+fix
+"$PY" scripts/consulting24_blog.py --update-images >> logs/daily_blog.log 2>&1 || echo "[$(ts)] update-images nonzero" >> logs/daily_blog.log
 "$PY" scripts/consulting24_blog.py --audit-images --fix >> logs/daily_blog.log 2>&1 || echo "[$(ts)] image audit found/repaired missing images" >> logs/daily_blog.log
 
 # 2) link ALL published Blogger guides from the site blog hub
