@@ -138,19 +138,19 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license   → /crypto-exchange-license/    (vol 90 — dup-check Tier 2)
 - [x] crypto-gambling-license   → /crypto-gambling-license/    (vol 90)
 - [x] crypto-currency-license   → /cryptocurrency-license/     (vol 50)
-- [ ] crypto-trading-license    → /crypto-trading-license/     (vol 30)
-- [ ] crypto-license-europe     → /crypto-license-europe/      (vol 30)
-- [ ] slovakia                  → /slovakia-crypto-license/    (vol 40 — dup-check Tier 1b)
+- [x] crypto-trading-license    → /crypto-trading-license/     (vol 30)
+- [x] crypto-license-europe     → /crypto-license-europe/      (vol 30)
+- [x] slovakia                  → /slovakia-crypto-license/    (vol 40 — dup-check Tier 1b)
 
 ## Tier X — full 1,000-page expansion (auto-generated combinatorial queue)
 # Note: validate volume with scripts/keywords.py before/at generation; skip zero-volume combos.
-- [ ] panama-crypto-license                                   → /panama-crypto-license/  
-- [ ] kenya-crypto-license                                    → /kenya-crypto-license/  
-- [ ] uae-crypto-license                                      → /uae-crypto-license/  
-- [ ] greece-crypto-license                                   → /greece-crypto-license/  
-- [ ] latvia-crypto-license                                   → /latvia-crypto-license/  
-- [ ] croatia-crypto-license                                  → /croatia-crypto-license/  
-- [ ] hungary-crypto-license                                  → /hungary-crypto-license/  
+- [x] panama-crypto-license                                   → /panama-crypto-license/  
+- [x] kenya-crypto-license                                    → /kenya-crypto-license/  
+- [x] uae-crypto-license                                      → /uae-crypto-license/  
+- [x] greece-crypto-license                                   → /greece-crypto-license/  
+- [x] latvia-crypto-license                                   → /latvia-crypto-license/  
+- [x] croatia-crypto-license                                  → /croatia-crypto-license/  
+- [x] hungary-crypto-license                                  → /hungary-crypto-license/  
 - [ ] crypto-wallet-custody-license-panama                    → /crypto-wallet-custody-license-panama/  
 - [ ] crypto-broker-license-panama                            → /crypto-broker-license-panama/  
 - [ ] crypto-otc-desk-license-panama                          → /crypto-otc-desk-license-panama/  
