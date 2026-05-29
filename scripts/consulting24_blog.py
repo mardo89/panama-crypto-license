@@ -1671,7 +1671,12 @@ def render_page(page: dict) -> str:
 def _is_rate_limit(e: Exception) -> bool:
     s = str(e)
     status = getattr(getattr(e, "resp", None), "status", None)
-    return status in (429, 403, 503) or "rateLimit" in s or "Resource has been exhausted" in s or "quota" in s.lower()
+    if status in (429, 403, 500, 502, 503, 504): return True
+    sl = s.lower()
+    return ("ratelimit" in sl or "resource has been exhausted" in sl or "quota" in sl
+            or "no route to host" in sl or "timed out" in sl or "connection reset" in sl
+            or "temporarily unavailable" in sl or "broken pipe" in sl
+            or isinstance(e, (TimeoutError, ConnectionError, OSError)))
 
 def with_retry(fn, *args, max_tries: int = 6, base: int = 30, **kwargs):
     """Call fn with exponential backoff on Blogger rate-limit / quota (429/403)."""
@@ -1758,6 +1763,8 @@ def main():
     ap.add_argument("--delay", type=int, default=20, help="seconds to wait between publishes (rate-limit spacing)")
     ap.add_argument("--update-images", action="store_true",
                     help="re-render and update already-published posts/pages (adds the hero image)")
+    ap.add_argument("--force", action="store_true",
+                    help="with --update-images, re-update even items already marked current")
     args = ap.parse_args()
 
     state = load_state()
@@ -1786,21 +1793,25 @@ def main():
     blog_url = info.get("url", "https://consultinglegalnews.blogspot.com")
 
     if args.update_images:
+        IMG_V = 2  # bump to force a re-update of all items
         art_by_slug = {a["slug"]: a for a in ARTICLES}
         page_by_slug = {p["slug"]: p for p in PAGES}
-        done = 0
+        done = skipped = 0
         # posts
         for slug, meta in list(state.get("posts", {}).items()):
             topic = art_by_slug.get(slug)
             pid = meta.get("post_id")
             if not topic or not pid:
                 log(f"skip post {slug} (no spec or id)"); continue
+            if not args.force and meta.get("img_v", 0) >= IMG_V:
+                skipped += 1; continue
             try:
                 if done and not args.dry_run:
                     time.sleep(args.delay)
                 if args.dry_run:
                     log(f"[dry-run] would update post {slug}"); done += 1; continue
                 with_retry(update_post, blogger, blog_id, pid, topic)
+                meta["img_v"] = IMG_V; save_state(state)
                 done += 1
                 log(f"updated post [{done}]: {topic['title']}")
             except Exception as e:
@@ -1811,17 +1822,20 @@ def main():
             pgid = meta.get("page_id")
             if not page or not pgid:
                 log(f"skip page {slug} (no spec or id)"); continue
+            if not args.force and meta.get("img_v", 0) >= IMG_V:
+                skipped += 1; continue
             try:
                 if done and not args.dry_run:
                     time.sleep(args.delay)
                 if args.dry_run:
                     log(f"[dry-run] would update page {slug}"); done += 1; continue
                 with_retry(update_page, blogger, blog_id, pgid, page, blog_url)
+                meta["img_v"] = IMG_V; save_state(state)
                 done += 1
                 log(f"updated page [{done}]: {page['title']}")
             except Exception as e:
                 log(f"ERROR updating page {slug}: {e}")
-        log(f"update-images done: {done} items updated")
+        log(f"update-images done: {done} updated, {skipped} already current")
         return
 
     if args.pages:
