@@ -1,0 +1,4 @@
+{
+  "_comment": "Old/legacy URL -> live target. Paths are site-relative and should start and end with '/'. Targets may be site-relative ('/lithuania-crypto-license/') or absolute. scripts/redirects.py turns each 'from' into a static stub (meta-refresh + canonical to 'to'), which Google treats as a 301-equivalent. Add the valuable URLs from the GSC 'Not found (404)' and 'Blocked 4xx' exports here. Truly dead URLs: leave them out so they keep 404-ing and Google drops them.",
+  "redirects": {}
+}

@@ -8,11 +8,18 @@ Run after adding/updating blog posts:
 
 It is safe to run repeatedly; it derives everything from the files on disk.
 """
-import os, re, json, glob, datetime, urllib.request
+import os, re, json, glob, datetime, urllib.request, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.consulting24.co"
 TODAY = datetime.date.today().isoformat()
+
+# 0. Regenerate redirect stubs from config/redirects.json (legacy/404 -> live target)
+try:
+    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "redirects.py"), "--prune"],
+                   check=False)
+except Exception as e:
+    print(f"redirects step skipped (non-fatal): {e}")
 
 def read(p):
     with open(p, encoding="utf-8") as f:
@@ -26,9 +33,15 @@ def first_meta_desc(html):
     m = re.search(r'<meta name="description" content="(.*?)"', html, re.S)
     return m.group(1).strip() if m else ""
 
-# 1. Collect all pages (index.html files)
+# 1. Collect all pages (index.html files), excluding redirect stubs and noindex pages
 pages = []
 for path in glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True):
+    try:
+        head = open(path, encoding="utf-8").read(1200)
+    except Exception:
+        head = ""
+    if "generated-redirect-stub" in head or 'name="robots" content="noindex' in head:
+        continue  # redirect stub or intentionally noindexed page — keep out of sitemap
     rel = os.path.relpath(path, ROOT)
     url_path = "" if rel == "index.html" else "/" + os.path.dirname(rel) + "/"
     pages.append((BASE + (url_path or "/"), path, url_path))
