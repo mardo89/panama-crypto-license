@@ -155,7 +155,7 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-panama                            → /crypto-broker-license-panama/  
 - [x] crypto-otc-desk-license-panama                          → /crypto-otc-desk-license-panama/  
 - [x] crypto-fund-license-panama                              → /crypto-fund-license-panama/  
-- [ ] crypto-nft-marketplace-license-panama                   → /crypto-nft-marketplace-license-panama/  
+- [x] crypto-nft-marketplace-license-panama                   → /crypto-nft-marketplace-license-panama/  
 - [ ] crypto-payment-institution-license-panama               → /crypto-payment-institution-license-panama/  
 - [ ] crypto-gambling-license-panama                          → /crypto-gambling-license-panama/  
 - [ ] crypto-staking-license-panama                           → /crypto-staking-license-panama/  
