@@ -46,7 +46,12 @@ posts.sort(reverse=True)
 bcards = []
 for _, slug, idx in posts:
     t = title_of(idx, slug)
-    bcards.append(f'    <a class="post-card" href="/blog/{slug}/"><span class="cat">Guide</span><h3>{t}</h3><span class="meta">Consulting24</span></a>')
+    gi = (sum(ord(c) for c in slug) % 9) + 1   # matches the post's hero photo
+    bcards.append(
+        f'    <a class="post-card" href="/blog/{slug}/">'
+        f'<img class="thumb" src="/img/gallery-{gi:02d}.jpg" alt="{t}" loading="lazy" width="600" height="360">'
+        f'<span class="pc-body"><span class="cat">Guide</span><h3>{t}</h3>'
+        f'<span class="meta">Consulting24</span></span></a>')
 blog_block = '  <div class="blog-grid">\n' + "\n".join(bcards) + "\n  </div>"
 splice(os.path.join(ROOT, "blog", "index.html"), "<!-- BLOG_POSTS_START -->", "<!-- BLOG_POSTS_END -->", blog_block)
 print(f"blog index: {len(bcards)} post cards")

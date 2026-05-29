@@ -37,12 +37,16 @@ def render_block(items: list[dict]) -> str:
     if not items:
         cards = "<p>Guides coming soon.</p>"
     else:
+        def _thumb(title: str) -> int:
+            return (sum(ord(c) for c in title) % 9) + 1
         cards = "".join(
             f'<a class="post-card" href="{html.escape(i["url"])}" '
             f'rel="noopener">'
-            f'<span class="cat">{i["kind"]}</span>'
+            f'<img class="thumb" src="/img/gallery-{_thumb(i["title"]):02d}.jpg" '
+            f'alt="{html.escape(i["title"])}" loading="lazy" width="600" height="360">'
+            f'<span class="pc-body"><span class="cat">{i["kind"]}</span>'
             f'<h3>{html.escape(i["title"])}</h3>'
-            f'<span class="meta">Consulting24 blog</span></a>'
+            f'<span class="meta">Consulting24 blog</span></span></a>'
             for i in items
         )
         cards = f'<div class="blog-grid">{cards}</div>'
