@@ -1803,10 +1803,11 @@ def main():
         ok = missing = errors = fixed = 0
         miss_list = []
         def _has_real_img(html: str) -> bool:
-            for mo in _re.finditer(r'<img\b[^>]*\bsrc="([^"]+)"', html or "", _re.I):
-                src = mo.group(1)
-                if not src.lower().startswith("data:") and src.rsplit("?",1)[0].lower().endswith(
-                        (".jpg",".jpeg",".png",".webp",".gif")):
+            # quote-agnostic; any http(s) <img> counts (Blogger may rehost to googleusercontent
+            # with no file extension, and our markup uses single-quoted src attributes)
+            for mo in _re.finditer(r'''<img\b[^>]*\bsrc=["']([^"']+)["']''', html or "", _re.I):
+                src = mo.group(1).strip()
+                if src.lower().startswith(("http://", "https://", "/")) and not src.lower().startswith("data:"):
                     return True
             return False
         for kind, store, by_slug in (("post", state.get("posts",{}), art_by_slug),
