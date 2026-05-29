@@ -131,13 +131,13 @@ Requirements & How to Get One".
 - [x] dubai-vs-cayman        → /dubai-vs-cayman-crypto-license/
 - [x] malta-vs-cyprus        → /malta-vs-cyprus-crypto-license/
 - [x] lithuania-vs-poland    → /lithuania-vs-poland-crypto-license/
-- [ ] cayman-vs-bvi          → /cayman-vs-bvi-crypto-license/
-- [ ] switzerland-vs-liechtenstein → /switzerland-vs-liechtenstein-crypto-license/
+- [x] cayman-vs-bvi          → /cayman-vs-bvi-crypto-license/
+- [x] switzerland-vs-liechtenstein → /switzerland-vs-liechtenstein-crypto-license/
 
 ## Tier 2c — data-backed terms (DataForSEO, US volume)
-- [ ] crypto-exchange-license   → /crypto-exchange-license/    (vol 90 — dup-check Tier 2)
-- [ ] crypto-gambling-license   → /crypto-gambling-license/    (vol 90)
-- [ ] crypto-currency-license   → /cryptocurrency-license/     (vol 50)
+- [x] crypto-exchange-license   → /crypto-exchange-license/    (vol 90 — dup-check Tier 2)
+- [x] crypto-gambling-license   → /crypto-gambling-license/    (vol 90)
+- [x] crypto-currency-license   → /cryptocurrency-license/     (vol 50)
 - [ ] crypto-trading-license    → /crypto-trading-license/     (vol 30)
 - [ ] crypto-license-europe     → /crypto-license-europe/      (vol 30)
 - [ ] slovakia                  → /slovakia-crypto-license/    (vol 40 — dup-check Tier 1b)

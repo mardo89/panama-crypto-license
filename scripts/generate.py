@@ -132,6 +132,27 @@ def footer():
 def fig(src, alt):
     return f'  <figure style="margin:24px 0"><img src="{src}" alt="{html.escape(alt)}" loading="lazy" width="1200" height="320" style="width:100%;height:auto;border-radius:14px;border:1px solid var(--line)"></figure>'
 
+_HUB_SPECIAL = {"mica":"MiCA","vasp":"VASP","casp":"CASP","msb":"MSB","vara":"VARA","bvi":"BVI",
+ "usa":"USA","uae":"UAE","eu":"EU","el":"El","vs":"vs","and":"and","for":"for","of":"of",
+ "hong":"Hong","kong":"Kong","south":"South","korea":"Korea","costa":"Costa","rica":"Rica",
+ "saudi":"Saudi","arabia":"Arabia","czech":"Czech","republic":"Republic","marshall":"Marshall",
+ "islands":"Islands","cayman":"Cayman","saint":"Saint","lucia":"Lucia","abu":"Abu","dhabi":"Dhabi"}
+def _hub_label(slug):
+    return " ".join(_HUB_SPECIAL.get(w.lower(), w.capitalize()) for w in slug.split("-"))
+def link_hub(self_slug=""):
+    """Contextual internal-link block to every keyword landing page (built from disk)."""
+    skip = {"blog","scripts","config","img","logs","jurisdictions"}
+    dirs = sorted(n for n in os.listdir(ROOT)
+                  if n not in skip and os.path.exists(os.path.join(ROOT, n, "index.html")))
+    links = "".join(f'<a href="/{s}/" style="display:inline-block;margin:0 10px 8px 0">{_hub_label(s)}</a>'
+                    for s in dirs if s != self_slug)
+    if not links:
+        return ""
+    return ('<section class="wrap landing-link-hub" style="margin:8px auto 0">'
+            '<h2 style="font-size:1.3rem">Explore crypto licenses by jurisdiction and topic</h2>'
+            '<p style="color:var(--ink-2)">Every route we cover, each with cost, capital, timeline and requirements:</p>'
+            f'<div style="line-height:1.9;font-size:14px">{links}</div></section>')
+
 def assemble(slug, crumb, d, kind="landing"):
     sec_list = [f"  <h2>{html.escape(s['h2'])}</h2>\n{s['html']}" for s in d["sections"]]
     imgs = [("/img/graphic-process.svg", f"{crumb} crypto licence process: scope, incorporate, apply, operate"),
@@ -198,6 +219,7 @@ def assemble(slug, crumb, d, kind="landing"):
   <a href="{WA}" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free consultation</a></div>
   <p style="color:var(--muted);font-size:.85rem;margin-top:24px">General guidance, not legal advice. Rules and fees evolve &mdash; we confirm current requirements for your case.</p>
 </article>
+{link_hub(slug) if kind=="landing" else ""}
 {footer()}
 </body></html>
 '''
