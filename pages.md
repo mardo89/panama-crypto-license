@@ -153,7 +153,7 @@ Requirements & How to Get One".
 - [x] hungary-crypto-license                                  → /hungary-crypto-license/  
 - [x] crypto-wallet-custody-license-panama                    → /crypto-wallet-custody-license-panama/  
 - [x] crypto-broker-license-panama                            → /crypto-broker-license-panama/  
-- [ ] crypto-otc-desk-license-panama                          → /crypto-otc-desk-license-panama/  
+- [x] crypto-otc-desk-license-panama                          → /crypto-otc-desk-license-panama/  
 - [ ] crypto-fund-license-panama                              → /crypto-fund-license-panama/  
 - [ ] crypto-nft-marketplace-license-panama                   → /crypto-nft-marketplace-license-panama/  
 - [ ] crypto-payment-institution-license-panama               → /crypto-payment-institution-license-panama/  
