@@ -18,6 +18,9 @@ echo "[$(ts)] daily_blog: start" >> logs/daily_blog.log
 # 1b) publish 5 supporting POSTS
 "$PY" scripts/consulting24_blog.py --limit 5 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
 
+# 1c) ALWAYS audit that every published post/page has a real image, and auto-fix any that don't
+"$PY" scripts/consulting24_blog.py --audit-images --fix >> logs/daily_blog.log 2>&1 || echo "[$(ts)] image audit found/repaired missing images" >> logs/daily_blog.log
+
 # 2) link ALL published Blogger guides from the site blog hub
 "$PY" scripts/link_blogger.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] linker nonzero" >> logs/daily_blog.log
 

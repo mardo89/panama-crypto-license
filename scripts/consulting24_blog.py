@@ -1765,6 +1765,10 @@ def main():
                     help="re-render and update already-published posts/pages (adds the hero image)")
     ap.add_argument("--force", action="store_true",
                     help="with --update-images, re-update even items already marked current")
+    ap.add_argument("--audit-images", action="store_true",
+                    help="fetch every published post/page and verify a real image is present")
+    ap.add_argument("--fix", action="store_true",
+                    help="with --audit-images, re-render+update any item missing an image")
     args = ap.parse_args()
 
     state = load_state()
@@ -1791,6 +1795,58 @@ def main():
         sys.exit(f"ERROR: cannot access BLOGGER_BLOG_ID={blog_id}: {e}")
 
     blog_url = info.get("url", "https://consultinglegalnews.blogspot.com")
+
+    if args.audit_images:
+        import re as _re
+        art_by_slug = {a["slug"]: a for a in ARTICLES}
+        page_by_slug = {p["slug"]: p for p in PAGES}
+        ok = missing = errors = fixed = 0
+        miss_list = []
+        def _has_real_img(html: str) -> bool:
+            for mo in _re.finditer(r'<img\b[^>]*\bsrc="([^"]+)"', html or "", _re.I):
+                src = mo.group(1)
+                if not src.lower().startswith("data:") and src.rsplit("?",1)[0].lower().endswith(
+                        (".jpg",".jpeg",".png",".webp",".gif")):
+                    return True
+            return False
+        for kind, store, by_slug in (("post", state.get("posts",{}), art_by_slug),
+                                     ("page", state.get("pages",{}), page_by_slug)):
+            for slug, meta in list(store.items()):
+                _id = meta.get("post_id") or meta.get("page_id")
+                if not _id:
+                    continue
+                try:
+                    if kind == "post":
+                        r = blogger.posts().get(blogId=blog_id, postId=_id, fields="content,url").execute()
+                    else:
+                        r = blogger.pages().get(blogId=blog_id, pageId=_id, fields="content,url").execute()
+                    if _has_real_img(r.get("content","")):
+                        ok += 1
+                    else:
+                        missing += 1; miss_list.append((kind, slug, meta.get("url","")))
+                        log(f"MISSING IMAGE: {kind} {slug} -> {meta.get('url','')}")
+                        if args.fix:
+                            spec = by_slug.get(slug)
+                            if spec:
+                                try:
+                                    if kind == "post":
+                                        with_retry(update_post, blogger, blog_id, _id, spec)
+                                    else:
+                                        with_retry(update_page, blogger, blog_id, _id, spec, blog_url)
+                                    fixed += 1; log(f"  fixed: re-rendered {kind} {slug} with image")
+                                    time.sleep(args.delay)
+                                except Exception as fe:
+                                    log(f"  fix FAILED for {slug}: {fe}")
+                except Exception as e:
+                    errors += 1; log(f"ERROR auditing {kind} {slug}: {e}")
+        log(f"AUDIT images: {ok} OK, {missing} missing, {fixed} fixed, {errors} errors "
+            f"(total checked {ok+missing})")
+        if missing and not args.fix:
+            log("Re-run with --audit-images --fix to repair the items above.")
+        # non-zero exit if anything is still missing after a fix pass
+        if (missing - fixed) > 0:
+            sys.exit(1)
+        return
 
     if args.update_images:
         IMG_V = 2  # bump to force a re-update of all items
