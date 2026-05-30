@@ -209,16 +209,16 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-czech-republic                      → /crypto-fund-license-czech-republic/  
 - [x] crypto-nft-marketplace-license-czech-republic           → /crypto-nft-marketplace-license-czech-republic/  
 - [x] crypto-payment-institution-license-czech-republic       → /crypto-payment-institution-license-czech-republic/  
-- [ ] crypto-gambling-license-czech-republic                  → /crypto-gambling-license-czech-republic/  
-- [ ] crypto-staking-license-czech-republic                   → /crypto-staking-license-czech-republic/  
-- [ ] crypto-token-issuance-license-czech-republic            → /crypto-token-issuance-license-czech-republic/  
-- [ ] crypto-stablecoin-license-czech-republic                → /crypto-stablecoin-license-czech-republic/  
-- [ ] crypto-exchange-license-poland                          → /crypto-exchange-license-poland/  
-- [ ] crypto-wallet-custody-license-poland                    → /crypto-wallet-custody-license-poland/  
-- [ ] crypto-broker-license-poland                            → /crypto-broker-license-poland/  
-- [ ] crypto-otc-desk-license-poland                          → /crypto-otc-desk-license-poland/  
-- [ ] crypto-fund-license-poland                              → /crypto-fund-license-poland/  
-- [ ] crypto-nft-marketplace-license-poland                   → /crypto-nft-marketplace-license-poland/  
+- [x] crypto-gambling-license-czech-republic                  → /crypto-gambling-license-czech-republic/  
+- [x] crypto-staking-license-czech-republic                   → /crypto-staking-license-czech-republic/  
+- [x] crypto-token-issuance-license-czech-republic            → /crypto-token-issuance-license-czech-republic/  
+- [x] crypto-stablecoin-license-czech-republic                → /crypto-stablecoin-license-czech-republic/  
+- [x] crypto-exchange-license-poland                          → /crypto-exchange-license-poland/  
+- [x] crypto-wallet-custody-license-poland                    → /crypto-wallet-custody-license-poland/  
+- [x] crypto-broker-license-poland                            → /crypto-broker-license-poland/  
+- [x] crypto-otc-desk-license-poland                          → /crypto-otc-desk-license-poland/  
+- [x] crypto-fund-license-poland                              → /crypto-fund-license-poland/  
+- [x] crypto-nft-marketplace-license-poland                   → /crypto-nft-marketplace-license-poland/  
 - [ ] crypto-payment-institution-license-poland               → /crypto-payment-institution-license-poland/  
 - [ ] crypto-gambling-license-poland                          → /crypto-gambling-license-poland/  
 - [ ] crypto-staking-license-poland                           → /crypto-staking-license-poland/  

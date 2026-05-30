@@ -103,19 +103,19 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to get a crypto license in El Salvador (step-by-step)
 - [x] El Salvador crypto tax explained for founders
 - [x] Crypto license requirements in El Salvador: full checklist
-- [ ] Crypto banking in El Salvador: what founders should expect
-- [ ] El Salvador vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a El Salvador crypto license
-- [ ] El Salvador crypto company costs broken down
-- [ ] AML/KYC requirements for a El Salvador crypto company
-- [ ] How to get a crypto license in Czech Republic (step-by-step)
-- [ ] Czech Republic crypto tax explained for founders
-- [ ] Crypto license requirements in Czech Republic: full checklist
-- [ ] Crypto banking in Czech Republic: what founders should expect
-- [ ] Czech Republic vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Czech Republic crypto license
-- [ ] Czech Republic crypto company costs broken down
-- [ ] AML/KYC requirements for a Czech Republic crypto company
+- [x] Crypto banking in El Salvador: what founders should expect
+- [x] El Salvador vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a El Salvador crypto license
+- [x] El Salvador crypto company costs broken down
+- [x] AML/KYC requirements for a El Salvador crypto company
+- [x] How to get a crypto license in Czech Republic (step-by-step)
+- [x] Czech Republic crypto tax explained for founders
+- [x] Crypto license requirements in Czech Republic: full checklist
+- [x] Crypto banking in Czech Republic: what founders should expect
+- [x] Czech Republic vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a Czech Republic crypto license
+- [x] Czech Republic crypto company costs broken down
+- [x] AML/KYC requirements for a Czech Republic crypto company
 - [ ] How to get a crypto license in Poland (step-by-step)
 - [ ] Poland crypto tax explained for founders
 - [ ] Crypto license requirements in Poland: full checklist
