@@ -228,11 +228,11 @@ Requirements & How to Get One".
 - [x] crypto-wallet-custody-license-malta                     → /crypto-wallet-custody-license-malta/  
 - [x] crypto-broker-license-malta                             → /crypto-broker-license-malta/  
 - [x] crypto-otc-desk-license-malta                           → /crypto-otc-desk-license-malta/  
-- [ ] crypto-fund-license-malta                               → /crypto-fund-license-malta/  
-- [ ] crypto-nft-marketplace-license-malta                    → /crypto-nft-marketplace-license-malta/  
-- [ ] crypto-payment-institution-license-malta                → /crypto-payment-institution-license-malta/  
-- [ ] crypto-gambling-license-malta                           → /crypto-gambling-license-malta/  
-- [ ] crypto-staking-license-malta                            → /crypto-staking-license-malta/  
+- [x] crypto-fund-license-malta                               → /crypto-fund-license-malta/  
+- [x] crypto-nft-marketplace-license-malta                    → /crypto-nft-marketplace-license-malta/  
+- [x] crypto-payment-institution-license-malta                → /crypto-payment-institution-license-malta/  
+- [x] crypto-gambling-license-malta                           → /crypto-gambling-license-malta/  
+- [x] crypto-staking-license-malta                            → /crypto-staking-license-malta/  
 - [ ] crypto-token-issuance-license-malta                     → /crypto-token-issuance-license-malta/  
 - [ ] crypto-stablecoin-license-malta                         → /crypto-stablecoin-license-malta/  
 - [ ] crypto-exchange-license-switzerland                     → /crypto-exchange-license-switzerland/  
