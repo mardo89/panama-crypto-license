@@ -208,7 +208,7 @@ Requirements & How to Get One".
 - [x] crypto-otc-desk-license-czech-republic                  → /crypto-otc-desk-license-czech-republic/  
 - [x] crypto-fund-license-czech-republic                      → /crypto-fund-license-czech-republic/  
 - [x] crypto-nft-marketplace-license-czech-republic           → /crypto-nft-marketplace-license-czech-republic/  
-- [ ] crypto-payment-institution-license-czech-republic       → /crypto-payment-institution-license-czech-republic/  
+- [x] crypto-payment-institution-license-czech-republic       → /crypto-payment-institution-license-czech-republic/  
 - [ ] crypto-gambling-license-czech-republic                  → /crypto-gambling-license-czech-republic/  
 - [ ] crypto-staking-license-czech-republic                   → /crypto-staking-license-czech-republic/  
 - [ ] crypto-token-issuance-license-czech-republic            → /crypto-token-issuance-license-czech-republic/  
