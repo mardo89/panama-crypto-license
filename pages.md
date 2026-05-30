@@ -197,12 +197,12 @@ Requirements & How to Get One".
 - [x] crypto-otc-desk-license-el-salvador                     → /crypto-otc-desk-license-el-salvador/  
 - [x] crypto-fund-license-el-salvador                         → /crypto-fund-license-el-salvador/  
 - [x] crypto-nft-marketplace-license-el-salvador              → /crypto-nft-marketplace-license-el-salvador/  
-- [ ] crypto-payment-institution-license-el-salvador          → /crypto-payment-institution-license-el-salvador/  
-- [ ] crypto-gambling-license-el-salvador                     → /crypto-gambling-license-el-salvador/  
-- [ ] crypto-staking-license-el-salvador                      → /crypto-staking-license-el-salvador/  
-- [ ] crypto-token-issuance-license-el-salvador               → /crypto-token-issuance-license-el-salvador/  
-- [ ] crypto-stablecoin-license-el-salvador                   → /crypto-stablecoin-license-el-salvador/  
-- [ ] crypto-exchange-license-czech-republic                  → /crypto-exchange-license-czech-republic/  
+- [x] crypto-payment-institution-license-el-salvador          → /crypto-payment-institution-license-el-salvador/  
+- [x] crypto-gambling-license-el-salvador                     → /crypto-gambling-license-el-salvador/  
+- [x] crypto-staking-license-el-salvador                      → /crypto-staking-license-el-salvador/  
+- [x] crypto-token-issuance-license-el-salvador               → /crypto-token-issuance-license-el-salvador/  
+- [x] crypto-stablecoin-license-el-salvador                   → /crypto-stablecoin-license-el-salvador/  
+- [x] crypto-exchange-license-czech-republic                  → /crypto-exchange-license-czech-republic/  
 - [ ] crypto-wallet-custody-license-czech-republic            → /crypto-wallet-custody-license-czech-republic/  
 - [ ] crypto-broker-license-czech-republic                    → /crypto-broker-license-czech-republic/  
 - [ ] crypto-otc-desk-license-czech-republic                  → /crypto-otc-desk-license-czech-republic/  
