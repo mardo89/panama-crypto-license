@@ -234,6 +234,35 @@ def _trim_meta(d):
     d["meta_description"] = desc
     return d
 
+def _repair(d, keyword):
+    """Auto-fix the deterministic QC failures (keyword-in-H1/title, title length)
+    so quality pages are never dropped for a mechanical SEO miss. Keyword is always
+    prepended to the front, so any right-side trim preserves it."""
+    kw = (keyword or "").strip()
+    if not kw:
+        return d
+    kwl = kw.lower()
+    _keep = {"and","for","of","to","the","vs","a","in"}
+    kwt = " ".join(_HUB_SPECIAL.get(w.lower(), w if w.isupper() else (w.lower() if w.lower() in _keep else w.capitalize()))
+                   for w in kw.split())
+    if kwt[:1].islower():
+        kwt = kwt[:1].upper() + kwt[1:]
+    # H1 must contain the keyword
+    h1 = (d.get("h1") or "").strip()
+    if kwl not in h1.lower():
+        d["h1"] = f"{kwt}: {h1}" if h1 else f"{kwt}: 2026 Guide"
+    # Title must contain the keyword
+    t = (d.get("meta_title") or "").strip()
+    if kwl not in t.lower():
+        t = f"{kwt}: {t}".strip() if t else kwt
+    # Title must be 50-65 chars
+    if len(t) < 50:
+        t = t.rstrip(" .:") + " 2026: Cost, Requirements & Timeline"
+    if len(t) > 65:
+        t = t[:65].rsplit(" ", 1)[0].rstrip(" .,:;&-")
+    d["meta_title"] = t
+    return d
+
 def qc(d, page_html, keyword=""):
     text = re.sub("<[^>]+>"," "," ".join([d["intro_html"]] + [s["html"] for s in d["sections"]] + [f["a"] for f in d["faqs"]]))
     words = len(text.split())
@@ -269,7 +298,7 @@ def qc(d, page_html, keyword=""):
 def build(kind, slug, keyword, brief):
     crumb = brief.split("|")[0].strip() if "|" in brief else slug.replace("-crypto-license","").replace("-"," ").title()
     user = f"Write a {kind} page. Primary keyword: \"{keyword}\". Slug: /{slug}/. Brief & facts: {brief}\nReturn STRICT JSON per the schema. Remember: 2000+ words, 8+ FAQs, full section structure, internal links from the allow-list, validated official authority links only."
-    d = _trim_meta(_clean_d(call_deepseek(user)))
+    d = _repair(_trim_meta(_clean_d(call_deepseek(user))), keyword)
     page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/').replace('/panama/', '/')  # guard: old project path → root
     report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
@@ -278,7 +307,7 @@ def build(kind, slug, keyword, brief):
         tries += 1
         cur = report["words"]
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
-        d = _trim_meta(_clean_d(call_deepseek(exp)))
+        d = _repair(_trim_meta(_clean_d(call_deepseek(exp))), keyword)
         page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/').replace('/panama/', '/')  # guard: old project path → root
         report = qc(d, page, keyword)
         print(f"  expand retry {tries}: {report['words']} words")
