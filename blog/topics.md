@@ -132,7 +132,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Common mistakes when applying for a Malta crypto license
 - [x] Malta crypto company costs broken down
 - [x] AML/KYC requirements for a Malta crypto company
-- [ ] How to get a crypto license in Switzerland (step-by-step)
+- [x] How to get a crypto license in Switzerland (step-by-step)
 - [ ] Switzerland crypto tax explained for founders
 - [ ] Crypto license requirements in Switzerland: full checklist
 - [ ] Crypto banking in Switzerland: what founders should expect
