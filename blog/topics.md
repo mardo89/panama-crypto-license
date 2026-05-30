@@ -97,12 +97,12 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto license requirements in Dubai: full checklist
 - [x] Crypto banking in Dubai: what founders should expect
 - [x] Dubai vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Dubai crypto license
-- [ ] Dubai crypto company costs broken down
-- [ ] AML/KYC requirements for a Dubai crypto company
-- [ ] How to get a crypto license in El Salvador (step-by-step)
-- [ ] El Salvador crypto tax explained for founders
-- [ ] Crypto license requirements in El Salvador: full checklist
+- [x] Common mistakes when applying for a Dubai crypto license
+- [x] Dubai crypto company costs broken down
+- [x] AML/KYC requirements for a Dubai crypto company
+- [x] How to get a crypto license in El Salvador (step-by-step)
+- [x] El Salvador crypto tax explained for founders
+- [x] Crypto license requirements in El Salvador: full checklist
 - [ ] Crypto banking in El Salvador: what founders should expect
 - [ ] El Salvador vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a El Salvador crypto license
