@@ -175,12 +175,12 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-estonia                           → /crypto-broker-license-estonia/  
 - [x] crypto-otc-desk-license-estonia                         → /crypto-otc-desk-license-estonia/  
 - [x] crypto-fund-license-estonia                             → /crypto-fund-license-estonia/  
-- [ ] crypto-nft-marketplace-license-estonia                  → /crypto-nft-marketplace-license-estonia/  
-- [ ] crypto-payment-institution-license-estonia              → /crypto-payment-institution-license-estonia/  
-- [ ] crypto-gambling-license-estonia                         → /crypto-gambling-license-estonia/  
-- [ ] crypto-staking-license-estonia                          → /crypto-staking-license-estonia/  
-- [ ] crypto-token-issuance-license-estonia                   → /crypto-token-issuance-license-estonia/  
-- [ ] crypto-stablecoin-license-estonia                       → /crypto-stablecoin-license-estonia/  
+- [x] crypto-nft-marketplace-license-estonia                  → /crypto-nft-marketplace-license-estonia/  
+- [x] crypto-payment-institution-license-estonia              → /crypto-payment-institution-license-estonia/  
+- [x] crypto-gambling-license-estonia                         → /crypto-gambling-license-estonia/  
+- [x] crypto-staking-license-estonia                          → /crypto-staking-license-estonia/  
+- [x] crypto-token-issuance-license-estonia                   → /crypto-token-issuance-license-estonia/  
+- [x] crypto-stablecoin-license-estonia                       → /crypto-stablecoin-license-estonia/  
 - [ ] crypto-wallet-custody-license-dubai                     → /crypto-wallet-custody-license-dubai/  
 - [ ] crypto-broker-license-dubai                             → /crypto-broker-license-dubai/  
 - [ ] crypto-otc-desk-license-dubai                           → /crypto-otc-desk-license-dubai/  
