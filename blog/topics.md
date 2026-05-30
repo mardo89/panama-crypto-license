@@ -116,10 +116,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Common mistakes when applying for a Czech Republic crypto license
 - [x] Czech Republic crypto company costs broken down
 - [x] AML/KYC requirements for a Czech Republic crypto company
-- [ ] How to get a crypto license in Poland (step-by-step)
-- [ ] Poland crypto tax explained for founders
-- [ ] Crypto license requirements in Poland: full checklist
-- [ ] Crypto banking in Poland: what founders should expect
+- [x] How to get a crypto license in Poland (step-by-step)
+- [x] Poland crypto tax explained for founders
+- [x] Crypto license requirements in Poland: full checklist
+- [x] Crypto banking in Poland: what founders should expect
 - [ ] Poland vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a Poland crypto license
 - [ ] Poland crypto company costs broken down
