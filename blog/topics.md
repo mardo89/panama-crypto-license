@@ -137,11 +137,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto license requirements in Switzerland: full checklist
 - [x] Crypto banking in Switzerland: what founders should expect
 - [x] Switzerland vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Switzerland crypto license
-- [ ] Switzerland crypto company costs broken down
-- [ ] AML/KYC requirements for a Switzerland crypto company
-- [ ] How to get a crypto license in Cyprus (step-by-step)
-- [ ] Cyprus crypto tax explained for founders
+- [x] Common mistakes when applying for a Switzerland crypto license
+- [x] Switzerland crypto company costs broken down
+- [x] AML/KYC requirements for a Switzerland crypto company
+- [x] How to get a crypto license in Cyprus (step-by-step)
+- [x] Cyprus crypto tax explained for founders
 - [ ] Crypto license requirements in Cyprus: full checklist
 - [ ] Crypto banking in Cyprus: what founders should expect
 - [ ] Cyprus vs Panama for a crypto company: which to choose
