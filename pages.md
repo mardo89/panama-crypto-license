@@ -170,11 +170,11 @@ Requirements & How to Get One".
 - [x] crypto-gambling-license-lithuania                       → /crypto-gambling-license-lithuania/  
 - [x] crypto-staking-license-lithuania                        → /crypto-staking-license-lithuania/  
 - [x] crypto-token-issuance-license-lithuania                 → /crypto-token-issuance-license-lithuania/  
-- [ ] crypto-stablecoin-license-lithuania                     → /crypto-stablecoin-license-lithuania/  
-- [ ] crypto-wallet-custody-license-estonia                   → /crypto-wallet-custody-license-estonia/  
-- [ ] crypto-broker-license-estonia                           → /crypto-broker-license-estonia/  
-- [ ] crypto-otc-desk-license-estonia                         → /crypto-otc-desk-license-estonia/  
-- [ ] crypto-fund-license-estonia                             → /crypto-fund-license-estonia/  
+- [x] crypto-stablecoin-license-lithuania                     → /crypto-stablecoin-license-lithuania/  
+- [x] crypto-wallet-custody-license-estonia                   → /crypto-wallet-custody-license-estonia/  
+- [x] crypto-broker-license-estonia                           → /crypto-broker-license-estonia/  
+- [x] crypto-otc-desk-license-estonia                         → /crypto-otc-desk-license-estonia/  
+- [x] crypto-fund-license-estonia                             → /crypto-fund-license-estonia/  
 - [ ] crypto-nft-marketplace-license-estonia                  → /crypto-nft-marketplace-license-estonia/  
 - [ ] crypto-payment-institution-license-estonia              → /crypto-payment-institution-license-estonia/  
 - [ ] crypto-gambling-license-estonia                         → /crypto-gambling-license-estonia/  
