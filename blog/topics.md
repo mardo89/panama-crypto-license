@@ -121,11 +121,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto license requirements in Poland: full checklist
 - [x] Crypto banking in Poland: what founders should expect
 - [x] Poland vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Poland crypto license
-- [ ] Poland crypto company costs broken down
-- [ ] AML/KYC requirements for a Poland crypto company
-- [ ] How to get a crypto license in Malta (step-by-step)
-- [ ] Malta crypto tax explained for founders
+- [x] Common mistakes when applying for a Poland crypto license
+- [x] Poland crypto company costs broken down
+- [x] AML/KYC requirements for a Poland crypto company
+- [x] How to get a crypto license in Malta (step-by-step)
+- [x] Malta crypto tax explained for founders
 - [ ] Crypto license requirements in Malta: full checklist
 - [ ] Crypto banking in Malta: what founders should expect
 - [ ] Malta vs Panama for a crypto company: which to choose
