@@ -219,10 +219,10 @@ Requirements & How to Get One".
 - [x] crypto-otc-desk-license-poland                          → /crypto-otc-desk-license-poland/  
 - [x] crypto-fund-license-poland                              → /crypto-fund-license-poland/  
 - [x] crypto-nft-marketplace-license-poland                   → /crypto-nft-marketplace-license-poland/  
-- [ ] crypto-payment-institution-license-poland               → /crypto-payment-institution-license-poland/  
-- [ ] crypto-gambling-license-poland                          → /crypto-gambling-license-poland/  
-- [ ] crypto-staking-license-poland                           → /crypto-staking-license-poland/  
-- [ ] crypto-token-issuance-license-poland                    → /crypto-token-issuance-license-poland/  
+- [x] crypto-payment-institution-license-poland               → /crypto-payment-institution-license-poland/  
+- [x] crypto-gambling-license-poland                          → /crypto-gambling-license-poland/  
+- [x] crypto-staking-license-poland                           → /crypto-staking-license-poland/  
+- [x] crypto-token-issuance-license-poland                    → /crypto-token-issuance-license-poland/  
 - [ ] crypto-stablecoin-license-poland                        → /crypto-stablecoin-license-poland/  
 - [ ] crypto-exchange-license-malta                           → /crypto-exchange-license-malta/  
 - [ ] crypto-wallet-custody-license-malta                     → /crypto-wallet-custody-license-malta/  
