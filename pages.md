@@ -203,11 +203,11 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-el-salvador               → /crypto-token-issuance-license-el-salvador/  
 - [x] crypto-stablecoin-license-el-salvador                   → /crypto-stablecoin-license-el-salvador/  
 - [x] crypto-exchange-license-czech-republic                  → /crypto-exchange-license-czech-republic/  
-- [ ] crypto-wallet-custody-license-czech-republic            → /crypto-wallet-custody-license-czech-republic/  
-- [ ] crypto-broker-license-czech-republic                    → /crypto-broker-license-czech-republic/  
-- [ ] crypto-otc-desk-license-czech-republic                  → /crypto-otc-desk-license-czech-republic/  
-- [ ] crypto-fund-license-czech-republic                      → /crypto-fund-license-czech-republic/  
-- [ ] crypto-nft-marketplace-license-czech-republic           → /crypto-nft-marketplace-license-czech-republic/  
+- [x] crypto-wallet-custody-license-czech-republic            → /crypto-wallet-custody-license-czech-republic/  
+- [x] crypto-broker-license-czech-republic                    → /crypto-broker-license-czech-republic/  
+- [x] crypto-otc-desk-license-czech-republic                  → /crypto-otc-desk-license-czech-republic/  
+- [x] crypto-fund-license-czech-republic                      → /crypto-fund-license-czech-republic/  
+- [x] crypto-nft-marketplace-license-czech-republic           → /crypto-nft-marketplace-license-czech-republic/  
 - [ ] crypto-payment-institution-license-czech-republic       → /crypto-payment-institution-license-czech-republic/  
 - [ ] crypto-gambling-license-czech-republic                  → /crypto-gambling-license-czech-republic/  
 - [ ] crypto-staking-license-czech-republic                   → /crypto-staking-license-czech-republic/  
