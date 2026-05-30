@@ -187,11 +187,11 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-dubai                               → /crypto-fund-license-dubai/  
 - [x] crypto-nft-marketplace-license-dubai                    → /crypto-nft-marketplace-license-dubai/  
 - [x] crypto-payment-institution-license-dubai                → /crypto-payment-institution-license-dubai/  
-- [ ] crypto-gambling-license-dubai                           → /crypto-gambling-license-dubai/  
-- [ ] crypto-staking-license-dubai                            → /crypto-staking-license-dubai/  
-- [ ] crypto-token-issuance-license-dubai                     → /crypto-token-issuance-license-dubai/  
-- [ ] crypto-stablecoin-license-dubai                         → /crypto-stablecoin-license-dubai/  
-- [ ] crypto-exchange-license-el-salvador                     → /crypto-exchange-license-el-salvador/  
+- [x] crypto-gambling-license-dubai                           → /crypto-gambling-license-dubai/  
+- [x] crypto-staking-license-dubai                            → /crypto-staking-license-dubai/  
+- [x] crypto-token-issuance-license-dubai                     → /crypto-token-issuance-license-dubai/  
+- [x] crypto-stablecoin-license-dubai                         → /crypto-stablecoin-license-dubai/  
+- [x] crypto-exchange-license-el-salvador                     → /crypto-exchange-license-el-salvador/  
 - [ ] crypto-wallet-custody-license-el-salvador               → /crypto-wallet-custody-license-el-salvador/  
 - [ ] crypto-broker-license-el-salvador                       → /crypto-broker-license-el-salvador/  
 - [ ] crypto-otc-desk-license-el-salvador                     → /crypto-otc-desk-license-el-salvador/  

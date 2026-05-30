@@ -853,3 +853,11 @@ googleapiclient.errors.HttpError: <HttpError 429 when requesting https://blogger
 [2026-05-29 21:30:05] update-images done: 0 updated, 100 already current
 [2026-05-29 21:30:07] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
 [2026-05-29 21:30:43] AUDIT images: 100 OK, 0 missing, 0 fixed, 0 errors (total checked 100)
+[2026-05-30 11:30:03] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-30 11:30:03] No pages to publish — all pillar pages already published.
+[2026-05-30 11:30:04] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-30 11:30:04] Nothing to publish — all articles posted.
+[2026-05-30 11:30:05] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-30 11:30:05] update-images done: 0 updated, 100 already current
+[2026-05-30 11:30:06] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-05-30 11:30:41] AUDIT images: 100 OK, 0 missing, 0 fixed, 0 errors (total checked 100)
