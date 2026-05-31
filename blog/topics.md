@@ -178,8 +178,8 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto banking in Canada: what founders should expect
 - [x] Canada vs Panama for a crypto company: which to choose
 - [x] Common mistakes when applying for a Canada crypto license
-- [ ] Canada crypto company costs broken down
-- [ ] AML/KYC requirements for a Canada crypto company
+- [x] Canada crypto company costs broken down
+- [x] AML/KYC requirements for a Canada crypto company
 - [ ] How to get a crypto license in Singapore (step-by-step)
 - [ ] Singapore crypto tax explained for founders
 - [ ] Crypto license requirements in Singapore: full checklist
