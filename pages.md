@@ -238,11 +238,11 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-switzerland                     → /crypto-exchange-license-switzerland/  
 - [x] crypto-wallet-custody-license-switzerland               → /crypto-wallet-custody-license-switzerland/  
 - [x] crypto-broker-license-switzerland                       → /crypto-broker-license-switzerland/  
-- [ ] crypto-otc-desk-license-switzerland                     → /crypto-otc-desk-license-switzerland/  
-- [ ] crypto-fund-license-switzerland                         → /crypto-fund-license-switzerland/  
-- [ ] crypto-nft-marketplace-license-switzerland              → /crypto-nft-marketplace-license-switzerland/  
-- [ ] crypto-payment-institution-license-switzerland          → /crypto-payment-institution-license-switzerland/  
-- [ ] crypto-gambling-license-switzerland                     → /crypto-gambling-license-switzerland/  
+- [x] crypto-otc-desk-license-switzerland                     → /crypto-otc-desk-license-switzerland/  
+- [x] crypto-fund-license-switzerland                         → /crypto-fund-license-switzerland/  
+- [x] crypto-nft-marketplace-license-switzerland              → /crypto-nft-marketplace-license-switzerland/  
+- [x] crypto-payment-institution-license-switzerland          → /crypto-payment-institution-license-switzerland/  
+- [x] crypto-gambling-license-switzerland                     → /crypto-gambling-license-switzerland/  
 - [ ] crypto-staking-license-switzerland                      → /crypto-staking-license-switzerland/  
 - [ ] crypto-token-issuance-license-switzerland               → /crypto-token-issuance-license-switzerland/  
 - [ ] crypto-stablecoin-license-switzerland                   → /crypto-stablecoin-license-switzerland/  
