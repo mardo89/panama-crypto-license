@@ -269,8 +269,8 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-cayman-islands            → /crypto-token-issuance-license-cayman-islands/  
 - [x] crypto-stablecoin-license-cayman-islands                → /crypto-stablecoin-license-cayman-islands/  
 - [x] crypto-exchange-license-bvi                             → /crypto-exchange-license-bvi/  
-- [ ] crypto-wallet-custody-license-bvi                       → /crypto-wallet-custody-license-bvi/  
-- [ ] crypto-broker-license-bvi                               → /crypto-broker-license-bvi/  
+- [x] crypto-wallet-custody-license-bvi                       → /crypto-wallet-custody-license-bvi/  
+- [x] crypto-broker-license-bvi                               → /crypto-broker-license-bvi/  
 - [ ] crypto-otc-desk-license-bvi                             → /crypto-otc-desk-license-bvi/  
 - [ ] crypto-fund-license-bvi                                 → /crypto-fund-license-bvi/  
 - [ ] crypto-nft-marketplace-license-bvi                      → /crypto-nft-marketplace-license-bvi/  
