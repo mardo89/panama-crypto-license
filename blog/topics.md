@@ -167,11 +167,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to get a crypto license in Seychelles (step-by-step)
 - [x] Seychelles crypto tax explained for founders
 - [x] Crypto license requirements in Seychelles: full checklist
-- [ ] Crypto banking in Seychelles: what founders should expect
-- [ ] Seychelles vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Seychelles crypto license
-- [ ] Seychelles crypto company costs broken down
-- [ ] AML/KYC requirements for a Seychelles crypto company
+- [x] Crypto banking in Seychelles: what founders should expect
+- [x] Seychelles vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a Seychelles crypto license
+- [x] Seychelles crypto company costs broken down
+- [x] AML/KYC requirements for a Seychelles crypto company
 - [ ] How to get a crypto license in Canada (step-by-step)
 - [ ] Canada crypto tax explained for founders
 - [ ] Crypto license requirements in Canada: full checklist

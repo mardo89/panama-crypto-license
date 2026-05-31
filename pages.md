@@ -258,17 +258,17 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-cyprus                    → /crypto-token-issuance-license-cyprus/  
 - [x] crypto-stablecoin-license-cyprus                        → /crypto-stablecoin-license-cyprus/  
 - [x] crypto-exchange-license-cayman-islands                  → /crypto-exchange-license-cayman-islands/  
-- [ ] crypto-wallet-custody-license-cayman-islands            → /crypto-wallet-custody-license-cayman-islands/  
-- [ ] crypto-broker-license-cayman-islands                    → /crypto-broker-license-cayman-islands/  
-- [ ] crypto-otc-desk-license-cayman-islands                  → /crypto-otc-desk-license-cayman-islands/  
-- [ ] crypto-fund-license-cayman-islands                      → /crypto-fund-license-cayman-islands/  
-- [ ] crypto-nft-marketplace-license-cayman-islands           → /crypto-nft-marketplace-license-cayman-islands/  
-- [ ] crypto-payment-institution-license-cayman-islands       → /crypto-payment-institution-license-cayman-islands/  
-- [ ] crypto-gambling-license-cayman-islands                  → /crypto-gambling-license-cayman-islands/  
-- [ ] crypto-staking-license-cayman-islands                   → /crypto-staking-license-cayman-islands/  
-- [ ] crypto-token-issuance-license-cayman-islands            → /crypto-token-issuance-license-cayman-islands/  
-- [ ] crypto-stablecoin-license-cayman-islands                → /crypto-stablecoin-license-cayman-islands/  
-- [ ] crypto-exchange-license-bvi                             → /crypto-exchange-license-bvi/  
+- [x] crypto-wallet-custody-license-cayman-islands            → /crypto-wallet-custody-license-cayman-islands/  
+- [x] crypto-broker-license-cayman-islands                    → /crypto-broker-license-cayman-islands/  
+- [x] crypto-otc-desk-license-cayman-islands                  → /crypto-otc-desk-license-cayman-islands/  
+- [x] crypto-fund-license-cayman-islands                      → /crypto-fund-license-cayman-islands/  
+- [x] crypto-nft-marketplace-license-cayman-islands           → /crypto-nft-marketplace-license-cayman-islands/  
+- [x] crypto-payment-institution-license-cayman-islands       → /crypto-payment-institution-license-cayman-islands/  
+- [x] crypto-gambling-license-cayman-islands                  → /crypto-gambling-license-cayman-islands/  
+- [x] crypto-staking-license-cayman-islands                   → /crypto-staking-license-cayman-islands/  
+- [x] crypto-token-issuance-license-cayman-islands            → /crypto-token-issuance-license-cayman-islands/  
+- [x] crypto-stablecoin-license-cayman-islands                → /crypto-stablecoin-license-cayman-islands/  
+- [x] crypto-exchange-license-bvi                             → /crypto-exchange-license-bvi/  
 - [ ] crypto-wallet-custody-license-bvi                       → /crypto-wallet-custody-license-bvi/  
 - [ ] crypto-broker-license-bvi                               → /crypto-broker-license-bvi/  
 - [ ] crypto-otc-desk-license-bvi                             → /crypto-otc-desk-license-bvi/  
