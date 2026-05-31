@@ -147,11 +147,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Cyprus vs Panama for a crypto company: which to choose
 - [x] Common mistakes when applying for a Cyprus crypto license
 - [x] Cyprus crypto company costs broken down
-- [ ] AML/KYC requirements for a Cyprus crypto company
-- [ ] How to get a crypto license in Cayman Islands (step-by-step)
-- [ ] Cayman Islands crypto tax explained for founders
-- [ ] Crypto license requirements in Cayman Islands: full checklist
-- [ ] Crypto banking in Cayman Islands: what founders should expect
+- [x] AML/KYC requirements for a Cyprus crypto company
+- [x] How to get a crypto license in Cayman Islands (step-by-step)
+- [x] Cayman Islands crypto tax explained for founders
+- [x] Crypto license requirements in Cayman Islands: full checklist
+- [x] Crypto banking in Cayman Islands: what founders should expect
 - [ ] Cayman Islands vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a Cayman Islands crypto license
 - [ ] Cayman Islands crypto company costs broken down
