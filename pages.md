@@ -233,11 +233,11 @@ Requirements & How to Get One".
 - [x] crypto-payment-institution-license-malta                → /crypto-payment-institution-license-malta/  
 - [x] crypto-gambling-license-malta                           → /crypto-gambling-license-malta/  
 - [x] crypto-staking-license-malta                            → /crypto-staking-license-malta/  
-- [ ] crypto-token-issuance-license-malta                     → /crypto-token-issuance-license-malta/  
-- [ ] crypto-stablecoin-license-malta                         → /crypto-stablecoin-license-malta/  
-- [ ] crypto-exchange-license-switzerland                     → /crypto-exchange-license-switzerland/  
-- [ ] crypto-wallet-custody-license-switzerland               → /crypto-wallet-custody-license-switzerland/  
-- [ ] crypto-broker-license-switzerland                       → /crypto-broker-license-switzerland/  
+- [x] crypto-token-issuance-license-malta                     → /crypto-token-issuance-license-malta/  
+- [x] crypto-stablecoin-license-malta                         → /crypto-stablecoin-license-malta/  
+- [x] crypto-exchange-license-switzerland                     → /crypto-exchange-license-switzerland/  
+- [x] crypto-wallet-custody-license-switzerland               → /crypto-wallet-custody-license-switzerland/  
+- [x] crypto-broker-license-switzerland                       → /crypto-broker-license-switzerland/  
 - [ ] crypto-otc-desk-license-switzerland                     → /crypto-otc-desk-license-switzerland/  
 - [ ] crypto-fund-license-switzerland                         → /crypto-fund-license-switzerland/  
 - [ ] crypto-nft-marketplace-license-switzerland              → /crypto-nft-marketplace-license-switzerland/  
