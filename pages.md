@@ -253,11 +253,11 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-cyprus                              → /crypto-fund-license-cyprus/  
 - [x] crypto-nft-marketplace-license-cyprus                   → /crypto-nft-marketplace-license-cyprus/  
 - [x] crypto-payment-institution-license-cyprus               → /crypto-payment-institution-license-cyprus/  
-- [ ] crypto-gambling-license-cyprus                          → /crypto-gambling-license-cyprus/  
-- [ ] crypto-staking-license-cyprus                           → /crypto-staking-license-cyprus/  
-- [ ] crypto-token-issuance-license-cyprus                    → /crypto-token-issuance-license-cyprus/  
-- [ ] crypto-stablecoin-license-cyprus                        → /crypto-stablecoin-license-cyprus/  
-- [ ] crypto-exchange-license-cayman-islands                  → /crypto-exchange-license-cayman-islands/  
+- [x] crypto-gambling-license-cyprus                          → /crypto-gambling-license-cyprus/  
+- [x] crypto-staking-license-cyprus                           → /crypto-staking-license-cyprus/  
+- [x] crypto-token-issuance-license-cyprus                    → /crypto-token-issuance-license-cyprus/  
+- [x] crypto-stablecoin-license-cyprus                        → /crypto-stablecoin-license-cyprus/  
+- [x] crypto-exchange-license-cayman-islands                  → /crypto-exchange-license-cayman-islands/  
 - [ ] crypto-wallet-custody-license-cayman-islands            → /crypto-wallet-custody-license-cayman-islands/  
 - [ ] crypto-broker-license-cayman-islands                    → /crypto-broker-license-cayman-islands/  
 - [ ] crypto-otc-desk-license-cayman-islands                  → /crypto-otc-desk-license-cayman-islands/  
