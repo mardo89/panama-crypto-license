@@ -248,11 +248,11 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-switzerland                   → /crypto-stablecoin-license-switzerland/  
 - [x] crypto-exchange-license-cyprus                          → /crypto-exchange-license-cyprus/  
 - [x] crypto-wallet-custody-license-cyprus                    → /crypto-wallet-custody-license-cyprus/  
-- [ ] crypto-broker-license-cyprus                            → /crypto-broker-license-cyprus/  
-- [ ] crypto-otc-desk-license-cyprus                          → /crypto-otc-desk-license-cyprus/  
-- [ ] crypto-fund-license-cyprus                              → /crypto-fund-license-cyprus/  
-- [ ] crypto-nft-marketplace-license-cyprus                   → /crypto-nft-marketplace-license-cyprus/  
-- [ ] crypto-payment-institution-license-cyprus               → /crypto-payment-institution-license-cyprus/  
+- [x] crypto-broker-license-cyprus                            → /crypto-broker-license-cyprus/  
+- [x] crypto-otc-desk-license-cyprus                          → /crypto-otc-desk-license-cyprus/  
+- [x] crypto-fund-license-cyprus                              → /crypto-fund-license-cyprus/  
+- [x] crypto-nft-marketplace-license-cyprus                   → /crypto-nft-marketplace-license-cyprus/  
+- [x] crypto-payment-institution-license-cyprus               → /crypto-payment-institution-license-cyprus/  
 - [ ] crypto-gambling-license-cyprus                          → /crypto-gambling-license-cyprus/  
 - [ ] crypto-staking-license-cyprus                           → /crypto-staking-license-cyprus/  
 - [ ] crypto-token-issuance-license-cyprus                    → /crypto-token-issuance-license-cyprus/  
