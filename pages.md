@@ -301,11 +301,11 @@ Requirements & How to Get One".
 - [x] crypto-staking-license-canada                           → /crypto-staking-license-canada/  
 - [x] crypto-token-issuance-license-canada                    → /crypto-token-issuance-license-canada/  
 - [x] crypto-stablecoin-license-canada                        → /crypto-stablecoin-license-canada/  
-- [ ] crypto-exchange-license-usa                             → /crypto-exchange-license-usa/  
-- [ ] crypto-wallet-custody-license-usa                       → /crypto-wallet-custody-license-usa/  
-- [ ] crypto-broker-license-usa                               → /crypto-broker-license-usa/  
-- [ ] crypto-otc-desk-license-usa                             → /crypto-otc-desk-license-usa/  
-- [ ] crypto-fund-license-usa                                 → /crypto-fund-license-usa/  
+- [x] crypto-exchange-license-usa                             → /crypto-exchange-license-usa/  
+- [x] crypto-wallet-custody-license-usa                       → /crypto-wallet-custody-license-usa/  
+- [x] crypto-broker-license-usa                               → /crypto-broker-license-usa/  
+- [x] crypto-otc-desk-license-usa                             → /crypto-otc-desk-license-usa/  
+- [x] crypto-fund-license-usa                                 → /crypto-fund-license-usa/  
 - [ ] crypto-nft-marketplace-license-usa                      → /crypto-nft-marketplace-license-usa/  
 - [ ] crypto-payment-institution-license-usa                  → /crypto-payment-institution-license-usa/  
 - [ ] crypto-gambling-license-usa                             → /crypto-gambling-license-usa/  
