@@ -183,10 +183,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to get a crypto license in Singapore (step-by-step)
 - [x] Singapore crypto tax explained for founders
 - [x] Crypto license requirements in Singapore: full checklist
-- [ ] Crypto banking in Singapore: what founders should expect
-- [ ] Singapore vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Singapore crypto license
-- [ ] Singapore crypto company costs broken down
+- [x] Crypto banking in Singapore: what founders should expect
+- [x] Singapore vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a Singapore crypto license
+- [x] Singapore crypto company costs broken down
 - [ ] AML/KYC requirements for a Singapore crypto company
 - [ ] How to get a crypto license in Georgia (step-by-step)
 - [ ] Georgia crypto tax explained for founders
