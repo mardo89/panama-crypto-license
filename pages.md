@@ -281,11 +281,11 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-bvi                           → /crypto-stablecoin-license-bvi/  
 - [x] crypto-exchange-license-seychelles                      → /crypto-exchange-license-seychelles/  
 - [x] crypto-wallet-custody-license-seychelles                → /crypto-wallet-custody-license-seychelles/  
-- [ ] crypto-broker-license-seychelles                        → /crypto-broker-license-seychelles/  
-- [ ] crypto-otc-desk-license-seychelles                      → /crypto-otc-desk-license-seychelles/  
-- [ ] crypto-fund-license-seychelles                          → /crypto-fund-license-seychelles/  
-- [ ] crypto-nft-marketplace-license-seychelles               → /crypto-nft-marketplace-license-seychelles/  
-- [ ] crypto-payment-institution-license-seychelles           → /crypto-payment-institution-license-seychelles/  
+- [x] crypto-broker-license-seychelles                        → /crypto-broker-license-seychelles/  
+- [x] crypto-otc-desk-license-seychelles                      → /crypto-otc-desk-license-seychelles/  
+- [x] crypto-fund-license-seychelles                          → /crypto-fund-license-seychelles/  
+- [x] crypto-nft-marketplace-license-seychelles               → /crypto-nft-marketplace-license-seychelles/  
+- [x] crypto-payment-institution-license-seychelles           → /crypto-payment-institution-license-seychelles/  
 - [ ] crypto-gambling-license-seychelles                      → /crypto-gambling-license-seychelles/  
 - [ ] crypto-staking-license-seychelles                       → /crypto-staking-license-seychelles/  
 - [ ] crypto-token-issuance-license-seychelles                → /crypto-token-issuance-license-seychelles/  
