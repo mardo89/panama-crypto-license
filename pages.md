@@ -271,11 +271,11 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-bvi                             → /crypto-exchange-license-bvi/  
 - [x] crypto-wallet-custody-license-bvi                       → /crypto-wallet-custody-license-bvi/  
 - [x] crypto-broker-license-bvi                               → /crypto-broker-license-bvi/  
-- [ ] crypto-otc-desk-license-bvi                             → /crypto-otc-desk-license-bvi/  
-- [ ] crypto-fund-license-bvi                                 → /crypto-fund-license-bvi/  
-- [ ] crypto-nft-marketplace-license-bvi                      → /crypto-nft-marketplace-license-bvi/  
-- [ ] crypto-payment-institution-license-bvi                  → /crypto-payment-institution-license-bvi/  
-- [ ] crypto-gambling-license-bvi                             → /crypto-gambling-license-bvi/  
+- [x] crypto-otc-desk-license-bvi                             → /crypto-otc-desk-license-bvi/  
+- [x] crypto-fund-license-bvi                                 → /crypto-fund-license-bvi/  
+- [x] crypto-nft-marketplace-license-bvi                      → /crypto-nft-marketplace-license-bvi/  
+- [x] crypto-payment-institution-license-bvi                  → /crypto-payment-institution-license-bvi/  
+- [x] crypto-gambling-license-bvi                             → /crypto-gambling-license-bvi/  
 - [ ] crypto-staking-license-bvi                              → /crypto-staking-license-bvi/  
 - [ ] crypto-token-issuance-license-bvi                       → /crypto-token-issuance-license-bvi/  
 - [ ] crypto-stablecoin-license-bvi                           → /crypto-stablecoin-license-bvi/  
