@@ -203,10 +203,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] UAE vs Panama for a crypto company: which to choose
 - [x] Common mistakes when applying for a UAE crypto license
 - [x] UAE crypto company costs broken down
-- [ ] AML/KYC requirements for a UAE crypto company
-- [ ] How to get a crypto license in Germany (step-by-step)
-- [ ] Germany crypto tax explained for founders
-- [ ] Crypto license requirements in Germany: full checklist
+- [x] AML/KYC requirements for a UAE crypto company
+- [x] How to get a crypto license in Germany (step-by-step)
+- [x] Germany crypto tax explained for founders
+- [x] Crypto license requirements in Germany: full checklist
 - [ ] Crypto banking in Germany: what founders should expect
 - [ ] Germany vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a Germany crypto license
