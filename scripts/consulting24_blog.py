@@ -1332,6 +1332,21 @@ def _generate() -> list[dict]:
 # Final queue: hand-authored Panama articles first, then generated coverage.
 ARTICLES: list[dict] = PANAMA_ARTICLES + _generate()
 
+# Merge DeepSeek-generated posts (config/extra_posts.json) so Blogger keeps fresh
+# content daily. Each entry: {slug,title,keyword,landing,lede,sections:[[h,[p]]],faqs:[[q,a]],related:[[l,p]],labels:[]}
+_EXTRA_POSTS_PATH = ROOT / "config" / "extra_posts.json"
+if _EXTRA_POSTS_PATH.exists():
+    try:
+        _seenp = {a["slug"] for a in ARTICLES}
+        for _a in json.loads(_EXTRA_POSTS_PATH.read_text()):
+            if _a.get("slug") and _a["slug"] not in _seenp:
+                _a["sections"] = [tuple(s) for s in _a.get("sections", [])]
+                _a["faqs"] = [tuple(f) for f in _a.get("faqs", [])]
+                _a["related"] = [tuple(r) for r in _a.get("related", [])]
+                ARTICLES.append(_a); _seenp.add(_a["slug"])
+    except Exception as _e:
+        print(f"WARN: could not load extra_posts.json: {_e}", file=sys.stderr)
+
 # ── pillar PAGES (head keywords, LLM + SEO optimised) ────────────────────────
 # Blogger Pages are static cornerstone pages. They target broad head terms and
 # act as the hubs of the topic cluster; the daily posts are the long-tail spokes.
