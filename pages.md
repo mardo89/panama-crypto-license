@@ -291,11 +291,11 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-seychelles                → /crypto-token-issuance-license-seychelles/  
 - [x] crypto-stablecoin-license-seychelles                    → /crypto-stablecoin-license-seychelles/  
 - [x] crypto-exchange-license-canada                          → /crypto-exchange-license-canada/  
-- [ ] crypto-wallet-custody-license-canada                    → /crypto-wallet-custody-license-canada/  
-- [ ] crypto-broker-license-canada                            → /crypto-broker-license-canada/  
-- [ ] crypto-otc-desk-license-canada                          → /crypto-otc-desk-license-canada/  
-- [ ] crypto-fund-license-canada                              → /crypto-fund-license-canada/  
-- [ ] crypto-nft-marketplace-license-canada                   → /crypto-nft-marketplace-license-canada/  
+- [x] crypto-wallet-custody-license-canada                    → /crypto-wallet-custody-license-canada/  
+- [x] crypto-broker-license-canada                            → /crypto-broker-license-canada/  
+- [x] crypto-otc-desk-license-canada                          → /crypto-otc-desk-license-canada/  
+- [x] crypto-fund-license-canada                              → /crypto-fund-license-canada/  
+- [x] crypto-nft-marketplace-license-canada                   → /crypto-nft-marketplace-license-canada/  
 - [ ] crypto-payment-institution-license-canada               → /crypto-payment-institution-license-canada/  
 - [ ] crypto-gambling-license-canada                          → /crypto-gambling-license-canada/  
 - [ ] crypto-staking-license-canada                           → /crypto-staking-license-canada/  
