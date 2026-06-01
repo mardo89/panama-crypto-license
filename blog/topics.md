@@ -197,8 +197,8 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Georgia crypto company costs broken down
 - [x] AML/KYC requirements for a Georgia crypto company
 - [x] How to get a crypto license in UAE (step-by-step)
-- [ ] UAE crypto tax explained for founders
-- [ ] Crypto license requirements in UAE: full checklist
+- [x] UAE crypto tax explained for founders
+- [x] Crypto license requirements in UAE: full checklist
 - [ ] Crypto banking in UAE: what founders should expect
 - [ ] UAE vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a UAE crypto license
