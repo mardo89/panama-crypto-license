@@ -65,28 +65,28 @@
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-bvi-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-canada-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-cayman-islands-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-cyprus-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -128,7 +128,7 @@
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-switzerland-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -142,63 +142,63 @@
   "https://www.consulting24.co/blog/bvi-crypto-company-costs-broken-down/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/bvi-crypto-tax-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/bvi-vs-panama-for-a-crypto-company-which-to-choose/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/canada-crypto-company-costs-broken-down/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/canada-crypto-tax-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/canada-vs-panama-for-a-crypto-company-which-to-choose/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/cayman-islands-crypto-company-costs-broken-down/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/cayman-islands-crypto-tax-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/cayman-islands-vs-panama-for-a-crypto-company-which-to-choose/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -212,28 +212,28 @@
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-bvi-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-canada-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-cayman-islands-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-cyprus-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -286,10 +286,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-singapore-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-switzerland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -303,21 +310,21 @@
   "https://www.consulting24.co/blog/crypto-banking-in-bvi-what-founders-should-expect/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/crypto-banking-in-canada-what-founders-should-expect/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/crypto-banking-in-cayman-islands-what-founders-should-expect/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -377,10 +384,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/crypto-banking-in-singapore-what-founders-should-expect/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/crypto-banking-in-switzerland-what-founders-should-expect/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -415,28 +429,28 @@
   "https://www.consulting24.co/blog/crypto-license-requirements-in-bvi-full-checklist/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/crypto-license-requirements-in-canada-full-checklist/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/crypto-license-requirements-in-cayman-islands-full-checklist/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/crypto-license-requirements-in-cyprus-full-checklist/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -492,6 +506,13 @@
   "https://www.consulting24.co/blog/crypto-license-requirements-in-seychelles-full-checklist/": {
     "escalated": false,
     "first_seen": "2026-05-31",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/blog/crypto-license-requirements-in-singapore-full-checklist/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -499,7 +520,7 @@
   "https://www.consulting24.co/blog/crypto-license-requirements-in-switzerland-full-checklist/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -513,14 +534,14 @@
   "https://www.consulting24.co/blog/cyprus-crypto-company-costs-broken-down/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/cyprus-crypto-tax-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -632,14 +653,14 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-bvi-step-by-step/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-cyprus-step-by-step/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -688,21 +709,21 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-seychelles-step-by-step/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-singapore-step-by-step/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-switzerland-step-by-step/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -898,6 +919,13 @@
   "https://www.consulting24.co/blog/seychelles-crypto-tax-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-05-31",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/blog/singapore-crypto-company-costs-broken-down/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -905,6 +933,13 @@
   "https://www.consulting24.co/blog/singapore-crypto-tax-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-05-31",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/blog/singapore-vs-panama-for-a-crypto-company-which-to-choose/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -926,21 +961,21 @@
   "https://www.consulting24.co/blog/switzerland-crypto-company-costs-broken-down/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/switzerland-crypto-tax-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/switzerland-vs-panama-for-a-crypto-company-which-to-choose/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1052,14 +1087,14 @@
   "https://www.consulting24.co/crypto-broker-license-bvi/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-broker-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1080,28 +1115,28 @@
   "https://www.consulting24.co/crypto-broker-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-exchange-license-bvi/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-exchange-license-cayman-islands/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-exchange-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1122,13 +1157,20 @@
   "https://www.consulting24.co/crypto-exchange-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-exchange-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-bvi/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -1136,7 +1178,7 @@
   "https://www.consulting24.co/crypto-fund-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1164,13 +1206,20 @@
   "https://www.consulting24.co/crypto-fund-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-fund-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-gambling-license-bvi/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -1178,14 +1227,14 @@
   "https://www.consulting24.co/crypto-gambling-license-cayman-islands/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-gambling-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1206,7 +1255,7 @@
   "https://www.consulting24.co/crypto-gambling-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1220,6 +1269,13 @@
   "https://www.consulting24.co/crypto-gambling-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-bvi/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -1227,7 +1283,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1262,21 +1318,21 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-nft-marketplace-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-otc-desk-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1304,13 +1360,20 @@
   "https://www.consulting24.co/crypto-otc-desk-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-otc-desk-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-payment-institution-license-bvi/": {
+    "escalated": false,
+    "first_seen": "2026-06-01",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -1318,7 +1381,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1346,7 +1409,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1367,21 +1430,21 @@
   "https://www.consulting24.co/crypto-payment-institution-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-stablecoin-license-cayman-islands/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-stablecoin-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1409,35 +1472,35 @@
   "https://www.consulting24.co/crypto-stablecoin-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-stablecoin-license-poland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-stablecoin-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-staking-license-cayman-islands/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-staking-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1458,7 +1521,7 @@
   "https://www.consulting24.co/crypto-staking-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1472,21 +1535,21 @@
   "https://www.consulting24.co/crypto-staking-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-token-issuance-license-cayman-islands/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-token-issuance-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1514,7 +1577,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1528,21 +1591,21 @@
   "https://www.consulting24.co/crypto-token-issuance-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-wallet-custody-license-bvi/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-wallet-custody-license-cyprus/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1570,14 +1633,14 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-wallet-custody-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
