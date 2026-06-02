@@ -217,11 +217,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto license requirements in Ireland: full checklist
 - [x] Crypto banking in Ireland: what founders should expect
 - [x] Ireland vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Ireland crypto license
-- [ ] Ireland crypto company costs broken down
-- [ ] AML/KYC requirements for a Ireland crypto company
-- [ ] How to get a crypto license in Portugal (step-by-step)
-- [ ] Portugal crypto tax explained for founders
+- [x] Common mistakes when applying for a Ireland crypto license
+- [x] Ireland crypto company costs broken down
+- [x] AML/KYC requirements for a Ireland crypto company
+- [x] How to get a crypto license in Portugal (step-by-step)
+- [x] Portugal crypto tax explained for founders
 - [ ] Crypto license requirements in Portugal: full checklist
 - [ ] Crypto banking in Portugal: what founders should expect
 - [ ] Portugal vs Panama for a crypto company: which to choose
