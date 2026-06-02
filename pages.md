@@ -306,11 +306,11 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-usa                               → /crypto-broker-license-usa/  
 - [x] crypto-otc-desk-license-usa                             → /crypto-otc-desk-license-usa/  
 - [x] crypto-fund-license-usa                                 → /crypto-fund-license-usa/  
-- [ ] crypto-nft-marketplace-license-usa                      → /crypto-nft-marketplace-license-usa/  
-- [ ] crypto-payment-institution-license-usa                  → /crypto-payment-institution-license-usa/  
-- [ ] crypto-gambling-license-usa                             → /crypto-gambling-license-usa/  
-- [ ] crypto-staking-license-usa                              → /crypto-staking-license-usa/  
-- [ ] crypto-token-issuance-license-usa                       → /crypto-token-issuance-license-usa/  
+- [x] crypto-nft-marketplace-license-usa                      → /crypto-nft-marketplace-license-usa/  
+- [x] crypto-payment-institution-license-usa                  → /crypto-payment-institution-license-usa/  
+- [x] crypto-gambling-license-usa                             → /crypto-gambling-license-usa/  
+- [x] crypto-staking-license-usa                              → /crypto-staking-license-usa/  
+- [x] crypto-token-issuance-license-usa                       → /crypto-token-issuance-license-usa/  
 - [ ] crypto-stablecoin-license-usa                           → /crypto-stablecoin-license-usa/  
 - [ ] crypto-exchange-license-singapore                       → /crypto-exchange-license-singapore/  
 - [ ] crypto-wallet-custody-license-singapore                 → /crypto-wallet-custody-license-singapore/  
