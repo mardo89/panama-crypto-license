@@ -316,21 +316,21 @@ Requirements & How to Get One".
 - [x] crypto-wallet-custody-license-singapore                 → /crypto-wallet-custody-license-singapore/  
 - [x] crypto-broker-license-singapore                         → /crypto-broker-license-singapore/  
 - [x] crypto-otc-desk-license-singapore                       → /crypto-otc-desk-license-singapore/  
-- [ ] crypto-fund-license-singapore                           → /crypto-fund-license-singapore/  
-- [ ] crypto-nft-marketplace-license-singapore                → /crypto-nft-marketplace-license-singapore/  
-- [ ] crypto-payment-institution-license-singapore            → /crypto-payment-institution-license-singapore/  
-- [ ] crypto-gambling-license-singapore                       → /crypto-gambling-license-singapore/  
-- [ ] crypto-staking-license-singapore                        → /crypto-staking-license-singapore/  
-- [ ] crypto-token-issuance-license-singapore                 → /crypto-token-issuance-license-singapore/  
-- [ ] crypto-stablecoin-license-singapore                     → /crypto-stablecoin-license-singapore/  
-- [ ] crypto-exchange-license-hong-kong                       → /crypto-exchange-license-hong-kong/  
-- [ ] crypto-wallet-custody-license-hong-kong                 → /crypto-wallet-custody-license-hong-kong/  
-- [ ] crypto-broker-license-hong-kong                         → /crypto-broker-license-hong-kong/  
-- [ ] crypto-otc-desk-license-hong-kong                       → /crypto-otc-desk-license-hong-kong/  
-- [ ] crypto-fund-license-hong-kong                           → /crypto-fund-license-hong-kong/  
-- [ ] crypto-nft-marketplace-license-hong-kong                → /crypto-nft-marketplace-license-hong-kong/  
-- [ ] crypto-payment-institution-license-hong-kong            → /crypto-payment-institution-license-hong-kong/  
-- [ ] crypto-gambling-license-hong-kong                       → /crypto-gambling-license-hong-kong/  
+- [x] crypto-fund-license-singapore                           → /crypto-fund-license-singapore/  
+- [x] crypto-nft-marketplace-license-singapore                → /crypto-nft-marketplace-license-singapore/  
+- [x] crypto-payment-institution-license-singapore            → /crypto-payment-institution-license-singapore/  
+- [x] crypto-gambling-license-singapore                       → /crypto-gambling-license-singapore/  
+- [x] crypto-staking-license-singapore                        → /crypto-staking-license-singapore/  
+- [x] crypto-token-issuance-license-singapore                 → /crypto-token-issuance-license-singapore/  
+- [x] crypto-stablecoin-license-singapore                     → /crypto-stablecoin-license-singapore/  
+- [x] crypto-exchange-license-hong-kong                       → /crypto-exchange-license-hong-kong/  
+- [x] crypto-wallet-custody-license-hong-kong                 → /crypto-wallet-custody-license-hong-kong/  
+- [x] crypto-broker-license-hong-kong                         → /crypto-broker-license-hong-kong/  
+- [x] crypto-otc-desk-license-hong-kong                       → /crypto-otc-desk-license-hong-kong/  
+- [x] crypto-fund-license-hong-kong                           → /crypto-fund-license-hong-kong/  
+- [x] crypto-nft-marketplace-license-hong-kong                → /crypto-nft-marketplace-license-hong-kong/  
+- [x] crypto-payment-institution-license-hong-kong            → /crypto-payment-institution-license-hong-kong/  
+- [x] crypto-gambling-license-hong-kong                       → /crypto-gambling-license-hong-kong/  
 - [ ] crypto-staking-license-hong-kong                        → /crypto-staking-license-hong-kong/  
 - [ ] crypto-token-issuance-license-hong-kong                 → /crypto-token-issuance-license-hong-kong/  
 - [ ] crypto-stablecoin-license-hong-kong                     → /crypto-stablecoin-license-hong-kong/  

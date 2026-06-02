@@ -227,16 +227,16 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Portugal vs Panama for a crypto company: which to choose
 - [x] Common mistakes when applying for a Portugal crypto license
 - [x] Portugal crypto company costs broken down
-- [ ] AML/KYC requirements for a Portugal crypto company
-- [ ] How to get a crypto license in Liechtenstein (step-by-step)
-- [ ] Liechtenstein crypto tax explained for founders
-- [ ] Crypto license requirements in Liechtenstein: full checklist
-- [ ] Crypto banking in Liechtenstein: what founders should expect
-- [ ] Liechtenstein vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Liechtenstein crypto license
-- [ ] Liechtenstein crypto company costs broken down
-- [ ] AML/KYC requirements for a Liechtenstein crypto company
-- [ ] How to get a crypto license in Kazakhstan (step-by-step)
+- [x] AML/KYC requirements for a Portugal crypto company
+- [x] How to get a crypto license in Liechtenstein (step-by-step)
+- [x] Liechtenstein crypto tax explained for founders
+- [x] Crypto license requirements in Liechtenstein: full checklist
+- [x] Crypto banking in Liechtenstein: what founders should expect
+- [x] Liechtenstein vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a Liechtenstein crypto license
+- [x] Liechtenstein crypto company costs broken down
+- [x] AML/KYC requirements for a Liechtenstein crypto company
+- [x] How to get a crypto license in Kazakhstan (step-by-step)
 - [ ] Kazakhstan crypto tax explained for founders
 - [ ] Crypto license requirements in Kazakhstan: full checklist
 - [ ] Crypto banking in Kazakhstan: what founders should expect
