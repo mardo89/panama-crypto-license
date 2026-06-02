@@ -311,11 +311,11 @@ Requirements & How to Get One".
 - [x] crypto-gambling-license-usa                             → /crypto-gambling-license-usa/  
 - [x] crypto-staking-license-usa                              → /crypto-staking-license-usa/  
 - [x] crypto-token-issuance-license-usa                       → /crypto-token-issuance-license-usa/  
-- [ ] crypto-stablecoin-license-usa                           → /crypto-stablecoin-license-usa/  
-- [ ] crypto-exchange-license-singapore                       → /crypto-exchange-license-singapore/  
-- [ ] crypto-wallet-custody-license-singapore                 → /crypto-wallet-custody-license-singapore/  
-- [ ] crypto-broker-license-singapore                         → /crypto-broker-license-singapore/  
-- [ ] crypto-otc-desk-license-singapore                       → /crypto-otc-desk-license-singapore/  
+- [x] crypto-stablecoin-license-usa                           → /crypto-stablecoin-license-usa/  
+- [x] crypto-exchange-license-singapore                       → /crypto-exchange-license-singapore/  
+- [x] crypto-wallet-custody-license-singapore                 → /crypto-wallet-custody-license-singapore/  
+- [x] crypto-broker-license-singapore                         → /crypto-broker-license-singapore/  
+- [x] crypto-otc-desk-license-singapore                       → /crypto-otc-desk-license-singapore/  
 - [ ] crypto-fund-license-singapore                           → /crypto-fund-license-singapore/  
 - [ ] crypto-nft-marketplace-license-singapore                → /crypto-nft-marketplace-license-singapore/  
 - [ ] crypto-payment-institution-license-singapore            → /crypto-payment-institution-license-singapore/  
