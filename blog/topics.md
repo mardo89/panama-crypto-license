@@ -243,10 +243,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Kazakhstan vs Panama for a crypto company: which to choose
 - [x] Common mistakes when applying for a Kazakhstan crypto license
 - [x] Kazakhstan crypto company costs broken down
-- [ ] AML/KYC requirements for a Kazakhstan crypto company
-- [ ] How to get a crypto license in Bahrain (step-by-step)
-- [ ] Bahrain crypto tax explained for founders
-- [ ] Crypto license requirements in Bahrain: full checklist
+- [x] AML/KYC requirements for a Kazakhstan crypto company
+- [x] How to get a crypto license in Bahrain (step-by-step)
+- [x] Bahrain crypto tax explained for founders
+- [x] Crypto license requirements in Bahrain: full checklist
 - [ ] Crypto banking in Bahrain: what founders should expect
 - [ ] Bahrain vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a Bahrain crypto license
