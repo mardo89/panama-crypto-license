@@ -132,6 +132,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-kazakhstan-crypto-company/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-malta-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-05-30",
@@ -164,6 +171,13 @@
     "escalated": false,
     "first_seen": "2026-06-01",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/blog/bahrain-crypto-tax-explained-for-founders/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -545,6 +559,13 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/blog/crypto-license-requirements-in-bahrain-full-checklist/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/crypto-license-requirements-in-bvi-full-checklist/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -832,6 +853,13 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-bahrain-step-by-step/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-bvi-step-by-step/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -969,6 +997,13 @@
     "escalated": false,
     "first_seen": "2026-06-02",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/blog/kazakhstan-crypto-company-costs-broken-down/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -1466,6 +1501,13 @@
     "escalated": false,
     "first_seen": "2026-05-30",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-exchange-license-georgia/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -2029,6 +2071,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-staking-license-hong-kong/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-staking-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -2106,6 +2155,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-token-issuance-license-hong-kong/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-token-issuance-license-malta/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -2173,6 +2229,13 @@
     "escalated": false,
     "first_seen": "2026-05-30",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-georgia/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
