@@ -238,7 +238,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] AML/KYC requirements for a Liechtenstein crypto company
 - [x] How to get a crypto license in Kazakhstan (step-by-step)
 - [x] Kazakhstan crypto tax explained for founders
-- [ ] Crypto license requirements in Kazakhstan: full checklist
+- [x] Crypto license requirements in Kazakhstan: full checklist
 - [ ] Crypto banking in Kazakhstan: what founders should expect
 - [ ] Kazakhstan vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a Kazakhstan crypto license
