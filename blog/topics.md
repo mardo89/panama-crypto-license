@@ -223,10 +223,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to get a crypto license in Portugal (step-by-step)
 - [x] Portugal crypto tax explained for founders
 - [x] Crypto license requirements in Portugal: full checklist
-- [ ] Crypto banking in Portugal: what founders should expect
-- [ ] Portugal vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Portugal crypto license
-- [ ] Portugal crypto company costs broken down
+- [x] Crypto banking in Portugal: what founders should expect
+- [x] Portugal vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a Portugal crypto license
+- [x] Portugal crypto company costs broken down
 - [ ] AML/KYC requirements for a Portugal crypto company
 - [ ] How to get a crypto license in Liechtenstein (step-by-step)
 - [ ] Liechtenstein crypto tax explained for founders
