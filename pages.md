@@ -331,11 +331,11 @@ Requirements & How to Get One".
 - [x] crypto-nft-marketplace-license-hong-kong                → /crypto-nft-marketplace-license-hong-kong/  
 - [x] crypto-payment-institution-license-hong-kong            → /crypto-payment-institution-license-hong-kong/  
 - [x] crypto-gambling-license-hong-kong                       → /crypto-gambling-license-hong-kong/  
-- [ ] crypto-staking-license-hong-kong                        → /crypto-staking-license-hong-kong/  
-- [ ] crypto-token-issuance-license-hong-kong                 → /crypto-token-issuance-license-hong-kong/  
-- [ ] crypto-stablecoin-license-hong-kong                     → /crypto-stablecoin-license-hong-kong/  
-- [ ] crypto-exchange-license-georgia                         → /crypto-exchange-license-georgia/  
-- [ ] crypto-wallet-custody-license-georgia                   → /crypto-wallet-custody-license-georgia/  
+- [x] crypto-staking-license-hong-kong                        → /crypto-staking-license-hong-kong/  
+- [x] crypto-token-issuance-license-hong-kong                 → /crypto-token-issuance-license-hong-kong/  
+- [x] crypto-stablecoin-license-hong-kong                     → /crypto-stablecoin-license-hong-kong/  
+- [x] crypto-exchange-license-georgia                         → /crypto-exchange-license-georgia/  
+- [x] crypto-wallet-custody-license-georgia                   → /crypto-wallet-custody-license-georgia/  
 - [ ] crypto-broker-license-georgia                           → /crypto-broker-license-georgia/  
 - [ ] crypto-otc-desk-license-georgia                         → /crypto-otc-desk-license-georgia/  
 - [ ] crypto-fund-license-georgia                             → /crypto-fund-license-georgia/  
