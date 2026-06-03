@@ -361,11 +361,11 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-anjouan                           → /crypto-broker-license-anjouan/  
 - [x] crypto-otc-desk-license-anjouan                         → /crypto-otc-desk-license-anjouan/  
 - [x] crypto-fund-license-anjouan                             → /crypto-fund-license-anjouan/  
-- [ ] crypto-nft-marketplace-license-anjouan                  → /crypto-nft-marketplace-license-anjouan/  
-- [ ] crypto-payment-institution-license-anjouan              → /crypto-payment-institution-license-anjouan/  
-- [ ] crypto-gambling-license-anjouan                         → /crypto-gambling-license-anjouan/  
-- [ ] crypto-staking-license-anjouan                          → /crypto-staking-license-anjouan/  
-- [ ] crypto-token-issuance-license-anjouan                   → /crypto-token-issuance-license-anjouan/  
+- [x] crypto-nft-marketplace-license-anjouan                  → /crypto-nft-marketplace-license-anjouan/  
+- [x] crypto-payment-institution-license-anjouan              → /crypto-payment-institution-license-anjouan/  
+- [x] crypto-gambling-license-anjouan                         → /crypto-gambling-license-anjouan/  
+- [x] crypto-staking-license-anjouan                          → /crypto-staking-license-anjouan/  
+- [x] crypto-token-issuance-license-anjouan                   → /crypto-token-issuance-license-anjouan/  
 - [ ] crypto-stablecoin-license-anjouan                       → /crypto-stablecoin-license-anjouan/  
 - [ ] crypto-exchange-license-costa-rica                      → /crypto-exchange-license-costa-rica/  
 - [ ] crypto-wallet-custody-license-costa-rica                → /crypto-wallet-custody-license-costa-rica/  
