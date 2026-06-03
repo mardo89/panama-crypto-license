@@ -268,10 +268,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How long does a Lithuania crypto license take in 2026
 - [x] Cost of a crypto license in Lithuania: full breakdown 2026
 - [x] Estonia crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Estonia: step-by-step for 2026
-- [ ] Crypto company tax in Estonia explained for founders
-- [ ] Crypto banking and payment rails in Estonia: what to expect
-- [ ] Estonia vs Panama for a crypto company: which should you choose
+- [x] How to get a crypto license in Estonia: step-by-step for 2026
+- [x] Crypto company tax in Estonia explained for founders
+- [x] Crypto banking and payment rails in Estonia: what to expect
+- [x] Estonia vs Panama for a crypto company: which should you choose
 - [ ] How long does a Estonia crypto license take in 2026
 - [ ] Cost of a crypto license in Estonia: full breakdown 2026
 - [ ] Dubai crypto license requirements checklist for 2026
