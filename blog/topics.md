@@ -257,11 +257,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto license requirements in Hong Kong: full checklist
 - [x] Crypto banking in Hong Kong: what founders should expect
 - [x] Hong Kong vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Hong Kong crypto license
-- [ ] Hong Kong crypto company costs broken down
-- [ ] AML/KYC requirements for a Hong Kong crypto company
-- [ ] Lithuania crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Lithuania: step-by-step for 2026
+- [x] Common mistakes when applying for a Hong Kong crypto license
+- [x] Hong Kong crypto company costs broken down
+- [x] AML/KYC requirements for a Hong Kong crypto company
+- [x] Lithuania crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Lithuania: step-by-step for 2026
 - [ ] Crypto company tax in Lithuania explained for founders
 - [ ] Crypto banking and payment rails in Lithuania: what to expect
 - [ ] Lithuania vs Panama for a crypto company: which should you choose

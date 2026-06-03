@@ -346,16 +346,16 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-georgia                   → /crypto-token-issuance-license-georgia/  
 - [x] crypto-stablecoin-license-georgia                       → /crypto-stablecoin-license-georgia/  
 - [x] crypto-exchange-license-mauritius                       → /crypto-exchange-license-mauritius/  
-- [ ] crypto-wallet-custody-license-mauritius                 → /crypto-wallet-custody-license-mauritius/  
-- [ ] crypto-broker-license-mauritius                         → /crypto-broker-license-mauritius/  
-- [ ] crypto-otc-desk-license-mauritius                       → /crypto-otc-desk-license-mauritius/  
-- [ ] crypto-fund-license-mauritius                           → /crypto-fund-license-mauritius/  
-- [ ] crypto-nft-marketplace-license-mauritius                → /crypto-nft-marketplace-license-mauritius/  
-- [ ] crypto-payment-institution-license-mauritius            → /crypto-payment-institution-license-mauritius/  
-- [ ] crypto-gambling-license-mauritius                       → /crypto-gambling-license-mauritius/  
-- [ ] crypto-staking-license-mauritius                        → /crypto-staking-license-mauritius/  
-- [ ] crypto-token-issuance-license-mauritius                 → /crypto-token-issuance-license-mauritius/  
-- [ ] crypto-stablecoin-license-mauritius                     → /crypto-stablecoin-license-mauritius/  
+- [x] crypto-wallet-custody-license-mauritius                 → /crypto-wallet-custody-license-mauritius/  
+- [x] crypto-broker-license-mauritius                         → /crypto-broker-license-mauritius/  
+- [x] crypto-otc-desk-license-mauritius                       → /crypto-otc-desk-license-mauritius/  
+- [x] crypto-fund-license-mauritius                           → /crypto-fund-license-mauritius/  
+- [x] crypto-nft-marketplace-license-mauritius                → /crypto-nft-marketplace-license-mauritius/  
+- [x] crypto-payment-institution-license-mauritius            → /crypto-payment-institution-license-mauritius/  
+- [x] crypto-gambling-license-mauritius                       → /crypto-gambling-license-mauritius/  
+- [x] crypto-staking-license-mauritius                        → /crypto-staking-license-mauritius/  
+- [x] crypto-token-issuance-license-mauritius                 → /crypto-token-issuance-license-mauritius/  
+- [x] crypto-stablecoin-license-mauritius                     → /crypto-stablecoin-license-mauritius/  
 - [ ] crypto-exchange-license-anjouan                         → /crypto-exchange-license-anjouan/  
 - [ ] crypto-wallet-custody-license-anjouan                   → /crypto-wallet-custody-license-anjouan/  
 - [ ] crypto-broker-license-anjouan                           → /crypto-broker-license-anjouan/  
