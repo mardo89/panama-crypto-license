@@ -275,8 +275,8 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How long does a Estonia crypto license take in 2026
 - [x] Cost of a crypto license in Estonia: full breakdown 2026
 - [x] Dubai crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Dubai: step-by-step for 2026
-- [ ] Crypto company tax in Dubai explained for founders
+- [x] How to get a crypto license in Dubai: step-by-step for 2026
+- [x] Crypto company tax in Dubai explained for founders
 - [ ] Crypto banking and payment rails in Dubai: what to expect
 - [ ] Dubai vs Panama for a crypto company: which should you choose
 - [ ] How long does a Dubai crypto license take in 2026
