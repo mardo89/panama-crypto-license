@@ -62,6 +62,13 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-bahrain-crypto-company/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-bvi-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -174,7 +181,21 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/bahrain-crypto-company-costs-broken-down/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/bahrain-crypto-tax-explained-for-founders/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/blog/bahrain-vs-panama-for-a-crypto-company-which-to-choose/": {
     "escalated": false,
     "first_seen": "2026-06-03",
     "indexed": null,
@@ -257,6 +278,13 @@
     "indexed": true,
     "last_action": "2026-05-29",
     "submits": 1
+  },
+  "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-bahrain-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-bvi-crypto-license/": {
     "escalated": false,
@@ -397,6 +425,13 @@
     "indexed": true,
     "last_action": "2026-05-29",
     "submits": 1
+  },
+  "https://www.consulting24.co/blog/crypto-banking-in-bahrain-what-founders-should-expect/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/blog/crypto-banking-in-bvi-what-founders-should-expect/": {
     "escalated": false,
@@ -1441,6 +1476,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-georgia/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-singapore/": {
     "escalated": false,
     "first_seen": "2026-06-02",
@@ -1585,6 +1627,13 @@
     "escalated": false,
     "first_seen": "2026-05-30",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-georgia/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -1742,6 +1791,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-georgia/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-nft-marketplace-license-hong-kong/": {
     "escalated": false,
     "first_seen": "2026-06-03",
@@ -1893,6 +1949,13 @@
     "escalated": false,
     "first_seen": "2026-05-30",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-payment-institution-license-georgia/": {
+    "escalated": false,
+    "first_seen": "2026-06-03",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
