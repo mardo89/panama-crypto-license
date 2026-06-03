@@ -341,11 +341,11 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-georgia                             → /crypto-fund-license-georgia/  
 - [x] crypto-nft-marketplace-license-georgia                  → /crypto-nft-marketplace-license-georgia/  
 - [x] crypto-payment-institution-license-georgia              → /crypto-payment-institution-license-georgia/  
-- [ ] crypto-gambling-license-georgia                         → /crypto-gambling-license-georgia/  
-- [ ] crypto-staking-license-georgia                          → /crypto-staking-license-georgia/  
-- [ ] crypto-token-issuance-license-georgia                   → /crypto-token-issuance-license-georgia/  
-- [ ] crypto-stablecoin-license-georgia                       → /crypto-stablecoin-license-georgia/  
-- [ ] crypto-exchange-license-mauritius                       → /crypto-exchange-license-mauritius/  
+- [x] crypto-gambling-license-georgia                         → /crypto-gambling-license-georgia/  
+- [x] crypto-staking-license-georgia                          → /crypto-staking-license-georgia/  
+- [x] crypto-token-issuance-license-georgia                   → /crypto-token-issuance-license-georgia/  
+- [x] crypto-stablecoin-license-georgia                       → /crypto-stablecoin-license-georgia/  
+- [x] crypto-exchange-license-mauritius                       → /crypto-exchange-license-mauritius/  
 - [ ] crypto-wallet-custody-license-mauritius                 → /crypto-wallet-custody-license-mauritius/  
 - [ ] crypto-broker-license-mauritius                         → /crypto-broker-license-mauritius/  
 - [ ] crypto-otc-desk-license-mauritius                       → /crypto-otc-desk-license-mauritius/  
