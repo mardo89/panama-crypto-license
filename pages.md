@@ -356,11 +356,11 @@ Requirements & How to Get One".
 - [x] crypto-staking-license-mauritius                        → /crypto-staking-license-mauritius/  
 - [x] crypto-token-issuance-license-mauritius                 → /crypto-token-issuance-license-mauritius/  
 - [x] crypto-stablecoin-license-mauritius                     → /crypto-stablecoin-license-mauritius/  
-- [ ] crypto-exchange-license-anjouan                         → /crypto-exchange-license-anjouan/  
-- [ ] crypto-wallet-custody-license-anjouan                   → /crypto-wallet-custody-license-anjouan/  
-- [ ] crypto-broker-license-anjouan                           → /crypto-broker-license-anjouan/  
-- [ ] crypto-otc-desk-license-anjouan                         → /crypto-otc-desk-license-anjouan/  
-- [ ] crypto-fund-license-anjouan                             → /crypto-fund-license-anjouan/  
+- [x] crypto-exchange-license-anjouan                         → /crypto-exchange-license-anjouan/  
+- [x] crypto-wallet-custody-license-anjouan                   → /crypto-wallet-custody-license-anjouan/  
+- [x] crypto-broker-license-anjouan                           → /crypto-broker-license-anjouan/  
+- [x] crypto-otc-desk-license-anjouan                         → /crypto-otc-desk-license-anjouan/  
+- [x] crypto-fund-license-anjouan                             → /crypto-fund-license-anjouan/  
 - [ ] crypto-nft-marketplace-license-anjouan                  → /crypto-nft-marketplace-license-anjouan/  
 - [ ] crypto-payment-institution-license-anjouan              → /crypto-payment-institution-license-anjouan/  
 - [ ] crypto-gambling-license-anjouan                         → /crypto-gambling-license-anjouan/  
