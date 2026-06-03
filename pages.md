@@ -371,11 +371,11 @@ Requirements & How to Get One".
 - [x] crypto-wallet-custody-license-costa-rica                → /crypto-wallet-custody-license-costa-rica/  
 - [x] crypto-broker-license-costa-rica                        → /crypto-broker-license-costa-rica/  
 - [x] crypto-otc-desk-license-costa-rica                      → /crypto-otc-desk-license-costa-rica/  
-- [ ] crypto-fund-license-costa-rica                          → /crypto-fund-license-costa-rica/  
-- [ ] crypto-nft-marketplace-license-costa-rica               → /crypto-nft-marketplace-license-costa-rica/  
-- [ ] crypto-payment-institution-license-costa-rica           → /crypto-payment-institution-license-costa-rica/  
-- [ ] crypto-gambling-license-costa-rica                      → /crypto-gambling-license-costa-rica/  
-- [ ] crypto-staking-license-costa-rica                       → /crypto-staking-license-costa-rica/  
+- [x] crypto-fund-license-costa-rica                          → /crypto-fund-license-costa-rica/  
+- [x] crypto-nft-marketplace-license-costa-rica               → /crypto-nft-marketplace-license-costa-rica/  
+- [x] crypto-payment-institution-license-costa-rica           → /crypto-payment-institution-license-costa-rica/  
+- [x] crypto-gambling-license-costa-rica                      → /crypto-gambling-license-costa-rica/  
+- [x] crypto-staking-license-costa-rica                       → /crypto-staking-license-costa-rica/  
 - [ ] crypto-token-issuance-license-costa-rica                → /crypto-token-issuance-license-costa-rica/  
 - [ ] crypto-stablecoin-license-costa-rica                    → /crypto-stablecoin-license-costa-rica/  
 - [ ] crypto-exchange-license-labuan                          → /crypto-exchange-license-labuan/  
