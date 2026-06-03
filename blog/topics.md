@@ -248,10 +248,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Bahrain crypto tax explained for founders
 - [x] Crypto license requirements in Bahrain: full checklist
 - [x] Crypto banking in Bahrain: what founders should expect
-- [ ] Bahrain vs Panama for a crypto company: which to choose
-- [ ] Common mistakes when applying for a Bahrain crypto license
-- [ ] Bahrain crypto company costs broken down
-- [ ] AML/KYC requirements for a Bahrain crypto company
+- [x] Bahrain vs Panama for a crypto company: which to choose
+- [x] Common mistakes when applying for a Bahrain crypto license
+- [x] Bahrain crypto company costs broken down
+- [x] AML/KYC requirements for a Bahrain crypto company
 - [ ] How to get a crypto license in Hong Kong (step-by-step)
 - [ ] Hong Kong crypto tax explained for founders
 - [ ] Crypto license requirements in Hong Kong: full checklist
