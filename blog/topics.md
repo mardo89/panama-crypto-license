@@ -247,7 +247,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to get a crypto license in Bahrain (step-by-step)
 - [x] Bahrain crypto tax explained for founders
 - [x] Crypto license requirements in Bahrain: full checklist
-- [ ] Crypto banking in Bahrain: what founders should expect
+- [x] Crypto banking in Bahrain: what founders should expect
 - [ ] Bahrain vs Panama for a crypto company: which to choose
 - [ ] Common mistakes when applying for a Bahrain crypto license
 - [ ] Bahrain crypto company costs broken down
