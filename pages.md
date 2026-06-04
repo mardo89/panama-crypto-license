@@ -381,11 +381,11 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-labuan                          → /crypto-exchange-license-labuan/  
 - [x] crypto-wallet-custody-license-labuan                    → /crypto-wallet-custody-license-labuan/  
 - [x] crypto-broker-license-labuan                            → /crypto-broker-license-labuan/  
-- [ ] crypto-otc-desk-license-labuan                          → /crypto-otc-desk-license-labuan/  
-- [ ] crypto-fund-license-labuan                              → /crypto-fund-license-labuan/  
-- [ ] crypto-nft-marketplace-license-labuan                   → /crypto-nft-marketplace-license-labuan/  
-- [ ] crypto-payment-institution-license-labuan               → /crypto-payment-institution-license-labuan/  
-- [ ] crypto-gambling-license-labuan                          → /crypto-gambling-license-labuan/  
+- [x] crypto-otc-desk-license-labuan                          → /crypto-otc-desk-license-labuan/  
+- [x] crypto-fund-license-labuan                              → /crypto-fund-license-labuan/  
+- [x] crypto-nft-marketplace-license-labuan                   → /crypto-nft-marketplace-license-labuan/  
+- [x] crypto-payment-institution-license-labuan               → /crypto-payment-institution-license-labuan/  
+- [x] crypto-gambling-license-labuan                          → /crypto-gambling-license-labuan/  
 - [ ] crypto-staking-license-labuan                           → /crypto-staking-license-labuan/  
 - [ ] crypto-token-issuance-license-labuan                    → /crypto-token-issuance-license-labuan/  
 - [ ] crypto-stablecoin-license-labuan                        → /crypto-stablecoin-license-labuan/  
