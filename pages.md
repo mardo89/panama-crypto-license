@@ -411,11 +411,11 @@ Requirements & How to Get One".
 - [x] crypto-staking-license-germany                          → /crypto-staking-license-germany/  
 - [x] crypto-token-issuance-license-germany                   → /crypto-token-issuance-license-germany/  
 - [x] crypto-stablecoin-license-germany                       → /crypto-stablecoin-license-germany/  
-- [ ] crypto-exchange-license-ireland                         → /crypto-exchange-license-ireland/  
-- [ ] crypto-wallet-custody-license-ireland                   → /crypto-wallet-custody-license-ireland/  
-- [ ] crypto-broker-license-ireland                           → /crypto-broker-license-ireland/  
-- [ ] crypto-otc-desk-license-ireland                         → /crypto-otc-desk-license-ireland/  
-- [ ] crypto-fund-license-ireland                             → /crypto-fund-license-ireland/  
+- [x] crypto-exchange-license-ireland                         → /crypto-exchange-license-ireland/  
+- [x] crypto-wallet-custody-license-ireland                   → /crypto-wallet-custody-license-ireland/  
+- [x] crypto-broker-license-ireland                           → /crypto-broker-license-ireland/  
+- [x] crypto-otc-desk-license-ireland                         → /crypto-otc-desk-license-ireland/  
+- [x] crypto-fund-license-ireland                             → /crypto-fund-license-ireland/  
 - [ ] crypto-nft-marketplace-license-ireland                  → /crypto-nft-marketplace-license-ireland/  
 - [ ] crypto-payment-institution-license-ireland              → /crypto-payment-institution-license-ireland/  
 - [ ] crypto-gambling-license-ireland                         → /crypto-gambling-license-ireland/  
