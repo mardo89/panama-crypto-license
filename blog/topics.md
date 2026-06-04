@@ -322,11 +322,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto banking and payment rails in Portugal: what to expect
 - [x] Portugal vs Panama for a crypto company: which should you choose
 - [x] How long does a Portugal crypto license take in 2026
-- [ ] Cost of a crypto license in Portugal: full breakdown 2026
-- [ ] Spain crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Spain: step-by-step for 2026
-- [ ] Crypto company tax in Spain explained for founders
-- [ ] Crypto banking and payment rails in Spain: what to expect
+- [x] Cost of a crypto license in Portugal: full breakdown 2026
+- [x] Spain crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Spain: step-by-step for 2026
+- [x] Crypto company tax in Spain explained for founders
+- [x] Crypto banking and payment rails in Spain: what to expect
 - [ ] Spain vs Panama for a crypto company: which should you choose
 - [ ] How long does a Spain crypto license take in 2026
 - [ ] Common mistakes when applying for a Spain crypto license
