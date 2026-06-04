@@ -396,11 +396,11 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-abu-dhabi                           → /crypto-fund-license-abu-dhabi/  
 - [x] crypto-nft-marketplace-license-abu-dhabi                → /crypto-nft-marketplace-license-abu-dhabi/  
 - [x] crypto-payment-institution-license-abu-dhabi            → /crypto-payment-institution-license-abu-dhabi/  
-- [ ] crypto-gambling-license-abu-dhabi                       → /crypto-gambling-license-abu-dhabi/  
-- [ ] crypto-staking-license-abu-dhabi                        → /crypto-staking-license-abu-dhabi/  
-- [ ] crypto-token-issuance-license-abu-dhabi                 → /crypto-token-issuance-license-abu-dhabi/  
-- [ ] crypto-stablecoin-license-abu-dhabi                     → /crypto-stablecoin-license-abu-dhabi/  
-- [ ] crypto-exchange-license-germany                         → /crypto-exchange-license-germany/  
+- [x] crypto-gambling-license-abu-dhabi                       → /crypto-gambling-license-abu-dhabi/  
+- [x] crypto-staking-license-abu-dhabi                        → /crypto-staking-license-abu-dhabi/  
+- [x] crypto-token-issuance-license-abu-dhabi                 → /crypto-token-issuance-license-abu-dhabi/  
+- [x] crypto-stablecoin-license-abu-dhabi                     → /crypto-stablecoin-license-abu-dhabi/  
+- [x] crypto-exchange-license-germany                         → /crypto-exchange-license-germany/  
 - [ ] crypto-wallet-custody-license-germany                   → /crypto-wallet-custody-license-germany/  
 - [ ] crypto-broker-license-germany                           → /crypto-broker-license-germany/  
 - [ ] crypto-otc-desk-license-germany                         → /crypto-otc-desk-license-germany/  
