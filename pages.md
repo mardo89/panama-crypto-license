@@ -401,11 +401,11 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-abu-dhabi                 → /crypto-token-issuance-license-abu-dhabi/  
 - [x] crypto-stablecoin-license-abu-dhabi                     → /crypto-stablecoin-license-abu-dhabi/  
 - [x] crypto-exchange-license-germany                         → /crypto-exchange-license-germany/  
-- [ ] crypto-wallet-custody-license-germany                   → /crypto-wallet-custody-license-germany/  
-- [ ] crypto-broker-license-germany                           → /crypto-broker-license-germany/  
-- [ ] crypto-otc-desk-license-germany                         → /crypto-otc-desk-license-germany/  
-- [ ] crypto-fund-license-germany                             → /crypto-fund-license-germany/  
-- [ ] crypto-nft-marketplace-license-germany                  → /crypto-nft-marketplace-license-germany/  
+- [x] crypto-wallet-custody-license-germany                   → /crypto-wallet-custody-license-germany/  
+- [x] crypto-broker-license-germany                           → /crypto-broker-license-germany/  
+- [x] crypto-otc-desk-license-germany                         → /crypto-otc-desk-license-germany/  
+- [x] crypto-fund-license-germany                             → /crypto-fund-license-germany/  
+- [x] crypto-nft-marketplace-license-germany                  → /crypto-nft-marketplace-license-germany/  
 - [ ] crypto-payment-institution-license-germany              → /crypto-payment-institution-license-germany/  
 - [ ] crypto-gambling-license-germany                         → /crypto-gambling-license-germany/  
 - [ ] crypto-staking-license-germany                          → /crypto-staking-license-germany/  
