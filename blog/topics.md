@@ -307,11 +307,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto company tax in Czech Republic explained for founders
 - [x] Crypto banking and payment rails in Czech Republic: what to expect
 - [x] Czech Republic vs Panama for a crypto company: which should you choose
-- [ ] How long does a Czech Republic crypto license take in 2026
-- [ ] Cost of a crypto license in Czech Republic: full breakdown 2026
-- [ ] Poland crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Poland: step-by-step for 2026
-- [ ] Crypto company tax in Poland explained for founders
+- [x] How long does a Czech Republic crypto license take in 2026
+- [x] Cost of a crypto license in Czech Republic: full breakdown 2026
+- [x] Poland crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Poland: step-by-step for 2026
+- [x] Crypto company tax in Poland explained for founders
 - [ ] Crypto banking and payment rails in Poland: what to expect
 - [ ] Poland vs Panama for a crypto company: which should you choose
 - [ ] How long does a Poland crypto license take in 2026
