@@ -297,11 +297,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Cost of a crypto license in Cyprus: full breakdown 2026
 - [x] Malta crypto license requirements checklist for 2026
 - [x] How to get a crypto license in Malta: step-by-step for 2026
-- [ ] Crypto company tax in Malta explained for founders
-- [ ] Crypto banking and payment rails in Malta: what to expect
-- [ ] Malta vs Panama for a crypto company: which should you choose
-- [ ] How long does a Malta crypto license take in 2026
-- [ ] Cost of a crypto license in Malta: full breakdown 2026
+- [x] Crypto company tax in Malta explained for founders
+- [x] Crypto banking and payment rails in Malta: what to expect
+- [x] Malta vs Panama for a crypto company: which should you choose
+- [x] How long does a Malta crypto license take in 2026
+- [x] Cost of a crypto license in Malta: full breakdown 2026
 - [ ] Czech Republic crypto license requirements checklist for 2026
 - [ ] How to get a crypto license in Czech Republic: step-by-step for 2026
 - [ ] Crypto company tax in Czech Republic explained for founders
