@@ -386,11 +386,11 @@ Requirements & How to Get One".
 - [x] crypto-nft-marketplace-license-labuan                   → /crypto-nft-marketplace-license-labuan/  
 - [x] crypto-payment-institution-license-labuan               → /crypto-payment-institution-license-labuan/  
 - [x] crypto-gambling-license-labuan                          → /crypto-gambling-license-labuan/  
-- [ ] crypto-staking-license-labuan                           → /crypto-staking-license-labuan/  
-- [ ] crypto-token-issuance-license-labuan                    → /crypto-token-issuance-license-labuan/  
-- [ ] crypto-stablecoin-license-labuan                        → /crypto-stablecoin-license-labuan/  
-- [ ] crypto-exchange-license-abu-dhabi                       → /crypto-exchange-license-abu-dhabi/  
-- [ ] crypto-wallet-custody-license-abu-dhabi                 → /crypto-wallet-custody-license-abu-dhabi/  
+- [x] crypto-staking-license-labuan                           → /crypto-staking-license-labuan/  
+- [x] crypto-token-issuance-license-labuan                    → /crypto-token-issuance-license-labuan/  
+- [x] crypto-stablecoin-license-labuan                        → /crypto-stablecoin-license-labuan/  
+- [x] crypto-exchange-license-abu-dhabi                       → /crypto-exchange-license-abu-dhabi/  
+- [x] crypto-wallet-custody-license-abu-dhabi                 → /crypto-wallet-custody-license-abu-dhabi/  
 - [ ] crypto-broker-license-abu-dhabi                         → /crypto-broker-license-abu-dhabi/  
 - [ ] crypto-otc-desk-license-abu-dhabi                       → /crypto-otc-desk-license-abu-dhabi/  
 - [ ] crypto-fund-license-abu-dhabi                           → /crypto-fund-license-abu-dhabi/  
