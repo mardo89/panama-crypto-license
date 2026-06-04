@@ -376,11 +376,11 @@ Requirements & How to Get One".
 - [x] crypto-payment-institution-license-costa-rica           → /crypto-payment-institution-license-costa-rica/  
 - [x] crypto-gambling-license-costa-rica                      → /crypto-gambling-license-costa-rica/  
 - [x] crypto-staking-license-costa-rica                       → /crypto-staking-license-costa-rica/  
-- [ ] crypto-token-issuance-license-costa-rica                → /crypto-token-issuance-license-costa-rica/  
-- [ ] crypto-stablecoin-license-costa-rica                    → /crypto-stablecoin-license-costa-rica/  
-- [ ] crypto-exchange-license-labuan                          → /crypto-exchange-license-labuan/  
-- [ ] crypto-wallet-custody-license-labuan                    → /crypto-wallet-custody-license-labuan/  
-- [ ] crypto-broker-license-labuan                            → /crypto-broker-license-labuan/  
+- [x] crypto-token-issuance-license-costa-rica                → /crypto-token-issuance-license-costa-rica/  
+- [x] crypto-stablecoin-license-costa-rica                    → /crypto-stablecoin-license-costa-rica/  
+- [x] crypto-exchange-license-labuan                          → /crypto-exchange-license-labuan/  
+- [x] crypto-wallet-custody-license-labuan                    → /crypto-wallet-custody-license-labuan/  
+- [x] crypto-broker-license-labuan                            → /crypto-broker-license-labuan/  
 - [ ] crypto-otc-desk-license-labuan                          → /crypto-otc-desk-license-labuan/  
 - [ ] crypto-fund-license-labuan                              → /crypto-fund-license-labuan/  
 - [ ] crypto-nft-marketplace-license-labuan                   → /crypto-nft-marketplace-license-labuan/  
