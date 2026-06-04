@@ -287,11 +287,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto banking and payment rails in Switzerland: what to expect
 - [x] Switzerland vs Panama for a crypto company: which should you choose
 - [x] How long does a Switzerland crypto license take in 2026
-- [ ] Cost of a crypto license in Switzerland: full breakdown 2026
-- [ ] Cyprus crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Cyprus: step-by-step for 2026
-- [ ] Crypto company tax in Cyprus explained for founders
-- [ ] Crypto banking and payment rails in Cyprus: what to expect
+- [x] Cost of a crypto license in Switzerland: full breakdown 2026
+- [x] Cyprus crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Cyprus: step-by-step for 2026
+- [x] Crypto company tax in Cyprus explained for founders
+- [x] Crypto banking and payment rails in Cyprus: what to expect
 - [ ] Cyprus vs Panama for a crypto company: which should you choose
 - [ ] How long does a Cyprus crypto license take in 2026
 - [ ] Cost of a crypto license in Cyprus: full breakdown 2026
