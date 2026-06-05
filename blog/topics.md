@@ -332,11 +332,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Common mistakes when applying for a Spain crypto license
 - [x] Cost of a crypto license in Spain: full breakdown 2026
 - [x] Ireland crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Ireland: step-by-step for 2026
-- [ ] Crypto company tax in Ireland explained for founders
-- [ ] Crypto banking and payment rails in Ireland: what to expect
-- [ ] Ireland vs Panama for a crypto company: which should you choose
-- [ ] How long does a Ireland crypto license take in 2026
+- [x] How to get a crypto license in Ireland: step-by-step for 2026
+- [x] Crypto company tax in Ireland explained for founders
+- [x] Crypto banking and payment rails in Ireland: what to expect
+- [x] Ireland vs Panama for a crypto company: which should you choose
+- [x] How long does a Ireland crypto license take in 2026
 - [ ] Cost of a crypto license in Ireland: full breakdown 2026
 - [ ] Georgia crypto license requirements checklist for 2026
 - [ ] How to get a crypto license in Georgia: step-by-step for 2026
