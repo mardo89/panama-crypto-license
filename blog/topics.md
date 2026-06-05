@@ -347,11 +347,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Cost of a crypto license in Georgia: full breakdown 2026
 - [x] Cayman Islands crypto license requirements checklist for 2026
 - [x] How to get a crypto license in Cayman Islands: step-by-step for 2026
-- [ ] Crypto company tax in Cayman Islands explained for founders
-- [ ] Crypto banking and payment rails in Cayman Islands: what to expect
-- [ ] Cayman Islands vs Panama for a crypto company: which should you choose
-- [ ] How long does a Cayman Islands crypto license take in 2026
-- [ ] Cost of a crypto license in Cayman Islands: full breakdown 2026
+- [x] Crypto company tax in Cayman Islands explained for founders
+- [x] Crypto banking and payment rails in Cayman Islands: what to expect
+- [x] Cayman Islands vs Panama for a crypto company: which should you choose
+- [x] How long does a Cayman Islands crypto license take in 2026
+- [x] Cost of a crypto license in Cayman Islands: full breakdown 2026
 - [ ] BVI crypto license requirements checklist for 2026
 - [ ] How to get a crypto license in BVI: step-by-step for 2026
 - [ ] Crypto company tax in BVI explained for founders
