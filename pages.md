@@ -426,16 +426,16 @@ Requirements & How to Get One".
 - [x] crypto-wallet-custody-license-bulgaria                  → /crypto-wallet-custody-license-bulgaria/  
 - [x] crypto-broker-license-bulgaria                          → /crypto-broker-license-bulgaria/  
 - [x] crypto-otc-desk-license-bulgaria                        → /crypto-otc-desk-license-bulgaria/  
-- [ ] crypto-fund-license-bulgaria                            → /crypto-fund-license-bulgaria/  
-- [ ] crypto-nft-marketplace-license-bulgaria                 → /crypto-nft-marketplace-license-bulgaria/  
-- [ ] crypto-payment-institution-license-bulgaria             → /crypto-payment-institution-license-bulgaria/  
-- [ ] crypto-gambling-license-bulgaria                        → /crypto-gambling-license-bulgaria/  
-- [ ] crypto-staking-license-bulgaria                         → /crypto-staking-license-bulgaria/  
-- [ ] crypto-token-issuance-license-bulgaria                  → /crypto-token-issuance-license-bulgaria/  
-- [ ] crypto-stablecoin-license-bulgaria                      → /crypto-stablecoin-license-bulgaria/  
-- [ ] crypto-exchange-license-portugal                        → /crypto-exchange-license-portugal/  
-- [ ] crypto-wallet-custody-license-portugal                  → /crypto-wallet-custody-license-portugal/  
-- [ ] crypto-broker-license-portugal                          → /crypto-broker-license-portugal/  
+- [x] crypto-fund-license-bulgaria                            → /crypto-fund-license-bulgaria/  
+- [x] crypto-nft-marketplace-license-bulgaria                 → /crypto-nft-marketplace-license-bulgaria/  
+- [x] crypto-payment-institution-license-bulgaria             → /crypto-payment-institution-license-bulgaria/  
+- [x] crypto-gambling-license-bulgaria                        → /crypto-gambling-license-bulgaria/  
+- [x] crypto-staking-license-bulgaria                         → /crypto-staking-license-bulgaria/  
+- [x] crypto-token-issuance-license-bulgaria                  → /crypto-token-issuance-license-bulgaria/  
+- [x] crypto-stablecoin-license-bulgaria                      → /crypto-stablecoin-license-bulgaria/  
+- [x] crypto-exchange-license-portugal                        → /crypto-exchange-license-portugal/  
+- [x] crypto-wallet-custody-license-portugal                  → /crypto-wallet-custody-license-portugal/  
+- [x] crypto-broker-license-portugal                          → /crypto-broker-license-portugal/  
 - [ ] crypto-otc-desk-license-portugal                        → /crypto-otc-desk-license-portugal/  
 - [ ] crypto-fund-license-portugal                            → /crypto-fund-license-portugal/  
 - [ ] crypto-nft-marketplace-license-portugal                 → /crypto-nft-marketplace-license-portugal/  
