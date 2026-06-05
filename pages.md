@@ -436,11 +436,11 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-portugal                        → /crypto-exchange-license-portugal/  
 - [x] crypto-wallet-custody-license-portugal                  → /crypto-wallet-custody-license-portugal/  
 - [x] crypto-broker-license-portugal                          → /crypto-broker-license-portugal/  
-- [ ] crypto-otc-desk-license-portugal                        → /crypto-otc-desk-license-portugal/  
-- [ ] crypto-fund-license-portugal                            → /crypto-fund-license-portugal/  
-- [ ] crypto-nft-marketplace-license-portugal                 → /crypto-nft-marketplace-license-portugal/  
-- [ ] crypto-payment-institution-license-portugal             → /crypto-payment-institution-license-portugal/  
-- [ ] crypto-gambling-license-portugal                        → /crypto-gambling-license-portugal/  
+- [x] crypto-otc-desk-license-portugal                        → /crypto-otc-desk-license-portugal/  
+- [x] crypto-fund-license-portugal                            → /crypto-fund-license-portugal/  
+- [x] crypto-nft-marketplace-license-portugal                 → /crypto-nft-marketplace-license-portugal/  
+- [x] crypto-payment-institution-license-portugal             → /crypto-payment-institution-license-portugal/  
+- [x] crypto-gambling-license-portugal                        → /crypto-gambling-license-portugal/  
 - [ ] crypto-staking-license-portugal                         → /crypto-staking-license-portugal/  
 - [ ] crypto-token-issuance-license-portugal                  → /crypto-token-issuance-license-portugal/  
 - [ ] crypto-stablecoin-license-portugal                      → /crypto-stablecoin-license-portugal/  
