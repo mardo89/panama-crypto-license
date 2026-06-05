@@ -416,11 +416,11 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-ireland                           → /crypto-broker-license-ireland/  
 - [x] crypto-otc-desk-license-ireland                         → /crypto-otc-desk-license-ireland/  
 - [x] crypto-fund-license-ireland                             → /crypto-fund-license-ireland/  
-- [ ] crypto-nft-marketplace-license-ireland                  → /crypto-nft-marketplace-license-ireland/  
-- [ ] crypto-payment-institution-license-ireland              → /crypto-payment-institution-license-ireland/  
-- [ ] crypto-gambling-license-ireland                         → /crypto-gambling-license-ireland/  
-- [ ] crypto-staking-license-ireland                          → /crypto-staking-license-ireland/  
-- [ ] crypto-token-issuance-license-ireland                   → /crypto-token-issuance-license-ireland/  
+- [x] crypto-nft-marketplace-license-ireland                  → /crypto-nft-marketplace-license-ireland/  
+- [x] crypto-payment-institution-license-ireland              → /crypto-payment-institution-license-ireland/  
+- [x] crypto-gambling-license-ireland                         → /crypto-gambling-license-ireland/  
+- [x] crypto-staking-license-ireland                          → /crypto-staking-license-ireland/  
+- [x] crypto-token-issuance-license-ireland                   → /crypto-token-issuance-license-ireland/  
 - [ ] crypto-stablecoin-license-ireland                       → /crypto-stablecoin-license-ireland/  
 - [ ] crypto-exchange-license-bulgaria                        → /crypto-exchange-license-bulgaria/  
 - [ ] crypto-wallet-custody-license-bulgaria                  → /crypto-wallet-custody-license-bulgaria/  
