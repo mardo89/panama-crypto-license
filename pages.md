@@ -446,11 +446,11 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-portugal                      → /crypto-stablecoin-license-portugal/  
 - [x] crypto-exchange-license-south-africa                    → /crypto-exchange-license-south-africa/  
 - [x] crypto-wallet-custody-license-south-africa              → /crypto-wallet-custody-license-south-africa/  
-- [ ] crypto-broker-license-south-africa                      → /crypto-broker-license-south-africa/  
-- [ ] crypto-otc-desk-license-south-africa                    → /crypto-otc-desk-license-south-africa/  
-- [ ] crypto-fund-license-south-africa                        → /crypto-fund-license-south-africa/  
-- [ ] crypto-nft-marketplace-license-south-africa             → /crypto-nft-marketplace-license-south-africa/  
-- [ ] crypto-payment-institution-license-south-africa         → /crypto-payment-institution-license-south-africa/  
+- [x] crypto-broker-license-south-africa                      → /crypto-broker-license-south-africa/  
+- [x] crypto-otc-desk-license-south-africa                    → /crypto-otc-desk-license-south-africa/  
+- [x] crypto-fund-license-south-africa                        → /crypto-fund-license-south-africa/  
+- [x] crypto-nft-marketplace-license-south-africa             → /crypto-nft-marketplace-license-south-africa/  
+- [x] crypto-payment-institution-license-south-africa         → /crypto-payment-institution-license-south-africa/  
 - [ ] crypto-gambling-license-south-africa                    → /crypto-gambling-license-south-africa/  
 - [ ] crypto-staking-license-south-africa                     → /crypto-staking-license-south-africa/  
 - [ ] crypto-token-issuance-license-south-africa              → /crypto-token-issuance-license-south-africa/  
