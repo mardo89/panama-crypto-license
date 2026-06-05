@@ -358,10 +358,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto banking and payment rails in BVI: what to expect
 - [x] BVI vs Panama for a crypto company: which should you choose
 - [x] How long does a BVI crypto license take in 2026
-- [ ] Cost of a crypto license in BVI: full breakdown 2026
-- [ ] Seychelles crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Seychelles: step-by-step for 2026
-- [ ] Crypto company tax in Seychelles explained for founders
+- [x] Cost of a crypto license in BVI: full breakdown 2026
+- [x] Seychelles crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Seychelles: step-by-step for 2026
+- [x] Crypto company tax in Seychelles explained for founders
 - [ ] Crypto banking and payment rails in Seychelles: what to expect
 - [ ] Seychelles vs Panama for a crypto company: which should you choose
 - [ ] How long does a Seychelles crypto license take in 2026
