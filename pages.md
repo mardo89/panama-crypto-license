@@ -471,11 +471,11 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-luxembourg                        → /crypto-broker-license-luxembourg/  
 - [x] crypto-otc-desk-license-luxembourg                      → /crypto-otc-desk-license-luxembourg/  
 - [x] crypto-fund-license-luxembourg                          → /crypto-fund-license-luxembourg/  
-- [ ] crypto-nft-marketplace-license-luxembourg               → /crypto-nft-marketplace-license-luxembourg/  
-- [ ] crypto-payment-institution-license-luxembourg           → /crypto-payment-institution-license-luxembourg/  
-- [ ] crypto-gambling-license-luxembourg                      → /crypto-gambling-license-luxembourg/  
-- [ ] crypto-staking-license-luxembourg                       → /crypto-staking-license-luxembourg/  
-- [ ] crypto-token-issuance-license-luxembourg                → /crypto-token-issuance-license-luxembourg/  
+- [x] crypto-nft-marketplace-license-luxembourg               → /crypto-nft-marketplace-license-luxembourg/  
+- [x] crypto-payment-institution-license-luxembourg           → /crypto-payment-institution-license-luxembourg/  
+- [x] crypto-gambling-license-luxembourg                      → /crypto-gambling-license-luxembourg/  
+- [x] crypto-staking-license-luxembourg                       → /crypto-staking-license-luxembourg/  
+- [x] crypto-token-issuance-license-luxembourg                → /crypto-token-issuance-license-luxembourg/  
 - [ ] crypto-stablecoin-license-luxembourg                    → /crypto-stablecoin-license-luxembourg/  
 - [ ] crypto-exchange-license-netherlands                     → /crypto-exchange-license-netherlands/  
 - [ ] crypto-wallet-custody-license-netherlands               → /crypto-wallet-custody-license-netherlands/  
