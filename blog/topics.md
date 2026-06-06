@@ -384,9 +384,9 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Cost of a crypto license in Bahamas: full breakdown 2026
 - [x] El Salvador crypto license requirements checklist for 2026
 - [x] How to get a crypto license in El Salvador: step-by-step for 2026
-- [ ] Crypto company tax in El Salvador explained for founders
-- [ ] Crypto banking and payment rails in El Salvador: what to expect
-- [ ] El Salvador vs Panama for a crypto company: which should you choose
+- [x] Crypto company tax in El Salvador explained for founders
+- [x] Crypto banking and payment rails in El Salvador: what to expect
+- [x] El Salvador vs Panama for a crypto company: which should you choose
 - [ ] How long does a El Salvador crypto license take in 2026
 - [ ] Cost of a crypto license in El Salvador: full breakdown 2026
 - [ ] Costa Rica crypto license requirements checklist for 2026
