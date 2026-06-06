@@ -367,7 +367,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How long does a Seychelles crypto license take in 2026
 - [x] Cost of a crypto license in Seychelles: full breakdown 2026
 - [x] Mauritius crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Mauritius: step-by-step for 2026
+- [x] How to get a crypto license in Mauritius: step-by-step for 2026
 - [ ] Crypto company tax in Mauritius explained for founders
 - [ ] Crypto banking and payment rails in Mauritius: what to expect
 - [ ] Mauritius vs Panama for a crypto company: which should you choose

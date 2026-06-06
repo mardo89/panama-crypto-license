@@ -456,11 +456,11 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-south-africa              → /crypto-token-issuance-license-south-africa/  
 - [x] crypto-stablecoin-license-south-africa                  → /crypto-stablecoin-license-south-africa/  
 - [x] crypto-exchange-license-liechtenstein                   → /crypto-exchange-license-liechtenstein/  
-- [ ] crypto-wallet-custody-license-liechtenstein             → /crypto-wallet-custody-license-liechtenstein/  
-- [ ] crypto-broker-license-liechtenstein                     → /crypto-broker-license-liechtenstein/  
-- [ ] crypto-otc-desk-license-liechtenstein                   → /crypto-otc-desk-license-liechtenstein/  
-- [ ] crypto-fund-license-liechtenstein                       → /crypto-fund-license-liechtenstein/  
-- [ ] crypto-nft-marketplace-license-liechtenstein            → /crypto-nft-marketplace-license-liechtenstein/  
+- [x] crypto-wallet-custody-license-liechtenstein             → /crypto-wallet-custody-license-liechtenstein/  
+- [x] crypto-broker-license-liechtenstein                     → /crypto-broker-license-liechtenstein/  
+- [x] crypto-otc-desk-license-liechtenstein                   → /crypto-otc-desk-license-liechtenstein/  
+- [x] crypto-fund-license-liechtenstein                       → /crypto-fund-license-liechtenstein/  
+- [x] crypto-nft-marketplace-license-liechtenstein            → /crypto-nft-marketplace-license-liechtenstein/  
 - [ ] crypto-payment-institution-license-liechtenstein        → /crypto-payment-institution-license-liechtenstein/  
 - [ ] crypto-gambling-license-liechtenstein                   → /crypto-gambling-license-liechtenstein/  
 - [ ] crypto-staking-license-liechtenstein                    → /crypto-staking-license-liechtenstein/  
