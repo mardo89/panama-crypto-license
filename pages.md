@@ -461,11 +461,11 @@ Requirements & How to Get One".
 - [x] crypto-otc-desk-license-liechtenstein                   → /crypto-otc-desk-license-liechtenstein/  
 - [x] crypto-fund-license-liechtenstein                       → /crypto-fund-license-liechtenstein/  
 - [x] crypto-nft-marketplace-license-liechtenstein            → /crypto-nft-marketplace-license-liechtenstein/  
-- [ ] crypto-payment-institution-license-liechtenstein        → /crypto-payment-institution-license-liechtenstein/  
-- [ ] crypto-gambling-license-liechtenstein                   → /crypto-gambling-license-liechtenstein/  
-- [ ] crypto-staking-license-liechtenstein                    → /crypto-staking-license-liechtenstein/  
-- [ ] crypto-token-issuance-license-liechtenstein             → /crypto-token-issuance-license-liechtenstein/  
-- [ ] crypto-stablecoin-license-liechtenstein                 → /crypto-stablecoin-license-liechtenstein/  
+- [x] crypto-payment-institution-license-liechtenstein        → /crypto-payment-institution-license-liechtenstein/  
+- [x] crypto-gambling-license-liechtenstein                   → /crypto-gambling-license-liechtenstein/  
+- [x] crypto-staking-license-liechtenstein                    → /crypto-staking-license-liechtenstein/  
+- [x] crypto-token-issuance-license-liechtenstein             → /crypto-token-issuance-license-liechtenstein/  
+- [x] crypto-stablecoin-license-liechtenstein                 → /crypto-stablecoin-license-liechtenstein/  
 - [ ] crypto-exchange-license-luxembourg                      → /crypto-exchange-license-luxembourg/  
 - [ ] crypto-wallet-custody-license-luxembourg                → /crypto-wallet-custody-license-luxembourg/  
 - [ ] crypto-broker-license-luxembourg                        → /crypto-broker-license-luxembourg/  

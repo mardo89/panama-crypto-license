@@ -372,7 +372,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto banking and payment rails in Mauritius: what to expect
 - [x] Mauritius vs Panama for a crypto company: which should you choose
 - [x] How long does a Mauritius crypto license take in 2026
-- [ ] Common mistakes when applying for a Mauritius crypto license
+- [x] Common mistakes when applying for a Mauritius crypto license
 - [ ] Cost of a crypto license in Mauritius: full breakdown 2026
 - [ ] Bahamas crypto license requirements checklist for 2026
 - [ ] How to get a crypto license in Bahamas: step-by-step for 2026
