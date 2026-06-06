@@ -377,7 +377,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Bahamas crypto license requirements checklist for 2026
 - [x] How to get a crypto license in Bahamas: step-by-step for 2026
 - [x] Crypto company tax in Bahamas explained for founders
-- [ ] Crypto banking and payment rails in Bahamas: what to expect
+- [x] Crypto banking and payment rails in Bahamas: what to expect
 - [ ] Bahamas vs Panama for a crypto company: which should you choose
 - [ ] How long does a Bahamas crypto license take in 2026
 - [ ] Common mistakes when applying for a Bahamas crypto license
