@@ -531,16 +531,16 @@ Requirements & How to Get One".
 - [x] crypto-gambling-license-slovakia                        → /crypto-gambling-license-slovakia/  
 - [x] crypto-staking-license-slovakia                         → /crypto-staking-license-slovakia/  
 - [x] crypto-token-issuance-license-slovakia                  → /crypto-token-issuance-license-slovakia/  
-- [ ] crypto-stablecoin-license-slovakia                      → /crypto-stablecoin-license-slovakia/  
-- [ ] crypto-exchange-license-romania                         → /crypto-exchange-license-romania/  
-- [ ] crypto-wallet-custody-license-romania                   → /crypto-wallet-custody-license-romania/  
-- [ ] crypto-broker-license-romania                           → /crypto-broker-license-romania/  
-- [ ] crypto-otc-desk-license-romania                         → /crypto-otc-desk-license-romania/  
-- [ ] crypto-fund-license-romania                             → /crypto-fund-license-romania/  
-- [ ] crypto-nft-marketplace-license-romania                  → /crypto-nft-marketplace-license-romania/  
-- [ ] crypto-payment-institution-license-romania              → /crypto-payment-institution-license-romania/  
-- [ ] crypto-gambling-license-romania                         → /crypto-gambling-license-romania/  
-- [ ] crypto-staking-license-romania                          → /crypto-staking-license-romania/  
+- [x] crypto-stablecoin-license-slovakia                      → /crypto-stablecoin-license-slovakia/  
+- [x] crypto-exchange-license-romania                         → /crypto-exchange-license-romania/  
+- [x] crypto-wallet-custody-license-romania                   → /crypto-wallet-custody-license-romania/  
+- [x] crypto-broker-license-romania                           → /crypto-broker-license-romania/  
+- [x] crypto-otc-desk-license-romania                         → /crypto-otc-desk-license-romania/  
+- [x] crypto-fund-license-romania                             → /crypto-fund-license-romania/  
+- [x] crypto-nft-marketplace-license-romania                  → /crypto-nft-marketplace-license-romania/  
+- [x] crypto-payment-institution-license-romania              → /crypto-payment-institution-license-romania/  
+- [x] crypto-gambling-license-romania                         → /crypto-gambling-license-romania/  
+- [x] crypto-staking-license-romania                          → /crypto-staking-license-romania/  
 - [ ] crypto-token-issuance-license-romania                   → /crypto-token-issuance-license-romania/  
 - [ ] crypto-stablecoin-license-romania                       → /crypto-stablecoin-license-romania/  
 - [ ] crypto-exchange-license-gibraltar                       → /crypto-exchange-license-gibraltar/  

@@ -437,7 +437,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Romania crypto license requirements checklist for 2026
 - [x] How to get a crypto license in Romania: step-by-step for 2026
 - [x] Crypto company tax in Romania explained for founders
-- [ ] Crypto banking and payment rails in Romania: what to expect
+- [x] Crypto banking and payment rails in Romania: what to expect
 - [ ] Romania vs Panama for a crypto company: which should you choose
 - [ ] How long does a Romania crypto license take in 2026
 - [ ] Common mistakes when applying for a Romania crypto license
