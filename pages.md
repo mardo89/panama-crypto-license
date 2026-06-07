@@ -541,11 +541,11 @@ Requirements & How to Get One".
 - [x] crypto-payment-institution-license-romania              → /crypto-payment-institution-license-romania/  
 - [x] crypto-gambling-license-romania                         → /crypto-gambling-license-romania/  
 - [x] crypto-staking-license-romania                          → /crypto-staking-license-romania/  
-- [ ] crypto-token-issuance-license-romania                   → /crypto-token-issuance-license-romania/  
-- [ ] crypto-stablecoin-license-romania                       → /crypto-stablecoin-license-romania/  
-- [ ] crypto-exchange-license-gibraltar                       → /crypto-exchange-license-gibraltar/  
-- [ ] crypto-wallet-custody-license-gibraltar                 → /crypto-wallet-custody-license-gibraltar/  
-- [ ] crypto-broker-license-gibraltar                         → /crypto-broker-license-gibraltar/  
+- [x] crypto-token-issuance-license-romania                   → /crypto-token-issuance-license-romania/  
+- [x] crypto-stablecoin-license-romania                       → /crypto-stablecoin-license-romania/  
+- [x] crypto-exchange-license-gibraltar                       → /crypto-exchange-license-gibraltar/  
+- [x] crypto-wallet-custody-license-gibraltar                 → /crypto-wallet-custody-license-gibraltar/  
+- [x] crypto-broker-license-gibraltar                         → /crypto-broker-license-gibraltar/  
 - [ ] crypto-otc-desk-license-gibraltar                       → /crypto-otc-desk-license-gibraltar/  
 - [ ] crypto-fund-license-gibraltar                           → /crypto-fund-license-gibraltar/  
 - [ ] crypto-nft-marketplace-license-gibraltar                → /crypto-nft-marketplace-license-gibraltar/  
