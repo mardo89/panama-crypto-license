@@ -387,56 +387,56 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto company tax in El Salvador explained for founders
 - [x] Crypto banking and payment rails in El Salvador: what to expect
 - [x] El Salvador vs Panama for a crypto company: which should you choose
-- [ ] How long does a El Salvador crypto license take in 2026
-- [ ] Cost of a crypto license in El Salvador: full breakdown 2026
-- [ ] Costa Rica crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Costa Rica: step-by-step for 2026
-- [ ] Crypto company tax in Costa Rica explained for founders
-- [ ] Crypto banking and payment rails in Costa Rica: what to expect
-- [ ] Costa Rica vs Panama for a crypto company: which should you choose
-- [ ] How long does a Costa Rica crypto license take in 2026
-- [ ] Common mistakes when applying for a Costa Rica crypto license
-- [ ] Cost of a crypto license in Costa Rica: full breakdown 2026
-- [ ] Singapore crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Singapore: step-by-step for 2026
-- [ ] Crypto company tax in Singapore explained for founders
-- [ ] Crypto banking and payment rails in Singapore: what to expect
-- [ ] Singapore vs Panama for a crypto company: which should you choose
-- [ ] How long does a Singapore crypto license take in 2026
-- [ ] Cost of a crypto license in Singapore: full breakdown 2026
-- [ ] Hong Kong crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Hong Kong: step-by-step for 2026
-- [ ] Crypto company tax in Hong Kong explained for founders
-- [ ] Crypto banking and payment rails in Hong Kong: what to expect
-- [ ] Hong Kong vs Panama for a crypto company: which should you choose
-- [ ] How long does a Hong Kong crypto license take in 2026
-- [ ] Cost of a crypto license in Hong Kong: full breakdown 2026
-- [ ] Canada crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Canada: step-by-step for 2026
-- [ ] Crypto company tax in Canada explained for founders
-- [ ] Crypto banking and payment rails in Canada: what to expect
-- [ ] Canada vs Panama for a crypto company: which should you choose
-- [ ] How long does a Canada crypto license take in 2026
-- [ ] Cost of a crypto license in Canada: full breakdown 2026
-- [ ] South Africa crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in South Africa: step-by-step for 2026
-- [ ] Crypto company tax in South Africa explained for founders
-- [ ] Crypto banking and payment rails in South Africa: what to expect
-- [ ] South Africa vs Panama for a crypto company: which should you choose
-- [ ] How long does a South Africa crypto license take in 2026
-- [ ] Common mistakes when applying for a South Africa crypto license
-- [ ] Cost of a crypto license in South Africa: full breakdown 2026
-- [ ] Bulgaria crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Bulgaria: step-by-step for 2026
-- [ ] Crypto company tax in Bulgaria explained for founders
-- [ ] Crypto banking and payment rails in Bulgaria: what to expect
-- [ ] Bulgaria vs Panama for a crypto company: which should you choose
-- [ ] How long does a Bulgaria crypto license take in 2026
-- [ ] Common mistakes when applying for a Bulgaria crypto license
-- [ ] Cost of a crypto license in Bulgaria: full breakdown 2026
-- [ ] Romania crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Romania: step-by-step for 2026
-- [ ] Crypto company tax in Romania explained for founders
+- [x] How long does a El Salvador crypto license take in 2026
+- [x] Cost of a crypto license in El Salvador: full breakdown 2026
+- [x] Costa Rica crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Costa Rica: step-by-step for 2026
+- [x] Crypto company tax in Costa Rica explained for founders
+- [x] Crypto banking and payment rails in Costa Rica: what to expect
+- [x] Costa Rica vs Panama for a crypto company: which should you choose
+- [x] How long does a Costa Rica crypto license take in 2026
+- [x] Common mistakes when applying for a Costa Rica crypto license
+- [x] Cost of a crypto license in Costa Rica: full breakdown 2026
+- [x] Singapore crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Singapore: step-by-step for 2026
+- [x] Crypto company tax in Singapore explained for founders
+- [x] Crypto banking and payment rails in Singapore: what to expect
+- [x] Singapore vs Panama for a crypto company: which should you choose
+- [x] How long does a Singapore crypto license take in 2026
+- [x] Cost of a crypto license in Singapore: full breakdown 2026
+- [x] Hong Kong crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Hong Kong: step-by-step for 2026
+- [x] Crypto company tax in Hong Kong explained for founders
+- [x] Crypto banking and payment rails in Hong Kong: what to expect
+- [x] Hong Kong vs Panama for a crypto company: which should you choose
+- [x] How long does a Hong Kong crypto license take in 2026
+- [x] Cost of a crypto license in Hong Kong: full breakdown 2026
+- [x] Canada crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Canada: step-by-step for 2026
+- [x] Crypto company tax in Canada explained for founders
+- [x] Crypto banking and payment rails in Canada: what to expect
+- [x] Canada vs Panama for a crypto company: which should you choose
+- [x] How long does a Canada crypto license take in 2026
+- [x] Cost of a crypto license in Canada: full breakdown 2026
+- [x] South Africa crypto license requirements checklist for 2026
+- [x] How to get a crypto license in South Africa: step-by-step for 2026
+- [x] Crypto company tax in South Africa explained for founders
+- [x] Crypto banking and payment rails in South Africa: what to expect
+- [x] South Africa vs Panama for a crypto company: which should you choose
+- [x] How long does a South Africa crypto license take in 2026
+- [x] Common mistakes when applying for a South Africa crypto license
+- [x] Cost of a crypto license in South Africa: full breakdown 2026
+- [x] Bulgaria crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Bulgaria: step-by-step for 2026
+- [x] Crypto company tax in Bulgaria explained for founders
+- [x] Crypto banking and payment rails in Bulgaria: what to expect
+- [x] Bulgaria vs Panama for a crypto company: which should you choose
+- [x] How long does a Bulgaria crypto license take in 2026
+- [x] Common mistakes when applying for a Bulgaria crypto license
+- [x] Cost of a crypto license in Bulgaria: full breakdown 2026
+- [x] Romania crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Romania: step-by-step for 2026
+- [x] Crypto company tax in Romania explained for founders
 - [ ] Crypto banking and payment rails in Romania: what to expect
 - [ ] Romania vs Panama for a crypto company: which should you choose
 - [ ] How long does a Romania crypto license take in 2026

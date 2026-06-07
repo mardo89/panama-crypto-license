@@ -476,61 +476,61 @@ Requirements & How to Get One".
 - [x] crypto-gambling-license-luxembourg                      → /crypto-gambling-license-luxembourg/  
 - [x] crypto-staking-license-luxembourg                       → /crypto-staking-license-luxembourg/  
 - [x] crypto-token-issuance-license-luxembourg                → /crypto-token-issuance-license-luxembourg/  
-- [ ] crypto-stablecoin-license-luxembourg                    → /crypto-stablecoin-license-luxembourg/  
-- [ ] crypto-exchange-license-netherlands                     → /crypto-exchange-license-netherlands/  
-- [ ] crypto-wallet-custody-license-netherlands               → /crypto-wallet-custody-license-netherlands/  
-- [ ] crypto-broker-license-netherlands                       → /crypto-broker-license-netherlands/  
-- [ ] crypto-otc-desk-license-netherlands                     → /crypto-otc-desk-license-netherlands/  
-- [ ] crypto-fund-license-netherlands                         → /crypto-fund-license-netherlands/  
-- [ ] crypto-nft-marketplace-license-netherlands              → /crypto-nft-marketplace-license-netherlands/  
-- [ ] crypto-payment-institution-license-netherlands          → /crypto-payment-institution-license-netherlands/  
-- [ ] crypto-gambling-license-netherlands                     → /crypto-gambling-license-netherlands/  
-- [ ] crypto-staking-license-netherlands                      → /crypto-staking-license-netherlands/  
-- [ ] crypto-token-issuance-license-netherlands               → /crypto-token-issuance-license-netherlands/  
-- [ ] crypto-stablecoin-license-netherlands                   → /crypto-stablecoin-license-netherlands/  
-- [ ] crypto-exchange-license-france                          → /crypto-exchange-license-france/  
-- [ ] crypto-wallet-custody-license-france                    → /crypto-wallet-custody-license-france/  
-- [ ] crypto-broker-license-france                            → /crypto-broker-license-france/  
-- [ ] crypto-otc-desk-license-france                          → /crypto-otc-desk-license-france/  
-- [ ] crypto-fund-license-france                              → /crypto-fund-license-france/  
-- [ ] crypto-nft-marketplace-license-france                   → /crypto-nft-marketplace-license-france/  
-- [ ] crypto-payment-institution-license-france               → /crypto-payment-institution-license-france/  
-- [ ] crypto-gambling-license-france                          → /crypto-gambling-license-france/  
-- [ ] crypto-staking-license-france                           → /crypto-staking-license-france/  
-- [ ] crypto-token-issuance-license-france                    → /crypto-token-issuance-license-france/  
-- [ ] crypto-stablecoin-license-france                        → /crypto-stablecoin-license-france/  
-- [ ] crypto-exchange-license-spain                           → /crypto-exchange-license-spain/  
-- [ ] crypto-wallet-custody-license-spain                     → /crypto-wallet-custody-license-spain/  
-- [ ] crypto-broker-license-spain                             → /crypto-broker-license-spain/  
-- [ ] crypto-otc-desk-license-spain                           → /crypto-otc-desk-license-spain/  
-- [ ] crypto-fund-license-spain                               → /crypto-fund-license-spain/  
-- [ ] crypto-nft-marketplace-license-spain                    → /crypto-nft-marketplace-license-spain/  
-- [ ] crypto-payment-institution-license-spain                → /crypto-payment-institution-license-spain/  
-- [ ] crypto-gambling-license-spain                           → /crypto-gambling-license-spain/  
-- [ ] crypto-staking-license-spain                            → /crypto-staking-license-spain/  
-- [ ] crypto-token-issuance-license-spain                     → /crypto-token-issuance-license-spain/  
-- [ ] crypto-stablecoin-license-spain                         → /crypto-stablecoin-license-spain/  
-- [ ] crypto-exchange-license-italy                           → /crypto-exchange-license-italy/  
-- [ ] crypto-wallet-custody-license-italy                     → /crypto-wallet-custody-license-italy/  
-- [ ] crypto-broker-license-italy                             → /crypto-broker-license-italy/  
-- [ ] crypto-otc-desk-license-italy                           → /crypto-otc-desk-license-italy/  
-- [ ] crypto-fund-license-italy                               → /crypto-fund-license-italy/  
-- [ ] crypto-nft-marketplace-license-italy                    → /crypto-nft-marketplace-license-italy/  
-- [ ] crypto-payment-institution-license-italy                → /crypto-payment-institution-license-italy/  
-- [ ] crypto-gambling-license-italy                           → /crypto-gambling-license-italy/  
-- [ ] crypto-staking-license-italy                            → /crypto-staking-license-italy/  
-- [ ] crypto-token-issuance-license-italy                     → /crypto-token-issuance-license-italy/  
-- [ ] crypto-stablecoin-license-italy                         → /crypto-stablecoin-license-italy/  
-- [ ] crypto-exchange-license-slovakia                        → /crypto-exchange-license-slovakia/  
-- [ ] crypto-wallet-custody-license-slovakia                  → /crypto-wallet-custody-license-slovakia/  
-- [ ] crypto-broker-license-slovakia                          → /crypto-broker-license-slovakia/  
-- [ ] crypto-otc-desk-license-slovakia                        → /crypto-otc-desk-license-slovakia/  
-- [ ] crypto-fund-license-slovakia                            → /crypto-fund-license-slovakia/  
-- [ ] crypto-nft-marketplace-license-slovakia                 → /crypto-nft-marketplace-license-slovakia/  
-- [ ] crypto-payment-institution-license-slovakia             → /crypto-payment-institution-license-slovakia/  
-- [ ] crypto-gambling-license-slovakia                        → /crypto-gambling-license-slovakia/  
-- [ ] crypto-staking-license-slovakia                         → /crypto-staking-license-slovakia/  
-- [ ] crypto-token-issuance-license-slovakia                  → /crypto-token-issuance-license-slovakia/  
+- [x] crypto-stablecoin-license-luxembourg                    → /crypto-stablecoin-license-luxembourg/  
+- [x] crypto-exchange-license-netherlands                     → /crypto-exchange-license-netherlands/  
+- [x] crypto-wallet-custody-license-netherlands               → /crypto-wallet-custody-license-netherlands/  
+- [x] crypto-broker-license-netherlands                       → /crypto-broker-license-netherlands/  
+- [x] crypto-otc-desk-license-netherlands                     → /crypto-otc-desk-license-netherlands/  
+- [x] crypto-fund-license-netherlands                         → /crypto-fund-license-netherlands/  
+- [x] crypto-nft-marketplace-license-netherlands              → /crypto-nft-marketplace-license-netherlands/  
+- [x] crypto-payment-institution-license-netherlands          → /crypto-payment-institution-license-netherlands/  
+- [x] crypto-gambling-license-netherlands                     → /crypto-gambling-license-netherlands/  
+- [x] crypto-staking-license-netherlands                      → /crypto-staking-license-netherlands/  
+- [x] crypto-token-issuance-license-netherlands               → /crypto-token-issuance-license-netherlands/  
+- [x] crypto-stablecoin-license-netherlands                   → /crypto-stablecoin-license-netherlands/  
+- [x] crypto-exchange-license-france                          → /crypto-exchange-license-france/  
+- [x] crypto-wallet-custody-license-france                    → /crypto-wallet-custody-license-france/  
+- [x] crypto-broker-license-france                            → /crypto-broker-license-france/  
+- [x] crypto-otc-desk-license-france                          → /crypto-otc-desk-license-france/  
+- [x] crypto-fund-license-france                              → /crypto-fund-license-france/  
+- [x] crypto-nft-marketplace-license-france                   → /crypto-nft-marketplace-license-france/  
+- [x] crypto-payment-institution-license-france               → /crypto-payment-institution-license-france/  
+- [x] crypto-gambling-license-france                          → /crypto-gambling-license-france/  
+- [x] crypto-staking-license-france                           → /crypto-staking-license-france/  
+- [x] crypto-token-issuance-license-france                    → /crypto-token-issuance-license-france/  
+- [x] crypto-stablecoin-license-france                        → /crypto-stablecoin-license-france/  
+- [x] crypto-exchange-license-spain                           → /crypto-exchange-license-spain/  
+- [x] crypto-wallet-custody-license-spain                     → /crypto-wallet-custody-license-spain/  
+- [x] crypto-broker-license-spain                             → /crypto-broker-license-spain/  
+- [x] crypto-otc-desk-license-spain                           → /crypto-otc-desk-license-spain/  
+- [x] crypto-fund-license-spain                               → /crypto-fund-license-spain/  
+- [x] crypto-nft-marketplace-license-spain                    → /crypto-nft-marketplace-license-spain/  
+- [x] crypto-payment-institution-license-spain                → /crypto-payment-institution-license-spain/  
+- [x] crypto-gambling-license-spain                           → /crypto-gambling-license-spain/  
+- [x] crypto-staking-license-spain                            → /crypto-staking-license-spain/  
+- [x] crypto-token-issuance-license-spain                     → /crypto-token-issuance-license-spain/  
+- [x] crypto-stablecoin-license-spain                         → /crypto-stablecoin-license-spain/  
+- [x] crypto-exchange-license-italy                           → /crypto-exchange-license-italy/  
+- [x] crypto-wallet-custody-license-italy                     → /crypto-wallet-custody-license-italy/  
+- [x] crypto-broker-license-italy                             → /crypto-broker-license-italy/  
+- [x] crypto-otc-desk-license-italy                           → /crypto-otc-desk-license-italy/  
+- [x] crypto-fund-license-italy                               → /crypto-fund-license-italy/  
+- [x] crypto-nft-marketplace-license-italy                    → /crypto-nft-marketplace-license-italy/  
+- [x] crypto-payment-institution-license-italy                → /crypto-payment-institution-license-italy/  
+- [x] crypto-gambling-license-italy                           → /crypto-gambling-license-italy/  
+- [x] crypto-staking-license-italy                            → /crypto-staking-license-italy/  
+- [x] crypto-token-issuance-license-italy                     → /crypto-token-issuance-license-italy/  
+- [x] crypto-stablecoin-license-italy                         → /crypto-stablecoin-license-italy/  
+- [x] crypto-exchange-license-slovakia                        → /crypto-exchange-license-slovakia/  
+- [x] crypto-wallet-custody-license-slovakia                  → /crypto-wallet-custody-license-slovakia/  
+- [x] crypto-broker-license-slovakia                          → /crypto-broker-license-slovakia/  
+- [x] crypto-otc-desk-license-slovakia                        → /crypto-otc-desk-license-slovakia/  
+- [x] crypto-fund-license-slovakia                            → /crypto-fund-license-slovakia/  
+- [x] crypto-nft-marketplace-license-slovakia                 → /crypto-nft-marketplace-license-slovakia/  
+- [x] crypto-payment-institution-license-slovakia             → /crypto-payment-institution-license-slovakia/  
+- [x] crypto-gambling-license-slovakia                        → /crypto-gambling-license-slovakia/  
+- [x] crypto-staking-license-slovakia                         → /crypto-staking-license-slovakia/  
+- [x] crypto-token-issuance-license-slovakia                  → /crypto-token-issuance-license-slovakia/  
 - [ ] crypto-stablecoin-license-slovakia                      → /crypto-stablecoin-license-slovakia/  
 - [ ] crypto-exchange-license-romania                         → /crypto-exchange-license-romania/  
 - [ ] crypto-wallet-custody-license-romania                   → /crypto-wallet-custody-license-romania/  
