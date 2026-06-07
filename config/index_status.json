@@ -184,14 +184,14 @@
   "https://www.consulting24.co/blog/bahamas-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/blog/bahamas-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -317,7 +317,7 @@
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-bahamas-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -429,7 +429,7 @@
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-mauritius-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -444,6 +444,13 @@
     "escalated": false,
     "first_seen": "2026-06-02",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-romania-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -485,14 +492,14 @@
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-bahamas-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-bvi-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -548,7 +555,7 @@
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-mauritius-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -566,10 +573,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-romania-full-breakdown-2026/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-seychelles-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -590,7 +604,7 @@
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-bahamas-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -632,7 +646,7 @@
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-el-salvador-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -667,7 +681,7 @@
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-mauritius-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -685,10 +699,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-romania-what-to-expect/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-seychelles-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -863,7 +884,7 @@
   "https://www.consulting24.co/blog/crypto-company-tax-in-bahamas-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -905,7 +926,7 @@
   "https://www.consulting24.co/blog/crypto-company-tax-in-el-salvador-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -940,7 +961,7 @@
   "https://www.consulting24.co/blog/crypto-company-tax-in-mauritius-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1227,7 +1248,7 @@
   "https://www.consulting24.co/blog/el-salvador-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1241,7 +1262,7 @@
   "https://www.consulting24.co/blog/el-salvador-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1367,14 +1388,14 @@
   "https://www.consulting24.co/blog/how-long-does-a-bahamas-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/blog/how-long-does-a-bvi-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1444,7 +1465,7 @@
   "https://www.consulting24.co/blog/how-long-does-a-mauritius-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1462,10 +1483,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/how-long-does-a-romania-crypto-license-take-in-2026/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/how-long-does-a-seychelles-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1493,7 +1521,7 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-bahamas-step-by-step-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1633,7 +1661,7 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-mauritius-step-by-step-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1675,7 +1703,7 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-seychelles-step-by-step-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -1843,14 +1871,14 @@
   "https://www.consulting24.co/blog/mauritius-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/blog/mauritius-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2036,6 +2064,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/blog/romania-vs-panama-for-a-crypto-company-which-should-you-choose/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/setting-up-a-crypto-company-the-founder-s-roadmap/": {
     "escalated": false,
     "first_seen": "2026-05-28",
@@ -2046,7 +2081,7 @@
   "https://www.consulting24.co/blog/seychelles-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2060,7 +2095,7 @@
   "https://www.consulting24.co/blog/seychelles-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2372,6 +2407,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-romania/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-singapore/": {
     "escalated": false,
     "first_seen": "2026-06-02",
@@ -2382,7 +2424,7 @@
   "https://www.consulting24.co/crypto-broker-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2501,14 +2543,14 @@
   "https://www.consulting24.co/crypto-exchange-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-exchange-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2530,6 +2572,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-exchange-license-romania/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -2669,14 +2718,14 @@
   "https://www.consulting24.co/crypto-fund-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-fund-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2694,10 +2743,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-fund-license-romania/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-fund-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2816,7 +2872,7 @@
   "https://www.consulting24.co/crypto-gambling-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2848,6 +2904,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-gambling-license-romania/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-gambling-license-seychelles/": {
     "escalated": false,
     "first_seen": "2026-06-01",
@@ -2855,10 +2918,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-gambling-license-slovakia/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-gambling-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2970,14 +3040,14 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-nft-marketplace-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -2995,6 +3065,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-romania/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-nft-marketplace-license-seychelles/": {
     "escalated": false,
     "first_seen": "2026-06-01",
@@ -3002,10 +3079,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-slovakia/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-nft-marketplace-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3117,14 +3201,14 @@
   "https://www.consulting24.co/crypto-otc-desk-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-otc-desk-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3139,6 +3223,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-otc-desk-license-romania/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3159,7 +3250,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3278,14 +3369,14 @@
   "https://www.consulting24.co/crypto-payment-institution-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-payment-institution-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3324,10 +3415,24 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-payment-institution-license-romania/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-payment-institution-license-seychelles/": {
     "escalated": false,
     "first_seen": "2026-06-01",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-payment-institution-license-slovakia/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3485,10 +3590,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-stablecoin-license-slovakia/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-stablecoin-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3600,14 +3712,14 @@
   "https://www.consulting24.co/crypto-staking-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-staking-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3639,10 +3751,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-staking-license-slovakia/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-staking-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3775,14 +3894,14 @@
   "https://www.consulting24.co/crypto-token-issuance-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-token-issuance-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3814,10 +3933,17 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-token-issuance-license-slovakia/": {
+    "escalated": false,
+    "first_seen": "2026-06-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-token-issuance-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
@@ -3929,14 +4055,14 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-liechtenstein/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
   "https://www.consulting24.co/crypto-wallet-custody-license-luxembourg/": {
     "escalated": false,
     "first_seen": "2026-06-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
   },
