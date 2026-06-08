@@ -478,5 +478,5 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How to get a crypto license in Abu Dhabi: step-by-step for 2026
 - [x] Crypto company tax in Abu Dhabi explained for founders
 - [x] Crypto banking and payment rails in Abu Dhabi: what to expect
-- [ ] Abu Dhabi vs Panama for a crypto company: which should you choose
-- [ ] How long does a Abu Dhabi crypto license take in 2026
+- [x] Abu Dhabi vs Panama for a crypto company: which should you choose
+- [x] How long does a Abu Dhabi crypto license take in 2026
