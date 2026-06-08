@@ -556,11 +556,11 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-gibraltar                     → /crypto-stablecoin-license-gibraltar/  
 - [x] crypto-exchange-license-isle-of-man                     → /crypto-exchange-license-isle-of-man/  
 - [x] crypto-wallet-custody-license-isle-of-man               → /crypto-wallet-custody-license-isle-of-man/  
-- [ ] crypto-broker-license-isle-of-man                       → /crypto-broker-license-isle-of-man/  
-- [ ] crypto-otc-desk-license-isle-of-man                     → /crypto-otc-desk-license-isle-of-man/  
-- [ ] crypto-fund-license-isle-of-man                         → /crypto-fund-license-isle-of-man/  
-- [ ] crypto-nft-marketplace-license-isle-of-man              → /crypto-nft-marketplace-license-isle-of-man/  
-- [ ] crypto-payment-institution-license-isle-of-man          → /crypto-payment-institution-license-isle-of-man/  
+- [x] crypto-broker-license-isle-of-man                       → /crypto-broker-license-isle-of-man/  
+- [x] crypto-otc-desk-license-isle-of-man                     → /crypto-otc-desk-license-isle-of-man/  
+- [x] crypto-fund-license-isle-of-man                         → /crypto-fund-license-isle-of-man/  
+- [x] crypto-nft-marketplace-license-isle-of-man              → /crypto-nft-marketplace-license-isle-of-man/  
+- [x] crypto-payment-institution-license-isle-of-man          → /crypto-payment-institution-license-isle-of-man/  
 - [ ] crypto-gambling-license-isle-of-man                     → /crypto-gambling-license-isle-of-man/  
 - [ ] crypto-staking-license-isle-of-man                      → /crypto-staking-license-isle-of-man/  
 - [ ] crypto-token-issuance-license-isle-of-man               → /crypto-token-issuance-license-isle-of-man/  
