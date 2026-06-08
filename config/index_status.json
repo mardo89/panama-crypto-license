@@ -62,6 +62,13 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/blog/abu-dhabi-crypto-license-requirements-checklist-for-2026/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/aml-kyc-requirements-for-a-bahrain-crypto-company/": {
     "escalated": false,
     "first_seen": "2026-06-03",
@@ -387,7 +394,7 @@
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-france-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -415,7 +422,7 @@
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-italy-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -447,6 +454,13 @@
     "last_action": "2026-06-07",
     "submits": 1
   },
+  "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-netherlands-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-poland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-05-30",
@@ -464,7 +478,7 @@
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-romania-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -478,7 +492,7 @@
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-slovakia-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -555,7 +569,7 @@
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-france-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -569,7 +583,7 @@
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-italy-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -611,7 +625,7 @@
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-romania-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -625,7 +639,7 @@
   "https://www.consulting24.co/blog/cost-of-a-crypto-license-in-slovakia-full-breakdown-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -702,7 +716,7 @@
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-france-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -716,7 +730,7 @@
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-italy-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -744,7 +758,7 @@
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-netherlands-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -765,7 +779,7 @@
   "https://www.consulting24.co/blog/crypto-banking-and-payment-rails-in-romania-what-to-expect/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -944,6 +958,13 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/blog/crypto-company-tax-in-abu-dhabi-explained-for-founders/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/crypto-company-tax-in-bahamas-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-06",
@@ -1003,7 +1024,7 @@
   "https://www.consulting24.co/blog/crypto-company-tax-in-france-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1017,7 +1038,7 @@
   "https://www.consulting24.co/blog/crypto-company-tax-in-italy-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1045,7 +1066,7 @@
   "https://www.consulting24.co/blog/crypto-company-tax-in-netherlands-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1066,7 +1087,7 @@
   "https://www.consulting24.co/blog/crypto-company-tax-in-slovakia-explained-for-founders/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1416,14 +1437,14 @@
   "https://www.consulting24.co/blog/france-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/france-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1542,7 +1563,7 @@
   "https://www.consulting24.co/blog/how-long-does-a-france-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1563,7 +1584,7 @@
   "https://www.consulting24.co/blog/how-long-does-a-italy-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1591,7 +1612,7 @@
   "https://www.consulting24.co/blog/how-long-does-a-netherlands-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1612,7 +1633,7 @@
   "https://www.consulting24.co/blog/how-long-does-a-romania-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1626,7 +1647,7 @@
   "https://www.consulting24.co/blog/how-long-does-a-slovakia-crypto-license-take-in-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1650,6 +1671,13 @@
     "indexed": true,
     "last_action": "2026-05-29",
     "submits": 1
+  },
+  "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-abu-dhabi-step-by-step-for-2026/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-bahamas-step-by-step-for-2026/": {
     "escalated": false,
@@ -1745,7 +1773,7 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-france-step-by-step-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1787,7 +1815,7 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-italy-step-by-step-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1815,7 +1843,7 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-netherlands-step-by-step-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1878,7 +1906,7 @@
   "https://www.consulting24.co/blog/how-to-get-a-crypto-license-in-slovakia-step-by-step-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -1955,14 +1983,14 @@
   "https://www.consulting24.co/blog/italy-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/italy-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2074,14 +2102,14 @@
   "https://www.consulting24.co/blog/netherlands-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/netherlands-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2256,7 +2284,7 @@
   "https://www.consulting24.co/blog/romania-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2312,14 +2340,14 @@
   "https://www.consulting24.co/blog/slovakia-crypto-license-requirements-checklist-for-2026/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/blog/slovakia-vs-panama-for-a-crypto-company-which-should-you-choose/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2592,7 +2620,7 @@
   "https://www.consulting24.co/crypto-broker-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2606,14 +2634,14 @@
   "https://www.consulting24.co/crypto-broker-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-broker-license-jersey/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2634,7 +2662,7 @@
   "https://www.consulting24.co/crypto-broker-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2753,7 +2781,7 @@
   "https://www.consulting24.co/crypto-exchange-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2767,14 +2795,14 @@
   "https://www.consulting24.co/crypto-exchange-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-exchange-license-jersey/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2823,7 +2851,7 @@
   "https://www.consulting24.co/crypto-exchange-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2942,7 +2970,7 @@
   "https://www.consulting24.co/crypto-fund-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2963,14 +2991,14 @@
   "https://www.consulting24.co/crypto-fund-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-fund-license-jersey/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3012,7 +3040,7 @@
   "https://www.consulting24.co/crypto-fund-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3117,7 +3145,7 @@
   "https://www.consulting24.co/crypto-gambling-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3138,6 +3166,13 @@
   "https://www.consulting24.co/crypto-gambling-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-gambling-license-jersey/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -3187,7 +3222,7 @@
   "https://www.consulting24.co/crypto-gambling-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3201,7 +3236,7 @@
   "https://www.consulting24.co/crypto-gambling-license-slovakia/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3299,7 +3334,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3320,14 +3355,14 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-nft-marketplace-license-jersey/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3369,7 +3404,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3383,7 +3418,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-slovakia/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3481,7 +3516,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3502,14 +3537,14 @@
   "https://www.consulting24.co/crypto-otc-desk-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-otc-desk-license-jersey/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3551,7 +3586,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3670,7 +3705,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3691,6 +3726,13 @@
   "https://www.consulting24.co/crypto-payment-institution-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-payment-institution-license-jersey/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -3754,7 +3796,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3768,7 +3810,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-slovakia/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3880,7 +3922,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3894,6 +3936,13 @@
   "https://www.consulting24.co/crypto-stablecoin-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-stablecoin-license-jersey/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -3936,7 +3985,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3950,7 +3999,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-slovakia/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4048,7 +4097,7 @@
   "https://www.consulting24.co/crypto-staking-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4069,7 +4118,7 @@
   "https://www.consulting24.co/crypto-staking-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4125,7 +4174,7 @@
   "https://www.consulting24.co/crypto-staking-license-slovakia/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4244,7 +4293,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4265,6 +4314,13 @@
   "https://www.consulting24.co/crypto-token-issuance-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license-jersey/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -4321,14 +4377,14 @@
   "https://www.consulting24.co/crypto-token-issuance-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/crypto-token-issuance-license-slovakia/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4433,7 +4489,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-gibraltar/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4447,7 +4503,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-isle-of-man/": {
     "escalated": false,
     "first_seen": "2026-06-08",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
