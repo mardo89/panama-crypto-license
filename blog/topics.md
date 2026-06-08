@@ -468,10 +468,10 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Cost of a crypto license in France: full breakdown 2026
 - [x] Netherlands crypto license requirements checklist for 2026
 - [x] How to get a crypto license in Netherlands: step-by-step for 2026
-- [ ] Crypto company tax in Netherlands explained for founders
-- [ ] Crypto banking and payment rails in Netherlands: what to expect
-- [ ] Netherlands vs Panama for a crypto company: which should you choose
-- [ ] How long does a Netherlands crypto license take in 2026
+- [x] Crypto company tax in Netherlands explained for founders
+- [x] Crypto banking and payment rails in Netherlands: what to expect
+- [x] Netherlands vs Panama for a crypto company: which should you choose
+- [x] How long does a Netherlands crypto license take in 2026
 - [ ] Common mistakes when applying for a Netherlands crypto license
 - [ ] Cost of a crypto license in Netherlands: full breakdown 2026
 - [ ] Abu Dhabi crypto license requirements checklist for 2026
