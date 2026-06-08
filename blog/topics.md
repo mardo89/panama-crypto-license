@@ -457,11 +457,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Italy vs Panama for a crypto company: which should you choose
 - [x] How long does a Italy crypto license take in 2026
 - [x] Common mistakes when applying for a Italy crypto license
-- [ ] Cost of a crypto license in Italy: full breakdown 2026
-- [ ] France crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in France: step-by-step for 2026
-- [ ] Crypto company tax in France explained for founders
-- [ ] Crypto banking and payment rails in France: what to expect
+- [x] Cost of a crypto license in Italy: full breakdown 2026
+- [x] France crypto license requirements checklist for 2026
+- [x] How to get a crypto license in France: step-by-step for 2026
+- [x] Crypto company tax in France explained for founders
+- [x] Crypto banking and payment rails in France: what to expect
 - [ ] France vs Panama for a crypto company: which should you choose
 - [ ] How long does a France crypto license take in 2026
 - [ ] Common mistakes when applying for a France crypto license
