@@ -546,11 +546,11 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-gibraltar                       → /crypto-exchange-license-gibraltar/  
 - [x] crypto-wallet-custody-license-gibraltar                 → /crypto-wallet-custody-license-gibraltar/  
 - [x] crypto-broker-license-gibraltar                         → /crypto-broker-license-gibraltar/  
-- [ ] crypto-otc-desk-license-gibraltar                       → /crypto-otc-desk-license-gibraltar/  
-- [ ] crypto-fund-license-gibraltar                           → /crypto-fund-license-gibraltar/  
-- [ ] crypto-nft-marketplace-license-gibraltar                → /crypto-nft-marketplace-license-gibraltar/  
-- [ ] crypto-payment-institution-license-gibraltar            → /crypto-payment-institution-license-gibraltar/  
-- [ ] crypto-gambling-license-gibraltar                       → /crypto-gambling-license-gibraltar/  
+- [x] crypto-otc-desk-license-gibraltar                       → /crypto-otc-desk-license-gibraltar/  
+- [x] crypto-fund-license-gibraltar                           → /crypto-fund-license-gibraltar/  
+- [x] crypto-nft-marketplace-license-gibraltar                → /crypto-nft-marketplace-license-gibraltar/  
+- [x] crypto-payment-institution-license-gibraltar            → /crypto-payment-institution-license-gibraltar/  
+- [x] crypto-gambling-license-gibraltar                       → /crypto-gambling-license-gibraltar/  
 - [ ] crypto-staking-license-gibraltar                        → /crypto-staking-license-gibraltar/  
 - [ ] crypto-token-issuance-license-gibraltar                 → /crypto-token-issuance-license-gibraltar/  
 - [ ] crypto-stablecoin-license-gibraltar                     → /crypto-stablecoin-license-gibraltar/  
