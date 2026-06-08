@@ -571,11 +571,11 @@ Requirements & How to Get One".
 - [x] crypto-otc-desk-license-jersey                          → /crypto-otc-desk-license-jersey/  
 - [x] crypto-fund-license-jersey                              → /crypto-fund-license-jersey/  
 - [x] crypto-nft-marketplace-license-jersey                   → /crypto-nft-marketplace-license-jersey/  
-- [ ] crypto-payment-institution-license-jersey               → /crypto-payment-institution-license-jersey/  
-- [ ] crypto-gambling-license-jersey                          → /crypto-gambling-license-jersey/  
-- [ ] crypto-staking-license-jersey                           → /crypto-staking-license-jersey/  
-- [ ] crypto-token-issuance-license-jersey                    → /crypto-token-issuance-license-jersey/  
-- [ ] crypto-stablecoin-license-jersey                        → /crypto-stablecoin-license-jersey/  
+- [x] crypto-payment-institution-license-jersey               → /crypto-payment-institution-license-jersey/  
+- [x] crypto-gambling-license-jersey                          → /crypto-gambling-license-jersey/  
+- [x] crypto-staking-license-jersey                           → /crypto-staking-license-jersey/  
+- [x] crypto-token-issuance-license-jersey                    → /crypto-token-issuance-license-jersey/  
+- [x] crypto-stablecoin-license-jersey                        → /crypto-stablecoin-license-jersey/  
 - [ ] crypto-exchange-license-bahamas                         → /crypto-exchange-license-bahamas/  
 - [ ] crypto-wallet-custody-license-bahamas                   → /crypto-wallet-custody-license-bahamas/  
 - [ ] crypto-broker-license-bahamas                           → /crypto-broker-license-bahamas/  

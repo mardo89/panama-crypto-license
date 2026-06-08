@@ -472,7 +472,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto banking and payment rails in Netherlands: what to expect
 - [x] Netherlands vs Panama for a crypto company: which should you choose
 - [x] How long does a Netherlands crypto license take in 2026
-- [ ] Common mistakes when applying for a Netherlands crypto license
+- [x] Common mistakes when applying for a Netherlands crypto license
 - [ ] Cost of a crypto license in Netherlands: full breakdown 2026
 - [ ] Abu Dhabi crypto license requirements checklist for 2026
 - [ ] How to get a crypto license in Abu Dhabi: step-by-step for 2026
