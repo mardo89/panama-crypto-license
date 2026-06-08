@@ -447,11 +447,11 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto company tax in Slovakia explained for founders
 - [x] Crypto banking and payment rails in Slovakia: what to expect
 - [x] Slovakia vs Panama for a crypto company: which should you choose
-- [ ] How long does a Slovakia crypto license take in 2026
-- [ ] Common mistakes when applying for a Slovakia crypto license
-- [ ] Cost of a crypto license in Slovakia: full breakdown 2026
-- [ ] Italy crypto license requirements checklist for 2026
-- [ ] How to get a crypto license in Italy: step-by-step for 2026
+- [x] How long does a Slovakia crypto license take in 2026
+- [x] Common mistakes when applying for a Slovakia crypto license
+- [x] Cost of a crypto license in Slovakia: full breakdown 2026
+- [x] Italy crypto license requirements checklist for 2026
+- [x] How to get a crypto license in Italy: step-by-step for 2026
 - [ ] Crypto company tax in Italy explained for founders
 - [ ] Crypto banking and payment rails in Italy: what to expect
 - [ ] Italy vs Panama for a crypto company: which should you choose
