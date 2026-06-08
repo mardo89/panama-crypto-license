@@ -561,11 +561,11 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-isle-of-man                         → /crypto-fund-license-isle-of-man/  
 - [x] crypto-nft-marketplace-license-isle-of-man              → /crypto-nft-marketplace-license-isle-of-man/  
 - [x] crypto-payment-institution-license-isle-of-man          → /crypto-payment-institution-license-isle-of-man/  
-- [ ] crypto-gambling-license-isle-of-man                     → /crypto-gambling-license-isle-of-man/  
-- [ ] crypto-staking-license-isle-of-man                      → /crypto-staking-license-isle-of-man/  
-- [ ] crypto-token-issuance-license-isle-of-man               → /crypto-token-issuance-license-isle-of-man/  
-- [ ] crypto-stablecoin-license-isle-of-man                   → /crypto-stablecoin-license-isle-of-man/  
-- [ ] crypto-exchange-license-jersey                          → /crypto-exchange-license-jersey/  
+- [x] crypto-gambling-license-isle-of-man                     → /crypto-gambling-license-isle-of-man/  
+- [x] crypto-staking-license-isle-of-man                      → /crypto-staking-license-isle-of-man/  
+- [x] crypto-token-issuance-license-isle-of-man               → /crypto-token-issuance-license-isle-of-man/  
+- [x] crypto-stablecoin-license-isle-of-man                   → /crypto-stablecoin-license-isle-of-man/  
+- [x] crypto-exchange-license-jersey                          → /crypto-exchange-license-jersey/  
 - [ ] crypto-wallet-custody-license-jersey                    → /crypto-wallet-custody-license-jersey/  
 - [ ] crypto-broker-license-jersey                            → /crypto-broker-license-jersey/  
 - [ ] crypto-otc-desk-license-jersey                          → /crypto-otc-desk-license-jersey/  
