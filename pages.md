@@ -591,11 +591,11 @@ Requirements & How to Get One".
 - [x] crypto-otc-desk-license                                 → /crypto-otc-desk-license/  
 - [x] crypto-nft-marketplace-license                          → /crypto-nft-marketplace-license/  
 - [x] crypto-staking-license                                  → /crypto-staking-license/  
-- [ ] crypto-token-issuance-license                           → /crypto-token-issuance-license/  
-- [ ] crypto-stablecoin-license                               → /crypto-stablecoin-license/  
-- [ ] cost-crypto-license-panama                              → /cost-crypto-license-panama/  
-- [ ] cost-crypto-license-lithuania                           → /cost-crypto-license-lithuania/  
-- [ ] cost-crypto-license-estonia                             → /cost-crypto-license-estonia/  
+- [x] crypto-token-issuance-license                           → /crypto-token-issuance-license/  
+- [x] crypto-stablecoin-license                               → /crypto-stablecoin-license/  
+- [x] cost-crypto-license-panama                              → /cost-crypto-license-panama/  
+- [x] cost-crypto-license-lithuania                           → /cost-crypto-license-lithuania/  
+- [x] cost-crypto-license-estonia                             → /cost-crypto-license-estonia/  
 - [ ] cost-crypto-license-dubai                               → /cost-crypto-license-dubai/  
 - [ ] cost-crypto-license-el-salvador                         → /cost-crypto-license-el-salvador/  
 - [ ] cost-crypto-license-cayman-islands                      → /cost-crypto-license-cayman-islands/  
