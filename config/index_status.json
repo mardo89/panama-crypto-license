@@ -2540,6 +2540,27 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/cost-crypto-license-estonia/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/cost-crypto-license-lithuania/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/cost-crypto-license-panama/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/cost/": {
     "escalated": false,
     "first_seen": "2026-05-28",
@@ -4108,6 +4129,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-stablecoin-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-staking-license-abu-dhabi/": {
     "escalated": false,
     "first_seen": "2026-06-04",
@@ -4511,6 +4539,13 @@
     "escalated": false,
     "first_seen": "2026-06-02",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-09",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
