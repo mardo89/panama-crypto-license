@@ -618,11 +618,11 @@ Requirements & How to Get One".
 - [x] cheapest-crypto-license-singapore                       → /cheapest-crypto-license-singapore/  
 - [x] cheapest-crypto-license-czech-republic                  → /cheapest-crypto-license-czech-republic/  
 - [x] best-country-crypto-license-panama                      → /best-country-crypto-license-panama/  
-- [ ] best-country-crypto-license-lithuania                   → /best-country-crypto-license-lithuania/  
-- [ ] best-country-crypto-license-estonia                     → /best-country-crypto-license-estonia/  
-- [ ] best-country-crypto-license-dubai                       → /best-country-crypto-license-dubai/  
-- [ ] best-country-crypto-license-el-salvador                 → /best-country-crypto-license-el-salvador/  
-- [ ] best-country-crypto-license-cayman-islands              → /best-country-crypto-license-cayman-islands/  
+- [x] best-country-crypto-license-lithuania                   → /best-country-crypto-license-lithuania/  
+- [x] best-country-crypto-license-estonia                     → /best-country-crypto-license-estonia/  
+- [x] best-country-crypto-license-dubai                       → /best-country-crypto-license-dubai/  
+- [x] best-country-crypto-license-el-salvador                 → /best-country-crypto-license-el-salvador/  
+- [x] best-country-crypto-license-cayman-islands              → /best-country-crypto-license-cayman-islands/  
 - [ ] best-country-crypto-license-switzerland                 → /best-country-crypto-license-switzerland/  
 - [ ] best-country-crypto-license-malta                       → /best-country-crypto-license-malta/  
 - [ ] best-country-crypto-license-cyprus                      → /best-country-crypto-license-cyprus/  
