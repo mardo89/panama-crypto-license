@@ -586,11 +586,11 @@ Requirements & How to Get One".
 - [x] crypto-gambling-license-bahamas                         → /crypto-gambling-license-bahamas/  
 - [x] crypto-staking-license-bahamas                          → /crypto-staking-license-bahamas/  
 - [x] crypto-token-issuance-license-bahamas                   → /crypto-token-issuance-license-bahamas/  
-- [ ] crypto-stablecoin-license-bahamas                       → /crypto-stablecoin-license-bahamas/  
-- [ ] crypto-wallet-custody-license                           → /crypto-wallet-custody-license/  
-- [ ] crypto-otc-desk-license                                 → /crypto-otc-desk-license/  
-- [ ] crypto-nft-marketplace-license                          → /crypto-nft-marketplace-license/  
-- [ ] crypto-staking-license                                  → /crypto-staking-license/  
+- [x] crypto-stablecoin-license-bahamas                       → /crypto-stablecoin-license-bahamas/  
+- [x] crypto-wallet-custody-license                           → /crypto-wallet-custody-license/  
+- [x] crypto-otc-desk-license                                 → /crypto-otc-desk-license/  
+- [x] crypto-nft-marketplace-license                          → /crypto-nft-marketplace-license/  
+- [x] crypto-staking-license                                  → /crypto-staking-license/  
 - [ ] crypto-token-issuance-license                           → /crypto-token-issuance-license/  
 - [ ] crypto-stablecoin-license                               → /crypto-stablecoin-license/  
 - [ ] cost-crypto-license-panama                              → /cost-crypto-license-panama/  
