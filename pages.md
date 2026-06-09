@@ -601,10 +601,10 @@ Requirements & How to Get One".
 - [x] cost-crypto-license-cayman-islands                      → /cost-crypto-license-cayman-islands/  
 - [x] cost-crypto-license-switzerland                         → /cost-crypto-license-switzerland/  
 - [x] cost-crypto-license-malta                               → /cost-crypto-license-malta/  
-- [ ] cost-crypto-license-cyprus                              → /cost-crypto-license-cyprus/  
-- [ ] cost-crypto-license-poland                              → /cost-crypto-license-poland/  
-- [ ] cost-crypto-license-singapore                           → /cost-crypto-license-singapore/  
-- [ ] cost-crypto-license-czech-republic                      → /cost-crypto-license-czech-republic/  
+- [x] cost-crypto-license-cyprus                              → /cost-crypto-license-cyprus/  
+- [x] cost-crypto-license-poland                              → /cost-crypto-license-poland/  
+- [x] cost-crypto-license-singapore                           → /cost-crypto-license-singapore/  
+- [x] cost-crypto-license-czech-republic                      → /cost-crypto-license-czech-republic/  
 - [x] cheapest-crypto-license-panama                          → /cheapest-crypto-license-panama/  
 - [x] cheapest-crypto-license-lithuania                       → /cheapest-crypto-license-lithuania/  
 - [x] cheapest-crypto-license-estonia                         → /cheapest-crypto-license-estonia/  
@@ -617,7 +617,7 @@ Requirements & How to Get One".
 - [x] cheapest-crypto-license-poland                          → /cheapest-crypto-license-poland/  
 - [x] cheapest-crypto-license-singapore                       → /cheapest-crypto-license-singapore/  
 - [x] cheapest-crypto-license-czech-republic                  → /cheapest-crypto-license-czech-republic/  
-- [ ] best-country-crypto-license-panama                      → /best-country-crypto-license-panama/  
+- [x] best-country-crypto-license-panama                      → /best-country-crypto-license-panama/  
 - [ ] best-country-crypto-license-lithuania                   → /best-country-crypto-license-lithuania/  
 - [ ] best-country-crypto-license-estonia                     → /best-country-crypto-license-estonia/  
 - [ ] best-country-crypto-license-dubai                       → /best-country-crypto-license-dubai/  
