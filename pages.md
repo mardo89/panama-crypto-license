@@ -596,11 +596,11 @@ Requirements & How to Get One".
 - [x] cost-crypto-license-panama                              → /cost-crypto-license-panama/  
 - [x] cost-crypto-license-lithuania                           → /cost-crypto-license-lithuania/  
 - [x] cost-crypto-license-estonia                             → /cost-crypto-license-estonia/  
-- [ ] cost-crypto-license-dubai                               → /cost-crypto-license-dubai/  
-- [ ] cost-crypto-license-el-salvador                         → /cost-crypto-license-el-salvador/  
-- [ ] cost-crypto-license-cayman-islands                      → /cost-crypto-license-cayman-islands/  
-- [ ] cost-crypto-license-switzerland                         → /cost-crypto-license-switzerland/  
-- [ ] cost-crypto-license-malta                               → /cost-crypto-license-malta/  
+- [x] cost-crypto-license-dubai                               → /cost-crypto-license-dubai/  
+- [x] cost-crypto-license-el-salvador                         → /cost-crypto-license-el-salvador/  
+- [x] cost-crypto-license-cayman-islands                      → /cost-crypto-license-cayman-islands/  
+- [x] cost-crypto-license-switzerland                         → /cost-crypto-license-switzerland/  
+- [x] cost-crypto-license-malta                               → /cost-crypto-license-malta/  
 - [ ] cost-crypto-license-cyprus                              → /cost-crypto-license-cyprus/  
 - [ ] cost-crypto-license-poland                              → /cost-crypto-license-poland/  
 - [ ] cost-crypto-license-singapore                           → /cost-crypto-license-singapore/  
