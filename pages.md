@@ -730,9 +730,9 @@ Requirements & How to Get One".
 - [x] el-salvador-vs-singapore-crypto-license                 → /el-salvador-vs-singapore-crypto-license/  
 - [x] el-salvador-vs-czech-republic-crypto-license            → /el-salvador-vs-czech-republic-crypto-license/  
 - [x] cayman-islands-vs-switzerland-crypto-license            → /cayman-islands-vs-switzerland-crypto-license/  
-- [ ] cayman-islands-vs-malta-crypto-license                  → /cayman-islands-vs-malta-crypto-license/  
-- [ ] cayman-islands-vs-cyprus-crypto-license                 → /cayman-islands-vs-cyprus-crypto-license/  
-- [ ] cayman-islands-vs-poland-crypto-license                 → /cayman-islands-vs-poland-crypto-license/  
+- [x] cayman-islands-vs-malta-crypto-license                  → /cayman-islands-vs-malta-crypto-license/  
+- [x] cayman-islands-vs-cyprus-crypto-license                 → /cayman-islands-vs-cyprus-crypto-license/  
+- [x] cayman-islands-vs-poland-crypto-license                 → /cayman-islands-vs-poland-crypto-license/  
 - [ ] cayman-islands-vs-singapore-crypto-license              → /cayman-islands-vs-singapore-crypto-license/  
 - [ ] cayman-islands-vs-czech-republic-crypto-license         → /cayman-islands-vs-czech-republic-crypto-license/  
 - [ ] switzerland-vs-malta-crypto-license                     → /switzerland-vs-malta-crypto-license/  
