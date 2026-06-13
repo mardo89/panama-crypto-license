@@ -15,6 +15,11 @@ import os, sys, re, json, html, urllib.request, urllib.error, hashlib, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.consulting24.co"
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+try:
+    from regulators import sources_block as _sources_block
+except Exception:
+    def _sources_block(slug): return ""
 WA = "https://wa.me/37258155779?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20a%20crypto%20company%20setup."
 
 def key():
@@ -256,6 +261,7 @@ def assemble(slug, crumb, d, kind="landing"):
 {sections}
 {faqs_html}
 {auth_html}
+{_sources_block(slug)}
 {related_html}
 {ADVISOR}
   <div class="cta-card"><h2>Talk to a crypto-licensing expert</h2><p>500+ licenses across Estonia, Lithuania, Panama and beyond. Tell us your model and we'll map the right route &mdash; honestly.</p>
