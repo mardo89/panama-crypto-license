@@ -623,24 +623,24 @@ Requirements & How to Get One".
 - [x] best-country-crypto-license-dubai                       → /best-country-crypto-license-dubai/  
 - [x] best-country-crypto-license-el-salvador                 → /best-country-crypto-license-el-salvador/  
 - [x] best-country-crypto-license-cayman-islands              → /best-country-crypto-license-cayman-islands/  
-- [ ] best-country-crypto-license-switzerland                 → /best-country-crypto-license-switzerland/  
-- [ ] best-country-crypto-license-malta                       → /best-country-crypto-license-malta/  
-- [ ] best-country-crypto-license-cyprus                      → /best-country-crypto-license-cyprus/  
-- [ ] best-country-crypto-license-poland                      → /best-country-crypto-license-poland/  
-- [ ] best-country-crypto-license-singapore                   → /best-country-crypto-license-singapore/  
-- [ ] best-country-crypto-license-czech-republic              → /best-country-crypto-license-czech-republic/  
-- [ ] fastest-crypto-license-panama                           → /fastest-crypto-license-panama/  
-- [ ] fastest-crypto-license-lithuania                        → /fastest-crypto-license-lithuania/  
-- [ ] fastest-crypto-license-estonia                          → /fastest-crypto-license-estonia/  
-- [ ] fastest-crypto-license-dubai                            → /fastest-crypto-license-dubai/  
-- [ ] fastest-crypto-license-el-salvador                      → /fastest-crypto-license-el-salvador/  
-- [ ] fastest-crypto-license-cayman-islands                   → /fastest-crypto-license-cayman-islands/  
-- [ ] fastest-crypto-license-switzerland                      → /fastest-crypto-license-switzerland/  
-- [ ] fastest-crypto-license-malta                            → /fastest-crypto-license-malta/  
-- [ ] fastest-crypto-license-cyprus                           → /fastest-crypto-license-cyprus/  
-- [ ] fastest-crypto-license-poland                           → /fastest-crypto-license-poland/  
-- [ ] fastest-crypto-license-singapore                        → /fastest-crypto-license-singapore/  
-- [ ] fastest-crypto-license-czech-republic                   → /fastest-crypto-license-czech-republic/  
+- [x] best-country-crypto-license-switzerland                 → /best-country-crypto-license-switzerland/  
+- [x] best-country-crypto-license-malta                       → /best-country-crypto-license-malta/  
+- [x] best-country-crypto-license-cyprus                      → /best-country-crypto-license-cyprus/  
+- [x] best-country-crypto-license-poland                      → /best-country-crypto-license-poland/  
+- [x] best-country-crypto-license-singapore                   → /best-country-crypto-license-singapore/  
+- [x] best-country-crypto-license-czech-republic              → /best-country-crypto-license-czech-republic/  
+- [x] fastest-crypto-license-panama                           → /fastest-crypto-license-panama/  
+- [x] fastest-crypto-license-lithuania                        → /fastest-crypto-license-lithuania/  
+- [x] fastest-crypto-license-estonia                          → /fastest-crypto-license-estonia/  
+- [x] fastest-crypto-license-dubai                            → /fastest-crypto-license-dubai/  
+- [x] fastest-crypto-license-el-salvador                      → /fastest-crypto-license-el-salvador/  
+- [x] fastest-crypto-license-cayman-islands                   → /fastest-crypto-license-cayman-islands/  
+- [x] fastest-crypto-license-switzerland                      → /fastest-crypto-license-switzerland/  
+- [x] fastest-crypto-license-malta                            → /fastest-crypto-license-malta/  
+- [x] fastest-crypto-license-cyprus                           → /fastest-crypto-license-cyprus/  
+- [x] fastest-crypto-license-poland                           → /fastest-crypto-license-poland/  
+- [x] fastest-crypto-license-singapore                        → /fastest-crypto-license-singapore/  
+- [x] fastest-crypto-license-czech-republic                   → /fastest-crypto-license-czech-republic/  
 - [x] easiest-crypto-license-panama                           → /easiest-crypto-license-panama/  
 - [x] easiest-crypto-license-lithuania                        → /easiest-crypto-license-lithuania/  
 - [x] easiest-crypto-license-estonia                          → /easiest-crypto-license-estonia/  
@@ -653,83 +653,83 @@ Requirements & How to Get One".
 - [x] easiest-crypto-license-poland                           → /easiest-crypto-license-poland/  
 - [x] easiest-crypto-license-singapore                        → /easiest-crypto-license-singapore/  
 - [x] easiest-crypto-license-czech-republic                   → /easiest-crypto-license-czech-republic/  
-- [ ] how-to-get-a-crypto-license-panama                      → /how-to-get-a-crypto-license-panama/  
-- [ ] how-to-get-a-crypto-license-lithuania                   → /how-to-get-a-crypto-license-lithuania/  
-- [ ] how-to-get-a-crypto-license-estonia                     → /how-to-get-a-crypto-license-estonia/  
-- [ ] how-to-get-a-crypto-license-dubai                       → /how-to-get-a-crypto-license-dubai/  
-- [ ] how-to-get-a-crypto-license-el-salvador                 → /how-to-get-a-crypto-license-el-salvador/  
-- [ ] how-to-get-a-crypto-license-cayman-islands              → /how-to-get-a-crypto-license-cayman-islands/  
-- [ ] how-to-get-a-crypto-license-switzerland                 → /how-to-get-a-crypto-license-switzerland/  
-- [ ] how-to-get-a-crypto-license-malta                       → /how-to-get-a-crypto-license-malta/  
-- [ ] how-to-get-a-crypto-license-cyprus                      → /how-to-get-a-crypto-license-cyprus/  
-- [ ] how-to-get-a-crypto-license-poland                      → /how-to-get-a-crypto-license-poland/  
-- [ ] how-to-get-a-crypto-license-singapore                   → /how-to-get-a-crypto-license-singapore/  
-- [ ] how-to-get-a-crypto-license-czech-republic              → /how-to-get-a-crypto-license-czech-republic/  
-- [ ] ready-made-crypto-license-panama                        → /ready-made-crypto-license-panama/  
-- [ ] ready-made-crypto-license-lithuania                     → /ready-made-crypto-license-lithuania/  
-- [ ] ready-made-crypto-license-estonia                       → /ready-made-crypto-license-estonia/  
-- [ ] ready-made-crypto-license-dubai                         → /ready-made-crypto-license-dubai/  
-- [ ] ready-made-crypto-license-el-salvador                   → /ready-made-crypto-license-el-salvador/  
-- [ ] ready-made-crypto-license-cayman-islands                → /ready-made-crypto-license-cayman-islands/  
-- [ ] ready-made-crypto-license-switzerland                   → /ready-made-crypto-license-switzerland/  
-- [ ] ready-made-crypto-license-malta                         → /ready-made-crypto-license-malta/  
-- [ ] ready-made-crypto-license-cyprus                        → /ready-made-crypto-license-cyprus/  
-- [ ] ready-made-crypto-license-poland                        → /ready-made-crypto-license-poland/  
-- [ ] ready-made-crypto-license-singapore                     → /ready-made-crypto-license-singapore/  
-- [ ] ready-made-crypto-license-czech-republic                → /ready-made-crypto-license-czech-republic/  
-- [ ] offshore-crypto-license-panama                          → /offshore-crypto-license-panama/  
-- [ ] offshore-crypto-license-lithuania                       → /offshore-crypto-license-lithuania/  
-- [ ] offshore-crypto-license-estonia                         → /offshore-crypto-license-estonia/  
-- [ ] offshore-crypto-license-dubai                           → /offshore-crypto-license-dubai/  
-- [ ] offshore-crypto-license-el-salvador                     → /offshore-crypto-license-el-salvador/  
-- [ ] offshore-crypto-license-cayman-islands                  → /offshore-crypto-license-cayman-islands/  
-- [ ] offshore-crypto-license-switzerland                     → /offshore-crypto-license-switzerland/  
-- [ ] offshore-crypto-license-malta                           → /offshore-crypto-license-malta/  
-- [ ] offshore-crypto-license-cyprus                          → /offshore-crypto-license-cyprus/  
-- [ ] offshore-crypto-license-poland                          → /offshore-crypto-license-poland/  
-- [ ] offshore-crypto-license-singapore                       → /offshore-crypto-license-singapore/  
-- [ ] offshore-crypto-license-czech-republic                  → /offshore-crypto-license-czech-republic/  
-- [ ] panama-vs-lithuania-crypto-license                      → /panama-vs-lithuania-crypto-license/  
-- [ ] panama-vs-estonia-crypto-license                        → /panama-vs-estonia-crypto-license/  
-- [ ] panama-vs-el-salvador-crypto-license                    → /panama-vs-el-salvador-crypto-license/  
-- [ ] panama-vs-cayman-islands-crypto-license                 → /panama-vs-cayman-islands-crypto-license/  
-- [ ] panama-vs-switzerland-crypto-license                    → /panama-vs-switzerland-crypto-license/  
-- [ ] panama-vs-malta-crypto-license                          → /panama-vs-malta-crypto-license/  
-- [ ] panama-vs-cyprus-crypto-license                         → /panama-vs-cyprus-crypto-license/  
-- [ ] panama-vs-poland-crypto-license                         → /panama-vs-poland-crypto-license/  
-- [ ] panama-vs-singapore-crypto-license                      → /panama-vs-singapore-crypto-license/  
-- [ ] panama-vs-czech-republic-crypto-license                 → /panama-vs-czech-republic-crypto-license/  
-- [ ] lithuania-vs-el-salvador-crypto-license                 → /lithuania-vs-el-salvador-crypto-license/  
-- [ ] lithuania-vs-cayman-islands-crypto-license              → /lithuania-vs-cayman-islands-crypto-license/  
-- [ ] lithuania-vs-switzerland-crypto-license                 → /lithuania-vs-switzerland-crypto-license/  
-- [ ] lithuania-vs-malta-crypto-license                       → /lithuania-vs-malta-crypto-license/  
-- [ ] lithuania-vs-cyprus-crypto-license                      → /lithuania-vs-cyprus-crypto-license/  
-- [ ] lithuania-vs-singapore-crypto-license                   → /lithuania-vs-singapore-crypto-license/  
-- [ ] lithuania-vs-czech-republic-crypto-license              → /lithuania-vs-czech-republic-crypto-license/  
-- [ ] estonia-vs-el-salvador-crypto-license                   → /estonia-vs-el-salvador-crypto-license/  
-- [ ] estonia-vs-cayman-islands-crypto-license                → /estonia-vs-cayman-islands-crypto-license/  
-- [ ] estonia-vs-switzerland-crypto-license                   → /estonia-vs-switzerland-crypto-license/  
-- [ ] estonia-vs-malta-crypto-license                         → /estonia-vs-malta-crypto-license/  
-- [ ] estonia-vs-cyprus-crypto-license                        → /estonia-vs-cyprus-crypto-license/  
-- [ ] estonia-vs-poland-crypto-license                        → /estonia-vs-poland-crypto-license/  
-- [ ] estonia-vs-singapore-crypto-license                     → /estonia-vs-singapore-crypto-license/  
-- [ ] estonia-vs-czech-republic-crypto-license                → /estonia-vs-czech-republic-crypto-license/  
-- [ ] dubai-vs-el-salvador-crypto-license                     → /dubai-vs-el-salvador-crypto-license/  
-- [ ] dubai-vs-cayman-islands-crypto-license                  → /dubai-vs-cayman-islands-crypto-license/  
-- [ ] dubai-vs-switzerland-crypto-license                     → /dubai-vs-switzerland-crypto-license/  
-- [ ] dubai-vs-malta-crypto-license                           → /dubai-vs-malta-crypto-license/  
-- [ ] dubai-vs-cyprus-crypto-license                          → /dubai-vs-cyprus-crypto-license/  
-- [ ] dubai-vs-poland-crypto-license                          → /dubai-vs-poland-crypto-license/  
-- [ ] dubai-vs-singapore-crypto-license                       → /dubai-vs-singapore-crypto-license/  
-- [ ] dubai-vs-czech-republic-crypto-license                  → /dubai-vs-czech-republic-crypto-license/  
-- [ ] el-salvador-vs-cayman-islands-crypto-license            → /el-salvador-vs-cayman-islands-crypto-license/  
-- [ ] el-salvador-vs-switzerland-crypto-license               → /el-salvador-vs-switzerland-crypto-license/  
-- [ ] el-salvador-vs-malta-crypto-license                     → /el-salvador-vs-malta-crypto-license/  
-- [ ] el-salvador-vs-cyprus-crypto-license                    → /el-salvador-vs-cyprus-crypto-license/  
-- [ ] el-salvador-vs-poland-crypto-license                    → /el-salvador-vs-poland-crypto-license/  
-- [ ] el-salvador-vs-singapore-crypto-license                 → /el-salvador-vs-singapore-crypto-license/  
-- [ ] el-salvador-vs-czech-republic-crypto-license            → /el-salvador-vs-czech-republic-crypto-license/  
-- [ ] cayman-islands-vs-switzerland-crypto-license            → /cayman-islands-vs-switzerland-crypto-license/  
+- [x] how-to-get-a-crypto-license-panama                      → /how-to-get-a-crypto-license-panama/  
+- [x] how-to-get-a-crypto-license-lithuania                   → /how-to-get-a-crypto-license-lithuania/  
+- [x] how-to-get-a-crypto-license-estonia                     → /how-to-get-a-crypto-license-estonia/  
+- [x] how-to-get-a-crypto-license-dubai                       → /how-to-get-a-crypto-license-dubai/  
+- [x] how-to-get-a-crypto-license-el-salvador                 → /how-to-get-a-crypto-license-el-salvador/  
+- [x] how-to-get-a-crypto-license-cayman-islands              → /how-to-get-a-crypto-license-cayman-islands/  
+- [x] how-to-get-a-crypto-license-switzerland                 → /how-to-get-a-crypto-license-switzerland/  
+- [x] how-to-get-a-crypto-license-malta                       → /how-to-get-a-crypto-license-malta/  
+- [x] how-to-get-a-crypto-license-cyprus                      → /how-to-get-a-crypto-license-cyprus/  
+- [x] how-to-get-a-crypto-license-poland                      → /how-to-get-a-crypto-license-poland/  
+- [x] how-to-get-a-crypto-license-singapore                   → /how-to-get-a-crypto-license-singapore/  
+- [x] how-to-get-a-crypto-license-czech-republic              → /how-to-get-a-crypto-license-czech-republic/  
+- [x] ready-made-crypto-license-panama                        → /ready-made-crypto-license-panama/  
+- [x] ready-made-crypto-license-lithuania                     → /ready-made-crypto-license-lithuania/  
+- [x] ready-made-crypto-license-estonia                       → /ready-made-crypto-license-estonia/  
+- [x] ready-made-crypto-license-dubai                         → /ready-made-crypto-license-dubai/  
+- [x] ready-made-crypto-license-el-salvador                   → /ready-made-crypto-license-el-salvador/  
+- [x] ready-made-crypto-license-cayman-islands                → /ready-made-crypto-license-cayman-islands/  
+- [x] ready-made-crypto-license-switzerland                   → /ready-made-crypto-license-switzerland/  
+- [x] ready-made-crypto-license-malta                         → /ready-made-crypto-license-malta/  
+- [x] ready-made-crypto-license-cyprus                        → /ready-made-crypto-license-cyprus/  
+- [x] ready-made-crypto-license-poland                        → /ready-made-crypto-license-poland/  
+- [x] ready-made-crypto-license-singapore                     → /ready-made-crypto-license-singapore/  
+- [x] ready-made-crypto-license-czech-republic                → /ready-made-crypto-license-czech-republic/  
+- [x] offshore-crypto-license-panama                          → /offshore-crypto-license-panama/  
+- [x] offshore-crypto-license-lithuania                       → /offshore-crypto-license-lithuania/  
+- [x] offshore-crypto-license-estonia                         → /offshore-crypto-license-estonia/  
+- [x] offshore-crypto-license-dubai                           → /offshore-crypto-license-dubai/  
+- [x] offshore-crypto-license-el-salvador                     → /offshore-crypto-license-el-salvador/  
+- [x] offshore-crypto-license-cayman-islands                  → /offshore-crypto-license-cayman-islands/  
+- [x] offshore-crypto-license-switzerland                     → /offshore-crypto-license-switzerland/  
+- [x] offshore-crypto-license-malta                           → /offshore-crypto-license-malta/  
+- [x] offshore-crypto-license-cyprus                          → /offshore-crypto-license-cyprus/  
+- [x] offshore-crypto-license-poland                          → /offshore-crypto-license-poland/  
+- [x] offshore-crypto-license-singapore                       → /offshore-crypto-license-singapore/  
+- [x] offshore-crypto-license-czech-republic                  → /offshore-crypto-license-czech-republic/  
+- [x] panama-vs-lithuania-crypto-license                      → /panama-vs-lithuania-crypto-license/  
+- [x] panama-vs-estonia-crypto-license                        → /panama-vs-estonia-crypto-license/  
+- [x] panama-vs-el-salvador-crypto-license                    → /panama-vs-el-salvador-crypto-license/  
+- [x] panama-vs-cayman-islands-crypto-license                 → /panama-vs-cayman-islands-crypto-license/  
+- [x] panama-vs-switzerland-crypto-license                    → /panama-vs-switzerland-crypto-license/  
+- [x] panama-vs-malta-crypto-license                          → /panama-vs-malta-crypto-license/  
+- [x] panama-vs-cyprus-crypto-license                         → /panama-vs-cyprus-crypto-license/  
+- [x] panama-vs-poland-crypto-license                         → /panama-vs-poland-crypto-license/  
+- [x] panama-vs-singapore-crypto-license                      → /panama-vs-singapore-crypto-license/  
+- [x] panama-vs-czech-republic-crypto-license                 → /panama-vs-czech-republic-crypto-license/  
+- [x] lithuania-vs-el-salvador-crypto-license                 → /lithuania-vs-el-salvador-crypto-license/  
+- [x] lithuania-vs-cayman-islands-crypto-license              → /lithuania-vs-cayman-islands-crypto-license/  
+- [x] lithuania-vs-switzerland-crypto-license                 → /lithuania-vs-switzerland-crypto-license/  
+- [x] lithuania-vs-malta-crypto-license                       → /lithuania-vs-malta-crypto-license/  
+- [x] lithuania-vs-cyprus-crypto-license                      → /lithuania-vs-cyprus-crypto-license/  
+- [x] lithuania-vs-singapore-crypto-license                   → /lithuania-vs-singapore-crypto-license/  
+- [x] lithuania-vs-czech-republic-crypto-license              → /lithuania-vs-czech-republic-crypto-license/  
+- [x] estonia-vs-el-salvador-crypto-license                   → /estonia-vs-el-salvador-crypto-license/  
+- [x] estonia-vs-cayman-islands-crypto-license                → /estonia-vs-cayman-islands-crypto-license/  
+- [x] estonia-vs-switzerland-crypto-license                   → /estonia-vs-switzerland-crypto-license/  
+- [x] estonia-vs-malta-crypto-license                         → /estonia-vs-malta-crypto-license/  
+- [x] estonia-vs-cyprus-crypto-license                        → /estonia-vs-cyprus-crypto-license/  
+- [x] estonia-vs-poland-crypto-license                        → /estonia-vs-poland-crypto-license/  
+- [x] estonia-vs-singapore-crypto-license                     → /estonia-vs-singapore-crypto-license/  
+- [x] estonia-vs-czech-republic-crypto-license                → /estonia-vs-czech-republic-crypto-license/  
+- [x] dubai-vs-el-salvador-crypto-license                     → /dubai-vs-el-salvador-crypto-license/  
+- [x] dubai-vs-cayman-islands-crypto-license                  → /dubai-vs-cayman-islands-crypto-license/  
+- [x] dubai-vs-switzerland-crypto-license                     → /dubai-vs-switzerland-crypto-license/  
+- [x] dubai-vs-malta-crypto-license                           → /dubai-vs-malta-crypto-license/  
+- [x] dubai-vs-cyprus-crypto-license                          → /dubai-vs-cyprus-crypto-license/  
+- [x] dubai-vs-poland-crypto-license                          → /dubai-vs-poland-crypto-license/  
+- [x] dubai-vs-singapore-crypto-license                       → /dubai-vs-singapore-crypto-license/  
+- [x] dubai-vs-czech-republic-crypto-license                  → /dubai-vs-czech-republic-crypto-license/  
+- [x] el-salvador-vs-cayman-islands-crypto-license            → /el-salvador-vs-cayman-islands-crypto-license/  
+- [x] el-salvador-vs-switzerland-crypto-license               → /el-salvador-vs-switzerland-crypto-license/  
+- [x] el-salvador-vs-malta-crypto-license                     → /el-salvador-vs-malta-crypto-license/  
+- [x] el-salvador-vs-cyprus-crypto-license                    → /el-salvador-vs-cyprus-crypto-license/  
+- [x] el-salvador-vs-poland-crypto-license                    → /el-salvador-vs-poland-crypto-license/  
+- [x] el-salvador-vs-singapore-crypto-license                 → /el-salvador-vs-singapore-crypto-license/  
+- [x] el-salvador-vs-czech-republic-crypto-license            → /el-salvador-vs-czech-republic-crypto-license/  
+- [x] cayman-islands-vs-switzerland-crypto-license            → /cayman-islands-vs-switzerland-crypto-license/  
 - [ ] cayman-islands-vs-malta-crypto-license                  → /cayman-islands-vs-malta-crypto-license/  
 - [ ] cayman-islands-vs-cyprus-crypto-license                 → /cayman-islands-vs-cyprus-crypto-license/  
 - [ ] cayman-islands-vs-poland-crypto-license                 → /cayman-islands-vs-poland-crypto-license/  

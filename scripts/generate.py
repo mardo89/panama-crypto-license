@@ -11,7 +11,7 @@ Reads the DeepSeek key from $DEEPSEEK_API_KEY or scripts/.deepseek_key (gitignor
 Enforces the Consulting24 QC checklist: >=2000 words, >=8 FAQs, full section
 structure, internal links, validated external authority links, schema, EEAT.
 """
-import os, sys, re, json, html, urllib.request, urllib.error
+import os, sys, re, json, html, urllib.request, urllib.error, hashlib, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.consulting24.co"
@@ -139,18 +139,38 @@ _HUB_SPECIAL = {"mica":"MiCA","vasp":"VASP","casp":"CASP","msb":"MSB","vara":"VA
  "islands":"Islands","cayman":"Cayman","saint":"Saint","lucia":"Lucia","abu":"Abu","dhabi":"Dhabi"}
 def _hub_label(slug):
     return " ".join(_HUB_SPECIAL.get(w.lower(), w.capitalize()) for w in slug.split("-"))
-def link_hub(self_slug=""):
-    """Contextual internal-link block to every keyword landing page (built from disk)."""
+_CORE_LINKS = ["", "jurisdictions", "cost", "requirements", "mica-license",
+               "casp-license", "lithuania-crypto-license", "estonia-crypto-license"]
+def link_hub(self_slug="", cap=20):
+    """Lean, contextual internal-link block (~20 relevant links, not the whole site).
+    Picks: core money pages + same-jurisdiction/topic siblings + a deterministic slice."""
     skip = {"blog","scripts","config","img","logs","jurisdictions"}
-    dirs = sorted(n for n in os.listdir(ROOT)
-                  if n not in skip and os.path.exists(os.path.join(ROOT, n, "index.html")))
-    links = "".join(f'<a href="/{s}/" style="display:inline-block;margin:0 10px 8px 0">{_hub_label(s)}</a>'
-                    for s in dirs if s != self_slug)
-    if not links:
-        return ""
+    dirs = [n for n in sorted(os.listdir(ROOT))
+            if n not in skip and os.path.isdir(os.path.join(ROOT, n))
+            and os.path.exists(os.path.join(ROOT, n, "index.html"))]
+    dset = set(dirs)
+    picked, seen = [], {self_slug}
+    def add(s):
+        if s in seen: return
+        if s == "" or s in dset:
+            seen.add(s); picked.append(s)
+    for c in _CORE_LINKS: add(c)                                  # core money pages
+    toks = [t for t in self_slug.split("-") if len(t) > 3 and t != "crypto" and t != "license"]
+    for s in dirs:                                                # topical siblings
+        if len(picked) >= cap: break
+        if any(t in s for t in toks): add(s)
+    h = int(hashlib.md5(self_slug.encode()).hexdigest(), 16) if self_slug else 0
+    rotated = dirs[h % len(dirs):] + dirs[:h % len(dirs)] if dirs else []
+    for s in rotated:                                            # fill remainder, varied per page
+        if len(picked) >= cap: break
+        add(s)
+    links = "".join(
+        f'<a href="/{s}/" style="display:inline-block;margin:0 10px 8px 0">{_hub_label(s) if s else "Panama (EUR 6,000)"}</a>'
+        for s in picked[:cap])
+    if not links: return ""
     return ('<section class="wrap landing-link-hub" style="margin:8px auto 0">'
-            '<h2 style="font-size:1.3rem">Explore crypto licenses by jurisdiction and topic</h2>'
-            '<p style="color:var(--ink-2)">Every route we cover, each with cost, capital, timeline and requirements:</p>'
+            '<h2 style="font-size:1.3rem">Related crypto license guides</h2>'
+            '<p style="color:var(--ink-2)">Compare the most relevant routes, each with cost, capital, timeline and requirements:</p>'
             f'<div style="line-height:1.9;font-size:14px">{links}</div></section>')
 
 def assemble(slug, crumb, d, kind="landing"):
@@ -182,6 +202,26 @@ def assemble(slug, crumb, d, kind="landing"):
     related_html = '<h2>Related jurisdictions</h2><div class="related">' + "".join(f'<a href="{h}"><strong>{n}</strong><span>Crypto licensing guide and Panama comparison</span></a>' for h,n in _rel) + '</div>'
     topcta = '<div class="top-cta-row"><a href="'+WA+'" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free assessment</a></div>'
     trust = '<div class="trust-strip"><b>500+ crypto licenses obtained.</b> <span class="logos">Binance &middot; LBank &middot; Coinify &middot; MultiversX &middot; UPay &middot; Vitalum</span></div>'
+    today = datetime.date.today().isoformat()
+    # TL;DR answer box (LLM + featured-snippet friendly: a direct, quotable answer up top)
+    _ans = html.escape(d.get("meta_description","").strip())
+    tldr = (f'<div class="answer-box" style="background:var(--accent-soft);border-left:4px solid var(--accent);'
+            f'border-radius:8px;padding:16px 20px;margin:0 0 22px"><strong style="color:var(--accent-dark)">Short answer:</strong> {_ans}</div>') if _ans else ""
+    # Visible author byline (E-E-A-T)
+    byline = (f'<p class="byline" style="color:var(--muted);font-size:.9rem;margin:0 0 18px">'
+              f'By <a href="https://www.linkedin.com/in/mardo-s-00a05ab0/" rel="author">Mardo Soo</a>, '
+              f'Founder &amp; CEO, Consulting24 (X24Consulting O&Uuml;) &middot; Updated {today}</p>')
+    _authorimg = f"{BASE}/img/mardo-soo-profile.jpg"
+    article_schema = (
+      f'{{"@type":"Article","headline":{json.dumps(d.get("meta_title",""))},'
+      f'"description":{json.dumps(d.get("meta_description",""))},'
+      f'"datePublished":"{today}","dateModified":"{today}",'
+      f'"image":"{BASE}/og-image.jpg","mainEntityOfPage":"{canon}",'
+      f'"author":{{"@type":"Person","name":"Mardo Soo","jobTitle":"Founder & CEO",'
+      f'"url":"https://www.linkedin.com/in/mardo-s-00a05ab0/","image":"{_authorimg}",'
+      f'"worksFor":{{"@type":"Organization","name":"Consulting24","url":"https://consulting24.co/"}}}},'
+      f'"publisher":{{"@type":"Organization","name":"Consulting24","url":"https://consulting24.co/",'
+      f'"logo":{{"@type":"ImageObject","url":"{BASE}/img/mardo-soo-profile.jpg"}}}}}}')
     return f'''<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -198,6 +238,7 @@ def assemble(slug, crumb, d, kind="landing"):
    {{"@type":"ListItem","position":2,"name":"Jurisdictions","item":"{BASE}/jurisdictions/"}},
    {{"@type":"ListItem","position":3,"name":{json.dumps(crumb)},"item":"{canon}"}}]}},
  {{"@type":"Service","name":{json.dumps(crumb+" Crypto License")},"provider":{{"@type":"Organization","name":"Consulting24","url":"https://consulting24.co/"}}}},
+ {article_schema},
  {{"@type":"FAQPage","mainEntity":[{faq_schema}]}}
 ]}}
 </script>
@@ -207,6 +248,8 @@ def assemble(slug, crumb, d, kind="landing"):
 <div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="/jurisdictions/">Jurisdictions</a> &rsaquo; {html.escape(crumb)}</nav></div>
 <article class="wrap">
   <h1>{html.escape(d["h1"])}</h1>
+{byline}
+{tldr}
 {d["intro_html"]}
 {topcta}
 {trust}
