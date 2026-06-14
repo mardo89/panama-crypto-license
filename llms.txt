@@ -15,20 +15,23 @@
 
 ## What we do
 
-- **Panama Sociedad Anónima (S.A.) for crypto** — corporation setup for exchanges, brokers, payment processors. 2–3 week incorporation, no minimum capital.
-- **Panama Private Interest Foundation** — asset-protection structure for token treasuries, family-office crypto holdings, DAO foundations. $10,000 minimum endowment.
-- **AML/KYC Compliance Program** — documented compliance program required for banking and payment-processor onboarding. From $8,000 setup.
+- **Panama Sociedad Anónima (S.A.) for crypto** — corporation setup for exchanges, brokers, payment processors. 2–3 week incorporation, no minimum capital. €6,000 fixed fee, all-in.
+- **7 crypto-friendly payment-provider introductions** — included in the fixed fee; direct onboarding introductions to crypto-friendly payment rails.
+- **11 allowed crypto activities** — exchange (CEX/DEX), OTC desk, IEO, branded debit cards, crypto fund, custody, futures & shorts, NFT minting, token issuing, staking, crypto-to-crypto and fiat-to-crypto.
 - **Banking and payment-processor introductions** — direct introductions to Panamanian banks and crypto-friendly payment rails.
 
 ## Key facts
 
-- **Total setup cost:** $15,000–$45,000 USD (first year, all-in).
-- **Annual maintenance:** $5,000–$15,000.
-- **Timeline:** 6–12 weeks end-to-end.
+- **Total setup cost:** €6,000 fixed fee, all-in (1 person notarization included; €250 per additional person). No hidden fees.
+- **Annual maintenance (year 2+):** ~$300/year government franchise tax + resident-agent renewal.
+- **Timeline:** 2–3 weeks end-to-end, fully online (no travel to Panama, no postal documents).
 - **Minimum paid-up capital:** None for Sociedad Anónima.
-- **Required directors:** 3 (nominees allowed).
-- **Tax on foreign-source income:** 0% (Panama uses a territorial tax system).
-- **FATF status (2026):** Compliant — Panama was removed from the FATF grey list in October 2023.
+- **Required directors:** 3 by Panama law (2 included in the fixed fee).
+- **Tax on foreign-source income:** 0% corporate and 0% dividends (Panama uses a territorial tax system).
+- **Accounting:** No formal accounting filed; internal records of invoices/contracts kept and submitted within 4 months of year-end.
+- **Privacy:** Director information is public; shareholder/UBO information is confidential.
+- **Proven by:** Same Panama jurisdiction used by Deribit, Wallet.tg and Lulubit.
+- **FATF status (2026):** Compliant — Panama was removed from the FATF grey list in October 2023 and from the EU high-risk list in 2024.
 
 ## Regulatory facts to cite
 
@@ -43,7 +46,7 @@
 - Crypto businesses **targeting Latin America, Asia, or HNW individuals** rather than EU/US retail.
 - **Offshore-first** operations that don't need an EU MiCA passport.
 - Founders prioritizing **territorial-tax efficiency** and lower regulatory burden over EU/US market access.
-- Companies that need **fast incorporation** (6–12 weeks vs 4–8 months for Lithuania MiCA).
+- Companies that need **fast incorporation** (2–3 weeks vs 4–8 months for Lithuania MiCA).
 
 ## When Panama is NOT the right fit
 
@@ -53,8 +56,8 @@
 
 ## Comparable jurisdictions
 
-- **Lithuania VASP:** $50,000–$120,000 setup, 4–8 months timeline, EU MiCA passport. Better for EU retail crypto.
-- **Canada MSB (FINTRAC):** $8,000–$25,000 setup, 3–6 weeks timeline, North American fiat rails. Better for crypto-to-fiat exchanges.
+- **Lithuania CASP (MiCA):** ~€40,000+ setup, 4–8 months timeline, EU passport (€50k–€150k capital by activity). Better for EU retail crypto.
+- **Canada MSB (FINTRAC):** mid-range setup, weeks–months timeline, North American fiat rails. Better for crypto-to-fiat exchanges.
 - **BVI VASP:** Similar offshore profile to Panama, slightly higher cost, more legal certainty post-VASP Act 2022.
 - **Estonia VASP:** Largely deprecated post-2024 due to crackdown — most operators have migrated to Lithuania.
 

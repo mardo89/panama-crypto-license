@@ -89,7 +89,10 @@
           {"@type":"Question","name":"Do I need to do accounting for a Panama crypto company?","acceptedAnswer":{"@type":"Answer","text":"No formal accounting is required. You only need to keep internal records of any invoices, contracts, or agreements and submit them within 4 months of the financial year-end. These records are kept internally - not filed with any government agency. This is dramatically simpler than EU jurisdictions that require annual audited financials filed publicly."}},
           {"@type":"Question","name":"Are Panama crypto company directors and UBOs disclosed publicly?","acceptedAnswer":{"@type":"Answer","text":"Director information is public (appears in Panama Public Registry). Shareholder and Ultimate Beneficial Owner (UBO) information is confidential - disclosed only to the registered agent and Panamanian authorities upon request, not publicly searchable. This is a significant privacy advantage vs EU jurisdictions where UBO registers are publicly searchable."}},
           {"@type":"Question","name":"Is there a minimum capital requirement for Panama crypto company?","acceptedAnswer":{"@type":"Answer","text":"No. Panama Sociedad Anónima requires zero minimum paid-up capital. Authorized capital is typically set at $10,000 (the standard franchise tax tier) but no money needs to be deposited. Compare to Lithuania CASP which requires €125,000 paid-up capital, or Singapore PSA which requires S$250K-S$5M+."}},
-          {"@type":"Question","name":"Do I need to travel to Panama or send documents by post?","acceptedAnswer":{"@type":"Answer","text":"No. The entire registration is fully online. Documents are signed and notarized in your home country, sent electronically. No travel to Panama is required. No postal documents. The Panama company registration completes in 2-3 weeks without any physical presence on your part."}}
+          {"@type":"Question","name":"Do I need to travel to Panama or send documents by post?","acceptedAnswer":{"@type":"Answer","text":"No. The entire registration is fully online. Documents are signed and notarized in your home country, sent electronically. No travel to Panama is required. No postal documents. The Panama company registration completes in 2-3 weeks without any physical presence on your part."}},
+          {"@type":"Question","name":"Can a US citizen or US-resident open a Panama crypto company?","acceptedAnswer":{"@type":"Answer","text":"Yes, US persons can own and direct a Panama company. The US taxes citizens and residents on worldwide income regardless of where the company sits, and a US-owned foreign corporation typically triggers IRS reporting (forms 5471, FBAR/FinCEN 114, and potential GILTI/Subpart F). Panama's 0% territorial tax removes Panamanian tax but not US obligations. Consulting24 coordinates the Panama setup and recommends pairing it with a US tax adviser."}},
+          {"@type":"Question","name":"Is Panama a reputable jurisdiction or is it grey-listed?","acceptedAnswer":{"@type":"Answer","text":"Panama was removed from the FATF grey list in 2023 and from the EU list of high-risk third countries in 2024. It is a fully regulated, treaty-connected jurisdiction with an established financial-services framework, used by operators such as Deribit, Wallet.tg and Lulubit. Banking partners apply standard AML/KYC due diligence, which is why the €6,000 package includes introductions to 7 crypto-friendly payment providers."}},
+          {"@type":"Question","name":"Should I choose Panama or an EU licence like Lithuania?","acceptedAnswer":{"@type":"Answer","text":"It depends on your customers. To serve EU retail users you need an EU/MiCA licence such as Lithuania CASP for passporting (budget ~€40,000+ and 4-8 months). For a global or non-EU audience wanting speed, low cost and 0% tax, Panama is the stronger fit at €6,000 in 2-3 weeks. Many founders start on Panama and add an EU licence later."}}
         ]
       },
       {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.consulting24.co/"}]}
@@ -261,6 +264,23 @@
     .sticky-bar{display:none;position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);box-shadow:0 -4px 20px rgba(0,0,0,.08);padding:10px;z-index:40}
     .sticky-bar .btn{flex:1;min-height:48px;padding:12px;font-size:.95rem}
     @media(max-width:760px){.sticky-bar{display:flex;gap:8px}body{padding-bottom:80px}}
+    /* --- conversion + polish additions --- */
+    h1{font-weight:800}
+    .proof-strip{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;margin:0 0 22px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .proof-strip .pf{display:flex;align-items:baseline;gap:7px;font-size:.9rem;color:var(--muted)}
+    .proof-strip .pf b{font-size:1.15rem;color:var(--ink);font-weight:800}
+    .why-item .icon{display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center;background:var(--accent-soft);border-radius:11px;margin-bottom:12px}
+    .why-item .icon svg{width:24px;height:24px;stroke:var(--accent-dark);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .cmp{background:var(--bg)}
+    .cmp-table-wrap{overflow-x:auto;margin-top:32px;border:1px solid var(--line);border-radius:var(--radius);background:#fff}
+    table.cmp-table{border-collapse:collapse;width:100%;min-width:680px;font-size:.95rem}
+    table.cmp-table th,table.cmp-table td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line)}
+    table.cmp-table thead th{background:var(--accent-soft);color:var(--accent-dark);font-weight:800;font-size:.9rem;letter-spacing:.01em}
+    table.cmp-table th[scope=row]{font-weight:700;color:var(--ink);white-space:nowrap}
+    table.cmp-table td.win{color:var(--success);font-weight:700}
+    table.cmp-table tbody tr:last-child td,table.cmp-table tbody tr:last-child th{border-bottom:0}
+    table.cmp-table col.feat{width:200px}
+    .cmp-note{font-size:.85rem;color:var(--muted);margin-top:14px}
   </style>
 </head>
 <body>
@@ -270,7 +290,6 @@
     <a href="/" class="brand">Crypto License <span>Consulting24</span></a>
     <div class="top-cta"><a href="/jurisdictions/" style="font-weight:700;color:var(--ink);font-size:.95rem;align-self:center">Jurisdictions</a><a href="/blog/" class="btn btn-ghost" style="padding:9px 15px;min-height:auto;font-size:.9rem">Blog</a>
       <a href="https://wa.me/37258155779?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20a%20crypto%20company%20setup." class="top-phone">Talk to an expert</a>
-      <a href="#contact" class="btn btn-primary" style="padding:10px 16px;min-height:auto;font-size:.92rem">Get €6,000 Quote</a>
     </div>
   </div>
 </header>
@@ -282,6 +301,13 @@
         <span class="price-badge"><span class="num">€6,000</span> <span class="lbl">fixed fee · 2-3 weeks</span></span>
         <h1>Panama Crypto Company Registration: €6,000 Fixed, 2-3 Weeks</h1>
         <p class="lead">Same Panama jurisdiction used by <strong>Deribit, Wallet.tg, and Lulubit</strong>. Fixed €6,000 fee includes company registration, notarization, 2 directors, and 7 payment provider introductions. 0% corporate tax. No accounting needed. All online - no travel, no postal documents.</p>
+
+        <div class="proof-strip" aria-label="Track record">
+          <span class="pf"><b>500+</b> crypto licenses delivered</span>
+          <span class="pf"><b>8+</b> years specialised</span>
+          <span class="pf"><b>15+</b> jurisdictions</span>
+          <span class="pf"><b>★★★★★</b> founder-led, no juniors</span>
+        </div>
 
         <div class="badges">
           <span class="badge">0% corporate &amp; dividends tax</span>
@@ -404,12 +430,38 @@
     <h2>5 reasons crypto founders choose Panama</h2>
     <p class="lead">Panama is the most cost-efficient regulated-tier crypto jurisdiction in 2026. Here's exactly why founders pick it over EU, Asia, or US options.</p>
     <div class="why-grid">
-      <div class="why-item"><div class="icon">💸</div><h3>0% tax</h3><p>0% corporate tax and 0% dividends tax. Foreign-source income is tax-exempt.</p></div>
-      <div class="why-item"><div class="icon">🔒</div><h3>UBO confidential</h3><p>Director info is public, but shareholders and Ultimate Beneficial Owners stay confidential.</p></div>
-      <div class="why-item"><div class="icon">🌐</div><h3>All online</h3><p>No need to visit Panama. No documents sent by post. Everything done electronically.</p></div>
-      <div class="why-item"><div class="icon">📋</div><h3>No accounting</h3><p>No formal bookkeeping required. Just submit invoices &amp; contracts within 4 months of year-end. Internal record only.</p></div>
-      <div class="why-item"><div class="icon">🏦</div><h3>0 capital</h3><p>Zero minimum paid-up capital. Compare to Lithuania CASP which requires €125,000.</p></div>
+      <div class="why-item"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><h3>0% tax</h3><p>0% corporate tax and 0% dividends tax. Foreign-source income is tax-exempt.</p></div>
+      <div class="why-item"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div><h3>UBO confidential</h3><p>Director info is public, but shareholders and Ultimate Beneficial Owners stay confidential.</p></div>
+      <div class="why-item"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18"/></svg></div><h3>All online</h3><p>No need to visit Panama. No documents sent by post. Everything done electronically.</p></div>
+      <div class="why-item"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6a2 2 0 0 1 2 2v0H7v0a2 2 0 0 1 2-2z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 11h6M9 15h4"/></svg></div><h3>No accounting</h3><p>No formal bookkeeping required. Just submit invoices &amp; contracts within 4 months of year-end. Internal record only.</p></div>
+      <div class="why-item"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v9h14v-9M9 19v-5h6v5"/></svg></div><h3>0 capital</h3><p>Zero minimum paid-up capital. Compare to Lithuania CASP which requires €125,000.</p></div>
     </div>
+  </div>
+</section>
+
+<section class="cmp" id="compare">
+  <div class="wrap">
+    <span class="eyebrow">How Panama compares</span>
+    <h2>Panama vs Lithuania, Dubai &amp; Canada</h2>
+    <p class="lead">A like-for-like comparison of the routes founders weigh most often in 2026. Panama wins on cost, speed and simplicity; the EU and Gulf routes win when you specifically need EU passporting or an onshore Gulf presence.</p>
+    <div class="cmp-table-wrap">
+      <table class="cmp-table">
+        <colgroup><col class="feat"><col><col><col><col></colgroup>
+        <thead>
+          <tr><th scope="col">Feature</th><th scope="col">Panama</th><th scope="col">Lithuania (MiCA CASP)</th><th scope="col">Dubai (VARA)</th><th scope="col">Canada (MSB)</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Setup cost</th><td class="win">€6,000 fixed</td><td>~€40,000+</td><td>premium (six figures)</td><td>mid (varies)</td></tr>
+          <tr><th scope="row">Timeline</th><td class="win">2-3 weeks</td><td>~4-8 months</td><td>~6-12 months</td><td>weeks-months</td></tr>
+          <tr><th scope="row">Min. paid-up capital</th><td class="win">€0</td><td>€50k-€150k</td><td>varies by licence</td><td>none set</td></tr>
+          <tr><th scope="row">Corporate tax</th><td class="win">0% (foreign-source)</td><td>15%</td><td>9% (free-zone reliefs)</td><td>~15-27%</td></tr>
+          <tr><th scope="row">Accounting / audit</th><td class="win">None required</td><td>Audited annual filings</td><td>Audited filings</td><td>Reporting required</td></tr>
+          <tr><th scope="row">EU passporting</th><td>No</td><td class="win">Yes (all EU/EEA)</td><td>No</td><td>No</td></tr>
+          <tr><th scope="row">Best for</th><td>Global / non-EU launch, lean budget, speed</td><td>Serving EU retail customers</td><td>Onshore Gulf presence</td><td>North-American money-services</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="cmp-note">Figures are typical 2026 ranges and vary by activity and provider. Consulting24 delivers Panama, Lithuania and Estonia directly and advises/coordinates the rest. <a href="/jurisdictions/">See all jurisdictions compared →</a></p>
   </div>
 </section>
 
@@ -579,6 +631,18 @@
       <details>
         <summary>Do I need to travel to Panama or send documents by post?</summary>
         <p><strong>No.</strong> The entire registration is fully online. Documents are signed and notarized in your home country, sent electronically. No travel to Panama is required. No postal documents. The Panama company registration completes in 2-3 weeks without any physical presence on your part.</p>
+      </details>
+      <details>
+        <summary>Can a US citizen or US-resident open a Panama crypto company?</summary>
+        <p><strong>Yes</strong>, US persons can own and direct a Panama company. Note that the US taxes its citizens and residents on worldwide income regardless of where the company sits, and a US-owned foreign corporation typically triggers IRS reporting (e.g. forms 5471, FBAR/FinCEN 114, and potential GILTI/Subpart F). Panama's 0% territorial tax still removes Panamanian tax, but it does not remove US obligations. We coordinate the Panama setup and recommend you pair it with a US tax adviser for the filing side.</p>
+      </details>
+      <details>
+        <summary>Is Panama a reputable jurisdiction, or is it grey-listed?</summary>
+        <p>Panama was <strong>removed from the FATF grey list in 2023</strong> and from the EU list of high-risk third countries in 2024. It is a fully regulated, treaty-connected jurisdiction with an established financial-services framework - which is why operators such as Deribit, Wallet.tg and Lulubit use it. Banking partners still apply standard AML/KYC due diligence, which is exactly why the €6,000 package includes introductions to 7 crypto-friendly payment providers.</p>
+      </details>
+      <details>
+        <summary>Should I choose Panama or an EU licence like Lithuania?</summary>
+        <p>It depends on your customers. If you serve <strong>EU retail users</strong>, you'll need an EU/MiCA licence (e.g. <a href="/lithuania-crypto-license/">Lithuania CASP</a>) for passporting - budget ~€40,000+ and 4-8 months. If you serve a <strong>global or non-EU audience</strong> and want speed, low cost and 0% tax, Panama is the stronger fit at €6,000 in 2-3 weeks. Many founders start on Panama and add an EU licence later. See the <a href="#compare">full comparison table</a>.</p>
       </details>
     </div>
   </div>

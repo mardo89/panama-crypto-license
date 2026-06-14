@@ -296,19 +296,30 @@ def _repair(d, keyword):
                    for w in kw.split())
     if kwt[:1].islower():
         kwt = kwt[:1].upper() + kwt[1:]
+    # Keyword is "present" if every keyword token already appears as a whole word,
+    # even reordered (e.g. kw "crypto staking license portugal" vs title
+    # "Portugal Crypto License: Crypto Staking"). This prevents re-prepending the
+    # keyword onto a title that already covers it, which produced duplicated junk
+    # like "Crypto Staking License Portugal Crypto License: Crypto Staking".
+    def _covers(text):
+        low = text.lower()
+        return all(re.search(r'\b' + re.escape(tok) + r'\b', low) for tok in kwl.split())
     # H1 must contain the keyword
     h1 = (d.get("h1") or "").strip()
-    if kwl not in h1.lower():
+    if not _covers(h1):
         d["h1"] = f"{kwt}: {h1}" if h1 else f"{kwt}: 2026 Guide"
     # Title must contain the keyword
     t = (d.get("meta_title") or "").strip()
-    if kwl not in t.lower():
+    if not _covers(t):
         t = f"{kwt}: {t}".strip() if t else kwt
     # Title must be 50-65 chars
     if len(t) < 50:
-        t = t.rstrip(" .:") + " 2026: Cost, Requirements & Timeline"
+        base = t.rstrip(" .:")
+        # avoid a double year / double colon when the title already reads cleanly
+        t = (base + " — Cost, Requirements & Timeline") if "2026" in base \
+            else (base + " 2026: Cost, Requirements & Timeline")
     if len(t) > 65:
-        t = t[:65].rsplit(" ", 1)[0].rstrip(" .,:;&-")
+        t = t[:65].rsplit(" ", 1)[0].rstrip(" .,:;&-—")
     d["meta_title"] = t
     return d
 
@@ -331,8 +342,10 @@ def qc(d, page_html, keyword=""):
     if 'href="/"' not in page_html: fails.append("no homepage link")
     if not (50 <= len(d["meta_title"]) <= 65): fails.append(f"title len {len(d['meta_title'])}")
     if not (110 <= len(d["meta_description"]) <= 165): fails.append(f"desc len {len(d['meta_description'])}")
-    if kw and kw not in d["h1"].lower(): fails.append("keyword not in H1")
-    if kw and kw not in d["meta_title"].lower(): fails.append("keyword not in title")
+    # token-coverage (reordered keyword counts as present), matching _repair
+    _toks = lambda s: all(re.search(r'\b'+re.escape(t)+r'\b', s.lower()) for t in kw.split())
+    if kw and not _toks(d["h1"]): fails.append("keyword not in H1")
+    if kw and not _toks(d["meta_title"]): fails.append("keyword not in title")
     if density > 3.0: fails.append(f"keyword stuffing {density}%")
     low=text.lower()
     banned=[w for w in BANNED if w in low]
