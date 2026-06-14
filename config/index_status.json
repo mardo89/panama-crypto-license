@@ -2606,6 +2606,13 @@
   "https://www.consulting24.co/cayman-islands-vs-cyprus-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/cayman-islands-vs-czech-republic-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-14",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -2613,13 +2620,20 @@
   "https://www.consulting24.co/cayman-islands-vs-malta-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/cayman-islands-vs-poland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
+    "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/cayman-islands-vs-singapore-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-14",
     "indexed": null,
     "last_action": null,
     "submits": 0
@@ -2627,7 +2641,7 @@
   "https://www.consulting24.co/cayman-islands-vs-switzerland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4930,49 +4944,49 @@
   "https://www.consulting24.co/dubai-vs-cayman-islands-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/dubai-vs-cyprus-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/dubai-vs-czech-republic-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/dubai-vs-el-salvador-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/dubai-vs-malta-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/dubai-vs-singapore-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/dubai-vs-switzerland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4993,28 +5007,28 @@
   "https://www.consulting24.co/el-salvador-vs-cayman-islands-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/el-salvador-vs-cyprus-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/el-salvador-vs-czech-republic-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/el-salvador-vs-malta-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5028,21 +5042,21 @@
   "https://www.consulting24.co/el-salvador-vs-poland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/el-salvador-vs-singapore-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/el-salvador-vs-switzerland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5056,28 +5070,28 @@
   "https://www.consulting24.co/estonia-vs-cayman-islands-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/estonia-vs-cyprus-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/estonia-vs-czech-republic-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/estonia-vs-el-salvador-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5091,28 +5105,28 @@
   "https://www.consulting24.co/estonia-vs-malta-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/estonia-vs-poland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/estonia-vs-singapore-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/estonia-vs-switzerland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5413,7 +5427,7 @@
   "https://www.consulting24.co/lithuania-vs-czech-republic-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5869,6 +5883,13 @@
     "escalated": false,
     "first_seen": "2026-05-29",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/switzerland-vs-malta-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-14",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
