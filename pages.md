@@ -733,9 +733,9 @@ Requirements & How to Get One".
 - [x] cayman-islands-vs-malta-crypto-license                  → /cayman-islands-vs-malta-crypto-license/  
 - [x] cayman-islands-vs-cyprus-crypto-license                 → /cayman-islands-vs-cyprus-crypto-license/  
 - [x] cayman-islands-vs-poland-crypto-license                 → /cayman-islands-vs-poland-crypto-license/  
-- [ ] cayman-islands-vs-singapore-crypto-license              → /cayman-islands-vs-singapore-crypto-license/  
-- [ ] cayman-islands-vs-czech-republic-crypto-license         → /cayman-islands-vs-czech-republic-crypto-license/  
-- [ ] switzerland-vs-malta-crypto-license                     → /switzerland-vs-malta-crypto-license/  
+- [x] cayman-islands-vs-singapore-crypto-license              → /cayman-islands-vs-singapore-crypto-license/  
+- [x] cayman-islands-vs-czech-republic-crypto-license         → /cayman-islands-vs-czech-republic-crypto-license/  
+- [x] switzerland-vs-malta-crypto-license                     → /switzerland-vs-malta-crypto-license/  
 - [ ] switzerland-vs-cyprus-crypto-license                    → /switzerland-vs-cyprus-crypto-license/  
 - [ ] switzerland-vs-poland-crypto-license                    → /switzerland-vs-poland-crypto-license/  
 - [ ] switzerland-vs-singapore-crypto-license                 → /switzerland-vs-singapore-crypto-license/  
