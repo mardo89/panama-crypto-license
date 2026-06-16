@@ -4920,6 +4920,20 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/cyprus-vs-poland-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-16",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/cyprus-vs-singapore-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-16",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/czech-republic-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-05-28",
@@ -5494,17 +5508,24 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/malta-vs-czech-republic-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-16",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/malta-vs-poland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-15",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/malta-vs-singapore-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-15",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5896,14 +5917,14 @@
   "https://www.consulting24.co/switzerland-vs-cyprus-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-15",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/switzerland-vs-czech-republic-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-15",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5924,14 +5945,14 @@
   "https://www.consulting24.co/switzerland-vs-poland-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-15",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
   "https://www.consulting24.co/switzerland-vs-singapore-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-15",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
