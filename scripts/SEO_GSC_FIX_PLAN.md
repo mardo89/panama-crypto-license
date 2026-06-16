@@ -47,6 +47,45 @@ Snapshot from GSC **Page indexing** for `https://www.consulting24.co/`:
 - Watch the **Duplicate canonical (11)** bucket; if it's trailing-slash, enforce one form in internal links.
 - Re-pull GSC in ~2–4 weeks; expect 404/crawled-not-indexed to fall and indexed count to climb as budget frees up.
 
+---
+
+# Performance analysis (2026-06-15) — the click problem
+
+Full GSC Performance pull (3 months, Web):
+
+- **361K impressions · 100 clicks · CTR ~0.03% · avg position 38.9.** No manual action (clean). Huge impression base, page-4 average rank, almost zero clicks.
+- **Core Web Vitals:** "not enough field data" (low traffic) — site is static/fast, no CWV work needed.
+- **Links:** only **369 external backlinks** (mostly to `/`; top referrers islington.gov.uk, medium.com). Low domain authority is the root cause of the ~39 average position.
+
+### The legacy-URL authority transfer (highest ROI on-site lever)
+The top pages by impressions are **old Wix URLs**, not the new pages — Google still holds their authority:
+
+| Legacy URL | Impressions | Pos | Redirect |
+|---|---:|---:|---|
+| /dubai-crypto-trading-license | 34,517 | 34.7 | ✅ → /dubai-crypto-license/ |
+| /crypto-license-poland | 33,650 | 54.4 | ✅ → /poland-crypto-license/ |
+| /post/securing-your-crypto-license-in-estonia | 22,361 | 65.3 | ✅ → /estonia-crypto-license/ |
+| /crypto-license-in-singapore | 21,752 | 45.7 | ✅ added 6/15 → /singapore-crypto-license/ |
+| /crypto-license-canada | 15,379 | 29.9 | ✅ added 6/15 → /canada-crypto-license/ |
+| /msb-license-canada | 9,671 | 50.6 | ✅ added 6/15 → /canada-crypto-license/ |
+| /mas-cryptocurrency-license-singapore | 2,889 | 27.5 | ✅ added 6/15 → /singapore-crypto-license/ |
+| /crypto-license-malta | (281 internal + ext links) | — | ✅ added 6/15 → /malta-crypto-license/ |
+
+Net: 57 redirects now funnel ~120K impressions of legacy authority to the live canonical pages.
+
+### CTR opportunity — flagship terms parked on page 1 with 0 clicks
+| Query | Impr | Pos | CTR | Action |
+|---|---:|---:|---|---|
+| panama crypto license | 4,931 | 9.8 | 0% | homepage title/snippet rework + push to top 5 |
+| vara license cost | 147 | 9.1 | 1.4% | /dubai or /vara page already p1 — tune snippet |
+| crypto license canada | 3,566 | 27.6 | 0% | legacy→/canada redirect (done) should lift it |
+| crypto license | 2,263 | 49.2 | 0% | head term; needs authority, long game |
+
+### Remaining plan (performance)
+- **P0 CTR:** the homepage ranks ~p10–16 for "panama crypto license" (4.9K impr) yet gets ~0 clicks — rewrite the `<title>`/meta to be more clickable and add a date/price hook; this converts existing impressions without new rankings.
+- **P1 authority (the real ceiling):** 369 backlinks won't rank head terms. Earned links / digital PR / the Blogger+satellite network are the lever — this is manual and outside what automation can do.
+- **P1 internal links:** Google still shows legacy URLs (`/crypto-license-malta` 281 internal links) in the link graph — recrawl after redirects will repoint equity to canonical pages.
+
 ## How to reproduce / re-run
 
 ```
