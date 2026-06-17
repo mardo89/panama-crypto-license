@@ -748,11 +748,11 @@ Requirements & How to Get One".
 - [x] cyprus-vs-czech-republic-crypto-license                 → /cyprus-vs-czech-republic-crypto-license/  
 - [x] poland-vs-singapore-crypto-license                      → /poland-vs-singapore-crypto-license/  
 - [x] poland-vs-czech-republic-crypto-license                 → /poland-vs-czech-republic-crypto-license/  
-- [ ] singapore-vs-czech-republic-crypto-license              → /singapore-vs-czech-republic-crypto-license/  
+- [x] singapore-vs-czech-republic-crypto-license              → /singapore-vs-czech-republic-crypto-license/  
 
 ## Tier X2 — activity x remaining jurisdictions
-- [ ] crypto-exchange-license-bermuda                         → /crypto-exchange-license-bermuda/
-- [ ] crypto-wallet-custody-license-bermuda                   → /crypto-wallet-custody-license-bermuda/
+- [x] crypto-exchange-license-bermuda                         → /crypto-exchange-license-bermuda/
+- [x] crypto-wallet-custody-license-bermuda                   → /crypto-wallet-custody-license-bermuda/
 - [ ] crypto-broker-license-bermuda                           → /crypto-broker-license-bermuda/
 - [ ] crypto-otc-desk-license-bermuda                         → /crypto-otc-desk-license-bermuda/
 - [ ] crypto-fund-license-bermuda                             → /crypto-fund-license-bermuda/
