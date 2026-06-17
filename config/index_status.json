@@ -2946,6 +2946,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-bermuda/": {
+    "escalated": false,
+    "first_seen": "2026-06-17",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-bulgaria/": {
     "escalated": false,
     "first_seen": "2026-06-05",
@@ -4745,6 +4752,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-wallet-custody-license-bermuda/": {
+    "escalated": false,
+    "first_seen": "2026-06-17",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-wallet-custody-license-bulgaria/": {
     "escalated": false,
     "first_seen": "2026-06-05",
@@ -5878,6 +5892,13 @@
     "indexed": true,
     "last_action": "2026-05-29",
     "submits": 1
+  },
+  "https://www.consulting24.co/singapore-vs-czech-republic-crypto-license/": {
+    "escalated": false,
+    "first_seen": "2026-06-17",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/slovakia-crypto-license/": {
     "escalated": false,
