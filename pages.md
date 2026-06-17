@@ -745,9 +745,9 @@ Requirements & How to Get One".
 - [x] malta-vs-czech-republic-crypto-license                  → /malta-vs-czech-republic-crypto-license/  
 - [x] cyprus-vs-poland-crypto-license                         → /cyprus-vs-poland-crypto-license/  
 - [x] cyprus-vs-singapore-crypto-license                      → /cyprus-vs-singapore-crypto-license/  
-- [ ] cyprus-vs-czech-republic-crypto-license                 → /cyprus-vs-czech-republic-crypto-license/  
-- [ ] poland-vs-singapore-crypto-license                      → /poland-vs-singapore-crypto-license/  
-- [ ] poland-vs-czech-republic-crypto-license                 → /poland-vs-czech-republic-crypto-license/  
+- [x] cyprus-vs-czech-republic-crypto-license                 → /cyprus-vs-czech-republic-crypto-license/  
+- [x] poland-vs-singapore-crypto-license                      → /poland-vs-singapore-crypto-license/  
+- [x] poland-vs-czech-republic-crypto-license                 → /poland-vs-czech-republic-crypto-license/  
 - [ ] singapore-vs-czech-republic-crypto-license              → /singapore-vs-czech-republic-crypto-license/  
 
 ## Tier X2 — activity x remaining jurisdictions
