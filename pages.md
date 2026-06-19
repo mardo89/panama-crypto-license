@@ -753,9 +753,9 @@ Requirements & How to Get One".
 ## Tier X2 — activity x remaining jurisdictions
 - [x] crypto-exchange-license-bermuda                         → /crypto-exchange-license-bermuda/
 - [x] crypto-wallet-custody-license-bermuda                   → /crypto-wallet-custody-license-bermuda/
-- [ ] crypto-broker-license-bermuda                           → /crypto-broker-license-bermuda/
-- [ ] crypto-otc-desk-license-bermuda                         → /crypto-otc-desk-license-bermuda/
-- [ ] crypto-fund-license-bermuda                             → /crypto-fund-license-bermuda/
+- [x] crypto-broker-license-bermuda                           → /crypto-broker-license-bermuda/
+- [x] crypto-otc-desk-license-bermuda                         → /crypto-otc-desk-license-bermuda/
+- [x] crypto-fund-license-bermuda                             → /crypto-fund-license-bermuda/
 - [ ] crypto-nft-marketplace-license-bermuda                  → /crypto-nft-marketplace-license-bermuda/
 - [ ] crypto-payment-institution-license-bermuda              → /crypto-payment-institution-license-bermuda/
 - [ ] crypto-gambling-license-bermuda                         → /crypto-gambling-license-bermuda/
