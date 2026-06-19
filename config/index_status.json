@@ -2949,7 +2949,7 @@
   "https://www.consulting24.co/crypto-exchange-license-bermuda/": {
     "escalated": false,
     "first_seen": "2026-06-17",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3153,6 +3153,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-bermuda/": {
+    "escalated": false,
+    "first_seen": "2026-06-19",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3727,6 +3734,13 @@
     "escalated": false,
     "first_seen": "2026-06-03",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-otc-desk-license-bermuda/": {
+    "escalated": false,
+    "first_seen": "2026-06-19",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4755,7 +4769,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-bermuda/": {
     "escalated": false,
     "first_seen": "2026-06-17",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5742,7 +5756,7 @@
   "https://www.consulting24.co/poland-vs-singapore-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-17",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5896,7 +5910,7 @@
   "https://www.consulting24.co/singapore-vs-czech-republic-crypto-license/": {
     "escalated": false,
     "first_seen": "2026-06-17",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
