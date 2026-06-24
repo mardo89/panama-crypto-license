@@ -3464,6 +3464,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-gambling-license-marshall-islands/": {
+    "escalated": false,
+    "first_seen": "2026-06-25",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-gambling-license-mauritius/": {
     "escalated": false,
     "first_seen": "2026-06-03",
@@ -4686,6 +4693,13 @@
     "escalated": false,
     "first_seen": "2026-05-31",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license-marshall-islands/": {
+    "escalated": false,
+    "first_seen": "2026-06-25",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
