@@ -756,33 +756,33 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-bermuda                           → /crypto-broker-license-bermuda/
 - [x] crypto-otc-desk-license-bermuda                         → /crypto-otc-desk-license-bermuda/
 - [x] crypto-fund-license-bermuda                             → /crypto-fund-license-bermuda/
-- [ ] crypto-nft-marketplace-license-bermuda                  → /crypto-nft-marketplace-license-bermuda/
-- [ ] crypto-payment-institution-license-bermuda              → /crypto-payment-institution-license-bermuda/
-- [ ] crypto-gambling-license-bermuda                         → /crypto-gambling-license-bermuda/
-- [ ] crypto-staking-license-bermuda                          → /crypto-staking-license-bermuda/
-- [ ] crypto-token-issuance-license-bermuda                   → /crypto-token-issuance-license-bermuda/
-- [ ] crypto-stablecoin-license-bermuda                       → /crypto-stablecoin-license-bermuda/
-- [ ] crypto-exchange-license-vanuatu                         → /crypto-exchange-license-vanuatu/
-- [ ] crypto-wallet-custody-license-vanuatu                   → /crypto-wallet-custody-license-vanuatu/
-- [ ] crypto-broker-license-vanuatu                           → /crypto-broker-license-vanuatu/
-- [ ] crypto-otc-desk-license-vanuatu                         → /crypto-otc-desk-license-vanuatu/
-- [ ] crypto-fund-license-vanuatu                             → /crypto-fund-license-vanuatu/
-- [ ] crypto-nft-marketplace-license-vanuatu                  → /crypto-nft-marketplace-license-vanuatu/
-- [ ] crypto-payment-institution-license-vanuatu              → /crypto-payment-institution-license-vanuatu/
-- [ ] crypto-gambling-license-vanuatu                         → /crypto-gambling-license-vanuatu/
-- [ ] crypto-staking-license-vanuatu                          → /crypto-staking-license-vanuatu/
-- [ ] crypto-token-issuance-license-vanuatu                   → /crypto-token-issuance-license-vanuatu/
-- [ ] crypto-stablecoin-license-vanuatu                       → /crypto-stablecoin-license-vanuatu/
-- [ ] crypto-exchange-license-marshall-islands                → /crypto-exchange-license-marshall-islands/
-- [ ] crypto-wallet-custody-license-marshall-islands          → /crypto-wallet-custody-license-marshall-islands/
-- [ ] crypto-broker-license-marshall-islands                  → /crypto-broker-license-marshall-islands/
-- [ ] crypto-otc-desk-license-marshall-islands                → /crypto-otc-desk-license-marshall-islands/
-- [ ] crypto-fund-license-marshall-islands                    → /crypto-fund-license-marshall-islands/
-- [ ] crypto-nft-marketplace-license-marshall-islands         → /crypto-nft-marketplace-license-marshall-islands/
-- [ ] crypto-payment-institution-license-marshall-islands     → /crypto-payment-institution-license-marshall-islands/
-- [ ] crypto-gambling-license-marshall-islands                → /crypto-gambling-license-marshall-islands/
-- [ ] crypto-staking-license-marshall-islands                 → /crypto-staking-license-marshall-islands/
-- [ ] crypto-token-issuance-license-marshall-islands          → /crypto-token-issuance-license-marshall-islands/
+- [x] crypto-nft-marketplace-license-bermuda                  → /crypto-nft-marketplace-license-bermuda/
+- [x] crypto-payment-institution-license-bermuda              → /crypto-payment-institution-license-bermuda/
+- [x] crypto-gambling-license-bermuda                         → /crypto-gambling-license-bermuda/
+- [x] crypto-staking-license-bermuda                          → /crypto-staking-license-bermuda/
+- [x] crypto-token-issuance-license-bermuda                   → /crypto-token-issuance-license-bermuda/
+- [x] crypto-stablecoin-license-bermuda                       → /crypto-stablecoin-license-bermuda/
+- [x] crypto-exchange-license-vanuatu                         → /crypto-exchange-license-vanuatu/
+- [x] crypto-wallet-custody-license-vanuatu                   → /crypto-wallet-custody-license-vanuatu/
+- [x] crypto-broker-license-vanuatu                           → /crypto-broker-license-vanuatu/
+- [x] crypto-otc-desk-license-vanuatu                         → /crypto-otc-desk-license-vanuatu/
+- [x] crypto-fund-license-vanuatu                             → /crypto-fund-license-vanuatu/
+- [x] crypto-nft-marketplace-license-vanuatu                  → /crypto-nft-marketplace-license-vanuatu/
+- [x] crypto-payment-institution-license-vanuatu              → /crypto-payment-institution-license-vanuatu/
+- [x] crypto-gambling-license-vanuatu                         → /crypto-gambling-license-vanuatu/
+- [x] crypto-staking-license-vanuatu                          → /crypto-staking-license-vanuatu/
+- [x] crypto-token-issuance-license-vanuatu                   → /crypto-token-issuance-license-vanuatu/
+- [x] crypto-stablecoin-license-vanuatu                       → /crypto-stablecoin-license-vanuatu/
+- [x] crypto-exchange-license-marshall-islands                → /crypto-exchange-license-marshall-islands/
+- [x] crypto-wallet-custody-license-marshall-islands          → /crypto-wallet-custody-license-marshall-islands/
+- [x] crypto-broker-license-marshall-islands                  → /crypto-broker-license-marshall-islands/
+- [x] crypto-otc-desk-license-marshall-islands                → /crypto-otc-desk-license-marshall-islands/
+- [x] crypto-fund-license-marshall-islands                    → /crypto-fund-license-marshall-islands/
+- [x] crypto-nft-marketplace-license-marshall-islands         → /crypto-nft-marketplace-license-marshall-islands/
+- [x] crypto-payment-institution-license-marshall-islands     → /crypto-payment-institution-license-marshall-islands/
+- [x] crypto-gambling-license-marshall-islands                → /crypto-gambling-license-marshall-islands/
+- [x] crypto-staking-license-marshall-islands                 → /crypto-staking-license-marshall-islands/
+- [x] crypto-token-issuance-license-marshall-islands          → /crypto-token-issuance-license-marshall-islands/
 - [ ] crypto-stablecoin-license-marshall-islands              → /crypto-stablecoin-license-marshall-islands/
 - [ ] crypto-exchange-license-saint-lucia                     → /crypto-exchange-license-saint-lucia/
 - [ ] crypto-wallet-custody-license-saint-lucia               → /crypto-wallet-custody-license-saint-lucia/
