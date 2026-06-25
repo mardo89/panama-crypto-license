@@ -2897,6 +2897,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-26",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-singapore/": {
     "escalated": false,
     "first_seen": "2026-06-02",
@@ -3103,7 +3110,7 @@
   "https://www.consulting24.co/crypto-exchange-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-25",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3310,6 +3317,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-fund-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-26",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-fund-license-south-africa/": {
     "escalated": false,
     "first_seen": "2026-06-06",
@@ -3474,7 +3488,7 @@
   "https://www.consulting24.co/crypto-gambling-license-marshall-islands/": {
     "escalated": false,
     "first_seen": "2026-06-25",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3891,6 +3905,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-otc-desk-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-26",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-otc-desk-license-seychelles/": {
     "escalated": false,
     "first_seen": "2026-06-01",
@@ -4286,7 +4307,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-marshall-islands/": {
     "escalated": false,
     "first_seen": "2026-06-25",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4713,7 +4734,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-marshall-islands/": {
     "escalated": false,
     "first_seen": "2026-06-25",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4923,7 +4944,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-25",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
