@@ -786,9 +786,9 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-marshall-islands              → /crypto-stablecoin-license-marshall-islands/
 - [x] crypto-exchange-license-saint-lucia                     → /crypto-exchange-license-saint-lucia/
 - [x] crypto-wallet-custody-license-saint-lucia               → /crypto-wallet-custody-license-saint-lucia/
-- [ ] crypto-broker-license-saint-lucia                       → /crypto-broker-license-saint-lucia/
-- [ ] crypto-otc-desk-license-saint-lucia                     → /crypto-otc-desk-license-saint-lucia/
-- [ ] crypto-fund-license-saint-lucia                         → /crypto-fund-license-saint-lucia/
+- [x] crypto-broker-license-saint-lucia                       → /crypto-broker-license-saint-lucia/
+- [x] crypto-otc-desk-license-saint-lucia                     → /crypto-otc-desk-license-saint-lucia/
+- [x] crypto-fund-license-saint-lucia                         → /crypto-fund-license-saint-lucia/
 - [ ] crypto-nft-marketplace-license-saint-lucia              → /crypto-nft-marketplace-license-saint-lucia/
 - [ ] crypto-payment-institution-license-saint-lucia          → /crypto-payment-institution-license-saint-lucia/
 - [ ] crypto-gambling-license-saint-lucia                     → /crypto-gambling-license-saint-lucia/
