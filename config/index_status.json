@@ -3100,6 +3100,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-25",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-seychelles/": {
     "escalated": false,
     "first_seen": "2026-06-01",
@@ -4276,6 +4283,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-stablecoin-license-marshall-islands/": {
+    "escalated": false,
+    "first_seen": "2026-06-25",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-stablecoin-license-mauritius/": {
     "escalated": false,
     "first_seen": "2026-06-03",
@@ -4903,6 +4917,13 @@
     "escalated": false,
     "first_seen": "2026-05-31",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-25",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
