@@ -2900,7 +2900,7 @@
   "https://www.consulting24.co/crypto-broker-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-26",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3320,7 +3320,7 @@
   "https://www.consulting24.co/crypto-fund-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-26",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3908,7 +3908,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-26",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4139,7 +4139,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-26",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4346,6 +4346,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-stablecoin-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-27",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-stablecoin-license-seychelles/": {
     "escalated": false,
     "first_seen": "2026-06-01",
@@ -4539,6 +4546,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-staking-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-27",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4770,6 +4784,13 @@
     "escalated": false,
     "first_seen": "2026-06-08",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license-saint-lucia/": {
+    "escalated": false,
+    "first_seen": "2026-06-27",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
