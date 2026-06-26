@@ -792,9 +792,9 @@ Requirements & How to Get One".
 - [x] crypto-nft-marketplace-license-saint-lucia              → /crypto-nft-marketplace-license-saint-lucia/
 - [x] crypto-payment-institution-license-saint-lucia          → /crypto-payment-institution-license-saint-lucia/
 - [x] crypto-gambling-license-saint-lucia                     → /crypto-gambling-license-saint-lucia/
-- [ ] crypto-staking-license-saint-lucia                      → /crypto-staking-license-saint-lucia/
-- [ ] crypto-token-issuance-license-saint-lucia               → /crypto-token-issuance-license-saint-lucia/
-- [ ] crypto-stablecoin-license-saint-lucia                   → /crypto-stablecoin-license-saint-lucia/
+- [x] crypto-staking-license-saint-lucia                      → /crypto-staking-license-saint-lucia/
+- [x] crypto-token-issuance-license-saint-lucia               → /crypto-token-issuance-license-saint-lucia/
+- [x] crypto-stablecoin-license-saint-lucia                   → /crypto-stablecoin-license-saint-lucia/
 - [ ] crypto-exchange-license-belize                          → /crypto-exchange-license-belize/
 - [ ] crypto-wallet-custody-license-belize                    → /crypto-wallet-custody-license-belize/
 - [ ] crypto-broker-license-belize                            → /crypto-broker-license-belize/
