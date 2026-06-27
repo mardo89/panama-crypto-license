@@ -2785,6 +2785,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-27",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-bulgaria/": {
     "escalated": false,
     "first_seen": "2026-06-05",
@@ -2950,6 +2957,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-exchange-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-27",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
