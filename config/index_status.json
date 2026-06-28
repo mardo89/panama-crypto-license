@@ -3072,6 +3072,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-06-29",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-labuan/": {
     "escalated": false,
     "first_seen": "2026-06-04",
@@ -3187,7 +3194,7 @@
   "https://www.consulting24.co/crypto-fund-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-28",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3390,7 +3397,7 @@
   "https://www.consulting24.co/crypto-gambling-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-28",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3600,7 +3607,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-28",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4013,7 +4020,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-28",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4231,6 +4238,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-stablecoin-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-29",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4454,7 +4468,7 @@
   "https://www.consulting24.co/crypto-staking-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-28",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
