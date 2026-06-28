@@ -798,9 +798,9 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-belize                          → /crypto-exchange-license-belize/
 - [x] crypto-wallet-custody-license-belize                    → /crypto-wallet-custody-license-belize/
 - [x] crypto-broker-license-belize                            → /crypto-broker-license-belize/
-- [ ] crypto-otc-desk-license-belize                          → /crypto-otc-desk-license-belize/
-- [ ] crypto-fund-license-belize                              → /crypto-fund-license-belize/
-- [ ] crypto-nft-marketplace-license-belize                   → /crypto-nft-marketplace-license-belize/
+- [x] crypto-otc-desk-license-belize                          → /crypto-otc-desk-license-belize/
+- [x] crypto-fund-license-belize                              → /crypto-fund-license-belize/
+- [x] crypto-nft-marketplace-license-belize                   → /crypto-nft-marketplace-license-belize/
 - [ ] crypto-payment-institution-license-belize               → /crypto-payment-institution-license-belize/
 - [ ] crypto-gambling-license-belize                          → /crypto-gambling-license-belize/
 - [ ] crypto-staking-license-belize                           → /crypto-staking-license-belize/
