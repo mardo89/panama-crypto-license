@@ -2788,7 +2788,7 @@
   "https://www.consulting24.co/crypto-broker-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-27",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -2963,7 +2963,7 @@
   "https://www.consulting24.co/crypto-exchange-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-27",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3181,6 +3181,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-28",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3580,6 +3587,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-28",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4363,7 +4377,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-27",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4566,7 +4580,7 @@
   "https://www.consulting24.co/crypto-staking-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-27",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4804,7 +4818,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-saint-lucia/": {
     "escalated": false,
     "first_seen": "2026-06-27",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
