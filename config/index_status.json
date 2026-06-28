@@ -3387,6 +3387,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-gambling-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-28",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-gambling-license-bvi/": {
     "escalated": false,
     "first_seen": "2026-06-01",
@@ -4003,6 +4010,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-payment-institution-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-28",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-payment-institution-license-bvi/": {
     "escalated": false,
     "first_seen": "2026-06-01",
@@ -4434,6 +4448,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-staking-license-belize/": {
+    "escalated": false,
+    "first_seen": "2026-06-28",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
