@@ -804,9 +804,9 @@ Requirements & How to Get One".
 - [x] crypto-payment-institution-license-belize               → /crypto-payment-institution-license-belize/
 - [x] crypto-gambling-license-belize                          → /crypto-gambling-license-belize/
 - [x] crypto-staking-license-belize                           → /crypto-staking-license-belize/
-- [ ] crypto-token-issuance-license-belize                    → /crypto-token-issuance-license-belize/
-- [ ] crypto-stablecoin-license-belize                        → /crypto-stablecoin-license-belize/
-- [ ] crypto-exchange-license-kazakhstan                      → /crypto-exchange-license-kazakhstan/
+- [x] crypto-token-issuance-license-belize                    → /crypto-token-issuance-license-belize/
+- [x] crypto-stablecoin-license-belize                        → /crypto-stablecoin-license-belize/
+- [x] crypto-exchange-license-kazakhstan                      → /crypto-exchange-license-kazakhstan/
 - [ ] crypto-wallet-custody-license-kazakhstan                → /crypto-wallet-custody-license-kazakhstan/
 - [ ] crypto-broker-license-kazakhstan                        → /crypto-broker-license-kazakhstan/
 - [ ] crypto-otc-desk-license-kazakhstan                      → /crypto-otc-desk-license-kazakhstan/
