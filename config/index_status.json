@@ -2883,6 +2883,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-06-29",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-labuan/": {
     "escalated": false,
     "first_seen": "2026-06-04",
@@ -3902,6 +3909,13 @@
     "escalated": false,
     "first_seen": "2026-06-08",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-otc-desk-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-06-29",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -5001,6 +5015,13 @@
     "escalated": false,
     "first_seen": "2026-06-08",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-06-29",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
