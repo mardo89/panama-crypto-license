@@ -3313,7 +3313,7 @@
   "https://www.consulting24.co/crypto-fund-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-06-30",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3510,6 +3510,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-gambling-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-07-01",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3726,7 +3733,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-06-30",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4153,7 +4160,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-06-30",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4819,6 +4826,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-07-01",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
