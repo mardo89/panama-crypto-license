@@ -2886,7 +2886,7 @@
   "https://www.consulting24.co/crypto-broker-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-06-29",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3082,7 +3082,7 @@
   "https://www.consulting24.co/crypto-exchange-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-06-29",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3307,6 +3307,13 @@
     "escalated": false,
     "first_seen": "2026-06-08",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-06-30",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3716,6 +3723,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-06-30",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-nft-marketplace-license-labuan/": {
     "escalated": false,
     "first_seen": "2026-06-04",
@@ -3915,7 +3929,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-06-29",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4136,6 +4150,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-payment-institution-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-06-30",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-payment-institution-license-labuan/": {
     "escalated": false,
     "first_seen": "2026-06-04",
@@ -4258,7 +4279,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-29",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5021,7 +5042,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-06-29",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
