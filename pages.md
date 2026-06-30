@@ -813,9 +813,9 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-kazakhstan                          → /crypto-fund-license-kazakhstan/
 - [x] crypto-nft-marketplace-license-kazakhstan               → /crypto-nft-marketplace-license-kazakhstan/
 - [x] crypto-payment-institution-license-kazakhstan           → /crypto-payment-institution-license-kazakhstan/
-- [ ] crypto-gambling-license-kazakhstan                      → /crypto-gambling-license-kazakhstan/
-- [ ] crypto-staking-license-kazakhstan                       → /crypto-staking-license-kazakhstan/
-- [ ] crypto-token-issuance-license-kazakhstan                → /crypto-token-issuance-license-kazakhstan/
+- [x] crypto-gambling-license-kazakhstan                      → /crypto-gambling-license-kazakhstan/
+- [x] crypto-staking-license-kazakhstan                       → /crypto-staking-license-kazakhstan/
+- [x] crypto-token-issuance-license-kazakhstan                → /crypto-token-issuance-license-kazakhstan/
 - [ ] crypto-stablecoin-license-kazakhstan                    → /crypto-stablecoin-license-kazakhstan/
 - [ ] crypto-exchange-license-bahrain                         → /crypto-exchange-license-bahrain/
 - [ ] crypto-wallet-custody-license-bahrain                   → /crypto-wallet-custody-license-bahrain/
