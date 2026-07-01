@@ -2967,6 +2967,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-bahrain/": {
+    "escalated": false,
+    "first_seen": "2026-07-01",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-27",
@@ -4395,6 +4402,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-stablecoin-license-kazakhstan/": {
+    "escalated": false,
+    "first_seen": "2026-07-01",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-stablecoin-license-labuan/": {
     "escalated": false,
     "first_seen": "2026-06-04",
@@ -4952,6 +4966,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-bahrain/": {
+    "escalated": false,
+    "first_seen": "2026-07-01",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
