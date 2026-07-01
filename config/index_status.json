@@ -2785,6 +2785,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-bahrain/": {
+    "escalated": false,
+    "first_seen": "2026-07-02",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-27",
@@ -2970,7 +2977,7 @@
   "https://www.consulting24.co/crypto-exchange-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-01",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3202,6 +3209,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-bahrain/": {
+    "escalated": false,
+    "first_seen": "2026-07-02",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3523,7 +3537,7 @@
   "https://www.consulting24.co/crypto-gambling-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-07-01",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3839,6 +3853,13 @@
     "escalated": false,
     "first_seen": "2026-06-03",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-otc-desk-license-bahrain/": {
+    "escalated": false,
+    "first_seen": "2026-07-02",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4405,7 +4426,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-07-01",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4846,7 +4867,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-kazakhstan/": {
     "escalated": false,
     "first_seen": "2026-07-01",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4972,7 +4993,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-01",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
