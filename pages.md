@@ -819,9 +819,9 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-kazakhstan                    → /crypto-stablecoin-license-kazakhstan/
 - [x] crypto-exchange-license-bahrain                         → /crypto-exchange-license-bahrain/
 - [x] crypto-wallet-custody-license-bahrain                   → /crypto-wallet-custody-license-bahrain/
-- [ ] crypto-broker-license-bahrain                           → /crypto-broker-license-bahrain/
-- [ ] crypto-otc-desk-license-bahrain                         → /crypto-otc-desk-license-bahrain/
-- [ ] crypto-fund-license-bahrain                             → /crypto-fund-license-bahrain/
+- [x] crypto-broker-license-bahrain                           → /crypto-broker-license-bahrain/
+- [x] crypto-otc-desk-license-bahrain                         → /crypto-otc-desk-license-bahrain/
+- [x] crypto-fund-license-bahrain                             → /crypto-fund-license-bahrain/
 - [ ] crypto-nft-marketplace-license-bahrain                  → /crypto-nft-marketplace-license-bahrain/
 - [ ] crypto-payment-institution-license-bahrain              → /crypto-payment-institution-license-bahrain/
 - [ ] crypto-gambling-license-bahrain                         → /crypto-gambling-license-bahrain/
