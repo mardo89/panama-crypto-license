@@ -2788,7 +2788,7 @@
   "https://www.consulting24.co/crypto-broker-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-02",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3215,7 +3215,7 @@
   "https://www.consulting24.co/crypto-fund-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-02",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3432,7 +3432,7 @@
   "https://www.consulting24.co/crypto-gambling-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-02",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3656,7 +3656,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-02",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3873,7 +3873,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-02",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4097,7 +4097,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-02",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4563,6 +4563,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-staking-license-bahrain/": {
+    "escalated": false,
+    "first_seen": "2026-07-03",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-staking-license-belize/": {
     "escalated": false,
     "first_seen": "2026-06-28",
@@ -4770,6 +4777,13 @@
     "escalated": false,
     "first_seen": "2026-06-09",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license-bahrain/": {
+    "escalated": false,
+    "first_seen": "2026-07-03",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
