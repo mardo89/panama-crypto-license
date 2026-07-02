@@ -825,9 +825,9 @@ Requirements & How to Get One".
 - [x] crypto-nft-marketplace-license-bahrain                  → /crypto-nft-marketplace-license-bahrain/
 - [x] crypto-payment-institution-license-bahrain              → /crypto-payment-institution-license-bahrain/
 - [x] crypto-gambling-license-bahrain                         → /crypto-gambling-license-bahrain/
-- [ ] crypto-staking-license-bahrain                          → /crypto-staking-license-bahrain/
-- [ ] crypto-token-issuance-license-bahrain                   → /crypto-token-issuance-license-bahrain/
-- [ ] crypto-stablecoin-license-bahrain                       → /crypto-stablecoin-license-bahrain/
+- [x] crypto-staking-license-bahrain                          → /crypto-staking-license-bahrain/
+- [x] crypto-token-issuance-license-bahrain                   → /crypto-token-issuance-license-bahrain/
+- [x] crypto-stablecoin-license-bahrain                       → /crypto-stablecoin-license-bahrain/
 - [ ] crypto-exchange-license-qatar                           → /crypto-exchange-license-qatar/
 - [ ] crypto-wallet-custody-license-qatar                     → /crypto-wallet-custody-license-qatar/
 - [ ] crypto-broker-license-qatar                             → /crypto-broker-license-qatar/
