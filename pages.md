@@ -831,9 +831,9 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-qatar                           → /crypto-exchange-license-qatar/
 - [x] crypto-wallet-custody-license-qatar                     → /crypto-wallet-custody-license-qatar/
 - [x] crypto-broker-license-qatar                             → /crypto-broker-license-qatar/
-- [ ] crypto-otc-desk-license-qatar                           → /crypto-otc-desk-license-qatar/
-- [ ] crypto-fund-license-qatar                               → /crypto-fund-license-qatar/
-- [ ] crypto-nft-marketplace-license-qatar                    → /crypto-nft-marketplace-license-qatar/
+- [x] crypto-otc-desk-license-qatar                           → /crypto-otc-desk-license-qatar/
+- [x] crypto-fund-license-qatar                               → /crypto-fund-license-qatar/
+- [x] crypto-nft-marketplace-license-qatar                    → /crypto-nft-marketplace-license-qatar/
 - [ ] crypto-payment-institution-license-qatar                → /crypto-payment-institution-license-qatar/
 - [ ] crypto-gambling-license-qatar                           → /crypto-gambling-license-qatar/
 - [ ] crypto-staking-license-qatar                            → /crypto-staking-license-qatar/
