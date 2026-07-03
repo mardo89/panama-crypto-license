@@ -2914,7 +2914,7 @@
   "https://www.consulting24.co/crypto-broker-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-03",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3152,7 +3152,7 @@
   "https://www.consulting24.co/crypto-exchange-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-03",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3384,6 +3384,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-qatar/": {
+    "escalated": false,
+    "first_seen": "2026-07-04",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3818,6 +3825,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-qatar/": {
+    "escalated": false,
+    "first_seen": "2026-07-04",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4580,7 +4594,7 @@
   "https://www.consulting24.co/crypto-staking-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-03",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4797,7 +4811,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-bahrain/": {
     "escalated": false,
     "first_seen": "2026-07-03",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5182,7 +5196,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-03",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
