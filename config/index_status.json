@@ -3618,6 +3618,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-gambling-license-qatar/": {
+    "escalated": false,
+    "first_seen": "2026-07-04",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-gambling-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
@@ -4297,6 +4304,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-payment-institution-license-qatar/": {
+    "escalated": false,
+    "first_seen": "2026-07-04",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-payment-institution-license-romania/": {
     "escalated": false,
     "first_seen": "2026-06-08",
@@ -4742,6 +4756,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-staking-license-qatar/": {
+    "escalated": false,
+    "first_seen": "2026-07-04",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
