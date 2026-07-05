@@ -837,15 +837,15 @@ Requirements & How to Get One".
 - [x] crypto-payment-institution-license-qatar                → /crypto-payment-institution-license-qatar/
 - [x] crypto-gambling-license-qatar                           → /crypto-gambling-license-qatar/
 - [x] crypto-staking-license-qatar                            → /crypto-staking-license-qatar/
-- [ ] crypto-token-issuance-license-qatar                     → /crypto-token-issuance-license-qatar/
-- [ ] crypto-stablecoin-license-qatar                         → /crypto-stablecoin-license-qatar/
-- [ ] crypto-exchange-license-saudi-arabia                    → /crypto-exchange-license-saudi-arabia/
-- [ ] crypto-wallet-custody-license-saudi-arabia              → /crypto-wallet-custody-license-saudi-arabia/
-- [ ] crypto-broker-license-saudi-arabia                      → /crypto-broker-license-saudi-arabia/
-- [ ] crypto-otc-desk-license-saudi-arabia                    → /crypto-otc-desk-license-saudi-arabia/
-- [ ] crypto-fund-license-saudi-arabia                        → /crypto-fund-license-saudi-arabia/
-- [ ] crypto-nft-marketplace-license-saudi-arabia             → /crypto-nft-marketplace-license-saudi-arabia/
-- [ ] crypto-payment-institution-license-saudi-arabia         → /crypto-payment-institution-license-saudi-arabia/
+- [x] crypto-token-issuance-license-qatar                     → /crypto-token-issuance-license-qatar/
+- [x] crypto-stablecoin-license-qatar                         → /crypto-stablecoin-license-qatar/
+- [x] crypto-exchange-license-saudi-arabia                    → /crypto-exchange-license-saudi-arabia/
+- [x] crypto-wallet-custody-license-saudi-arabia              → /crypto-wallet-custody-license-saudi-arabia/
+- [x] crypto-broker-license-saudi-arabia                      → /crypto-broker-license-saudi-arabia/
+- [x] crypto-otc-desk-license-saudi-arabia                    → /crypto-otc-desk-license-saudi-arabia/
+- [x] crypto-fund-license-saudi-arabia                        → /crypto-fund-license-saudi-arabia/
+- [x] crypto-nft-marketplace-license-saudi-arabia             → /crypto-nft-marketplace-license-saudi-arabia/
+- [x] crypto-payment-institution-license-saudi-arabia         → /crypto-payment-institution-license-saudi-arabia/
 - [ ] crypto-gambling-license-saudi-arabia                    → /crypto-gambling-license-saudi-arabia/
 - [ ] crypto-staking-license-saudi-arabia                     → /crypto-staking-license-saudi-arabia/
 - [ ] crypto-token-issuance-license-saudi-arabia              → /crypto-token-issuance-license-saudi-arabia/
