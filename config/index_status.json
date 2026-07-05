@@ -3390,7 +3390,7 @@
   "https://www.consulting24.co/crypto-fund-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-04",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-07-05",
     "submits": 1
   },
@@ -3405,6 +3405,13 @@
     "escalated": false,
     "first_seen": "2026-06-26",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-saudi-arabia/": {
+    "escalated": false,
+    "first_seen": "2026-07-06",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -3621,7 +3628,7 @@
   "https://www.consulting24.co/crypto-gambling-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-04",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-07-05",
     "submits": 1
   },
@@ -3838,7 +3845,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-04",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-07-05",
     "submits": 1
   },
@@ -3846,6 +3853,13 @@
     "escalated": false,
     "first_seen": "2026-06-08",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-nft-marketplace-license-saudi-arabia/": {
+    "escalated": false,
+    "first_seen": "2026-07-06",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4307,7 +4321,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-04",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-07-05",
     "submits": 1
   },
@@ -4322,6 +4336,13 @@
     "escalated": false,
     "first_seen": "2026-06-26",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-payment-institution-license-saudi-arabia/": {
+    "escalated": false,
+    "first_seen": "2026-07-06",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4762,7 +4783,7 @@
   "https://www.consulting24.co/crypto-staking-license-qatar/": {
     "escalated": false,
     "first_seen": "2026-07-04",
-    "indexed": null,
+    "indexed": true,
     "last_action": "2026-07-05",
     "submits": 1
   },
