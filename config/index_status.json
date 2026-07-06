@@ -3198,6 +3198,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-turkey/": {
+    "escalated": false,
+    "first_seen": "2026-07-07",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-usa/": {
     "escalated": false,
     "first_seen": "2026-06-02",
@@ -3411,7 +3418,7 @@
   "https://www.consulting24.co/crypto-fund-license-saudi-arabia/": {
     "escalated": false,
     "first_seen": "2026-07-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3859,7 +3866,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-saudi-arabia/": {
     "escalated": false,
     "first_seen": "2026-07-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4342,7 +4349,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-saudi-arabia/": {
     "escalated": false,
     "first_seen": "2026-07-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4567,6 +4574,13 @@
     "escalated": false,
     "first_seen": "2026-06-27",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-stablecoin-license-saudi-arabia/": {
+    "escalated": false,
+    "first_seen": "2026-07-07",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4797,7 +4811,7 @@
   "https://www.consulting24.co/crypto-staking-license-saudi-arabia/": {
     "escalated": false,
     "first_seen": "2026-07-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5056,7 +5070,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-saudi-arabia/": {
     "escalated": false,
     "first_seen": "2026-07-06",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5288,6 +5302,13 @@
     "escalated": false,
     "first_seen": "2026-05-31",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-turkey/": {
+    "escalated": false,
+    "first_seen": "2026-07-07",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
