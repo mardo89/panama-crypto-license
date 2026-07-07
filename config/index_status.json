@@ -2953,6 +2953,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-turkey/": {
+    "escalated": false,
+    "first_seen": "2026-07-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-usa/": {
     "escalated": false,
     "first_seen": "2026-06-02",
@@ -3201,7 +3208,7 @@
   "https://www.consulting24.co/crypto-exchange-license-turkey/": {
     "escalated": false,
     "first_seen": "2026-07-07",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3433,6 +3440,13 @@
     "escalated": false,
     "first_seen": "2026-05-31",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-fund-license-turkey/": {
+    "escalated": false,
+    "first_seen": "2026-07-08",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -4115,6 +4129,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-otc-desk-license-turkey/": {
+    "escalated": false,
+    "first_seen": "2026-07-08",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-otc-desk-license-usa/": {
     "escalated": false,
     "first_seen": "2026-06-02",
@@ -4580,7 +4601,7 @@
   "https://www.consulting24.co/crypto-stablecoin-license-saudi-arabia/": {
     "escalated": false,
     "first_seen": "2026-07-07",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5308,7 +5329,7 @@
   "https://www.consulting24.co/crypto-wallet-custody-license-turkey/": {
     "escalated": false,
     "first_seen": "2026-07-07",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
