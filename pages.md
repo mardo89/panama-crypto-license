@@ -852,9 +852,9 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-saudi-arabia                  → /crypto-stablecoin-license-saudi-arabia/
 - [x] crypto-exchange-license-turkey                          → /crypto-exchange-license-turkey/
 - [x] crypto-wallet-custody-license-turkey                    → /crypto-wallet-custody-license-turkey/
-- [ ] crypto-broker-license-turkey                            → /crypto-broker-license-turkey/
-- [ ] crypto-otc-desk-license-turkey                          → /crypto-otc-desk-license-turkey/
-- [ ] crypto-fund-license-turkey                              → /crypto-fund-license-turkey/
+- [x] crypto-broker-license-turkey                            → /crypto-broker-license-turkey/
+- [x] crypto-otc-desk-license-turkey                          → /crypto-otc-desk-license-turkey/
+- [x] crypto-fund-license-turkey                              → /crypto-fund-license-turkey/
 - [ ] crypto-nft-marketplace-license-turkey                   → /crypto-nft-marketplace-license-turkey/
 - [ ] crypto-payment-institution-license-turkey               → /crypto-payment-institution-license-turkey/
 - [ ] crypto-gambling-license-turkey                          → /crypto-gambling-license-turkey/
