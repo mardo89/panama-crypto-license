@@ -861,9 +861,9 @@ Requirements & How to Get One".
 - [x] crypto-staking-license-turkey                           → /crypto-staking-license-turkey/
 - [x] crypto-token-issuance-license-turkey                    → /crypto-token-issuance-license-turkey/
 - [x] crypto-stablecoin-license-turkey                        → /crypto-stablecoin-license-turkey/
-- [ ] crypto-exchange-license-south-korea                     → /crypto-exchange-license-south-korea/
-- [ ] crypto-wallet-custody-license-south-korea               → /crypto-wallet-custody-license-south-korea/
-- [ ] crypto-broker-license-south-korea                       → /crypto-broker-license-south-korea/
+- [x] crypto-exchange-license-south-korea                     → /crypto-exchange-license-south-korea/
+- [x] crypto-wallet-custody-license-south-korea               → /crypto-wallet-custody-license-south-korea/
+- [x] crypto-broker-license-south-korea                       → /crypto-broker-license-south-korea/
 - [ ] crypto-otc-desk-license-south-korea                     → /crypto-otc-desk-license-south-korea/
 - [ ] crypto-fund-license-south-korea                         → /crypto-fund-license-south-korea/
 - [ ] crypto-nft-marketplace-license-south-korea              → /crypto-nft-marketplace-license-south-korea/
