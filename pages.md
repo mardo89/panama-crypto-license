@@ -864,9 +864,9 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-south-korea                     → /crypto-exchange-license-south-korea/
 - [x] crypto-wallet-custody-license-south-korea               → /crypto-wallet-custody-license-south-korea/
 - [x] crypto-broker-license-south-korea                       → /crypto-broker-license-south-korea/
-- [ ] crypto-otc-desk-license-south-korea                     → /crypto-otc-desk-license-south-korea/
-- [ ] crypto-fund-license-south-korea                         → /crypto-fund-license-south-korea/
-- [ ] crypto-nft-marketplace-license-south-korea              → /crypto-nft-marketplace-license-south-korea/
+- [x] crypto-otc-desk-license-south-korea                     → /crypto-otc-desk-license-south-korea/
+- [x] crypto-fund-license-south-korea                         → /crypto-fund-license-south-korea/
+- [x] crypto-nft-marketplace-license-south-korea              → /crypto-nft-marketplace-license-south-korea/
 - [ ] crypto-payment-institution-license-south-korea          → /crypto-payment-institution-license-south-korea/
 - [ ] crypto-gambling-license-south-korea                     → /crypto-gambling-license-south-korea/
 - [ ] crypto-staking-license-south-korea                      → /crypto-staking-license-south-korea/
