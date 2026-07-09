@@ -2946,6 +2946,13 @@
     "last_action": "2026-06-07",
     "submits": 1
   },
+  "https://www.consulting24.co/crypto-broker-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-09",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -3195,6 +3202,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-exchange-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-09",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -5358,6 +5372,13 @@
     "escalated": false,
     "first_seen": "2026-06-05",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-09",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
