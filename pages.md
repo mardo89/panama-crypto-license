@@ -870,9 +870,9 @@ Requirements & How to Get One".
 - [x] crypto-payment-institution-license-south-korea          → /crypto-payment-institution-license-south-korea/
 - [x] crypto-gambling-license-south-korea                     → /crypto-gambling-license-south-korea/
 - [x] crypto-staking-license-south-korea                      → /crypto-staking-license-south-korea/
-- [ ] crypto-token-issuance-license-south-korea               → /crypto-token-issuance-license-south-korea/
-- [ ] crypto-stablecoin-license-south-korea                   → /crypto-stablecoin-license-south-korea/
-- [ ] crypto-exchange-license-japan                           → /crypto-exchange-license-japan/
+- [x] crypto-token-issuance-license-south-korea               → /crypto-token-issuance-license-south-korea/
+- [x] crypto-stablecoin-license-south-korea                   → /crypto-stablecoin-license-south-korea/
+- [x] crypto-exchange-license-japan                           → /crypto-exchange-license-japan/
 - [ ] crypto-wallet-custody-license-japan                     → /crypto-wallet-custody-license-japan/
 - [ ] crypto-broker-license-japan                             → /crypto-broker-license-japan/
 - [ ] crypto-otc-desk-license-japan                           → /crypto-otc-desk-license-japan/
