@@ -3702,6 +3702,13 @@
     "last_action": "2026-06-07",
     "submits": 1
   },
+  "https://www.consulting24.co/crypto-gambling-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-10",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-gambling-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -4437,6 +4444,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-payment-institution-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-10",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-payment-institution-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -4912,6 +4926,13 @@
     "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
+  },
+  "https://www.consulting24.co/crypto-staking-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-10",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/crypto-staking-license-switzerland/": {
     "escalated": false,
