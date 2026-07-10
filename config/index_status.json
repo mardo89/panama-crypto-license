@@ -3107,6 +3107,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-japan/": {
+    "escalated": false,
+    "first_seen": "2026-07-11",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-jersey/": {
     "escalated": false,
     "first_seen": "2026-06-08",
@@ -3453,7 +3460,7 @@
   "https://www.consulting24.co/crypto-fund-license-south-korea/": {
     "escalated": false,
     "first_seen": "2026-07-10",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3705,7 +3712,7 @@
   "https://www.consulting24.co/crypto-gambling-license-south-korea/": {
     "escalated": false,
     "first_seen": "2026-07-10",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3943,7 +3950,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-south-korea/": {
     "escalated": false,
     "first_seen": "2026-07-10",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4174,7 +4181,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-south-korea/": {
     "escalated": false,
     "first_seen": "2026-07-10",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4447,7 +4454,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-south-korea/": {
     "escalated": false,
     "first_seen": "2026-07-10",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4696,6 +4703,13 @@
     "last_action": "2026-06-07",
     "submits": 1
   },
+  "https://www.consulting24.co/crypto-stablecoin-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-11",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-stablecoin-license-switzerland/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -4930,7 +4944,7 @@
   "https://www.consulting24.co/crypto-staking-license-south-korea/": {
     "escalated": false,
     "first_seen": "2026-07-10",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5199,6 +5213,13 @@
     "indexed": true,
     "last_action": "2026-06-07",
     "submits": 1
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license-south-korea/": {
+    "escalated": false,
+    "first_seen": "2026-07-11",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/crypto-token-issuance-license-switzerland/": {
     "escalated": false,
