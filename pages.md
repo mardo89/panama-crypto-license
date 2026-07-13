@@ -873,15 +873,15 @@ Requirements & How to Get One".
 - [x] crypto-token-issuance-license-south-korea               → /crypto-token-issuance-license-south-korea/
 - [x] crypto-stablecoin-license-south-korea                   → /crypto-stablecoin-license-south-korea/
 - [x] crypto-exchange-license-japan                           → /crypto-exchange-license-japan/
-- [ ] crypto-wallet-custody-license-japan                     → /crypto-wallet-custody-license-japan/
-- [ ] crypto-broker-license-japan                             → /crypto-broker-license-japan/
-- [ ] crypto-otc-desk-license-japan                           → /crypto-otc-desk-license-japan/
-- [ ] crypto-fund-license-japan                               → /crypto-fund-license-japan/
-- [ ] crypto-nft-marketplace-license-japan                    → /crypto-nft-marketplace-license-japan/
-- [ ] crypto-payment-institution-license-japan                → /crypto-payment-institution-license-japan/
-- [ ] crypto-gambling-license-japan                           → /crypto-gambling-license-japan/
-- [ ] crypto-staking-license-japan                            → /crypto-staking-license-japan/
-- [ ] crypto-token-issuance-license-japan                     → /crypto-token-issuance-license-japan/
+- [x] crypto-wallet-custody-license-japan                     → /crypto-wallet-custody-license-japan/
+- [x] crypto-broker-license-japan                             → /crypto-broker-license-japan/
+- [x] crypto-otc-desk-license-japan                           → /crypto-otc-desk-license-japan/
+- [x] crypto-fund-license-japan                               → /crypto-fund-license-japan/
+- [x] crypto-nft-marketplace-license-japan                    → /crypto-nft-marketplace-license-japan/
+- [x] crypto-payment-institution-license-japan                → /crypto-payment-institution-license-japan/
+- [x] crypto-gambling-license-japan                           → /crypto-gambling-license-japan/
+- [x] crypto-staking-license-japan                            → /crypto-staking-license-japan/
+- [x] crypto-token-issuance-license-japan                     → /crypto-token-issuance-license-japan/
 - [ ] crypto-stablecoin-license-japan                         → /crypto-stablecoin-license-japan/
 - [ ] crypto-exchange-license-thailand                        → /crypto-exchange-license-thailand/
 - [ ] crypto-wallet-custody-license-thailand                  → /crypto-wallet-custody-license-thailand/
