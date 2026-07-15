@@ -3614,7 +3614,7 @@
   "https://www.consulting24.co/crypto-gambling-license-japan/": {
     "escalated": false,
     "first_seen": "2026-07-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4867,7 +4867,7 @@
   "https://www.consulting24.co/crypto-staking-license-japan/": {
     "escalated": false,
     "first_seen": "2026-07-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -5126,7 +5126,7 @@
   "https://www.consulting24.co/crypto-token-issuance-license-japan/": {
     "escalated": false,
     "first_seen": "2026-07-13",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
