@@ -3733,7 +3733,7 @@
   "https://www.consulting24.co/crypto-gambling-license-thailand/": {
     "escalated": false,
     "first_seen": "2026-07-17",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3978,7 +3978,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-thailand/": {
     "escalated": false,
     "first_seen": "2026-07-17",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4489,7 +4489,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-thailand/": {
     "escalated": false,
     "first_seen": "2026-07-17",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4745,6 +4745,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-stablecoin-license-thailand/": {
+    "escalated": false,
+    "first_seen": "2026-07-18",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-stablecoin-license-turkey/": {
     "escalated": false,
     "first_seen": "2026-07-09",
@@ -4987,6 +4994,13 @@
     "escalated": false,
     "first_seen": "2026-05-31",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-staking-license-thailand/": {
+    "escalated": false,
+    "first_seen": "2026-07-18",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -5267,6 +5281,13 @@
     "escalated": false,
     "first_seen": "2026-05-31",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-token-issuance-license-thailand/": {
+    "escalated": false,
+    "first_seen": "2026-07-18",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
