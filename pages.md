@@ -882,15 +882,15 @@ Requirements & How to Get One".
 - [x] crypto-gambling-license-japan                           → /crypto-gambling-license-japan/
 - [x] crypto-staking-license-japan                            → /crypto-staking-license-japan/
 - [x] crypto-token-issuance-license-japan                     → /crypto-token-issuance-license-japan/
-- [ ] crypto-stablecoin-license-japan                         → /crypto-stablecoin-license-japan/
-- [ ] crypto-exchange-license-thailand                        → /crypto-exchange-license-thailand/
-- [ ] crypto-wallet-custody-license-thailand                  → /crypto-wallet-custody-license-thailand/
-- [ ] crypto-broker-license-thailand                          → /crypto-broker-license-thailand/
-- [ ] crypto-otc-desk-license-thailand                        → /crypto-otc-desk-license-thailand/
-- [ ] crypto-fund-license-thailand                            → /crypto-fund-license-thailand/
-- [ ] crypto-nft-marketplace-license-thailand                 → /crypto-nft-marketplace-license-thailand/
-- [ ] crypto-payment-institution-license-thailand             → /crypto-payment-institution-license-thailand/
-- [ ] crypto-gambling-license-thailand                        → /crypto-gambling-license-thailand/
+- [x] crypto-stablecoin-license-japan                         → /crypto-stablecoin-license-japan/
+- [x] crypto-exchange-license-thailand                        → /crypto-exchange-license-thailand/
+- [x] crypto-wallet-custody-license-thailand                  → /crypto-wallet-custody-license-thailand/
+- [x] crypto-broker-license-thailand                          → /crypto-broker-license-thailand/
+- [x] crypto-otc-desk-license-thailand                        → /crypto-otc-desk-license-thailand/
+- [x] crypto-fund-license-thailand                            → /crypto-fund-license-thailand/
+- [x] crypto-nft-marketplace-license-thailand                 → /crypto-nft-marketplace-license-thailand/
+- [x] crypto-payment-institution-license-thailand             → /crypto-payment-institution-license-thailand/
+- [x] crypto-gambling-license-thailand                        → /crypto-gambling-license-thailand/
 - [ ] crypto-staking-license-thailand                         → /crypto-staking-license-thailand/
 - [ ] crypto-token-issuance-license-thailand                  → /crypto-token-issuance-license-thailand/
 - [ ] crypto-stablecoin-license-thailand                      → /crypto-stablecoin-license-thailand/
