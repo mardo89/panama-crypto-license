@@ -897,9 +897,9 @@ Requirements & How to Get One".
 - [x] crypto-exchange-license-philippines                     → /crypto-exchange-license-philippines/
 - [x] crypto-wallet-custody-license-philippines               → /crypto-wallet-custody-license-philippines/
 - [x] crypto-broker-license-philippines                       → /crypto-broker-license-philippines/
-- [ ] crypto-otc-desk-license-philippines                     → /crypto-otc-desk-license-philippines/
-- [ ] crypto-fund-license-philippines                         → /crypto-fund-license-philippines/
-- [ ] crypto-nft-marketplace-license-philippines              → /crypto-nft-marketplace-license-philippines/
+- [x] crypto-otc-desk-license-philippines                     → /crypto-otc-desk-license-philippines/
+- [x] crypto-fund-license-philippines                         → /crypto-fund-license-philippines/
+- [x] crypto-nft-marketplace-license-philippines              → /crypto-nft-marketplace-license-philippines/
 - [ ] crypto-payment-institution-license-philippines          → /crypto-payment-institution-license-philippines/
 - [ ] crypto-gambling-license-philippines                     → /crypto-gambling-license-philippines/
 - [ ] crypto-staking-license-philippines                      → /crypto-staking-license-philippines/
