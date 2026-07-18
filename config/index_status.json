@@ -3163,6 +3163,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-philippines/": {
+    "escalated": false,
+    "first_seen": "2026-07-18",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-portugal/": {
     "escalated": false,
     "first_seen": "2026-06-05",
@@ -5463,6 +5470,13 @@
     "escalated": false,
     "first_seen": "2026-05-31",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-philippines/": {
+    "escalated": false,
+    "first_seen": "2026-07-18",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
