@@ -903,9 +903,9 @@ Requirements & How to Get One".
 - [x] crypto-payment-institution-license-philippines          → /crypto-payment-institution-license-philippines/
 - [x] crypto-gambling-license-philippines                     → /crypto-gambling-license-philippines/
 - [x] crypto-staking-license-philippines                      → /crypto-staking-license-philippines/
-- [ ] crypto-token-issuance-license-philippines               → /crypto-token-issuance-license-philippines/
-- [ ] crypto-stablecoin-license-philippines                   → /crypto-stablecoin-license-philippines/
-- [ ] crypto-exchange-license-indonesia                       → /crypto-exchange-license-indonesia/
+- [x] crypto-token-issuance-license-philippines               → /crypto-token-issuance-license-philippines/
+- [x] crypto-stablecoin-license-philippines                   → /crypto-stablecoin-license-philippines/
+- [x] crypto-exchange-license-indonesia                       → /crypto-exchange-license-indonesia/
 - [ ] crypto-wallet-custody-license-indonesia                 → /crypto-wallet-custody-license-indonesia/
 - [ ] crypto-broker-license-indonesia                         → /crypto-broker-license-indonesia/
 - [ ] crypto-otc-desk-license-indonesia                       → /crypto-otc-desk-license-indonesia/
