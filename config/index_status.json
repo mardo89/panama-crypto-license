@@ -3681,6 +3681,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-gambling-license-philippines/": {
+    "escalated": false,
+    "first_seen": "2026-07-19",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-gambling-license-poland/": {
     "escalated": false,
     "first_seen": "2026-05-30",
@@ -4441,6 +4448,13 @@
     "escalated": false,
     "first_seen": "2026-05-30",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-payment-institution-license-philippines/": {
+    "escalated": false,
+    "first_seen": "2026-07-19",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
