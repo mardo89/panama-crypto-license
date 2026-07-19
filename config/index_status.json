@@ -3093,6 +3093,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-indonesia/": {
+    "escalated": false,
+    "first_seen": "2026-07-20",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-exchange-license-ireland/": {
     "escalated": false,
     "first_seen": "2026-06-05",
@@ -3425,7 +3432,7 @@
   "https://www.consulting24.co/crypto-fund-license-philippines/": {
     "escalated": false,
     "first_seen": "2026-07-19",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3684,7 +3691,7 @@
   "https://www.consulting24.co/crypto-gambling-license-philippines/": {
     "escalated": false,
     "first_seen": "2026-07-19",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -3936,7 +3943,7 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-philippines/": {
     "escalated": false,
     "first_seen": "2026-07-19",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4188,7 +4195,7 @@
   "https://www.consulting24.co/crypto-otc-desk-license-philippines/": {
     "escalated": false,
     "first_seen": "2026-07-19",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4454,7 +4461,7 @@
   "https://www.consulting24.co/crypto-payment-institution-license-philippines/": {
     "escalated": false,
     "first_seen": "2026-07-19",
-    "indexed": null,
+    "indexed": true,
     "last_action": null,
     "submits": 0
   },
@@ -4714,6 +4721,13 @@
     "escalated": false,
     "first_seen": "2026-06-03",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-stablecoin-license-philippines/": {
+    "escalated": false,
+    "first_seen": "2026-07-20",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
