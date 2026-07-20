@@ -19,22 +19,54 @@ def splice(file, start, end, block):
     new = re.sub(re.escape(start) + r".*?" + re.escape(end), start + "\n" + block + "\n" + end, s, flags=re.S)
     open(file, "w", encoding="utf-8").write(new)
 
-# --- Jurisdictions hub: every root-level *-crypto-license page + Panama ---
-cards = ['    <a class="jx-card" href="/"><strong>Panama 🇵🇦</strong><span>€6,000 fixed · 2–3 weeks · 0% foreign-income tax</span></a>']
-for d in sorted(glob.glob(os.path.join(ROOT, "*-crypto-license"))):
+# --- Jurisdictions hub: link EVERY indexable landing page, grouped, so no page is
+#     an orphan. Runs on every publish, so new pages are auto-wired in. ---
+SYSTEM = {"blog","scripts","config","img","logs","jurisdictions","node_modules",
+          "about","contact","privacy","terms","cookies","post"}
+ACT = ("exchange","broker","fund","gambling","nft-marketplace","otc-desk","payment-institution",
+       "stablecoin","staking","token-issuance","wallet-custody","dealer","custody","mining","p2p")
+
+def esc(s): return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+
+def classify(slug):
+    if "-vs-" in slug: return "compare"
+    if slug.startswith(("best-country","cost-crypto","offshore-crypto","fastest-crypto",
+                        "cheapest-crypto","easiest-crypto","ready-made-crypto","how-to-")):
+        return "guide"
+    if slug.startswith("crypto-") and any(f"crypto-{a}-license" in slug for a in ACT):
+        return "activity"
+    if slug.endswith("-crypto-license"): return "jurisdiction"
+    return "guide"
+
+groups = {"jurisdiction": [], "activity": [], "compare": [], "guide": []}
+for d in sorted(glob.glob(os.path.join(ROOT, "*"))):
+    if not os.path.isdir(d): continue
     slug = os.path.basename(d)
-    if not os.path.exists(os.path.join(d, "index.html")): continue
-    SPECIAL = {"bvi":"BVI","usa":"USA","uae":"UAE","el-salvador":"El Salvador","czech-republic":"Czech Republic",
-               "hong-kong":"Hong Kong","cayman-islands":"Cayman Islands","saudi-arabia":"Saudi Arabia",
-               "south-africa":"South Africa","south-korea":"South Korea","new-zealand":"New Zealand",
-               "costa-rica":"Costa Rica","isle-of-man":"Isle of Man","marshall-islands":"Marshall Islands",
-               "saint-lucia":"Saint Lucia","abu-dhabi":"Abu Dhabi"}
-    base = slug.replace("-crypto-license", "")
-    name = SPECIAL.get(base, base.replace("-", " ").title())
-    cards.append(f'    <a class="jx-card" href="/{slug}/"><strong>{name}</strong><span>Crypto licensing guide &amp; Panama comparison</span></a>')
-hub_block = '  <div class="jx-grid">\n' + "\n".join(cards) + "\n  </div>"
+    idx = os.path.join(d, "index.html")
+    if slug in SYSTEM or slug.startswith(".") or not os.path.exists(idx): continue
+    h = open(idx, encoding="utf-8").read()
+    if 'generated-redirect-stub' in h or 'content="noindex"' in h: continue   # skip stubs
+    label = title_of(idx, slug.replace("-", " ").title())
+    groups[classify(slug)].append((label, slug))
+
+SUB = {"jurisdiction":"Requirements, cost &amp; timeline", "activity":"Licence type &amp; process",
+       "compare":"Side-by-side comparison", "guide":"Guide"}
+HEAD = {"jurisdiction":"Crypto license by country", "activity":"By licence type &amp; activity",
+        "compare":"Compare jurisdictions", "guide":"Guides &amp; tools"}
+sections = ['  <div class="jx-grid">\n    <a class="jx-card" href="/"><strong>Panama 🇵🇦</strong>'
+            '<span>€6,000 fixed · 2–3 weeks · 0% foreign-income tax</span></a>\n  </div>']
+total = 1
+for key in ("jurisdiction", "activity", "compare", "guide"):
+    items = groups[key]
+    if not items: continue
+    total += len(items)
+    cards = "\n".join(
+        f'    <a class="jx-card" href="/{slug}/"><strong>{esc(label)}</strong><span>{SUB[key]}</span></a>'
+        for label, slug in items)
+    sections.append(f'  <h2 class="jx-group">{HEAD[key]}</h2>\n  <div class="jx-grid">\n{cards}\n  </div>')
+hub_block = "\n".join(sections)
 splice(os.path.join(ROOT, "jurisdictions", "index.html"), "<!-- JURISDICTIONS_START -->", "<!-- JURISDICTIONS_END -->", hub_block)
-print(f"hub: {len(cards)} jurisdiction cards")
+print(f"hub: {total} landing pages linked across {sum(1 for k in groups if groups[k])} groups")
 
 # --- Blog index: every blog/<slug>/ post, newest (by mtime) first ---
 posts = []

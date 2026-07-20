@@ -31,6 +31,7 @@ def key():
 
 # Known internal URLs the model may link to (prevents broken internal links)
 INTERNAL = ["/", "/cost/", "/requirements/", "/application-process/", "/exchange-license/",
+  "/best-country-for-crypto-license/",
   "/company-setup/", "/vs-lithuania/", "/jurisdictions/", "/blog/",
   "/lithuania-crypto-license/", "/estonia-crypto-license/", "/dubai-crypto-license/",
   "/el-salvador-crypto-license/", "/czech-republic-crypto-license/", "/poland-crypto-license/",
@@ -42,7 +43,7 @@ SYSTEM = """You are a senior crypto-licensing copywriter for Consulting24 (X24Co
 Output STRICT JSON only, matching this schema:
 {
  "meta_title": "50-60 chars, includes the primary keyword",
- "meta_description": "120-155 chars, human, with a value proposition/CTA, includes primary keyword",
+ "meta_description": "120-155 chars, human, value proposition/CTA, primary keyword; MUST end with a complete sentence and a full stop, never a trailing ellipsis",
  "h1": "includes the primary keyword",
  "intro_html": "2-3 <p> paragraphs; primary keyword in the first 100 words",
  "sections": [ {"h2": "...", "html": "valid HTML: <p>, <ul>, <ol>, <table class=\\"t-wrap-inner\\">, <h3> where useful"} , ... ],
@@ -129,7 +130,7 @@ def footer():
     return '''<footer><div class="wrap"><div class="foot-grid">
     <div><h4>Consulting24</h4><p style="color:#a3a3a3">500+ crypto licenses across Estonia, Lithuania, Panama and beyond.</p><p style="margin-top:14px"><strong style="color:#fff">WhatsApp / email</strong><br>mardo@consulting24.co</p></div>
     <div><h4>Jurisdictions</h4><a href="/jurisdictions/">All jurisdictions</a><a href="/">Panama</a><a href="/lithuania-crypto-license/">Lithuania</a><a href="/estonia-crypto-license/">Estonia</a></div>
-    <div><h4>Resources</h4><a href="/cost/">Panama cost</a><a href="/requirements/">Requirements</a><a href="/blog/">Blog</a><a href="/#faq">FAQ</a></div>
+    <div><h4>Resources</h4><a href="/cost/">Panama cost</a><a href="/best-country-for-crypto-license/">Best country for a crypto license</a><a href="/requirements/">Requirements</a><a href="/blog/">Blog</a></div>
     <div><h4>Company</h4><a href="/#about">About Consulting24</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
   </div><div class="foot-bottom">&copy; 2026 Consulting24 &middot; X24Consulting O&Uuml; &middot; Reg nr 16971898 &middot; Poordi 3-63, 10156 Tallinn, Estonia &middot; General guidance, not legal advice.</div></div></footer>
 <div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact" class="btn btn-primary">Free consultation</a></div>'''
@@ -178,6 +179,26 @@ def link_hub(self_slug="", cap=20):
             '<p style="color:var(--ink-2)">Compare the most relevant routes, each with cost, capital, timeline and requirements:</p>'
             f'<div style="line-height:1.9;font-size:14px">{links}</div></section>')
 
+_BLOG_STOP = {"crypto","license","licence","company","which","choose","should","your","panama",
+              "for","the","and","vs","cost","take","2026","how","get","guide","in","to","of","a"}
+def _blog_related(self_slug):
+    """Blog footer: link the #2-ranking best-country money page + 2-3 topically related
+    blog posts (token overlap) so posts form clusters instead of sitting siloed."""
+    bdir = os.path.join(ROOT, "blog")
+    try:
+        cand = [n for n in os.listdir(bdir)
+                if n != self_slug and os.path.isdir(os.path.join(bdir, n))
+                and os.path.exists(os.path.join(bdir, n, "index.html"))]
+    except FileNotFoundError:
+        cand = []
+    toks = {t for t in self_slug.split("-") if len(t) > 3 and t not in _BLOG_STOP}
+    scored = sorted(cand, key=lambda s: -len(toks & set(s.split("-"))))
+    rel = [s for s in scored if toks & set(s.split("-"))][:3] or scored[:3]
+    posts = "".join(f'<a href="/blog/{s}/"><strong>{_hub_label(s)}</strong></a>' for s in rel)
+    return ('<h2>Related guides</h2><div class="related">'
+            '<a href="/best-country-for-crypto-license/"><strong>Best country for a crypto license</strong>'
+            '<span>Compare every jurisdiction</span></a>' + posts + '</div>')
+
 def assemble(slug, crumb, d, kind="landing"):
     sec_list = [f"  <h2>{html.escape(s['h2'])}</h2>\n{s['html']}" for s in d["sections"]]
     imgs = [("/img/graphic-process.svg", f"{crumb} crypto licence process: scope, incorporate, apply, operate"),
@@ -204,7 +225,11 @@ def assemble(slug, crumb, d, kind="landing"):
     css = "../styles.css" if kind=="landing" else "../../styles.css"
     _pool = [("/lithuania-crypto-license/","Lithuania"),("/estonia-crypto-license/","Estonia"),("/dubai-crypto-license/","Dubai"),("/cyprus-crypto-license/","Cyprus"),("/malta-crypto-license/","Malta"),("/cayman-islands-crypto-license/","Cayman Islands"),("/switzerland-crypto-license/","Switzerland"),("/","Panama (EUR 6,000)")]
     _rel = [(h,n) for h,n in _pool if h.strip("/") != slug][:4]
-    related_html = '<h2>Related jurisdictions</h2><div class="related">' + "".join(f'<a href="{h}"><strong>{n}</strong><span>Crypto licensing guide and Panama comparison</span></a>' for h,n in _rel) + '</div>'
+    def _rel_anchor(h, n):
+        label = n if "(" in n else f"{n} crypto license"   # descriptive partial-match anchor
+        return f'<a href="{h}"><strong>{label}</strong><span>Requirements, cost &amp; timeline</span></a>'
+    related_html = '<h2>Related jurisdictions</h2><div class="related">' + "".join(_rel_anchor(h, n) for h, n in _rel) + '</div>'
+    blog_extra = '' if kind == "landing" else _blog_related(slug)
     topcta = '<div class="top-cta-row"><a href="'+WA+'" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free assessment</a></div>'
     trust = '<div class="trust-strip"><b>500+ crypto licenses obtained.</b> <span class="logos">Binance &middot; LBank &middot; Coinify &middot; MultiversX &middot; UPay &middot; Vitalum</span></div>'
     today = datetime.date.today().isoformat()
@@ -268,19 +293,31 @@ def assemble(slug, crumb, d, kind="landing"):
   <a href="{WA}" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free consultation</a></div>
   <p style="color:var(--muted);font-size:.85rem;margin-top:24px">General guidance, not legal advice. Rules and fees evolve &mdash; we confirm current requirements for your case.</p>
 </article>
-{link_hub(slug) if kind=="landing" else ""}
+{link_hub(slug) if kind=="landing" else blog_extra}
 {footer()}
 </body></html>
 '''
 
+def tidy_desc(s):
+    """Trim a meta description to a COMPLETE sentence <=155 chars, never a mid-word
+    cut with a trailing ellipsis (the pre-2026-07 bug left 380 pages ending in '…')."""
+    s = re.sub(r"\s*(?:\.{2,}|…)+\s*$", "", (s or "").strip()).strip()
+    if len(s) <= 158 and s[-1:] in ".!?":
+        return s
+    cut = s[:156].rstrip()
+    ends = [m.end() - 1 for m in re.finditer(r"[.!?]", cut)]
+    if ends and ends[-1] >= 90:                       # keep to last full sentence
+        return cut[:ends[-1] + 1].strip()
+    commas = [i for i, c in enumerate(cut) if c == "," and i >= 60]
+    base = cut[:commas[-1]] if commas else cut.rsplit(" ", 1)[0]   # drop trailing incomplete clause
+    return base.rstrip(" ,;:-") + "."
+
 def _trim_meta(d):
-    # auto-fix near-miss meta lengths so a 1-2 char overflow never wastes a good page
+    # auto-fix near-miss meta lengths so overflow never wastes a good page
     t = (d.get("meta_title") or "").strip()
-    if len(t) > 65: t = t[:64].rsplit(" ", 1)[0]
+    if len(t) > 60: t = t[:60].rsplit(" ", 1)[0].rstrip(" -|:&")   # <=~600px, no dangling punct
     d["meta_title"] = t
-    desc = (d.get("meta_description") or "").strip()
-    if len(desc) > 160: desc = desc[:157].rsplit(" ", 1)[0].rstrip(".,;: ") + "…"
-    d["meta_description"] = desc
+    d["meta_description"] = tidy_desc(d.get("meta_description") or "")
     return d
 
 def _repair(d, keyword):
