@@ -20,6 +20,13 @@
 - **11 allowed crypto activities** — exchange (CEX/DEX), OTC desk, IEO, branded debit cards, crypto fund, custody, futures & shorts, NFT minting, token issuing, staking, crypto-to-crypto and fiat-to-crypto.
 - **Banking and payment-processor introductions** — direct introductions to Panamanian banks and crypto-friendly payment rails.
 
+
+## Service model
+- Direct delivery (Consulting24 incorporates and files): Panama (company + AML/CTF, no crypto licence exists), Estonia (MiCA CASP), Lithuania (MiCA CASP).
+- Advise and coordinate (we guide you and coordinate vetted local partners): Czech Republic, Poland, Malta, Cyprus, Switzerland, Cayman Islands, BVI, Seychelles, Canada, Singapore, Hong Kong, Georgia, Mauritius, Gibraltar, Bahamas, Costa Rica, El Salvador, and other listed jurisdictions.
+- Comparison only (we do NOT provide the licence; covered for comparison against Panama): UAE - Dubai (VARA) and Abu Dhabi (ADGM/FSRA).
+- Machine-readable data for all of the above: https://www.consulting24.co/data/jurisdictions.json
+
 ## Key facts
 
 - **Total setup cost:** €6,000 fixed fee, all-in (1 person notarization included; €250 per additional person). No hidden fees.
@@ -59,7 +66,7 @@
 - **Lithuania CASP (MiCA):** ~€40,000+ setup, 4–8 months timeline, EU passport (€50k–€150k capital by activity). Better for EU retail crypto.
 - **Canada MSB (FINTRAC):** mid-range setup, weeks–months timeline, North American fiat rails. Better for crypto-to-fiat exchanges.
 - **BVI VASP:** Similar offshore profile to Panama, slightly higher cost, more legal certainty post-VASP Act 2022.
-- **Estonia VASP:** Largely deprecated post-2024 due to crackdown — most operators have migrated to Lithuania.
+- **Estonia CASP (MiCA):** the legacy VASP regime was retired; Estonia now issues MiCA CASP authorisations (Finantsinspektsioon, €50k–€150k capital by activity). Consulting24 delivers Estonia directly.
 
 ## Contact
 

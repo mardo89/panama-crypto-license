@@ -1,0 +1,368 @@
+{
+  "source": "Consulting24 (X24Consulting OU, reg 16971898, Tallinn)",
+  "note": "Panama has NO enacted crypto/VASP licence (draft Anteproyecto 314 pending). DASP/CNAD/Ley de Activos Digitales belong to El Salvador, not Panama. service_model: direct = Consulting24 sets up and files; advise-and-coordinate = we guide and coordinate local partners; comparison-only = we do NOT provide that licence.",
+  "updated": "2026-07-21",
+  "jurisdictions": [
+    {
+      "slug": "panama",
+      "name": "Panama",
+      "service_model": "direct",
+      "regulator": "NO enacted crypto/VASP licence exists (2026). A draft framework, Anteproyecto 314 (tabled Jan 2026), is pending and NOT law",
+      "timeline": "2-3 weeks",
+      "facts": [
+        "NO enacted crypto/VASP licence exists (2026). A draft framework, Anteproyecto 314 (tabled Jan 2026), is pending and NOT law",
+        "under it future supervision would sit with the SBP + UAF. The offering is a Panama company (Sociedad Anonima) + AML/CTF compliance programme, NOT a licence. DO NOT invent a Panama crypto law (there is no Law 697, no Law 61 of 2023), DO NOT invent a regulator that issues a Panama crypto licence (no 'AFIP', and the SSNF supervises non-financial businesses like casinos/real-estate for AML only, NOT crypto). DASP/CNAD/Ley de Activos Digitales belong to EL SALVADOR, never Panama. ~2-3 weeks",
+        "EUR 6,000 flat",
+        "0% tax on foreign-source income. Consulting24 delivers Panama directly."
+      ],
+      "page": "https://www.consulting24.co/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "lithuania",
+      "name": "Lithuania",
+      "service_model": "direct",
+      "regulator": "Bank of Lithuania",
+      "timeline": "4-8 months",
+      "facts": [
+        "Bank of Lithuania",
+        "MiCAR CASP",
+        "capital EUR 50k/125k/150k by activity",
+        "EU passporting",
+        "~4-8 months",
+        "setup ~EUR 40,000 (estimated)",
+        "Consulting24 delivers directly."
+      ],
+      "page": "https://www.consulting24.co/lithuania-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "estonia",
+      "name": "Estonia",
+      "service_model": "direct",
+      "regulator": "Finantsinspektsioon",
+      "timeline": "5-9 months",
+      "facts": [
+        "Finantsinspektsioon",
+        "MiCA CASP (replaced FIU/VASP)",
+        "capital 50k/125k/150k",
+        "0% on retained profit, 22% on distribution",
+        "~5-9 months",
+        "e-Residency",
+        "Consulting24 delivers directly."
+      ],
+      "page": "https://www.consulting24.co/estonia-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "czech-republic",
+      "name": "Czech Republic",
+      "service_model": "advise-and-coordinate",
+      "regulator": "Czech National Bank",
+      "timeline": "4-8 months",
+      "facts": [
+        "Czech National Bank",
+        "MiCA CASP",
+        "capital 50k/125k/150k",
+        "cost-efficient EU",
+        "~4-8 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/czech-republic-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "poland",
+      "name": "Poland",
+      "service_model": "advise-and-coordinate",
+      "regulator": "KNF",
+      "timeline": "4-8 months",
+      "facts": [
+        "KNF",
+        "MiCA CASP",
+        "capital 50k/125k/150k",
+        "cost-efficient EU",
+        "~4-8 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/poland-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "malta",
+      "name": "Malta",
+      "service_model": "advise-and-coordinate",
+      "regulator": "MFSA",
+      "timeline": "5-9 months",
+      "facts": [
+        "MFSA",
+        "MiCA CASP (built on VFA)",
+        "capital 50k/125k/150k",
+        "English official",
+        "~5-9 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/malta-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "cyprus",
+      "name": "Cyprus",
+      "service_model": "advise-and-coordinate",
+      "regulator": "CySEC",
+      "timeline": "5-9 months",
+      "facts": [
+        "CySEC",
+        "MiCA CASP",
+        "capital 50k/125k/150k",
+        "English",
+        "favourable tax",
+        "~5-9 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/cyprus-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "switzerland",
+      "name": "Switzerland",
+      "service_model": "advise-and-coordinate",
+      "regulator": "non-EU",
+      "timeline": "6-12 months",
+      "facts": [
+        "non-EU",
+        "FINMA",
+        "SRO/VQF AML membership, DLT Act, fintech/banking licences",
+        "Crypto Valley",
+        "premium",
+        "~6-12 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/switzerland-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "cayman-islands",
+      "name": "Cayman Islands",
+      "service_model": "advise-and-coordinate",
+      "regulator": "CIMA",
+      "timeline": "3-6 months",
+      "facts": [
+        "CIMA",
+        "VASP Act",
+        "0% direct tax",
+        "funds and token issuers",
+        "economic substance",
+        "~3-6 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/cayman-islands-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "bvi",
+      "name": "BVI",
+      "service_model": "advise-and-coordinate",
+      "regulator": "BVI FSC",
+      "timeline": "3-6 months",
+      "facts": [
+        "BVI FSC",
+        "VASP Act 2022",
+        "0% corporate tax",
+        "token issuers/funds",
+        "~3-6 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/bvi-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "seychelles",
+      "name": "Seychelles",
+      "service_model": "advise-and-coordinate",
+      "regulator": "FSA",
+      "timeline": "2-4 months",
+      "facts": [
+        "FSA",
+        "VASP Act 2024",
+        "low cost",
+        "0% foreign-source tax",
+        "~2-4 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/seychelles-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "service_model": "advise-and-coordinate",
+      "regulator": "FINTRAC MSB registration for virtual currency dealing",
+      "timeline": null,
+      "facts": [
+        "FINTRAC MSB registration for virtual currency dealing",
+        "provincial securities for tokens",
+        "weeks-months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/canada-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "service_model": "advise-and-coordinate",
+      "regulator": "MAS",
+      "timeline": "9-18 months",
+      "facts": [
+        "MAS",
+        "Payment Services Act DPT licence",
+        "high bar, base capital, local presence",
+        "~9-18 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/singapore-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "hong-kong",
+      "name": "Hong Kong",
+      "service_model": "advise-and-coordinate",
+      "regulator": "SFC",
+      "timeline": "9-12 months",
+      "facts": [
+        "SFC",
+        "VATP licensing since 2023",
+        "high bar, local presence",
+        "~9-12 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/hong-kong-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "georgia",
+      "name": "Georgia",
+      "service_model": "advise-and-coordinate",
+      "regulator": "National Bank of Georgia",
+      "timeline": "1-3 months",
+      "facts": [
+        "National Bank of Georgia",
+        "VASP registration (from 2023)",
+        "low cost, fast ~1-3 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/georgia-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "mauritius",
+      "name": "Mauritius",
+      "service_model": "advise-and-coordinate",
+      "regulator": "FSC",
+      "timeline": "3-6 months",
+      "facts": [
+        "FSC",
+        "VAITOS Act 2021 licence classes",
+        "~3-6 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/mauritius-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "gibraltar",
+      "name": "Gibraltar",
+      "service_model": "advise-and-coordinate",
+      "regulator": "GFSC",
+      "timeline": "3-6 months",
+      "facts": [
+        "GFSC",
+        "DLT Provider licence since 2018",
+        "reputable",
+        "~3-6 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/jurisdictions/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "bahamas",
+      "name": "Bahamas",
+      "service_model": "advise-and-coordinate",
+      "regulator": "Securities Commission",
+      "timeline": "3-6 months",
+      "facts": [
+        "Securities Commission",
+        "DARE Act 2024",
+        "0% income tax",
+        "~3-6 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/bahamas-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "costa-rica",
+      "name": "Costa Rica",
+      "service_model": "advise-and-coordinate",
+      "regulator": "no dedicated crypto licence",
+      "timeline": null,
+      "facts": [
+        "no dedicated crypto licence",
+        "general company + AML",
+        "strong Panama comparison",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/costa-rica-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "el-salvador",
+      "name": "El Salvador",
+      "service_model": "advise-and-coordinate",
+      "regulator": "CNAD",
+      "timeline": "3-6 months",
+      "facts": [
+        "CNAD",
+        "DASP (Digital Assets Issuance Law) + BSP (Bitcoin Law)",
+        "Bitcoin legal tender",
+        "tax incentives",
+        "~3-6 months",
+        "Consulting24 advises and coordinates."
+      ],
+      "page": "https://www.consulting24.co/el-salvador-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "dubai",
+      "name": "Dubai",
+      "service_model": "comparison-only",
+      "regulator": "VARA category licences",
+      "timeline": null,
+      "facts": [
+        "VARA category licences",
+        "premium",
+        "0% personal, 9% corporate (free-zone reliefs)",
+        "DIFC/ADGM separate",
+        "DELIVERY=comparison-only."
+      ],
+      "page": "https://www.consulting24.co/dubai-crypto-license/",
+      "updated": "2026-07-21"
+    },
+    {
+      "slug": "abu-dhabi",
+      "name": "Abu Dhabi",
+      "service_model": "comparison-only",
+      "regulator": "ADGM FSRA crypto framework",
+      "timeline": null,
+      "facts": [
+        "ADGM FSRA crypto framework",
+        "premium",
+        "DELIVERY=comparison-only."
+      ],
+      "page": "https://www.consulting24.co/abu-dhabi-crypto-license/",
+      "updated": "2026-07-21"
+    }
+  ]
+}

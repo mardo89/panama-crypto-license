@@ -95,6 +95,22 @@ def mark_done(md_path, needle):
     s = s.replace(f"- [ ] {needle}", f"- [x] {needle}", 1)
     open(md_path, "w", encoding="utf-8").write(s)
 
+MAX_ATTEMPTS = 3
+_ATTEMPTS = os.path.join(ROOT, "logs", "gen_attempts.json")
+def _attempts():
+    import json
+    try: return json.load(open(_ATTEMPTS))
+    except Exception: return {}
+def _bump(key):
+    import json
+    a = _attempts(); a[key] = a.get(key, 0) + 1
+    os.makedirs(os.path.dirname(_ATTEMPTS), exist_ok=True)
+    json.dump(a, open(_ATTEMPTS, "w")); return a[key]
+def _fail_log(kind, ident, reason):
+    os.makedirs(os.path.join(ROOT, "logs"), exist_ok=True)
+    with open(os.path.join(ROOT, "logs", "failed_pages.log"), "a") as fh:
+        fh.write(f"{datetime.date.today()} {kind} {ident} :: {reason}\n")
+
 def slugify(title):
     s = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
     return s[:70]
@@ -107,6 +123,7 @@ def run():
     def checkpoint(force=False):
         if not published: return
         if not force and len(published) % CHUNK != 0: return
+        sh("python3 scripts/build_data_json.py")
         sh("python3 scripts/rebuild_indexes.py")
         sh("python3 scripts/publish.py")
         sh("git add -A")
@@ -118,26 +135,46 @@ def run():
     for entry in next_unchecked(os.path.join(ROOT, "pages.md"), N_LANDING):
         m = re.search(r"([a-z0-9-]+)\s*(?:→|->)\s*/([a-z0-9-]+)/", entry)
         slug = (m.group(2) if m else entry.split()[0]).strip("/")
+        ok, reason = False, ""
         try:
             rep = gen.build("landing", slug, keyword_from(slug), landing_brief(slug))
-            if rep.get("pass"): published.append("/"+slug+"/")
+            ok = bool(rep.get("pass")); reason = "" if ok else "QC fail"
+            if ok: published.append("/"+slug+"/")
         except Exception as e:
-            print("landing err", slug, e)
-        mark_done(os.path.join(ROOT, "pages.md"), entry)
+            reason = f"exception: {e}"; print("landing err", slug, e)
+        if ok:
+            mark_done(os.path.join(ROOT, "pages.md"), entry)
+        else:
+            n = _bump("landing:"+slug); _fail_log("landing", slug, reason)
+            if n >= MAX_ATTEMPTS:          # give up (don't block the queue forever), but LOUDLY
+                mark_done(os.path.join(ROOT, "pages.md"), entry)
+                _fail_log("landing", slug, f"GAVE UP after {n} attempts")
+                print(f"WARNING: landing {slug} failed {n}x, giving up (see logs/failed_pages.log)")
         checkpoint()
     # --- blog posts ---
     for title in next_unchecked(os.path.join(ROOT, "blog", "topics.md"), N_BLOG):
         slug = slugify(title)
         kw = " ".join(title.split()[:4])
         brief = f"{title} | Educational, accurate 2026 guidance for crypto founders. Internal-link to relevant jurisdiction pages and Panama. Consulting24 context."
+        ok, reason = False, ""
         try:
             rep = gen.build("blog", slug, kw, brief)
-            if rep.get("pass"): published.append("/blog/"+slug+"/")
+            ok = bool(rep.get("pass")); reason = "" if ok else "QC fail"
+            if ok: published.append("/blog/"+slug+"/")
         except Exception as e:
-            print("blog err", slug, e)
-        mark_done(os.path.join(ROOT, "blog", "topics.md"), title)
+            reason = f"exception: {e}"; print("blog err", slug, e)
+        if ok:
+            mark_done(os.path.join(ROOT, "blog", "topics.md"), title)
+        else:
+            n = _bump("blog:"+slug); _fail_log("blog", slug, reason)
+            if n >= MAX_ATTEMPTS:
+                mark_done(os.path.join(ROOT, "blog", "topics.md"), title)
+                _fail_log("blog", slug, f"GAVE UP after {n} attempts")
+                print(f"WARNING: blog {slug} failed {n}x, giving up (see logs/failed_pages.log)")
         checkpoint()
-    print(sh("python3 scripts/linkcheck.py").stdout[-400:])
+    _lc = sh("python3 scripts/linkcheck.py"); print(_lc.stdout[-400:])
+    _mb = re.search(r"BROKEN internal links:\s*([1-9]\d*)", _lc.stdout)
+    if _mb: print(f"WARNING: linkcheck found {_mb.group(1)} broken internal links (fix before they compound)")
     checkpoint(force=True)   # final flush of the remainder
     # indexing watchdog: re-submit / audit pages not indexed within a few days
     print(sh("python3 scripts/index_monitor.py").stdout[-600:])

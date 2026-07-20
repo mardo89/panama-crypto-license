@@ -68,9 +68,18 @@ BANNED = ["delve","leverage","seamless","robust","cutting-edge","groundbreaking"
   "harness","unleash","empower","paradigm","synergy","holistic","in today's world","when it comes to",
   "that being said","in essence","at the end of the day","in conclusion","it's worth noting","look no further"]
 
-BANNED_MAP = {"seamless":"smooth","robust":"strong","leverage":"use","delve into":"examine","delve":"examine",
-  "cutting-edge":"advanced","groundbreaking":"notable","game-changing":"significant","harness":"use",
-  "unleash":"release","empower":"enable","holistic":"complete","synergy":"alignment","paradigm":"model",
+BANNED_MAP = {
+  # inflected forms listed explicitly so word-boundary replace never mangles
+  # (the old substring replace turned 'robustness' -> 'strongness' and missed 'leveraging')
+  "seamlessly":"smoothly","seamless":"smooth",
+  "robustness":"strength","robustly":"strongly","robust":"strong",
+  "leveraging":"using","leverages":"uses","leveraged":"used","leverage":"use",
+  "delving into":"examining","delve into":"examine","delves":"examines","delving":"examining","delve":"examine",
+  "cutting-edge":"advanced","groundbreaking":"notable","game-changing":"significant",
+  "harnessing":"using","harnessed":"used","harnesses":"uses","harness":"use",
+  "unleashing":"releasing","unleashes":"releases","unleashed":"released","unleash":"release",
+  "empowering":"enabling","empowered":"enabled","empowers":"enables","empower":"enable",
+  "holistic":"complete","synergies":"alignment","synergy":"alignment","paradigm":"model",
   "it's worth noting that":"note that","that being said,":"still,","in essence,":"","in conclusion,":"",
   "when it comes to":"for","in today's world":"today","at the end of the day,":"ultimately,","look no further":"start here"}
 
@@ -78,8 +87,14 @@ def _clean(s):
     if not isinstance(s, str): return s
     for a, b in (("—", "-"), ("–", "-"), ("&mdash;", "-"), ("&ndash;", "-"), ("!", ".")):
         s = s.replace(a, b)
-    for bad, good in BANNED_MAP.items():
-        s = re.sub(re.escape(bad), good, s, flags=re.I)
+    def _repl(good):
+        return lambda m: (good[:1].upper() + good[1:]) if m.group(0)[:1].isupper() else good
+    for bad in sorted(BANNED_MAP, key=len, reverse=True):   # longest first (phrases before words)
+        good = BANNED_MAP[bad]
+        if good == "":
+            s = re.sub(r"\b" + re.escape(bad), "", s, flags=re.I)
+        else:
+            s = re.sub(r"\b" + re.escape(bad) + r"\b", _repl(good), s, flags=re.I)
     return re.sub(r"  +", " ", s)
 
 def _clean_d(d):
@@ -131,7 +146,7 @@ def footer():
     <div><h4>Consulting24</h4><p style="color:#a3a3a3">500+ crypto licenses across Estonia, Lithuania, Panama and beyond.</p><p style="margin-top:14px"><strong style="color:#fff">WhatsApp / email</strong><br>mardo@consulting24.co</p></div>
     <div><h4>Jurisdictions</h4><a href="/jurisdictions/">All jurisdictions</a><a href="/">Panama</a><a href="/lithuania-crypto-license/">Lithuania</a><a href="/estonia-crypto-license/">Estonia</a></div>
     <div><h4>Resources</h4><a href="/cost/">Panama cost</a><a href="/best-country-for-crypto-license/">Best country for a crypto license</a><a href="/requirements/">Requirements</a><a href="/blog/">Blog</a></div>
-    <div><h4>Company</h4><a href="/#about">About Consulting24</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
+    <div><h4>Company</h4><a href="/about/">About Consulting24</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
   </div><div class="foot-bottom">&copy; 2026 Consulting24 &middot; X24Consulting O&Uuml; &middot; Reg nr 16971898 &middot; Poordi 3-63, 10156 Tallinn, Estonia &middot; General guidance, not legal advice.</div></div></footer>
 <div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact" class="btn btn-primary">Free consultation</a></div>'''
 
@@ -239,7 +254,7 @@ def assemble(slug, crumb, d, kind="landing"):
             f'border-radius:8px;padding:16px 20px;margin:0 0 22px"><strong style="color:var(--accent-dark)">Short answer:</strong> {_ans}</div>') if _ans else ""
     # Visible author byline (E-E-A-T)
     byline = (f'<p class="byline" style="color:var(--muted);font-size:.9rem;margin:0 0 18px">'
-              f'By <a href="https://www.linkedin.com/in/mardo-s-00a05ab0/" rel="author">Mardo Soo</a>, '
+              f'By <a href="/about/" rel="author">Mardo Soo</a>, '
               f'Founder &amp; CEO, Consulting24 (X24Consulting O&Uuml;) &middot; Updated {today}</p>')
     _authorimg = f"{BASE}/img/mardo-soo-profile.jpg"
     article_schema = (
@@ -261,6 +276,7 @@ def assemble(slug, crumb, d, kind="landing"):
 <link rel="canonical" href="{canon}">
 <meta property="og:title" content="{html.escape(d["meta_title"])}"><meta property="og:description" content="{html.escape(d["meta_description"])}">
 <meta property="og:type" content="article"><meta property="og:url" content="{canon}"><meta property="og:image" content="{BASE}/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(d["meta_title"])}"><meta name="twitter:description" content="{html.escape(d["meta_description"])}"><meta name="twitter:image" content="{BASE}/og-image.jpg">
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@graph":[
  {{"@type":"BreadcrumbList","itemListElement":[
