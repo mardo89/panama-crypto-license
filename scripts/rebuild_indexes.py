@@ -73,6 +73,9 @@ posts = []
 for d in glob.glob(os.path.join(ROOT, "blog", "*")):
     idx = os.path.join(d, "index.html")
     if os.path.isdir(d) and os.path.exists(idx):
+        bh = open(idx, encoding="utf-8").read()
+        if 'generated-redirect-stub' in bh or 'content="noindex"' in bh:
+            continue                      # skip redirect stubs (deduped comparison posts)
         posts.append((os.path.getmtime(idx), os.path.basename(d), idx))
 posts.sort(reverse=True)
 bcards = []

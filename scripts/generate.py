@@ -135,7 +135,7 @@ HEADER = '''<header class="top"><div class="top-inner">
   <a href="/" class="brand">Crypto License <span>Consulting24</span></a>
   <div class="top-cta"><a href="/jurisdictions/" style="font-weight:700;color:var(--ink);font-size:.95rem;align-self:center">Jurisdictions</a><a href="/blog/" class="btn btn-ghost" style="padding:9px 15px;min-height:auto;font-size:.9rem">Blog</a>
     <a href="''' + WA + '''" class="top-phone">Talk to an expert</a>
-    <a href="/#contact" class="btn btn-primary" style="padding:10px 16px;min-height:auto;font-size:.92rem">Free Consultation</a></div>
+    <a href="/#contact-top" class="btn btn-primary" style="padding:10px 16px;min-height:auto;font-size:.92rem">Free Consultation</a></div>
 </div></header>'''
 ADVISOR = '''  <div class="advisor" style="display:flex;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:28px 0">
     <img src="/img/mardo-soo-profile.jpg" alt="Mardo Soo, CEO of Consulting24" width="92" height="92" loading="lazy" style="width:92px;height:92px;border-radius:50%;object-fit:cover;flex:none;border:3px solid var(--accent-soft)">
@@ -148,7 +148,7 @@ def footer():
     <div><h4>Resources</h4><a href="/cost/">Panama cost</a><a href="/best-country-for-crypto-license/">Best country for a crypto license</a><a href="/requirements/">Requirements</a><a href="/blog/">Blog</a></div>
     <div><h4>Company</h4><a href="/about/">About Consulting24</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
   </div><div class="foot-bottom">&copy; 2026 Consulting24 &middot; X24Consulting O&Uuml; &middot; Reg nr 16971898 &middot; Poordi 3-63, 10156 Tallinn, Estonia &middot; General guidance, not legal advice.</div></div></footer>
-<div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact" class="btn btn-primary">Free consultation</a></div>'''
+<div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact-top" class="btn btn-primary">Free consultation</a></div>'''
 
 def fig(src, alt):
     return f'  <figure style="margin:24px 0"><img src="{src}" alt="{html.escape(alt)}" loading="lazy" width="1200" height="320" style="width:100%;height:auto;border-radius:14px;border:1px solid var(--line)"></figure>'
@@ -245,7 +245,7 @@ def assemble(slug, crumb, d, kind="landing"):
         return f'<a href="{h}"><strong>{label}</strong><span>Requirements, cost &amp; timeline</span></a>'
     related_html = '<h2>Related jurisdictions</h2><div class="related">' + "".join(_rel_anchor(h, n) for h, n in _rel) + '</div>'
     blog_extra = '' if kind == "landing" else _blog_related(slug)
-    topcta = '<div class="top-cta-row"><a href="'+WA+'" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free assessment</a></div>'
+    topcta = '<div class="top-cta-row"><a href="'+WA+'" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact-top" class="btn btn-ghost">Free assessment</a></div>'
     trust = '<div class="trust-strip"><b>500+ crypto licenses obtained.</b> <span class="logos">Binance &middot; LBank &middot; Coinify &middot; MultiversX &middot; UPay &middot; Vitalum</span></div>'
     today = datetime.date.today().isoformat()
     # TL;DR answer box (LLM + featured-snippet friendly: a direct, quotable answer up top)
@@ -257,16 +257,28 @@ def assemble(slug, crumb, d, kind="landing"):
               f'By <a href="/about/" rel="author">Mardo Soo</a>, '
               f'Founder &amp; CEO, Consulting24 (X24Consulting O&Uuml;) &middot; Updated {today}</p>')
     _authorimg = f"{BASE}/img/mardo-soo-profile.jpg"
+    # one canonical Organization (referenced by @id everywhere) + an on-site author entity
+    ORG_ID = f"{BASE}/#business"; AUTHOR_ID = f"{BASE}/about/#mardo-soo"
+    org_node = (
+      f'{{"@type":"Organization","@id":"{ORG_ID}","name":"Consulting24","legalName":"X24Consulting O\\u00dc",'
+      f'"url":"{BASE}/","logo":{{"@type":"ImageObject","url":"{_authorimg}"}},'
+      f'"identifier":{{"@type":"PropertyValue","propertyID":"Estonian Business Register","value":"16971898"}},'
+      f'"address":{{"@type":"PostalAddress","streetAddress":"Poordi 3-63","addressLocality":"Tallinn","postalCode":"10156","addressCountry":"EE"}},'
+      f'"sameAs":["https://blog.consulting24.co/"]}}')
+    # UAE VARA / ADGM comparison-only: never emit a Service node claiming we provide the licence
+    _co = any(t in slug for t in ("dubai", "abu-dhabi", "uae", "vara", "adgm"))
+    service_node = "" if _co else (
+      f'{{"@type":"Service","name":{json.dumps(crumb+" Crypto License")},"provider":{{"@id":"{ORG_ID}"}}}},')
+    _cr2_name, _cr2_item = ("Blog", f"{BASE}/blog/") if kind == "blog" else ("Jurisdictions", f"{BASE}/jurisdictions/")
     article_schema = (
       f'{{"@type":"Article","headline":{json.dumps(d.get("meta_title",""))},'
       f'"description":{json.dumps(d.get("meta_description",""))},'
       f'"datePublished":"{today}","dateModified":"{today}",'
       f'"image":"{BASE}/og-image.jpg","mainEntityOfPage":"{canon}",'
-      f'"author":{{"@type":"Person","name":"Mardo Soo","jobTitle":"Founder & CEO",'
-      f'"url":"https://www.linkedin.com/in/mardo-s-00a05ab0/","image":"{_authorimg}",'
-      f'"worksFor":{{"@type":"Organization","name":"Consulting24","url":"https://consulting24.co/"}}}},'
-      f'"publisher":{{"@type":"Organization","name":"Consulting24","url":"https://consulting24.co/",'
-      f'"logo":{{"@type":"ImageObject","url":"{BASE}/img/mardo-soo-profile.jpg"}}}}}}')
+      f'"author":{{"@type":"Person","@id":"{AUTHOR_ID}","name":"Mardo Soo","jobTitle":"Founder & CEO",'
+      f'"url":"{BASE}/about/","image":"{_authorimg}","sameAs":["https://www.linkedin.com/in/mardo-s-00a05ab0/"],'
+      f'"worksFor":{{"@id":"{ORG_ID}"}}}},'
+      f'"publisher":{{"@id":"{ORG_ID}"}}}}')
     return f'''<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -279,11 +291,12 @@ def assemble(slug, crumb, d, kind="landing"):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(d["meta_title"])}"><meta name="twitter:description" content="{html.escape(d["meta_description"])}"><meta name="twitter:image" content="{BASE}/og-image.jpg">
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@graph":[
+ {org_node},
  {{"@type":"BreadcrumbList","itemListElement":[
    {{"@type":"ListItem","position":1,"name":"Home","item":"{BASE}/"}},
-   {{"@type":"ListItem","position":2,"name":"Jurisdictions","item":"{BASE}/jurisdictions/"}},
+   {{"@type":"ListItem","position":2,"name":"{_cr2_name}","item":"{_cr2_item}"}},
    {{"@type":"ListItem","position":3,"name":{json.dumps(crumb)},"item":"{canon}"}}]}},
- {{"@type":"Service","name":{json.dumps(crumb+" Crypto License")},"provider":{{"@type":"Organization","name":"Consulting24","url":"https://consulting24.co/"}}}},
+ {service_node}
  {article_schema},
  {{"@type":"FAQPage","mainEntity":[{faq_schema}]}}
 ]}}
@@ -291,7 +304,7 @@ def assemble(slug, crumb, d, kind="landing"):
 <link rel="stylesheet" href="{css}">
 </head><body>
 {HEADER}
-<div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="/jurisdictions/">Jurisdictions</a> &rsaquo; {html.escape(crumb)}</nav></div>
+<div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="{'/blog/' if kind=='blog' else '/jurisdictions/'}">{'Blog' if kind=='blog' else 'Jurisdictions'}</a> &rsaquo; {html.escape(crumb)}</nav></div>
 <article class="wrap">
   <h1>{html.escape(d["h1"])}</h1>
 {byline}
@@ -306,7 +319,7 @@ def assemble(slug, crumb, d, kind="landing"):
 {related_html}
 {ADVISOR}
   <div class="cta-card"><h2>Talk to a crypto-licensing expert</h2><p>500+ licenses across Estonia, Lithuania, Panama and beyond. Tell us your model and we'll map the right route &mdash; honestly.</p>
-  <a href="{WA}" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact" class="btn btn-ghost">Free consultation</a></div>
+  <a href="{WA}" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact-top" class="btn btn-ghost">Free consultation</a></div>
   <p style="color:var(--muted);font-size:.85rem;margin-top:24px">General guidance, not legal advice. Rules and fees evolve &mdash; we confirm current requirements for your case.</p>
 </article>
 {link_hub(slug) if kind=="landing" else blog_extra}
