@@ -182,15 +182,28 @@ def _scan_landings() -> list[tuple[str, str]]:
 LANDING_DIR: list[tuple[str, str]] = _scan_landings()
 
 def _landing_directory(current_landing: str = "") -> str:
-    """Wide internal-link block to consulting24.co keyword landing pages (SEO crosslinking)."""
-    links = [(lbl, path) for lbl, path in LANDING_DIR if path != current_landing]
-    if not links:
-        return ""
+    """A SMALL, contextually-relevant crosslink block (3 core hubs + up to 3 topically
+    related pages). Deliberately NOT the whole ~600-page directory: dumping every landing
+    with exact-match anchors into every post was a link-scheme footprint (SEO strategy
+    2026-07-21). A handful of natural links is the honest, penalty-safe crosslink."""
+    core = [("compare crypto licence jurisdictions", "/jurisdictions/"),
+            ("best country for a crypto licence", "/best-country-for-crypto-license/"),
+            ("a Panama crypto company", "/")]
+    toks = {t for t in current_landing.strip("/").split("-") if len(t) > 3
+            and t not in ("crypto", "license", "licence")}
+    related = []
+    for lbl, path in LANDING_DIR:
+        if path == current_landing or path in {p for _, p in core}:
+            continue
+        if toks & {t for t in path.strip("/").split("-") if len(t) > 3}:
+            related.append((lbl + " guide", path))
+        if len(related) >= 3:
+            break
+    picks = core + related
     items = "".join(f'<a href="{SITE}{path}" style="display:inline-block;margin:0 10px 8px 0;">{lbl}</a>'
-                     for lbl, path in links)
-    return ("<h2>Crypto licenses by jurisdiction and topic</h2>"
-            "<p>Compare every route we cover, each with cost, capital, timeline and requirements on "
-            "consulting24.co:</p>"
+                    for lbl, path in picks)
+    return ("<h2>Related crypto licensing routes</h2>"
+            "<p>A few relevant guides on consulting24.co, each with real cost, timeline and requirements:</p>"
             f"<div style='line-height:1.9;font-size:14px;'>{items}</div>")
 
 def _labels_for(topic: dict, cap: int = 20, max_chars: int = 200) -> list[str]:
