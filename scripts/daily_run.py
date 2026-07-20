@@ -43,7 +43,15 @@ FACTS = {
  "dubai": "Dubai | VARA category licences; premium; 0% personal, 9% corporate (free-zone reliefs); DIFC/ADGM separate; DELIVERY=comparison-only.",
  "abu-dhabi": "Abu Dhabi | ADGM FSRA crypto framework; premium; DELIVERY=comparison-only.",
 }
-COMPARISON_ONLY = {"dubai", "abu-dhabi", "uae"}
+# UAE VARA / ADGM is COMPARISON-ONLY (user directive 2026-05-27): never claim
+# Consulting24 advises+coordinates or files a UAE licence. Match tokens ANYWHERE
+# in the slug so compound slugs (fastest-crypto-license-dubai, vara-license,
+# crypto-exchange-license-abu-dhabi, ...) are caught, not just exact bases.
+COMPARISON_ONLY_TOKENS = ("dubai", "abu-dhabi", "uae", "vara", "adgm")
+
+def is_comparison_only(slug):
+    s = slug.lower()
+    return any(tok in s for tok in COMPARISON_ONLY_TOKENS)
 
 def sh(cmd):
     return subprocess.run(cmd, cwd=ROOT, shell=True, text=True, capture_output=True)
@@ -53,9 +61,18 @@ def base_of(slug):
 
 def landing_brief(slug):
     b = base_of(slug)
+    if is_comparison_only(slug):
+        # Comparison-only overrides even a FACTS entry, so a compound UAE slug can
+        # never inherit an advise+coordinate brief.
+        base = FACTS[b] if b in FACTS else (b.replace("-", " ").title() + " | Use accurate, current 2026 "
+               "facts for this crypto-licensing topic: regulator, licence type, capital, tax, timeline, allowed activities.")
+        if "comparison-only" not in base.lower():
+            base += " DELIVERY=comparison-only."
+        return (base + " Consulting24 covers this jurisdiction for comparison ONLY — never claim we advise, "
+                "coordinate, or file the licence here; we deliver directly only in Panama, Estonia, and Lithuania.")
     if b in FACTS: return FACTS[b]
     name = b.replace("-", " ").title()
-    extra = " DELIVERY=comparison-only." if b in COMPARISON_ONLY else " Consulting24 advises and coordinates."
+    extra = " Consulting24 advises and coordinates."
     return (f"{name} | Use accurate, current 2026 facts for this crypto-licensing topic: the relevant "
             f"regulator, licence/registration type, capital, tax, timeline and allowed activities. "
             f"If unsure of a specific figure, give a hedged range and defer exact pricing to a consultation."

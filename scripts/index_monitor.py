@@ -63,8 +63,15 @@ def days_since(iso):
 
 # ---- index-status check (best-effort) -------------------------------------
 def check_indexed(url):
-    """True if Bing returns this exact URL for a `url:` query, False if it
-    clearly returns nothing, None if the check could not be performed."""
+    """Best-effort: True only if the URL appears inside a Bing ORGANIC result
+    block, False if Bing clearly returns nothing, None if uncertain.
+
+    NB: Bing echoes the queried URL back into the page <title>, og:title and the
+    search-box <input value="url:...">, so a naive `url in html` substring test
+    marks EVERY url indexed (the pre-2026-07 bug). We drop those echo sites first
+    and require the URL inside an actual `b_algo` result. This scrape is still
+    fragile (locale pages, layout changes); the durable fix is the GSC URL
+    Inspection API or Bing Webmaster GetUrlInfo — see SEO audit 2026-07."""
     q = urllib.request.quote(f"url:{url}")
     req = urllib.request.Request(f"https://www.bing.com/search?q={q}",
                                  headers={"User-Agent": UA})
@@ -73,9 +80,18 @@ def check_indexed(url):
             html = r.read().decode("utf-8", "ignore")
     except Exception:
         return None
-    if url in html or url.rstrip("/") in html:
+    # Strip the places Bing echoes our own query back, so we never count it.
+    body = html.split("</head>", 1)[-1]                       # drop <title>/og echo
+    body = re.sub(r"<input\b[^>]*>", " ", body)               # drop search box value="url:..."
+    body = re.sub(r"url:\s*https?://[^\s\"'&<]+", " ", body)  # drop any echoed url: query
+    no_results = any(p in html for p in (
+        "There are no results", "did not match any", "No results found",
+        "Es gibt keine Ergebnisse", "ei andnud tulemusi", "Tulemusi ei"))
+    has_results = "b_algo" in body
+    hostpath = url.rstrip("/").split("://", 1)[-1]            # protocol-agnostic host+path
+    if has_results and hostpath in body:
         return True
-    if "There are no results" in html or "did not match any" in html:
+    if no_results or not has_results:
         return False
     return None
 
@@ -102,7 +118,13 @@ def submit_indexnow(urls):
 
 def submit_bing(urls):
     keyfile = os.path.join(SCRIPTS, ".bing_api_key")
-    if not (urls and os.path.exists(keyfile)):
+    if not urls:
+        return
+    if not os.path.exists(keyfile):
+        # Loud, not silent: a missing key meant every Bing submission no-op'd
+        # invisibly for weeks (SEO audit 2026-07). Owner: add scripts/.bing_api_key.
+        print(f"WARNING: {len(urls)} URLs NOT submitted to Bing — scripts/.bing_api_key "
+              f"missing. Create it in Bing Webmaster Tools > Settings > API access.")
         return
     key = read(keyfile).strip()
     payload = json.dumps({"siteUrl": BASE + "/", "urlList": urls}).encode()
