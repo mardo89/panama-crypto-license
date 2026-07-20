@@ -3396,7 +3396,7 @@
 "lastmod": "2026-07-21"
 },
 "https://www.consulting24.co/jurisdictions/": {
-"hash": "aafc737e5d4d6dc1c2e446d9cad76809",
+"hash": "0e2dccf095af04ffa3c30ff89e44514e",
 "lastmod": "2026-07-21"
 },
 "https://www.consulting24.co/labuan-crypto-license/": {
@@ -3737,6 +3737,18 @@
 },
 "https://www.consulting24.co/vs-lithuania/": {
 "hash": "eea052fb860a07a0ff8f6ac7c05a3400",
+"lastmod": "2026-07-21"
+},
+"https://www.consulting24.co/crypto-fund-license-indonesia/": {
+"hash": "3d8680a142b3bee0e1db0ce0a73ae3da",
+"lastmod": "2026-07-21"
+},
+"https://www.consulting24.co/crypto-nft-marketplace-license-indonesia/": {
+"hash": "c99314e29738c1f07c2d4d7db0834b1d",
+"lastmod": "2026-07-21"
+},
+"https://www.consulting24.co/crypto-payment-institution-license-indonesia/": {
+"hash": "5182a16172bd9e28c28943fe1a65d151",
 "lastmod": "2026-07-21"
 }
 }
