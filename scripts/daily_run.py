@@ -21,6 +21,7 @@ gen = importlib.util.module_from_spec(spec); spec.loader.exec_module(gen)
 
 # Curated accurate facts for major jurisdictions (base slug -> brief facts).
 FACTS = {
+ "panama": "Panama | NO enacted crypto/VASP licence exists (2026). A draft framework, Anteproyecto 314 (tabled Jan 2026), is pending and NOT law; under it future supervision would sit with the SBP + UAF. The offering is a Panama company (Sociedad Anonima) + AML/CTF compliance programme, NOT a licence. DO NOT invent a Panama crypto law (there is no Law 697, no Law 61 of 2023), DO NOT invent a regulator that issues a Panama crypto licence (no 'AFIP', and the SSNF supervises non-financial businesses like casinos/real-estate for AML only, NOT crypto). DASP/CNAD/Ley de Activos Digitales belong to EL SALVADOR, never Panama. ~2-3 weeks; EUR 6,000 flat; 0% tax on foreign-source income. Consulting24 delivers Panama directly.",
  "lithuania": "Lithuania | Bank of Lithuania; MiCAR CASP; capital EUR 50k/125k/150k by activity; EU passporting; ~4-8 months; setup ~EUR 40,000 (estimated); Consulting24 delivers directly.",
  "estonia": "Estonia | Finantsinspektsioon; MiCA CASP (replaced FIU/VASP); capital 50k/125k/150k; 0% on retained profit, 22% on distribution; ~5-9 months; e-Residency; Consulting24 delivers directly.",
  "czech-republic": "Czech Republic | Czech National Bank; MiCA CASP; capital 50k/125k/150k; cost-efficient EU; ~4-8 months; Consulting24 advises and coordinates.",
