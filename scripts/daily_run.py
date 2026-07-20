@@ -152,7 +152,10 @@ def run():
                 print(f"WARNING: landing {slug} failed {n}x, giving up (see logs/failed_pages.log)")
         checkpoint()
     # --- blog posts ---
-    for title in next_unchecked(os.path.join(ROOT, "blog", "topics.md"), N_BLOG):
+    _blog_queue = next_unchecked(os.path.join(ROOT, "blog", "topics.md"), N_BLOG)
+    if not _blog_queue:
+        print("WARNING: blog/topics.md is EXHAUSTED - 0 posts will publish. Refill the queue (quality over volume).")
+    for title in _blog_queue:
         slug = slugify(title)
         kw = " ".join(title.split()[:4])
         brief = f"{title} | Educational, accurate 2026 guidance for crypto founders. Internal-link to relevant jurisdiction pages and Panama. Consulting24 context."

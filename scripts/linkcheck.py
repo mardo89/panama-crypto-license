@@ -16,14 +16,19 @@ def url_for(path):
     rel = os.path.relpath(path, ROOT)
     return "/" if rel == "index.html" else "/" + os.path.dirname(rel) + "/"
 
-pages = {}  # url -> html
+pages = {}   # url -> html (indexable pages only)
+stubs = set()  # redirect stubs / noindex — valid link TARGETS but excluded from orphan/thin calc
 for p in glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True):
-    pages[url_for(p)] = open(p, encoding="utf-8").read()
+    h = open(p, encoding="utf-8").read()
+    u = url_for(p)
+    if "generated-redirect-stub" in h or 'content="noindex"' in h:
+        stubs.add(u); continue     # a stub being 'orphaned' is correct, not a defect
+    pages[u] = h
 
 def exists(u):
     u = u.split("#")[0].split("?")[0]
     if not u.startswith("/"): return True
-    if u in pages: return True
+    if u in pages or u in stubs: return True
     # file like /robots.txt, /sitemap.xml, /img/x.svg
     fp = os.path.join(ROOT, u.lstrip("/"))
     return os.path.exists(fp) or os.path.isdir(fp.rstrip("/"))

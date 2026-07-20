@@ -52,9 +52,27 @@ def priority(url_path):
     if url_path.startswith("/blog"): return "0.7"
     return "0.9"
 
+# Content-hash lastmod: only bump a URL's lastmod when its content actually changes,
+# so crawlers can trust it (was file-mtime → 89% of URLs shared one bulk-rebuild date).
+import hashlib, json as _json
+_HASHFILE = os.path.join(ROOT, "config", "page_hashes.json")
+try:
+    _store = _json.load(open(_HASHFILE))
+except Exception:
+    _store = {}
+_today = datetime.date.today().isoformat()
+
+def _lastmod(url, path):
+    digest = hashlib.md5(read(path).encode("utf-8", "ignore")).hexdigest()
+    rec = _store.get(url)
+    if rec and rec.get("hash") == digest:
+        return rec["lastmod"]
+    _store[url] = {"hash": digest, "lastmod": _today}
+    return _today
+
 entries = []
 for url, path, url_path in sorted(pages):
-    lastmod = datetime.date.fromtimestamp(os.path.getmtime(path)).isoformat()
+    lastmod = _lastmod(url, path)
     entries.append(
         f"  <url><loc>{url}</loc><lastmod>{lastmod}</lastmod>"
         f"<changefreq>weekly</changefreq><priority>{priority(url_path)}</priority></url>"
@@ -64,6 +82,7 @@ sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            + "\n".join(entries) + "\n</urlset>\n")
 with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
     f.write(sitemap)
+_json.dump(_store, open(_HASHFILE, "w"), indent=0)   # persist content hashes for next build
 print(f"sitemap.xml: {len(pages)} URLs")
 
 # 3. Ping IndexNow (Bing, Yandex, Seznam share the protocol)
