@@ -2869,6 +2869,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-broker-license-indonesia/": {
+    "escalated": false,
+    "first_seen": "2026-07-20",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-broker-license-ireland/": {
     "escalated": false,
     "first_seen": "2026-06-05",
@@ -4133,6 +4140,13 @@
     "escalated": false,
     "first_seen": "2026-06-03",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-otc-desk-license-indonesia/": {
+    "escalated": false,
+    "first_seen": "2026-07-20",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
@@ -5470,6 +5484,13 @@
     "escalated": false,
     "first_seen": "2026-06-08",
     "indexed": true,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/crypto-wallet-custody-license-indonesia/": {
+    "escalated": false,
+    "first_seen": "2026-07-20",
+    "indexed": null,
     "last_action": null,
     "submits": 0
   },
