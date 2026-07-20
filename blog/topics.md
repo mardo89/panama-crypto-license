@@ -482,9 +482,9 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] How long does a Abu Dhabi crypto license take in 2026
 
 ## Refill 2026-07-21 (curated evergreen gaps — quality over volume)
-- [ ] What an AML/CTF program actually contains for a crypto company (a practical checklist)
-- [ ] Opening a bank or EMI account for a licensed crypto company: what gets approved and why
-- [ ] MiCA CASP capital requirements explained: the 50k / 125k / 150k tiers by activity
+- [x] What an AML/CTF program actually contains for a crypto company (a practical checklist)
+- [x] Opening a bank or EMI account for a licensed crypto company: what gets approved and why
+- [x] MiCA CASP capital requirements explained: the 50k / 125k / 150k tiers by activity
 - [ ] Territorial tax for crypto founders: how 0% on foreign-source income actually works
 - [ ] Choosing between direct delivery and advise-and-coordinate for your crypto licence
 - [ ] Beneficial ownership and KYC for a crypto company: what regulators and banks ask for
