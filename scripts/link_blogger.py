@@ -45,7 +45,7 @@ def render_block(items: list[dict]) -> str:
             f'<img class="thumb" src="/img/gallery-{_thumb(i["title"]):02d}.jpg" '
             f'alt="{html.escape(i["title"])}" loading="lazy" width="600" height="360">'
             f'<span class="pc-body"><span class="cat">{i["kind"]}</span>'
-            f'<h3>{html.escape(i["title"])}</h3>'
+            f'<h2>{html.escape(i["title"])}</h2>'
             f'<span class="meta">Consulting24 blog</span></span></a>'
             for i in items
         )

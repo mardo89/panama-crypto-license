@@ -37,9 +37,10 @@ p{color:var(--ink-2);margin-bottom:1.1em;line-height:1.7}
 .brand{font-weight:800;font-size:1.15rem;letter-spacing:-.01em;color:var(--ink)}
 .brand span{color:var(--accent)}
 .top-cta{display:flex;align-items:center;gap:14px}
-.top-phone{display:inline-flex;align-items:center;gap:7px;background:#25d366;color:#fff;font-weight:700;font-size:.9rem;padding:9px 15px;border-radius:999px;box-shadow:0 2px 8px rgba(37,211,102,.35);transition:background .15s,transform .1s,box-shadow .15s}
+/* WhatsApp brand green #25d366 gives only 1.98:1 with white text; darkened to #0e7a3a = 5.44:1 (WCAG AA) */
+.top-phone{display:inline-flex;align-items:center;gap:7px;background:#0e7a3a;color:#fff;font-weight:700;font-size:.9rem;padding:9px 15px;border-radius:999px;box-shadow:0 2px 8px rgba(14,122,58,.35);transition:background .15s,transform .1s,box-shadow .15s}
 .top-phone::before{content:"";width:17px;height:17px;flex:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1s-.8.9-.9 1.1c-.2.2-.3.2-.6.1-1.5-.6-2.5-1.4-3.5-3.1-.3-.5.3-.4.8-1.4.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 2 .8 2.7.9 3.7.7.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2z'/%3E%3C/svg%3E") center/contain no-repeat}
-.top-phone:hover{background:#1ebe5d;color:#fff;text-decoration:none;transform:translateY(-1px);box-shadow:0 4px 14px rgba(37,211,102,.45)}
+.top-phone:hover{background:#0b6330;color:#fff;text-decoration:none;transform:translateY(-1px);box-shadow:0 4px 14px rgba(11,99,48,.45)}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:12px;font-weight:700;font-size:1rem;transition:transform .1s,box-shadow .15s,background .15s;text-decoration:none;min-height:52px}
 .btn-primary{background:var(--accent);color:#fff;box-shadow:var(--shadow)}
@@ -60,7 +61,7 @@ article strong{color:var(--ink)}
 
 /* Quick Facts box */
 .quickfacts{background:#fff;border:2px solid var(--accent);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);margin:24px 0 36px}
-.quickfacts h3{color:var(--accent-dark);font-size:.92rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 14px}
+.quickfacts h2{color:var(--accent-dark);font-size:.92rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 14px}
 .quickfacts dl{display:grid;grid-template-columns:1fr;gap:10px}
 @media(min-width:560px){.quickfacts dl{grid-template-columns:1fr 1fr}}
 .quickfacts dt{font-size:.84rem;color:var(--muted);margin-bottom:2px}
@@ -103,7 +104,7 @@ tr:last-child td{border-bottom:none}
 footer{background:#0c0c0c;color:#a3a3a3;padding:48px 0 28px;font-size:.92rem;margin-top:48px}
 .foot-grid{display:grid;gap:32px;margin-bottom:32px}
 @media(min-width:760px){.foot-grid{grid-template-columns:2fr 1fr 1fr 1fr}}
-.foot-grid h4{color:#fff;margin-bottom:14px;font-size:1rem}
+.foot-grid h2{color:#fff;margin:0 0 14px;font-size:1rem;letter-spacing:normal}
 .foot-grid a{color:#d4d4d4;display:block;padding:4px 0}
 .foot-grid a:hover{color:#fff}
 .foot-bottom{border-top:1px solid #262626;padding-top:24px;text-align:center;font-size:.85rem}

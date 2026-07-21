@@ -164,10 +164,10 @@ ADVISOR = '''  <div class="advisor" style="display:flex;gap:18px;align-items:cen
   </div>'''
 def footer():
     return '''<footer><div class="wrap"><div class="foot-grid">
-    <div><h4>Consulting24</h4><p style="color:#a3a3a3">500+ crypto licenses across Estonia, Lithuania, Panama and beyond.</p><p style="margin-top:14px"><strong style="color:#fff">WhatsApp / email</strong><br>mardo@consulting24.co</p></div>
-    <div><h4>Jurisdictions</h4><a href="/jurisdictions/">All jurisdictions</a><a href="/">Panama</a><a href="/lithuania-crypto-license/">Lithuania</a><a href="/estonia-crypto-license/">Estonia</a></div>
-    <div><h4>Resources</h4><a href="/cost/">Panama cost</a><a href="/best-country-for-crypto-license/">Best country for a crypto license</a><a href="/requirements/">Requirements</a><a href="/blog/">Blog</a></div>
-    <div><h4>Company</h4><a href="/about/">About Consulting24</a><a href="/contact/">Contact</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
+    <div><h2>Consulting24</h2><p style="color:#a3a3a3">500+ crypto licenses across Estonia, Lithuania, Panama and beyond.</p><p style="margin-top:14px"><strong style="color:#fff">WhatsApp / email</strong><br>mardo@consulting24.co</p></div>
+    <div><h2>Jurisdictions</h2><a href="/jurisdictions/">All jurisdictions</a><a href="/">Panama</a><a href="/lithuania-crypto-license/">Lithuania</a><a href="/estonia-crypto-license/">Estonia</a></div>
+    <div><h2>Resources</h2><a href="/cost/">Panama cost</a><a href="/best-country-for-crypto-license/">Best country for a crypto license</a><a href="/requirements/">Requirements</a><a href="/blog/">Blog</a></div>
+    <div><h2>Company</h2><a href="/about/">About Consulting24</a><a href="/contact/">Contact</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
   </div><div class="foot-bottom">&copy; 2026 Consulting24 &middot; X24Consulting O&Uuml; &middot; Reg nr 16971898 &middot; Poordi 3-63, 10156 Tallinn, Estonia &middot; General guidance, not legal advice.</div></div></footer>
 <div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact-top" class="btn btn-primary">Free consultation</a></div>'''
 
@@ -466,12 +466,35 @@ def _sanitize_internal_links(page_html):
         return m.group(2) if m.group(1).startswith("/") and not ok(m.group(1)) else m.group(0)
     return re.sub(r'<a\b[^>]*?href="([^"]*)"[^>]*?>(.*?)</a>', repl, page_html, flags=re.S)
 
+_TH_NOSCOPE = re.compile(r"<th(?![^>]*\bscope=)(\s[^>]*)?>", re.I)
+
+def _table_scope(page_html):
+    """Give DeepSeek's data tables proper header scope (WCAG 1.3.1): <th> in a header row
+    becomes scope="col", leading <th> in body rows become scope="row"."""
+    def one_table(m):
+        tbl = m.group(0)
+        add = lambda x, v: f'<th scope="{v}"{x.group(1) or ""}>'
+        if re.search(r"<thead>", tbl, re.I):
+            tbl = re.sub(r"<thead>.*?</thead>",
+                         lambda t: _TH_NOSCOPE.sub(lambda x: add(x, "col"), t.group(0)), tbl, flags=re.S | re.I)
+            return re.sub(r"<tbody>.*?</tbody>",
+                          lambda t: _TH_NOSCOPE.sub(lambda x: add(x, "row"), t.group(0)), tbl, flags=re.S | re.I)
+        rows = list(re.finditer(r"<tr>.*?</tr>", tbl, flags=re.S | re.I))
+        out, last = [], 0
+        for i, r in enumerate(rows):
+            out.append(tbl[last:r.start()])
+            out.append(_TH_NOSCOPE.sub(lambda x: add(x, "col" if i == 0 else "row"), r.group(0)))
+            last = r.end()
+        out.append(tbl[last:])
+        return "".join(out)
+    return re.sub(r"<table\b.*?</table>", one_table, page_html, flags=re.S | re.I)
+
 def build(kind, slug, keyword, brief):
     crumb = brief.split("|")[0].strip() if "|" in brief else slug.replace("-crypto-license","").replace("-"," ").title()
     user = f"Write a {kind} page. Primary keyword: \"{keyword}\". Slug: /{slug}/. Brief & facts: {brief}\nReturn STRICT JSON per the schema. Remember: 2000+ words, 8+ FAQs, full section structure, internal links from the allow-list, validated official authority links only."
     d = _repair(_trim_meta(_clean_d(call_deepseek(user))), keyword)
     page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/').replace('/panama/', '/')  # guard: old project path → root
-    page = _sanitize_internal_links(page)  # strip hallucinated internal links
+    page = _table_scope(_sanitize_internal_links(page))  # strip hallucinated links + scope table headers
     report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
     tries = 0
@@ -481,7 +504,7 @@ def build(kind, slug, keyword, brief):
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
         d = _repair(_trim_meta(_clean_d(call_deepseek(exp))), keyword)
         page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/').replace('/panama/', '/')  # guard: old project path → root
-        page = _sanitize_internal_links(page)  # strip hallucinated internal links
+        page = _table_scope(_sanitize_internal_links(page))  # strip hallucinated links + scope table headers
         report = qc(d, page, keyword)
         print(f"  expand retry {tries}: {report['words']} words")
     outdir = os.path.join(ROOT, slug) if kind=="landing" else os.path.join(ROOT, "blog", slug)

@@ -43,9 +43,9 @@
     .brand{font-weight:800;font-size:1.15rem;color:var(--ink)}
     .brand span{color:var(--accent)}
     .top-cta{display:flex;align-items:center;gap:14px}
-    .top-phone{display:inline-flex;align-items:center;gap:7px;background:#25d366;color:#fff;font-weight:700;font-size:.9rem;padding:9px 15px;border-radius:999px;box-shadow:0 2px 8px rgba(37,211,102,.35);transition:background .15s,transform .1s,box-shadow .15s}
+    .top-phone{display:inline-flex;align-items:center;gap:7px;background:#0e7a3a;color:#fff;font-weight:700;font-size:.9rem;padding:9px 15px;border-radius:999px;box-shadow:0 2px 8px rgba(14,122,58,.35);transition:background .15s,transform .1s,box-shadow .15s}
     .top-phone::before{content:"";width:17px;height:17px;flex:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1s-.8.9-.9 1.1c-.2.2-.3.2-.6.1-1.5-.6-2.5-1.4-3.5-3.1-.3-.5.3-.4.8-1.4.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 2 .8 2.7.9 3.7.7.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2z'/%3E%3C/svg%3E") center/contain no-repeat}
-    .top-phone:hover{background:#1ebe5d;color:#fff;text-decoration:none;transform:translateY(-1px);box-shadow:0 4px 14px rgba(37,211,102,.45)}
+    .top-phone:hover{background:#0b6330;color:#fff;text-decoration:none;transform:translateY(-1px);box-shadow:0 4px 14px rgba(11,99,48,.45)}
     .hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);padding-top:48px;padding-bottom:48px}
     .hero::before{content:"";position:absolute;inset:0;z-index:0;background:radial-gradient(60% 70% at 78% 8%,rgba(17,109,255,.14),transparent 60%),radial-gradient(50% 60% at 8% 90%,rgba(17,109,255,.08),transparent 55%);pointer-events:none}
     .hero .wrap{position:relative;z-index:1}
@@ -72,7 +72,7 @@
     .reassurance{font-size:.9rem;color:var(--muted);display:flex;align-items:center;gap:8px}
     .reassurance::before{content:"✓";color:var(--success);font-weight:700}
     .quickfacts{background:#fff;border:2px solid var(--accent);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);margin:24px 0 32px}
-    .quickfacts h3{color:var(--accent-dark);font-size:.95rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}
+    .quickfacts h2{color:var(--accent-dark);font-size:.95rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}
     .quickfacts dl{display:grid;grid-template-columns:1fr;gap:10px}
     @media(min-width:560px){.quickfacts dl{grid-template-columns:1fr 1fr}}
     .quickfacts dt{font-size:.84rem;color:var(--muted);margin-bottom:2px}
@@ -175,7 +175,7 @@
     footer{background:#0c0c0c;color:#a3a3a3;padding:56px 0 32px;font-size:.92rem}
     .foot-grid{display:grid;gap:32px;margin-bottom:40px}
     @media(min-width:760px){.foot-grid{grid-template-columns:1.6fr 1fr 1fr 1fr 1fr}}
-    .foot-grid h4{color:#fff;margin-bottom:14px;font-size:1rem}
+    .foot-grid h2{color:#fff;margin:0 0 14px;font-size:1rem;letter-spacing:normal}
     .foot-grid a{color:#d4d4d4;display:block;padding:4px 0}
     .foot-grid a:hover{color:#fff}
     .foot-bottom{border-top:1px solid #262626;padding-top:24px;text-align:center;font-size:.85rem}
@@ -238,7 +238,7 @@
         </div>
 
         <aside class="quickfacts">
-          <h3>Panama crypto setup - quick facts</h3>
+          <h2>Panama crypto setup - quick facts</h2>
           <dl>
             <div><dt>Fixed fee</dt><dd>€6,000</dd></div>
             <div><dt>Timeline</dt><dd>2-3 weeks</dd></div>
@@ -585,12 +585,12 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <h4>Consulting24</h4>
+        <h2>Consulting24</h2>
         <p style="color:#a3a3a3">€6,000 fixed-fee Panama crypto company registration. 2-3 week timeline. 0% tax, no accounting required, all online. By X24Consulting OÜ.</p>
         <p style="margin-top:14px"><strong style="color:#fff">+372 58155779</strong><br>mardo@consulting24.co</p>
       </div>
       <div>
-        <h4>Pages</h4>
+        <h2>Pages</h2>
         <a href="/cost/">Cost (€6,000)</a>
         <a href="/requirements/">Requirements</a>
         <a href="/application-process/">7-step process</a>
@@ -599,7 +599,7 @@
         <a href="/vs-lithuania/">Panama vs Lithuania</a>
       </div>
       <div>
-        <h4>Compare jurisdictions</h4>
+        <h2>Compare jurisdictions</h2>
         <a href="/jurisdictions/" style="color:#fff;font-weight:700">→ All jurisdictions compared</a>
         <a href="/lithuania-crypto-license/">Lithuania CASP</a>
         <a href="/canada-crypto-license/">Canada MSB</a>
@@ -607,7 +607,7 @@
         <a href="/blog/cost-breakdown/">Cost deep-dive</a>
       </div>
       <div>
-        <h4>License frameworks</h4>
+        <h2>License frameworks</h2>
         <a href="/mica-license/">MiCA license</a>
         <a href="/casp-license/">CASP license</a>
         <a href="/vasp-license/">VASP license</a>
@@ -616,7 +616,7 @@
         <a href="/stablecoin-license/">Stablecoin license</a>
       </div>
       <div>
-        <h4>Company</h4>
+        <h2>Company</h2>
         <a href="/about/">About Consulting24 &amp; Mardo Soo</a>
         <a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a>
         <a href="#contact">Contact</a>
