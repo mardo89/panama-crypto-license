@@ -137,7 +137,12 @@ footer{background:#0c0c0c;color:#a3a3a3;padding:48px 0 28px;font-size:.92rem;mar
    (secondary nav lives in the footer + sticky bar). Fixes the clipped CTA on mobile. */
 @media(max-width:520px){
   .top-cta>a[href="/jurisdictions/"], .top-cta>a.btn-ghost{display:none}
-  .brand{font-size:.98rem}
+  .top-inner{gap:8px}
+  /* show just the brand name "Consulting24" (hide the "Crypto License " prefix) so it
+     never collides with the primary CTA on small phones */
+  .brand{font-size:0;white-space:nowrap;flex:none}
+  .brand span{font-size:1.12rem}
+  .top-phone{flex:none}
 }
 /* Slightly stronger body contrast for accessibility */
 :root{--ink-2:#3f4d5e;--muted:#566273}
