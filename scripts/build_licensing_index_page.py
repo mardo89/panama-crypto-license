@@ -93,10 +93,10 @@ def build():
             f'<td>{model}</td><td>{reg}</td>'
             f'<td>{html.escape(j.get("timeline") or "on request")}</td>{op_cells}</tr>')
     # operator columns appear only once real delivery data is filled (no empty "—" columns)
-    op_head = "<th>Setup (operator)</th><th>Sample</th>" if have_operator else ""
+    op_head = "<th scope=\"col\">Setup (operator)</th><th scope=\"col\">Sample</th>" if have_operator else ""
     table = ("<div class='t-wrap'><table class='t-wrap-inner'><thead><tr>"
-             "<th>Jurisdiction</th><th>What we do</th><th>Regulator / framework</th>"
-             f"<th>Typical timeline</th>{op_head}</tr></thead><tbody>"
+             "<th scope=\"col\">Jurisdiction</th><th scope=\"col\">What we do</th><th scope=\"col\">Regulator / framework</th>"
+             f"<th scope=\"col\">Typical timeline</th>{op_head}</tr></thead><tbody>"
              + "".join(rows) + "</tbody></table></div>")
 
     op_note = ("" if have_operator else
