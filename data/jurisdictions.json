@@ -7,13 +7,13 @@
       "slug": "panama",
       "name": "Panama",
       "service_model": "direct",
-      "regulator": "NO enacted crypto/VASP licence exists (2026). A draft framework, Anteproyecto 314 (tabled Jan 2026), is pending and NOT law",
+      "regulator": null,
       "timeline": "2-3 weeks",
       "facts": [
         "NO enacted crypto/VASP licence exists (2026). A draft framework, Anteproyecto 314 (tabled Jan 2026), is pending and NOT law",
-        "under it future supervision would sit with the SBP + UAF. The offering is a Panama company (Sociedad Anonima) + AML/CTF compliance programme, NOT a licence. DO NOT invent a Panama crypto law (there is no Law 697, no Law 61 of 2023), DO NOT invent a regulator that issues a Panama crypto licence (no 'AFIP', and the SSNF supervises non-financial businesses like casinos/real-estate for AML only, NOT crypto). DASP/CNAD/Ley de Activos Digitales belong to EL SALVADOR, never Panama. ~2-3 weeks",
+        "under it future supervision would sit with the SBP + UAF. The offering is a Panama company (Sociedad Anonima) + AML/CTF compliance programme, NOT a licence. DASP/CNAD/Ley de Activos Digitales belong to EL SALVADOR, never Panama. ~2-3 weeks",
         "EUR 6,000 flat",
-        "0% tax on foreign-source income. Consulting24 delivers Panama directly."
+        "0% tax on foreign-source income. Consulting24 delivers Panama directly"
       ],
       "page": "https://www.consulting24.co/",
       "updated": "2026-07-21"
@@ -31,7 +31,7 @@
         "EU passporting",
         "~4-8 months",
         "setup ~EUR 40,000 (estimated)",
-        "Consulting24 delivers directly."
+        "Consulting24 delivers directly"
       ],
       "page": "https://www.consulting24.co/lithuania-crypto-license/",
       "updated": "2026-07-21"
@@ -49,7 +49,7 @@
         "0% on retained profit, 22% on distribution",
         "~5-9 months",
         "e-Residency",
-        "Consulting24 delivers directly."
+        "Consulting24 delivers directly"
       ],
       "page": "https://www.consulting24.co/estonia-crypto-license/",
       "updated": "2026-07-21"
@@ -66,7 +66,7 @@
         "capital 50k/125k/150k",
         "cost-efficient EU",
         "~4-8 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/czech-republic-crypto-license/",
       "updated": "2026-07-21"
@@ -83,7 +83,7 @@
         "capital 50k/125k/150k",
         "cost-efficient EU",
         "~4-8 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/poland-crypto-license/",
       "updated": "2026-07-21"
@@ -100,7 +100,7 @@
         "capital 50k/125k/150k",
         "English official",
         "~5-9 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/malta-crypto-license/",
       "updated": "2026-07-21"
@@ -118,7 +118,7 @@
         "English",
         "favourable tax",
         "~5-9 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/cyprus-crypto-license/",
       "updated": "2026-07-21"
@@ -127,7 +127,7 @@
       "slug": "switzerland",
       "name": "Switzerland",
       "service_model": "advise-and-coordinate",
-      "regulator": "non-EU",
+      "regulator": "FINMA",
       "timeline": "6-12 months",
       "facts": [
         "non-EU",
@@ -136,7 +136,7 @@
         "Crypto Valley",
         "premium",
         "~6-12 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/switzerland-crypto-license/",
       "updated": "2026-07-21"
@@ -154,7 +154,7 @@
         "funds and token issuers",
         "economic substance",
         "~3-6 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/cayman-islands-crypto-license/",
       "updated": "2026-07-21"
@@ -171,7 +171,7 @@
         "0% corporate tax",
         "token issuers/funds",
         "~3-6 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/bvi-crypto-license/",
       "updated": "2026-07-21"
@@ -188,7 +188,7 @@
         "low cost",
         "0% foreign-source tax",
         "~2-4 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/seychelles-crypto-license/",
       "updated": "2026-07-21"
@@ -203,7 +203,7 @@
         "FINTRAC MSB registration for virtual currency dealing",
         "provincial securities for tokens",
         "weeks-months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/canada-crypto-license/",
       "updated": "2026-07-21"
@@ -219,7 +219,7 @@
         "Payment Services Act DPT licence",
         "high bar, base capital, local presence",
         "~9-18 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/singapore-crypto-license/",
       "updated": "2026-07-21"
@@ -235,7 +235,7 @@
         "VATP licensing since 2023",
         "high bar, local presence",
         "~9-12 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/hong-kong-crypto-license/",
       "updated": "2026-07-21"
@@ -250,7 +250,7 @@
         "National Bank of Georgia",
         "VASP registration (from 2023)",
         "low cost, fast ~1-3 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/georgia-crypto-license/",
       "updated": "2026-07-21"
@@ -265,7 +265,7 @@
         "FSC",
         "VAITOS Act 2021 licence classes",
         "~3-6 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/mauritius-crypto-license/",
       "updated": "2026-07-21"
@@ -281,7 +281,7 @@
         "DLT Provider licence since 2018",
         "reputable",
         "~3-6 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/jurisdictions/",
       "updated": "2026-07-21"
@@ -297,7 +297,7 @@
         "DARE Act 2024",
         "0% income tax",
         "~3-6 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/bahamas-crypto-license/",
       "updated": "2026-07-21"
@@ -312,7 +312,7 @@
         "no dedicated crypto licence",
         "general company + AML",
         "strong Panama comparison",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/costa-rica-crypto-license/",
       "updated": "2026-07-21"
@@ -329,7 +329,7 @@
         "Bitcoin legal tender",
         "tax incentives",
         "~3-6 months",
-        "Consulting24 advises and coordinates."
+        "Consulting24 advises and coordinates"
       ],
       "page": "https://www.consulting24.co/el-salvador-crypto-license/",
       "updated": "2026-07-21"
@@ -345,7 +345,7 @@
         "premium",
         "0% personal, 9% corporate (free-zone reliefs)",
         "DIFC/ADGM separate",
-        "DELIVERY=comparison-only."
+        "DELIVERY=comparison-only"
       ],
       "page": "https://www.consulting24.co/dubai-crypto-license/",
       "updated": "2026-07-21"
@@ -359,7 +359,7 @@
       "facts": [
         "ADGM FSRA crypto framework",
         "premium",
-        "DELIVERY=comparison-only."
+        "DELIVERY=comparison-only"
       ],
       "page": "https://www.consulting24.co/abu-dhabi-crypto-license/",
       "updated": "2026-07-21"

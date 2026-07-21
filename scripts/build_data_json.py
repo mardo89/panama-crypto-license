@@ -17,10 +17,36 @@ def model_of(low):
     if "delivers" in low and "directly" in low: return "direct"   # "delivers directly" / "delivers Panama directly"
     return "advise-and-coordinate"
 
+# FACTS doubles as the generator's prompt brief, so some sentences are model guardrails
+# ("DO NOT invent a Panama crypto law...") rather than citable facts. They must never reach
+# the public JSON that llms.txt advertises to AI crawlers.
+_DIRECTIVE = re.compile(r"\bDO NOT\b")
+
+def _citable(seg):
+    """Drop model-directive sentences from a fact segment; keep the real facts."""
+    parts = re.split(r"(?<=[.])\s+", seg)
+    kept = [p for p in parts if not _DIRECTIVE.search(p)]
+    return " ".join(kept).strip(" .;") or None
+
+# segs[0] is normally the regulator, but not always: Panama leads with a full sentence (and
+# has no regulator that issues a crypto licence), Switzerland leads with "non-EU".
+REGULATOR_OVERRIDE = {"panama": None, "switzerland": "FINMA"}
+
+def _regulator(slug, segs):
+    if slug in REGULATOR_OVERRIDE:
+        return REGULATOR_OVERRIDE[slug]
+    if not segs:
+        return None
+    first = segs[0]
+    # a sentence is a description, not a regulator name
+    if len(first) > 70 or re.search(r"[.]\s+[A-Z]", first):
+        return None
+    return first
+
 def parse(slug, txt):
     name, rest = (txt.split("|", 1) + [""])[:2]
     name, rest = name.strip(), rest.strip()
-    segs = [s.strip() for s in rest.split(";") if s.strip()]
+    segs = [c for c in (_citable(s.strip()) for s in rest.split(";") if s.strip()) if c]
     low = rest.lower()
     tl = re.search(r"~?\s*(\d+\s*[-–]\s*\d+\s*(?:months|weeks)|\d+\s*(?:months|weeks))", rest, re.I)
     page = "/" if slug == "panama" else (
@@ -30,7 +56,7 @@ def parse(slug, txt):
         "slug": slug,
         "name": name,
         "service_model": model_of(low),
-        "regulator": segs[0] if segs else None,
+        "regulator": _regulator(slug, segs),
         "timeline": tl.group(1) if tl else None,
         "facts": segs,
         "page": "https://www.consulting24.co" + page,
