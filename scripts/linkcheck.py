@@ -41,6 +41,7 @@ for url, html in pages.items():
 GLOBAL = {u for u, c in counts.items() if c >= max(3, int(len(pages) * 0.6))}
 
 broken, thin, orphans = [], [], []
+stub_links = []   # indexable page -> redirect stub: valid, but leaks equity + costs a hop
 inbound = collections.Counter()
 for url, html in pages.items():
     hrefs = re.findall(r'href="(/[^"]*)"', html)
@@ -49,6 +50,8 @@ for url, html in pages.items():
         thin.append((url, len(internal)))
     for h in internal:
         if not exists(h): broken.append((url, h))
+        if h.split("#")[0].split("?")[0] in stubs:
+            stub_links.append((url, h))
         tgt = h.split("#")[0].split("?")[0]
         if tgt in pages and tgt != url and h not in GLOBAL:
             inbound[tgt] += 1
@@ -64,6 +67,11 @@ print(f"\nThin pages (<5 internal links): {len(thin)}")
 for u, n in thin[:50]: print(f"  {u}  ({n})")
 print(f"\nOrphan pages (no contextual inbound link): {len(orphans)}")
 for u in orphans[:50]: print(f"  {u}")
+
+# Links into redirect stubs resolve fine for users, so they never show up as BROKEN, but
+# they waste a hop and leak equity through a noindex page. Point them at the final target.
+print(f"\nLinks into redirect stubs (should be 0, repoint at final target): {len(stub_links)}")
+for src, h in stub_links[:50]: print(f"  {src}  ->  {h}")
 
 import sys
 sys.exit(1 if broken else 0)
