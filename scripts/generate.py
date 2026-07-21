@@ -218,7 +218,7 @@ def assemble(slug, crumb, d, kind="landing"):
     sec_list = [f"  <h2>{html.escape(s['h2'])}</h2>\n{s['html']}" for s in d["sections"]]
     imgs = [("/img/graphic-process.svg", f"{crumb} crypto licence process: scope, incorporate, apply, operate"),
             ("/img/graphic-jurisdictions.svg", f"{crumb} crypto licence compared with Panama, EU/MiCA, Gulf and offshore options"),
-            ("/img/graphic-trust.svg", "Consulting24 — 500+ crypto licenses obtained, compliance-first")]
+            ("/img/graphic-trust.svg", "Consulting24: 500+ crypto licenses obtained, compliance-first")]
     out, placed = [], 0
     for i, block in enumerate(sec_list):
         out.append(block)
@@ -319,9 +319,9 @@ def assemble(slug, crumb, d, kind="landing"):
 {_sources_block(slug)}
 {related_html}
 {ADVISOR}
-  <div class="cta-card"><h2>Talk to a crypto-licensing expert</h2><p>500+ licenses across Estonia, Lithuania, Panama and beyond. Tell us your model and we'll map the right route &mdash; honestly.</p>
+  <div class="cta-card"><h2>Talk to a crypto-licensing expert</h2><p>500+ licenses across Estonia, Lithuania, Panama and beyond. Tell us your model and we'll map the right route, honestly.</p>
   <a href="{WA}" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact-top" class="btn btn-ghost">Free consultation</a></div>
-  <p style="color:var(--muted);font-size:.85rem;margin-top:24px">General guidance, not legal advice. Rules and fees evolve &mdash; we confirm current requirements for your case.</p>
+  <p style="color:var(--muted);font-size:.85rem;margin-top:24px">General guidance, not legal advice. Rules and fees evolve, and we confirm current requirements for your case.</p>
 </article>
 {link_hub(slug) if kind=="landing" else blog_extra}
 {footer()}
@@ -383,10 +383,10 @@ def _repair(d, keyword):
     if len(t) < 50:
         base = t.rstrip(" .:")
         # avoid a double year / double colon when the title already reads cleanly
-        t = (base + " — Cost, Requirements & Timeline") if "2026" in base \
+        t = (base + " - Cost, Requirements & Timeline") if "2026" in base \
             else (base + " 2026: Cost, Requirements & Timeline")
     if len(t) > 65:
-        t = t[:65].rsplit(" ", 1)[0].rstrip(" .,:;&-—")
+        t = t[:65].rsplit(" ", 1)[0].rstrip(" .,:;&-")
     d["meta_title"] = t
     return d
 
