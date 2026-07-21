@@ -485,9 +485,9 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] What an AML/CTF program actually contains for a crypto company (a practical checklist)
 - [x] Opening a bank or EMI account for a licensed crypto company: what gets approved and why
 - [x] MiCA CASP capital requirements explained: the 50k / 125k / 150k tiers by activity
-- [ ] Territorial tax for crypto founders: how 0% on foreign-source income actually works
-- [ ] Choosing between direct delivery and advise-and-coordinate for your crypto licence
-- [ ] Beneficial ownership and KYC for a crypto company: what regulators and banks ask for
+- [x] Territorial tax for crypto founders: how 0% on foreign-source income actually works
+- [x] Choosing between direct delivery and advise-and-coordinate for your crypto licence
+- [x] Beneficial ownership and KYC for a crypto company: what regulators and banks ask for
 - [ ] From incorporation to operating: the first 90 days after your Panama company is set up
 - [ ] Substance requirements for offshore crypto licences: what "economic substance" means in practice
 - [ ] Crypto compliance officer: when you need one and what the role covers
