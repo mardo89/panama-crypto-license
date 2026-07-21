@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consulting24 crypto licensing news</title>
+    <link>https://www.consulting24.co/news/</link>
+    <atom:link href="https://www.consulting24.co/news/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Regulatory developments affecting crypto licensing, each sourced to a primary regulator publication.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Jul 2026 23:34:50 +0000</lastBuildDate>
+    <item>
+      <title>ESMA tells unauthorised crypto firms to wind down EU operations as MiCA transition ends</title>
+      <link>https://www.consulting24.co/news/esma-tells-unauthorised-crypto-firms-to-wind-down-eu-operations-as-mica/</link>
+      <guid isPermaLink="true">https://www.consulting24.co/news/esma-tells-unauthorised-crypto-firms-to-wind-down-eu-operations-as-mica/</guid>
+      <pubDate>Tue, 21 Jul 2026 22:26:18 +0000</pubDate>
+      <description>ESMA has set out what crypto-asset service providers without a MiCA authorisation must do now that the transitional period has closed: stop onboarding EU clients, wind down in an orderly way, and keep AML controls running throughout.</description>
+      <source url="https://www.esma.europa.eu/sites/default/files/2026-06/ESMA75-113276571-1710_Public_Statement_MiCA_transitional_period_ends.pdf">ESMA public statement ESMA75-113276571-1710</source>
+    </item>
+  </channel>
+</rss>

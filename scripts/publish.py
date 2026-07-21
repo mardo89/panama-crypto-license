@@ -21,6 +21,14 @@ try:
 except Exception as e:
     print(f"redirects step skipped (non-fatal): {e}")
 
+# 0b. Rebuild the news desk BEFORE the sitemap so new /news/ pages land in it, and so
+# items older than 48h drop out of news-sitemap.xml without anyone having to remember.
+try:
+    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "news.py"), "build"],
+                   check=False)
+except Exception as e:
+    print(f"news step skipped (non-fatal): {e}")
+
 def read(p):
     with open(p, encoding="utf-8") as f:
         return f.read()

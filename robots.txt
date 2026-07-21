@@ -42,3 +42,4 @@ User-agent: OAI-SearchBot
 Allow: /
 
 Sitemap: https://www.consulting24.co/sitemap.xml
+Sitemap: https://www.consulting24.co/news-sitemap.xml
