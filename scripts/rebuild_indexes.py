@@ -84,7 +84,8 @@ for _, slug, idx in posts:
     gi = (sum(ord(c) for c in slug) % 9) + 1   # matches the post's hero photo
     bcards.append(
         f'    <a class="post-card" href="/blog/{slug}/">'
-        f'<img class="thumb" src="/img/gallery-{gi:02d}.jpg" alt="{t}" loading="lazy" width="600" height="360">'
+        f'<picture><source srcset="/img/gallery-{gi:02d}.webp" type="image/webp">'
+        f'<img class="thumb" src="/img/gallery-{gi:02d}.jpg" alt="{t}" loading="lazy" width="600" height="360"></picture>'
         f'<span class="pc-body"><span class="cat">Guide</span><h3>{t}</h3>'
         f'<span class="meta">Consulting24</span></span></a>')
 blog_block = '  <div class="blog-grid">\n' + "\n".join(bcards) + "\n  </div>"
