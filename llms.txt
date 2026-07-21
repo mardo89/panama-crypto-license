@@ -27,6 +27,12 @@
 - Comparison only (we do NOT provide the licence; covered for comparison against Panama): UAE - Dubai (VARA) and Abu Dhabi (ADGM/FSRA).
 - Machine-readable data for all of the above: https://www.consulting24.co/data/jurisdictions.json
 
+
+## Data & research
+- Consulting24 Crypto Licensing Index (regulator, service model, 2026 timeline + aggregated setup data from 500+ real deliveries) - https://www.consulting24.co/licensing-index/
+- Machine-readable: https://www.consulting24.co/data/licensing-index.json and https://www.consulting24.co/data/jurisdictions.json
+- Methodology (first-party data, anonymized, no PII) - https://www.consulting24.co/licensing-index/methodology/
+
 ## Key facts
 
 - **Total setup cost:** €6,000 fixed fee, all-in (1 person notarization included; €250 per additional person). No hidden fees.

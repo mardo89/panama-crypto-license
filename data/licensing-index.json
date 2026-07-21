@@ -1,0 +1,165 @@
+{
+  "name": "Consulting24 Crypto Licensing Index",
+  "edition": "2026",
+  "source": "Consulting24 (X24Consulting OU, reg 16971898, Tallinn)",
+  "total_deliveries": null,
+  "methodology": "https://www.consulting24.co/licensing-index/methodology/",
+  "disclaimer": "Aggregated, anonymized outcomes from Consulting24 client engagements. No personally identifiable client information. General guidance, not legal advice; regulations change.",
+  "note": "Base rows are verified 2026 regulatory reference facts. The 'operator' object (aggregated data from real Consulting24 deliveries) is present only where filled; absence means that jurisdiction's operator data is still being compiled.",
+  "jurisdictions": [
+    {
+      "slug": "panama",
+      "name": "Panama",
+      "service_model": "direct",
+      "regulator": "NO enacted crypto/VASP licence exists (2026). A draft framework, Anteproyecto 314 (tabled Jan 2026), is pending and NOT law",
+      "reference_timeline": "2-3 weeks"
+    },
+    {
+      "slug": "lithuania",
+      "name": "Lithuania",
+      "service_model": "direct",
+      "regulator": "Bank of Lithuania",
+      "reference_timeline": "4-8 months"
+    },
+    {
+      "slug": "estonia",
+      "name": "Estonia",
+      "service_model": "direct",
+      "regulator": "Finantsinspektsioon",
+      "reference_timeline": "5-9 months"
+    },
+    {
+      "slug": "czech-republic",
+      "name": "Czech Republic",
+      "service_model": "advise-and-coordinate",
+      "regulator": "Czech National Bank",
+      "reference_timeline": "4-8 months"
+    },
+    {
+      "slug": "poland",
+      "name": "Poland",
+      "service_model": "advise-and-coordinate",
+      "regulator": "KNF",
+      "reference_timeline": "4-8 months"
+    },
+    {
+      "slug": "malta",
+      "name": "Malta",
+      "service_model": "advise-and-coordinate",
+      "regulator": "MFSA",
+      "reference_timeline": "5-9 months"
+    },
+    {
+      "slug": "cyprus",
+      "name": "Cyprus",
+      "service_model": "advise-and-coordinate",
+      "regulator": "CySEC",
+      "reference_timeline": "5-9 months"
+    },
+    {
+      "slug": "switzerland",
+      "name": "Switzerland",
+      "service_model": "advise-and-coordinate",
+      "regulator": "non-EU",
+      "reference_timeline": "6-12 months"
+    },
+    {
+      "slug": "cayman-islands",
+      "name": "Cayman Islands",
+      "service_model": "advise-and-coordinate",
+      "regulator": "CIMA",
+      "reference_timeline": "3-6 months"
+    },
+    {
+      "slug": "bvi",
+      "name": "BVI",
+      "service_model": "advise-and-coordinate",
+      "regulator": "BVI FSC",
+      "reference_timeline": "3-6 months"
+    },
+    {
+      "slug": "seychelles",
+      "name": "Seychelles",
+      "service_model": "advise-and-coordinate",
+      "regulator": "FSA",
+      "reference_timeline": "2-4 months"
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "service_model": "advise-and-coordinate",
+      "regulator": "FINTRAC MSB registration for virtual currency dealing",
+      "reference_timeline": null
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "service_model": "advise-and-coordinate",
+      "regulator": "MAS",
+      "reference_timeline": "9-18 months"
+    },
+    {
+      "slug": "hong-kong",
+      "name": "Hong Kong",
+      "service_model": "advise-and-coordinate",
+      "regulator": "SFC",
+      "reference_timeline": "9-12 months"
+    },
+    {
+      "slug": "georgia",
+      "name": "Georgia",
+      "service_model": "advise-and-coordinate",
+      "regulator": "National Bank of Georgia",
+      "reference_timeline": "1-3 months"
+    },
+    {
+      "slug": "mauritius",
+      "name": "Mauritius",
+      "service_model": "advise-and-coordinate",
+      "regulator": "FSC",
+      "reference_timeline": "3-6 months"
+    },
+    {
+      "slug": "gibraltar",
+      "name": "Gibraltar",
+      "service_model": "advise-and-coordinate",
+      "regulator": "GFSC",
+      "reference_timeline": "3-6 months"
+    },
+    {
+      "slug": "bahamas",
+      "name": "Bahamas",
+      "service_model": "advise-and-coordinate",
+      "regulator": "Securities Commission",
+      "reference_timeline": "3-6 months"
+    },
+    {
+      "slug": "costa-rica",
+      "name": "Costa Rica",
+      "service_model": "advise-and-coordinate",
+      "regulator": "no dedicated crypto licence",
+      "reference_timeline": null
+    },
+    {
+      "slug": "el-salvador",
+      "name": "El Salvador",
+      "service_model": "advise-and-coordinate",
+      "regulator": "CNAD",
+      "reference_timeline": "3-6 months"
+    },
+    {
+      "slug": "dubai",
+      "name": "Dubai",
+      "service_model": "comparison-only",
+      "regulator": "VARA category licences",
+      "reference_timeline": null
+    },
+    {
+      "slug": "abu-dhabi",
+      "name": "Abu Dhabi",
+      "service_model": "comparison-only",
+      "regulator": "ADGM FSRA crypto framework",
+      "reference_timeline": null
+    }
+  ]
+}

@@ -28,32 +28,41 @@ def main():
     if not os.path.exists(CFG):
         sys.exit(f"missing {CFG} — run the scaffold first")
     cfg = json.load(open(CFG, encoding="utf-8"))
-    ready = [j for j in cfg["jurisdictions"] if filled(j)]
-    pending = [j["slug"] for j in cfg["jurisdictions"] if not filled(j)]
-    if not ready:
-        print("Licensing Index: 0 jurisdictions filled yet — nothing published (no fabricated data).")
-        print("  Fill sample_size + setup_cost_eur.typical + timeline_weeks.typical in "
-              "config/licensing_index.json for at least Panama/Estonia/Lithuania, then re-run.")
-        return
+    ref_path = os.path.join(ROOT, "data", "jurisdictions.json")
+    ref = json.load(open(ref_path, encoding="utf-8"))["jurisdictions"] if os.path.exists(ref_path) else []
+    ref_by = {r["slug"]: r for r in ref}
+    op_by = {j["slug"]: j for j in cfg["jurisdictions"]}
+
+    # Always emit the endpoint: REFERENCE facts (published, verified) as the base, plus the
+    # OPERATOR layer per jurisdiction ONLY where real data is filled (never fabricated).
+    jur = []
+    n_op = 0
+    for slug, r in ref_by.items():
+        j = op_by.get(slug, {})
+        row = {"slug": slug, "name": r.get("name"), "service_model": r.get("service_model"),
+               "regulator": r.get("regulator"), "reference_timeline": r.get("timeline")}
+        if filled(j):
+            n_op += 1
+            row["operator"] = {k: j[k] for k in ("sample_size", "period", "setup_cost_eur",
+                               "timeline_weeks", "approval_rate_pct", "top_rejection_reasons", "notes")
+                               if j.get(k) not in (None, [], "")}
+        jur.append(row)
+
     out = {
-        "name": cfg.get("index_name"),
-        "edition": cfg.get("edition"),
+        "name": cfg.get("index_name"), "edition": cfg.get("edition"),
         "source": "Consulting24 (X24Consulting OU, reg 16971898, Tallinn)",
         "total_deliveries": cfg.get("total_deliveries"),
-        "methodology": cfg.get("methodology_url"),
-        "disclaimer": cfg.get("disclaimer"),
-        "jurisdictions": [
-            {k: j[k] for k in ("slug", "name", "service_model", "sample_size", "period",
-                               "setup_cost_eur", "timeline_weeks", "approval_rate_pct",
-                               "top_rejection_reasons", "notes") if k in j}
-            for j in ready
-        ],
+        "methodology": cfg.get("methodology_url"), "disclaimer": cfg.get("disclaimer"),
+        "note": ("Base rows are verified 2026 regulatory reference facts. The 'operator' object "
+                 "(aggregated data from real Consulting24 deliveries) is present only where filled; "
+                 "absence means that jurisdiction's operator data is still being compiled."),
+        "jurisdictions": jur,
     }
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     with open(os.path.join(ROOT, "data", "licensing-index.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-    print(f"data/licensing-index.json: {len(ready)} jurisdictions published; "
-          f"{len(pending)} still placeholder ({', '.join(pending[:6])}{'...' if len(pending) > 6 else ''}).")
+    print(f"data/licensing-index.json: {len(jur)} jurisdictions (reference); "
+          f"{n_op} with real operator data filled" + ("" if n_op else " — fill config/licensing_index.json to enrich"))
 
 if __name__ == "__main__":
     main()

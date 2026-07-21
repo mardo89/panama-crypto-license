@@ -124,6 +124,8 @@ def run():
         if not published: return
         if not force and len(published) % CHUNK != 0: return
         sh("python3 scripts/build_data_json.py")
+        sh("python3 scripts/build_licensing_index.py")
+        sh("python3 scripts/build_licensing_index_page.py")
         sh("python3 scripts/rebuild_indexes.py")
         sh("python3 scripts/publish.py")
         sh("git add -A")
