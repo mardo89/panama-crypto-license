@@ -42,8 +42,9 @@ def render_block(items: list[dict]) -> str:
         cards = "".join(
             f'<a class="post-card" href="{html.escape(i["url"])}" '
             f'rel="noopener">'
+            f'<picture><source srcset="/img/gallery-{_thumb(i["title"]):02d}.webp" type="image/webp">'
             f'<img class="thumb" src="/img/gallery-{_thumb(i["title"]):02d}.jpg" '
-            f'alt="{html.escape(i["title"])}" loading="lazy" width="600" height="360">'
+            f'alt="{html.escape(i["title"])}" loading="lazy" width="600" height="360"></picture>'
             f'<span class="pc-body"><span class="cat">{i["kind"]}</span>'
             f'<h2>{html.escape(i["title"])}</h2>'
             f'<span class="meta">Consulting24 blog</span></span></a>'

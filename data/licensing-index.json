@@ -11,7 +11,7 @@
       "slug": "panama",
       "name": "Panama",
       "service_model": "direct",
-      "regulator": "NO enacted crypto/VASP licence exists (2026). A draft framework, Anteproyecto 314 (tabled Jan 2026), is pending and NOT law",
+      "regulator": null,
       "reference_timeline": "2-3 weeks"
     },
     {
@@ -60,7 +60,7 @@
       "slug": "switzerland",
       "name": "Switzerland",
       "service_model": "advise-and-coordinate",
-      "regulator": "non-EU",
+      "regulator": "FINMA",
       "reference_timeline": "6-12 months"
     },
     {

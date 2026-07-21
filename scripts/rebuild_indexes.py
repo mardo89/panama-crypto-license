@@ -54,7 +54,7 @@ SUB = {"jurisdiction":"Requirements, cost &amp; timeline", "activity":"Licence t
 HEAD = {"jurisdiction":"Crypto license by country", "activity":"By licence type &amp; activity",
         "compare":"Compare jurisdictions", "guide":"Guides &amp; tools"}
 sections = ['  <div class="jx-grid">\n    <a class="jx-card" href="/"><strong>Panama 🇵🇦</strong>'
-            '<span>€6,000 fixed · 2–3 weeks · 0% foreign-income tax</span></a>\n  </div>']
+            '<span>€6,000 fixed · 2-3 weeks · 0% foreign-income tax</span></a>\n  </div>']
 total = 1
 for key in ("jurisdiction", "activity", "compare", "guide"):
     items = groups[key]

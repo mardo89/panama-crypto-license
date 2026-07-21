@@ -323,6 +323,7 @@ def assemble(slug, crumb, d, kind="landing"):
 ]}}
 </script>
 <link rel="stylesheet" href="{css}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head><body>
 <a href="#main" class="skip">Skip to main content</a>
 {HEADER}
@@ -409,6 +410,24 @@ def _repair(d, keyword):
     if len(t) > 65:
         t = t[:65].rsplit(" ", 1)[0].rstrip(" .,:;&-")
     d["meta_title"] = t
+    # Description must be 110-165 chars. The build() retry only re-asks DeepSeek when the
+    # WORD COUNT fails, so without this a merely-short description would fail qc() with no
+    # retry and discard an otherwise-good page (daily_run gives up after MAX_ATTEMPTS).
+    # Titles were already auto-padded here; descriptions were not. Symmetry restored.
+    ds = (d.get("meta_description") or "").strip()
+    if len(ds) < 110:
+        base = ds.rstrip(" .")
+        # append factual clauses until the 110 floor is cleared (one clause is not always enough)
+        for tail in (f"Requirements, cost and timeline for {kwt}, explained for crypto founders.",
+                     "Talk to Consulting24 about the right route for your setup.",
+                     "General guidance for founders comparing jurisdictions in 2026."):
+            base = (base + ". " + tail.rstrip()).strip(" .") if base else tail.rstrip(".")
+            if len(base) + 1 >= 110:
+                break
+        ds = base.rstrip(" .") + "."
+    if len(ds) > 165:
+        ds = ds[:164].rsplit(" ", 1)[0].rstrip(" .,:;&-") + "."
+    d["meta_description"] = ds
     return d
 
 def qc(d, page_html, keyword=""):

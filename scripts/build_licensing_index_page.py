@@ -55,6 +55,7 @@ def _head(title, desc, canon, extra_ld):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(title)}"><meta name="twitter:description" content="{html.escape(desc)}"><meta name="twitter:image" content="{BASE}/og-image.jpg">
 <script type="application/ld+json">{extra_ld}</script>
 <link rel="stylesheet" href="../styles.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head><body>
 <a href="#main" class="skip">Skip to main content</a>
 {HEADER}'''
@@ -104,7 +105,7 @@ def build():
         'compiled from anonymized delivery records and will populate here per jurisdiction. The '
         'reference columns reflect current 2026 regulatory facts.</p>')
 
-    title = "Crypto Licensing Index 2026: Cost, Timeline &amp; Regulator by Jurisdiction"
+    title = "Crypto Licensing Index 2026: Cost, Timeline &amp; Regulator"
     desc = ("The Consulting24 Crypto Licensing Index: regulator, service model and 2026 timeline "
             "for 20+ jurisdictions, plus aggregated setup data from 500+ real deliveries.")
     canon = f"{BASE}/licensing-index/"
@@ -138,8 +139,8 @@ def build():
   {op_note}
   <h2>How to read this</h2>
   <ul>
-    <li><strong>What we do</strong> — direct delivery (we incorporate and file), advise &amp; coordinate (we guide you and coordinate local partners), or comparison-only (we do not provide that licence). Note: Panama is a company + AML programme, not a licence.</li>
-    <li><strong>Operator columns</strong> — aggregated, anonymized figures from real Consulting24 engagements. No client-identifying detail. See the <a href="/licensing-index/methodology/">methodology</a>.</li>
+    <li><strong>What we do</strong>: direct delivery (we incorporate and file), advise &amp; coordinate (we guide you and coordinate local partners), or comparison-only (we do not provide that licence). Note: Panama is a company + AML programme, not a licence.</li>
+    <li><strong>Operator columns</strong>: aggregated, anonymized figures from real Consulting24 engagements. No client-identifying detail. See the <a href="/licensing-index/methodology/">methodology</a>.</li>
     <li>Machine-readable: <a href="/data/licensing-index.json">licensing-index.json</a> and <a href="/data/jurisdictions.json">jurisdictions.json</a>.</li>
   </ul>
   <div class="cta-card"><h2>Not sure which jurisdiction fits?</h2><p>Tell us your model and we will map the right route from real experience, honestly.</p>
@@ -158,7 +159,7 @@ def build():
             {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{BASE}/"},
             {"@type": "ListItem", "position": 2, "name": "Licensing Index", "item": canon},
             {"@type": "ListItem", "position": 3, "name": "Methodology", "item": f"{canon}methodology/"}]}]}, ensure_ascii=False)
-    m_head = _head("Crypto Licensing Index — Methodology | Consulting24",
+    m_head = _head("Crypto Licensing Index: Methodology | Consulting24",
                    "How the Consulting24 Crypto Licensing Index is built: first-party delivery data, anonymized, no PII, dated and versioned.",
                    f"{canon}methodology/", m_ld).replace('href="../styles.css"', 'href="../../styles.css"')
     m_body = f'''{m_head}
