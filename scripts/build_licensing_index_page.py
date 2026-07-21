@@ -86,7 +86,7 @@ def build():
             reg = "Company + AML (no licence)"
         elif len(reg) > 52:
             reg = reg[:52].rsplit(" ", 1)[0] + "&hellip;"
-        op_cells = (f'<td>{cost or "&mdash;"}</td><td>{sample or "&mdash;"}</td>') if have_operator else ""
+        op_cells = (f'<td>{cost or "n/a"}</td><td>{sample or "n/a"}</td>') if have_operator else ""
         rows.append(
             f'<tr><td><a href="{j["page"]}">{html.escape(j["name"])}</a></td>'
             f'<td>{model}</td><td>{reg}</td>'
@@ -144,7 +144,7 @@ def build():
   </ul>
   <div class="cta-card"><h2>Not sure which jurisdiction fits?</h2><p>Tell us your model and we will map the right route from real experience, honestly.</p>
   <a href="{WA}" class="btn btn-primary">&#128172; Talk to an expert</a><a href="/#contact-top" class="btn btn-ghost">Free consultation</a></div>
-  <p style="color:var(--muted);font-size:.85rem;margin-top:24px">Aggregated, anonymized outcomes; general guidance, not legal advice. Regulations change &mdash; we confirm current requirements for your case.</p>
+  <p style="color:var(--muted);font-size:.85rem;margin-top:24px">Aggregated, anonymized outcomes; general guidance, not legal advice. Regulations change, and we confirm current requirements for your case.</p>
 </article>
 {FOOTER}
 </body></html>'''
@@ -164,7 +164,7 @@ def build():
     m_body = f'''{m_head}
 <div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="/licensing-index/">Licensing Index</a> &rsaquo; Methodology</nav></div>
 <article class="wrap" id="main">
-  <h1>Crypto Licensing Index &mdash; Methodology</h1>
+  <h1>Crypto Licensing Index: Methodology</h1>
   <p>The Index publishes aggregated outcomes from 500+ real crypto-company and licence setups Consulting24 has delivered over 8 years. It is first-party data no law firm or content farm can reproduce.</p>
   <h2>What it publishes</h2>
   <ul><li>Sample size (engagements the figures are drawn from)</li><li>Setup cost (low / typical / high, from actual engagements)</li><li>Timeline (kick-off to completion)</li><li>Top reasons applications were delayed or rejected</li><li>An operator note (no client-identifying detail)</li></ul>

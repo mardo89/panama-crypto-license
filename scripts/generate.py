@@ -86,7 +86,7 @@ BANNED_MAP = {
   "navigating the regulatory landscape":"working through the regulatory rules",
   "navigate the regulatory landscape":"work through the regulatory rules",
   "navigating the landscape":"working through the rules","navigate the landscape":"work through the rules",
-  "regulatory landscape":"regulatory environment","landscape":"environment",
+  "regulatory landscape":"regulatory environment","landscapes":"markets","landscape":"environment",
   "game-changer":"major advantage","testament to":"reflection of","testament":"reflection",
   "realm":"area","fostering":"supporting","fosters":"supports","fostered":"supported","foster":"support",
   "unlocking":"gaining","unlocks":"gains","unlocked":"gained","unlock":"gain",

@@ -242,7 +242,7 @@ def _labels_for(topic: dict, cap: int = 20, max_chars: int = 200) -> list[str]:
 def _disclaimer() -> str:
     return ("<p style='color:#777;font-size:13px;margin-top:28px;border-top:1px solid #eee;"
             "padding-top:14px;'><em>This article reflects 2026 market conditions and is general "
-            "guidance, not legal or tax advice. Regulations change &mdash; confirm specifics with "
+            "guidance, not legal or tax advice. Regulations change, so confirm specifics with "
             "qualified counsel before acting. Consulting24 (X24Consulting O&Uuml;, Estonian reg. "
             "16971898) introduces vetted local lawyers and tax advisors during every engagement.</em></p>")
 
@@ -254,7 +254,7 @@ def _evergreen_landscape(topic: dict) -> str:
 The regulatory map has hardened considerably over the last three years. In the European Union, the
 Markets in Crypto-Assets Regulation (MiCA) has replaced the patchwork of national VASP registers
 with a single Crypto-Asset Service Provider (CASP) authorisation that passports across all 27 member
-states. That passport is powerful &mdash; but it comes with capital requirements, governance
+states. That passport is powerful, but it comes with capital requirements, governance
 obligations and a multi-month authorisation process that smaller projects often underestimate.</p>
 <p>Outside the EU, the picture is more varied. Offshore and territorial-tax jurisdictions compete on
 speed, cost and privacy, while major financial centres such as Switzerland, the UAE and Singapore
@@ -269,7 +269,7 @@ common in terms of the right base. Getting this decision right at the start save
 expensive mistake in the industry: licensing in the wrong place and having to re-domicile a live business.</p>
 <p>Consulting24 has guided more than 200 crypto company setups across 15+ jurisdictions since 2017, which
 means we have seen how each of these regimes behaves in practice rather than just on paper. The summary
-below is the same framework we use with clients &mdash; and we are always happy to map it to your specific
+below is the same framework we use with clients, and we are always happy to map it to your specific
 model. Start with our <a href="{SITE}/vs-lithuania/">Panama vs Lithuania comparison</a> to see how the
 trade-offs play out between an offshore base and an EU-passported one.</p>
 """
@@ -280,7 +280,7 @@ def _evergreen_banking(topic: dict) -> str:
 <p>Incorporation is the easy part of any crypto project. Banking is where timelines slip and where
 under-prepared founders lose months. Since 2023, banks and payment processors worldwide have tightened
 their onboarding of crypto-adjacent businesses, and they now expect a genuinely professional application
-&mdash; not a one-page business summary. A thin file is simply rejected, and re-applying with the same bank
+, not a one-page business summary. A thin file is simply rejected, and re-applying with the same bank
 is far harder than getting it right the first time.</p>
 <p>Three documents do the heavy lifting. The first is a written <strong>AML/KYC compliance program</strong>:
 your customer-onboarding flow, transaction-monitoring rules, sanctions and PEP screening, a named compliance
@@ -289,12 +289,12 @@ for both the company and its beneficial owners. The third is a coherent <strong>
 that explains who your customers are, how money moves, and what volumes you project. Banks approve businesses
 they understand; ambiguity reads as risk.</p>
 <p>Sequencing matters as much as substance. The correct order is: incorporate the operating entity, build the
-compliance program, assemble the source-of-funds package, and only then approach banking &mdash; ideally
+compliance program, assemble the source-of-funds package, and only then approach banking, ideally
 through a warm introduction rather than a cold application. Founders who approach banks mid-setup, before
 their file is complete, create the very delays they are trying to avoid. We make direct introductions to
 banks and crypto-friendly payment rails as part of every engagement, but the introduction only works if the
 file behind it is ready.</p>
-<p>None of this is optional, and none of it changes much from one jurisdiction to the next &mdash; the
+<p>None of this is optional, and none of it changes much from one jurisdiction to the next, the
 compliance bar is now broadly global. What changes is the appetite of local banks and the speed of
 onboarding. Our <a href="{SITE}/requirements/">requirements checklist</a> sets out exactly what you need to
 assemble before you approach a bank.</p>
@@ -303,10 +303,10 @@ assemble before you approach a bank.</p>
 def _evergreen_choosing(topic: dict) -> str:
     return f"""
 <h2>How to Choose the Right Jurisdiction</h2>
-<p>Work the decision in this order &mdash; customers first, everything else second:</p>
+<p>Work the decision in this order: customers first, everything else second:</p>
 <ul>
   <li><strong>Who are your customers?</strong> EU retail means you need a MiCA passport (Lithuania, Malta or
-  another EU CASP). US customers mean state-by-state money-transmitter licensing or a FinCEN MSB &mdash; consider
+  another EU CASP). US customers mean state-by-state money-transmitter licensing or a FinCEN MSB, so consider
   a Canada MSB or a US setup. Latin America, Asia or HNW clients mean an offshore or territorial base such as
   Panama is usually the better fit.</li>
   <li><strong>Do you need a regulator badge?</strong> A public-facing exchange chasing institutional partners
@@ -319,7 +319,7 @@ def _evergreen_choosing(topic: dict) -> str:
 </ul>
 <p>For many offshore-first founders, Panama lands at the intersection of fast incorporation, low cost and 0%
 tax on foreign-source income, which is why it features so heavily in our work. But the honest answer is that
-the &ldquo;best&rdquo; jurisdiction is the one that matches the four answers above &mdash; and that is a
+the &ldquo;best&rdquo; jurisdiction is the one that matches the four answers above, and that is a
 conversation worth having before you spend a cent. See our <a href="{SITE}/cost/">cost breakdown</a> and
 <a href="{SITE}/application-process/">application process</a> to ground the decision in real numbers.</p>
 """
@@ -331,14 +331,14 @@ def _evergreen_mistakes(topic: dict) -> str:
 <p>The failures we see when founders research <strong>{kw}</strong> on their own are remarkably
 consistent, and almost all of them are avoidable. The first is <em>licensing to the headline tax rate</em>.
 A 0% jurisdiction is worthless if your customers legally require a regulated provider you cannot become
-there &mdash; you will simply have to start again. Decide who you are allowed to serve first, then optimise
+there, and you will simply have to start again. Decide who you are allowed to serve first, then optimise
 for tax.</p>
 <p>The second is <em>treating the compliance program as paperwork</em>. The AML/KYC program is not a
 formality to satisfy a regulator; it is the document your bank reads most closely. A generic template
 downloaded from the internet is transparent to any compliance officer and will sink your banking
 application. It needs to reflect your actual product, customer base and risk profile.</p>
 <p>The third is <em>underestimating banking lead time</em>. Founders routinely budget for incorporation and
-forget that the bank account &mdash; the thing that actually lets the business operate &mdash; can take longer
+forget that the bank account, the thing that actually lets the business operate, can take longer
 than the licence itself. Build banking into your launch timeline from day one, not as an afterthought.</p>
 <p>The fourth is <em>ignoring personal tax residency</em>. A company in a low-tax jurisdiction does not erase
 your obligations where you personally live. Many founders create unexpected liabilities by structuring the
@@ -352,12 +352,12 @@ def _evergreen_aftercare(topic: dict) -> str:
     return f"""
 <h2>What Happens After You Are Licensed</h2>
 <p>Getting licensed and banked is the start, not the finish. Every regulated or registered crypto business
-carries ongoing obligations, and letting them lapse is how companies lose their standing &mdash; and their
+carries ongoing obligations, and letting them lapse is how companies lose their standing, and their
 banking. At minimum you will maintain a registered agent or local presence, file annual renewals or
 supervision fees, keep accounting records, and keep your compliance program live with periodic reviews and
 updated sanctions and PEP screening lists.</p>
 <p>Most jurisdictions also expect you to keep your beneficial-ownership information current and to report
-material changes &mdash; new directors, new shareholders, a pivot in business activity &mdash; promptly.
+material changes, new directors, new shareholders, a pivot in business activity, promptly.
 Transaction monitoring is not a one-time setup either; screening rules need tuning as your volumes and
 customer mix evolve. Banks may request periodic refreshes of your KYC and source-of-funds documentation,
 particularly after a year of trading or a significant change in activity.</p>
@@ -368,7 +368,7 @@ compliance function as a living part of the business rather than a box you ticke
 <p>It is also worth planning ahead for growth. A structure that suits a pre-revenue startup may not suit
 the same company once it is processing meaningful volume, adding new product lines, or expanding into new
 markets. Many of the businesses we work with begin in a fast, low-cost offshore base to validate the model,
-then add a second regulated entity &mdash; an EU CASP, for example &mdash; once revenue justifies the cost
+then add a second regulated entity, an EU CASP, for example, once revenue justifies the cost
 and the market access genuinely matters. Designing the first structure with that possible second step in
 mind keeps your options open and avoids a disruptive re-domiciliation later. We map this growth path out
 with clients during the initial planning stage so the early decisions support, rather than constrain, where
@@ -393,7 +393,7 @@ def _why_consulting24() -> str:
   <p style="margin:0 0 12px;">Consulting24 is an eight-year-old advisory firm that has completed
   <strong>200+ crypto company setups across 15+ jurisdictions</strong> since 2017. Founder and CEO
   <strong>Mardo Soo</strong> and the team specialise in
-  crypto, VASP and exchange licensing &mdash; from Panama and the EU (MiCA) to Dubai, Canada and the
+  crypto, VASP and exchange licensing, from Panama and the EU (MiCA) to Dubai, Canada and the
   offshore world. We don't push a single &ldquo;best&rdquo; jurisdiction; we map your business to the regime
   that actually fits, then handle incorporation, the AML/KYC compliance program, and banking and
   payment-processor introductions end to end.</p>
@@ -607,16 +607,16 @@ PANAMA_ARTICLES: list[dict] = [
               "Sociedad An&oacute;nima and run a documented AML/KYC program rather than holding a named license."]),
             ("The Two Core Structures",
              ["<strong>Panama Sociedad An&oacute;nima (S.A.)</strong> is the workhorse corporation for exchanges, "
-              "brokers and payment processors. It incorporates in 2&ndash;3 weeks, requires three directors "
+              "brokers and payment processors. It incorporates in 2-3 weeks, requires three directors "
               "(nominees are permitted), and has no minimum paid-up capital.",
               "<strong>Panama Private Interest Foundation</strong> is an asset-protection structure used for "
               "token treasuries, family-office crypto holdings and DAO foundations. It requires a minimum "
               "endowment of roughly $10,000 and is frequently paired with an operating S.A."]),
             ("What It Costs and How Long It Takes",
-             ["Budget $15,000&ndash;$45,000 all-in for the first year, depending on whether you need a full "
+             ["Budget $15,000-$45,000 all-in for the first year, depending on whether you need a full "
               "AML/KYC compliance program, banking introductions and ongoing nominee services. Annual "
-              "maintenance runs $5,000&ndash;$15,000.",
-              "End-to-end timelines are typically 6&ndash;12 weeks &mdash; materially faster than the 4&ndash;8 months "
+              "maintenance runs $5,000-$15,000.",
+              "End-to-end timelines are typically 6-12 weeks, materially faster than the 4-8 months "
               "a Lithuania MiCA VASP authorisation now takes. See our full "
               f"<a href='{SITE}/cost/'>cost breakdown</a> and "
               f"<a href='{SITE}/application-process/'>application process</a> for the line-item detail."]),
@@ -625,7 +625,7 @@ PANAMA_ARTICLES: list[dict] = [
               "the US dollar as legal tender alongside the balboa at a 1:1 peg, so there is no FX risk on "
               "USD-denominated crypto operations.",
               "Banking is the real bottleneck. Panamanian banks have tightened KYC for crypto-adjacent businesses "
-              "since 2023, so expect 2&ndash;5 weeks for onboarding and a properly documented source-of-funds and "
+              "since 2023, so expect 2-5 weeks for onboarding and a properly documented source-of-funds and "
               "compliance file. Panama was removed from the FATF grey list in October 2023 and is FATF-compliant "
               "in 2026, which has helped restore correspondent-banking confidence."]),
         ],
@@ -634,8 +634,8 @@ PANAMA_ARTICLES: list[dict] = [
              "Yes. Holding, trading and operating crypto businesses is legal. There is simply no dedicated "
              "licensing regime; activities run under existing financial-services and AML law."),
             ("How fast can I incorporate?",
-             "A Panama S.A. incorporates in 2&ndash;3 weeks. Full operational readiness including banking and a "
-             "compliance program is usually 6&ndash;12 weeks."),
+             "A Panama S.A. incorporates in 2-3 weeks. Full operational readiness including banking and a "
+             "compliance program is usually 6-12 weeks."),
             ("Do I need to live in Panama?",
              "No. Directors and shareholders can be non-resident, and nominee directors are permitted. You do "
              "need a registered agent in Panama, which we arrange."),
@@ -657,11 +657,11 @@ PANAMA_ARTICLES: list[dict] = [
                 "framework we use with clients.",
         "sections": [
             ("The Headline Trade-off",
-             ["Lithuania gives you an EU MiCA passport &mdash; the ability to serve EU retail customers under a "
-              "recognised European regulator. That credibility costs money and time: roughly $50,000&ndash;$120,000 "
-              "to set up and 4&ndash;8 months to authorise.",
+             ["Lithuania gives you an EU MiCA passport, the ability to serve EU retail customers under a "
+              "recognised European regulator. That credibility costs money and time: roughly $50,000-$120,000 "
+              "to set up and 4-8 months to authorise.",
               "Panama gives you speed, low cost and territorial-tax efficiency, but no EU passport. Setup is "
-              "$15,000&ndash;$45,000 and 6&ndash;12 weeks. It is built for offshore-first operations that do not need "
+              "$15,000-$45,000 and 6-12 weeks. It is built for offshore-first operations that do not need "
               "to touch EU retail."]),
             ("Choose Lithuania If...",
              ["You are launching a public-facing exchange targeting EU retail customers and need the MiCA "
@@ -675,8 +675,8 @@ PANAMA_ARTICLES: list[dict] = [
               "foreign-source income. Many token treasuries and brokers fit this profile precisely.",
               f"See the side-by-side detail on our <a href='{SITE}/vs-lithuania/'>Panama vs Lithuania</a> page."]),
             ("What About Other Jurisdictions?",
-             ["<strong>Canada MSB (FINTRAC):</strong> $8,000&ndash;$25,000, 3&ndash;6 weeks, strong North American fiat "
-              "rails &mdash; best for crypto-to-fiat exchanges. <strong>BVI VASP:</strong> a similar offshore profile "
+             ["<strong>Canada MSB (FINTRAC):</strong> $8,000-$25,000, 3-6 weeks, strong North American fiat "
+              "rails, best for crypto-to-fiat exchanges. <strong>BVI VASP:</strong> a similar offshore profile "
               "to Panama with slightly higher cost and more legal certainty post-VASP Act 2022. "
               "<strong>Estonia VASP:</strong> largely deprecated after the 2024 crackdown; most operators have "
               "migrated to Lithuania."]),
@@ -689,7 +689,7 @@ PANAMA_ARTICLES: list[dict] = [
              "No. Panama is outside the EU and not bound by MiCA. If your business model depends on serving EU "
              "retail, Panama alone is not sufficient."),
             ("Which is cheaper to maintain?",
-             "Panama. Annual maintenance is $5,000&ndash;$15,000 versus materially higher ongoing compliance and "
+             "Panama. Annual maintenance is $5,000-$15,000 versus materially higher ongoing compliance and "
              "reporting costs under an EU MiCA framework."),
         ],
         "related": [
@@ -705,27 +705,27 @@ PANAMA_ARTICLES: list[dict] = [
         "landing": "/cost/",
         "labels": ["Panama", "Cost", "Crypto License"],
         "lede": "Crypto setup quotes vary wildly because providers bundle different things. Here is an "
-                "honest, line-item view of what a Panama crypto company actually costs in 2026 &mdash; "
+                "honest, line-item view of what a Panama crypto company actually costs in 2026, "
                 "first year and ongoing.",
         "sections": [
-            ("First-Year Total: $15,000&ndash;$45,000",
+            ("First-Year Total: $15,000-$45,000",
              ["The range is wide because it depends on how much you need. A lean Sociedad An&oacute;nima with a "
-              "registered agent and basic structure sits near the bottom. A full build &mdash; S.A. plus a "
+              "registered agent and basic structure sits near the bottom. A full build, S.A. plus a "
               "documented AML/KYC program, banking introductions, nominee directors and a foundation for the "
-              "treasury &mdash; sits near the top.",
+              "treasury, sits near the top.",
               f"Our <a href='{SITE}/cost/'>cost page</a> breaks these into fixed packages so there are no surprises."]),
             ("Where the Money Goes",
              ["<strong>Incorporation of the Sociedad An&oacute;nima:</strong> government fees, registered agent, "
-              "and corporate documents. <strong>AML/KYC compliance program:</strong> from roughly $8,000 &mdash; this "
+              "and corporate documents. <strong>AML/KYC compliance program:</strong> from roughly $8,000, and this "
               "is the documented program banks and payment processors require before onboarding. "
               "<strong>Banking and payment-processor introductions:</strong> direct introductions to Panamanian "
               "banks and crypto-friendly rails.",
               "<strong>Optional:</strong> a Private Interest Foundation (minimum endowment ~$10,000) for "
               "token-treasury or family-office holdings, and nominee director services where privacy matters."]),
-            ("Ongoing Annual Cost: $5,000&ndash;$15,000",
+            ("Ongoing Annual Cost: $5,000-$15,000",
              ["Annual maintenance covers the registered agent, the franchise tax, accounting and the ongoing "
               "upkeep of the compliance program. Because Panama taxes foreign-source income at 0%, there is no "
-              "corporate income-tax drag on offshore revenue &mdash; a meaningful structural saving versus many "
+              "corporate income-tax drag on offshore revenue, a meaningful structural saving versus many "
               "onshore alternatives."]),
             ("Hidden Costs to Plan For",
              ["The two costs founders underestimate are <em>banking lead time</em> and <em>compliance "
@@ -773,7 +773,7 @@ PANAMA_ARTICLES: list[dict] = [
             ("Source-of-Funds and Banking File",
              ["Expect to evidence the source of the company's funds and the personal wealth of beneficial owners. "
               "Since 2023, Panamanian banks scrutinise crypto-adjacent applicants closely. A clean, complete file "
-              "moves through onboarding in 2&ndash;5 weeks; a thin one stalls."]),
+              "moves through onboarding in 2-5 weeks; a thin one stalls."]),
             ("Ongoing Obligations",
              ["After setup you maintain the registered agent, pay the annual franchise tax, keep accounting "
               "records, and keep the compliance program live (periodic reviews, updated screening lists). "
@@ -800,7 +800,7 @@ PANAMA_ARTICLES: list[dict] = [
         "keyword": "Panama crypto exchange license",
         "landing": "/exchange-license/",
         "labels": ["Panama", "Exchange", "Crypto License"],
-        "lede": "Running an exchange from Panama is entirely viable in 2026 &mdash; provided you understand "
+        "lede": "Running an exchange from Panama is entirely viable in 2026, provided you understand "
                 "that there is no named exchange license and that your real gating factor is banking "
                 "and compliance, not a regulator badge.",
         "sections": [
@@ -814,7 +814,7 @@ PANAMA_ARTICLES: list[dict] = [
              ["Most exchange operators use a Panama S.A. as the operating company and, where there is a token or "
               "treasury, a Private Interest Foundation to hold it separately. Keeping operations and treasury in "
               "distinct vehicles is cleaner for both risk and banking.",
-              "If you serve EU retail you will additionally need an EU-licensed entity under MiCA &mdash; Panama "
+              "If you serve EU retail you will additionally need an EU-licensed entity under MiCA, Panama "
               "alone does not passport into Europe."]),
             ("Banking and Payment Rails",
              ["This is where exchanges live or die. You need fiat on/off-ramps, so the priority is securing a "
@@ -834,7 +834,7 @@ PANAMA_ARTICLES: list[dict] = [
              "You need a registered agent in Panama and three directors who may be non-resident. We can supply "
              "nominees."),
             ("How long until I can take customers?",
-             "Realistically 6&ndash;12 weeks once banking and the compliance program are in place."),
+             "Realistically 6-12 weeks once banking and the compliance program are in place."),
         ],
         "related": [
             ("Panama vs Lithuania", "/vs-lithuania/"),
@@ -853,14 +853,14 @@ PANAMA_ARTICLES: list[dict] = [
                 "territorial taxation actually works for a crypto company.",
         "sections": [
             ("How Territorial Taxation Works",
-             ["Panama taxes income generated <em>within</em> Panama. Income from foreign sources &mdash; customers, "
-              "trades and revenue arising outside Panama &mdash; is taxed at 0%. For an offshore-facing crypto "
+             ["Panama taxes income generated <em>within</em> Panama. Income from foreign sources, customers, "
+              "trades and revenue arising outside Panama, is taxed at 0%. For an offshore-facing crypto "
               "business serving Latin America, Asia or global HNW clients, the bulk of revenue is foreign-source.",
               "Combined with the US dollar as legal tender (1:1 with the balboa), this gives a USD-denominated "
               "crypto operation a clean, low-friction base with no FX exposure on settlement."]),
             ("Where Founders Get It Wrong",
              ["The 0% rate applies to <em>foreign-source</em> income, not automatically to everything. Revenue "
-              "with a genuine Panamanian nexus &mdash; local customers, local operations &mdash; can be taxable. "
+              "with a genuine Panamanian nexus, local customers, local operations, can be taxable. "
               "Mischaracterising income source is the classic mistake. Document where value is actually generated.",
               "Your home country's tax residency rules also still apply to you personally. A Panama company does "
               "not erase your individual tax obligations where you live. This is why we introduce qualified tax "
@@ -872,7 +872,7 @@ PANAMA_ARTICLES: list[dict] = [
               f"Our <a href='{SITE}/company-setup/'>company setup</a> guidance covers building appropriate "
               "substance from day one."]),
             ("The Net Effect",
-             ["For the right business &mdash; offshore-facing, USD-settled, not chasing EU retail &mdash; Panama's "
+             ["For the right business, offshore-facing, USD-settled, not chasing EU retail, Panama's "
               "territorial system is a legitimate and meaningful efficiency. For an EU-retail exchange, the tax "
               "saving rarely outweighs the lack of a MiCA passport."]),
         ],
@@ -904,14 +904,14 @@ PANAMA_ARTICLES: list[dict] = [
                 "Interest Foundation. Here is how it is used in crypto.",
         "sections": [
             ("What a Private Interest Foundation Is",
-             ["A Panama Private Interest Foundation is an orphan legal entity with no shareholders &mdash; it owns "
+             ["A Panama Private Interest Foundation is an orphan legal entity with no shareholders, it owns "
               "itself and is governed by a foundation charter and a council. It is built for asset protection "
               "and succession, which makes it well suited to holding a token treasury or long-term crypto "
               "reserves separate from any operating company.",
               "The minimum endowment is roughly $10,000. It is frequently paired with an operating Sociedad "
               "An&oacute;nima: the S.A. runs the business, the foundation holds the treasury."]),
             ("Why DAOs and Token Projects Use It",
-             ["A foundation can act as the legal wrapper for a DAO &mdash; signing contracts, holding the treasury, "
+             ["A foundation can act as the legal wrapper for a DAO, signing contracts, holding the treasury, "
               "and providing a point of legal responsibility that a purely on-chain DAO lacks. Because it has no "
               "owners, it aligns with the ownerless ethos of a DAO while still being able to interface with banks, "
               "exchanges and counterparties.",
@@ -921,7 +921,7 @@ PANAMA_ARTICLES: list[dict] = [
               "provides protection and a clear succession path defined in the charter. For family offices holding "
               "significant crypto, this separation is the entire point."]),
             ("Practical Considerations",
-             ["A foundation still needs a registered agent, a council, and &mdash; for banking &mdash; the same "
+             ["A foundation still needs a registered agent, a council, and, for banking, the same "
               "compliance and source-of-funds rigour as any other crypto-adjacent applicant. It is not a way to "
               "avoid KYC; it is a way to structure ownership and protection cleanly."]),
         ],
@@ -963,7 +963,7 @@ PANAMA_ARTICLES: list[dict] = [
               "explaining who your customers are and how money moves. And realistic projected volumes.",
               "The narrative matters as much as the documents: banks approve businesses they understand."]),
             ("Timeline and Sequencing",
-             ["Expect 2&ndash;5 weeks for banking onboarding once the file is complete. Sequencing is everything: "
+             ["Expect 2-5 weeks for banking onboarding once the file is complete. Sequencing is everything: "
               "incorporate the S.A., build the compliance program, assemble the source-of-funds package, then "
               "approach the bank with introductions in hand. Approaching banks cold, mid-setup, is the most "
               "common self-inflicted delay."]),
@@ -975,13 +975,13 @@ PANAMA_ARTICLES: list[dict] = [
         "faqs": [
             ("Can you guarantee a bank account?",
              "No reputable advisor can guarantee a bank decision. What we do is maximise approval odds with a "
-             "complete file and the right introductions &mdash; which is the difference between approval and "
+             "complete file and the right introductions, which is the difference between approval and "
              "rejection in practice."),
             ("How many banks should I apply to?",
              "Usually we target the best-fit introductions first rather than spraying applications, which can "
              "harm your profile. Quality of file beats quantity of applications."),
             ("Do payment processors need the same documents?",
-             "Largely yes &mdash; the same compliance program and source-of-funds file serves both bank and "
+             "Largely yes, the same compliance program and source-of-funds file serves both bank and "
              "processor onboarding."),
         ],
         "related": [
@@ -1417,11 +1417,11 @@ PAGES: list[dict] = [
         "keyword": "crypto license Panama",
         "landing": "/",
         "tldr": "Panama has no single dedicated crypto/VASP licence. Crypto businesses incorporate a "
-                "Panama Sociedad An&oacute;nima (2&ndash;3 weeks, no minimum capital) and operate under "
+                "Panama Sociedad An&oacute;nima (2-3 weeks, no minimum capital) and operate under "
                 "existing financial-services and AML law, supervised in spirit by UAF Panama. Expect "
                 f"{PANAMA_COST} all-in for year one, {PANAMA_TIME} end to end, and 0% tax on "
                 "foreign-source income. Best for offshore-facing businesses serving LatAm, Asia or HNW "
-                "clients &mdash; not EU retail (use a MiCA jurisdiction for that).",
+                "clients, not EU retail (use a MiCA jurisdiction for that).",
         "table": True,
         "sections": [
             ("How Crypto Is Regulated in Panama",
@@ -1431,13 +1431,13 @@ PAGES: list[dict] = [
               "Panama (the local FinCEN equivalent) and money-services activity falling under the "
               "Superintendency of Banks of Panama.",
               "In practice this means you incorporate a Panama Sociedad An&oacute;nima, run a documented "
-              "AML/KYC program, and operate lawfully &mdash; rather than applying for a named licence. For "
+              "AML/KYC program, and operate lawfully, rather than applying for a named licence. For "
               "asset-holding structures such as token treasuries, a Panama Private Interest Foundation is "
               f"paired with the operating company. See our <a href='{SITE}/company-setup/'>company setup</a> "
               "guidance for the full picture."]),
             ("Cost, Timeline and Tax",
-             [f"Budget {PANAMA_COST} all-in for the first year and {PANAMA_TIME} end to end &mdash; materially "
-              "faster and cheaper than an EU MiCA authorisation. Annual maintenance runs $5,000&ndash;$15,000.",
+             [f"Budget {PANAMA_COST} all-in for the first year and {PANAMA_TIME} end to end, materially "
+              "faster and cheaper than an EU MiCA authorisation. Annual maintenance runs $5,000-$15,000.",
               "Panama's territorial tax system charges 0% on foreign-source income, and the country uses the "
               "US dollar as legal tender (1:1 with the balboa), removing FX risk on USD settlement. See the "
               f"full <a href='{SITE}/cost/'>cost breakdown</a> and <a href='{SITE}/requirements/'>requirements "
@@ -1448,7 +1448,7 @@ PAGES: list[dict] = [
              "No. Panama has no dedicated crypto/VASP licence as of 2026. Businesses incorporate a Sociedad "
              "An&oacute;nima and operate under existing financial-services and AML law."),
             ("How much does a Panama crypto setup cost?",
-             f"Around {PANAMA_COST} all-in for year one, with $5,000&ndash;$15,000 annual maintenance."),
+             f"Around {PANAMA_COST} all-in for year one, with $5,000-$15,000 annual maintenance."),
             ("Is crypto income taxed in Panama?",
              "Foreign-source income is taxed at 0% under Panama's territorial system. Panama-source income "
              "can be taxable."),
@@ -1483,7 +1483,7 @@ PAGES: list[dict] = [
               "treasury. Banking is the real gating factor everywhere: you need fiat on/off-ramps, which means "
               "a bank account and crypto-friendly payment-processor relationships, backed by a documented "
               "compliance program and source-of-funds file.",
-              "If you serve EU retail you additionally need an EU-licensed entity under MiCA &mdash; an offshore "
+              "If you serve EU retail you additionally need an EU-licensed entity under MiCA, an offshore "
               f"base alone does not passport into Europe. Compare the routes on our "
               f"<a href='{SITE}/vs-lithuania/'>Panama vs Lithuania</a> page."]),
         ],
@@ -1497,8 +1497,8 @@ PAGES: list[dict] = [
              "No. There is no global passport. Many operators combine an offshore base with a regulated EU "
              "entity to cover both markets."),
             ("What is the fastest exchange license to get?",
-             "A Canada MSB registration is among the fastest at 3&ndash;6 weeks; Panama incorporation is "
-             "2&ndash;3 weeks."),
+             "A Canada MSB registration is among the fastest at 3-6 weeks; Panama incorporation is "
+             "2-3 weeks."),
         ],
     },
     {
@@ -1508,7 +1508,7 @@ PAGES: list[dict] = [
         "landing": "/cost/",
         "tldr": "Crypto licence costs in 2026 range from ~$8,000 (Canada MSB) and ~$15,000 (Panama) at the "
                 "low end to $120,000+ for EU MiCA and Dubai VARA. The setup fee is only part of the picture "
-                "&mdash; budget for the AML/KYC compliance program, banking introductions, and year-two "
+                ", budget for the AML/KYC compliance program, banking introductions, and year-two "
                 "maintenance. The cheapest licence that gets your bank application rejected is the most "
                 "expensive option of all.",
         "table": True,
@@ -1523,7 +1523,7 @@ PAGES: list[dict] = [
               f"See the itemised <a href='{SITE}/cost/'>Panama cost breakdown</a>."]),
             ("Ongoing Costs and Total Cost of Ownership",
              ["Setup is one-time; maintenance is forever. Plan for annual renewal/supervision fees, "
-              "accounting, and keeping the compliance program live. Tax treatment matters too &mdash; a 0% "
+              "accounting, and keeping the compliance program live. Tax treatment matters too, a 0% "
               "territorial regime like Panama's can outweigh a lower headline setup fee elsewhere over a few "
               "years.",
               "Always ask a provider to itemise setup versus year-two costs, and to explain their banking "
@@ -1534,13 +1534,13 @@ PAGES: list[dict] = [
              "A Canada MSB (~$8,000) and Panama (~$15,000) are among the most affordable credible routes in "
              "2026."),
             ("Why are EU and Dubai licenses so expensive?",
-             "You pay for market access and a top-tier regulator badge &mdash; MiCA passporting and VARA "
+             "You pay for market access and a top-tier regulator badge, MiCA passporting and VARA "
              "credibility carry higher capital, governance and process costs."),
             ("What hidden costs should I expect?",
              "The two most underestimated are banking lead time and a proper compliance program. Skimping on "
              "either causes rejections and delays."),
             ("Is a cheaper license worse?",
-             "Not necessarily &mdash; it is about fit. A cheap offshore base is ideal for offshore-facing "
+             "Not necessarily, it is about fit. A cheap offshore base is ideal for offshore-facing "
              "businesses but useless if you legally need an EU passport."),
         ],
     },
@@ -1549,7 +1549,7 @@ PAGES: list[dict] = [
         "title": "Best Country for a Crypto License in 2026: Jurisdiction Guide",
         "keyword": "best crypto license jurisdiction",
         "landing": "/vs-lithuania/",
-        "tldr": "There is no single “best” crypto jurisdiction &mdash; only the best fit for your "
+        "tldr": "There is no single “best” crypto jurisdiction, only the best fit for your "
                 "customers. EU retail → Lithuania or Malta (MiCA). North American fiat → Canada MSB. "
                 "Offshore / LatAm / Asia / HNW → Panama or BVI. Institutional MENA → Dubai VARA. "
                 "Premium token issuance → Switzerland. Decide on customers and the need for a regulator "
@@ -1568,7 +1568,7 @@ PAGES: list[dict] = [
             ("Matching Profile to Jurisdiction",
              ["Use the comparison table below as a starting shortlist, then pressure-test it against your real "
               "banking needs. A jurisdiction is only as good as the banking and payment rails your business "
-              "can actually access from it &mdash; which is why we pair every recommendation with a realistic "
+              "can actually access from it, which is why we pair every recommendation with a realistic "
               "banking plan.",
               f"When you are ready, our <a href='{SITE}/application-process/'>application process</a> shows the "
               "end-to-end steps for the Panama route, and we can map the same sequence to any jurisdiction on "
@@ -1604,8 +1604,8 @@ PAGES: list[dict] = [
              ["<strong>1. Choose the jurisdiction.</strong> Start with your customers and whether you need a "
               "regulator badge. This single decision drives cost, timeline and everything downstream. "
               "<strong>2. Incorporate the operating entity.</strong> A Panama Sociedad An&oacute;nima takes "
-              "2&ndash;3 weeks; EU entities take longer. "
-              "<strong>3. Build the AML/KYC compliance program</strong> &mdash; the document your bank reads "
+              "2-3 weeks; EU entities take longer. "
+              "<strong>3. Build the AML/KYC compliance program</strong>, the document your bank reads "
               "most closely.",
               "<strong>4. Open banking and payment rails.</strong> Assemble a clean source-of-funds file and "
               "approach banks through warm introductions, not cold applications. "
@@ -1614,8 +1614,8 @@ PAGES: list[dict] = [
               "Panama."]),
             ("How Long It Takes and What Trips People Up",
              ["End-to-end timelines range from about 3 weeks for a Canada MSB or Panama incorporation to "
-              "6&ndash;12 months for EU MiCA or Dubai VARA. The controllable parts &mdash; document collection "
-              "and the compliance program &mdash; are also the ones founders most often rush, which is exactly "
+              "6-12 months for EU MiCA or Dubai VARA. The controllable parts, document collection "
+              "and the compliance program, are also the ones founders most often rush, which is exactly "
               "why banking then stalls.",
               f"Get the file right once and the process is smooth. See the "
               f"<a href='{SITE}/requirements/'>requirements checklist</a> for everything you need to assemble "
@@ -1626,7 +1626,7 @@ PAGES: list[dict] = [
              "Choose a jurisdiction that matches your customers, incorporate, build an AML/KYC compliance "
              "program, open banking with a source-of-funds file, then maintain the licence."),
             ("How long does it take to get a crypto license?",
-             "From about 3 weeks (Canada MSB / Panama incorporation) to 6&ndash;12 months (EU MiCA / Dubai "
+             "From about 3 weeks (Canada MSB / Panama incorporation) to 6-12 months (EU MiCA / Dubai "
              "VARA)."),
             ("Do I need a lawyer to get a crypto license?",
              "You need qualified local counsel for most regimes. Consulting24 coordinates incorporation, "
@@ -1662,7 +1662,7 @@ def _page_related(current_slug: str, blog_url: str = "", url_map: dict | None = 
         for p in PAGES if p["slug"] != current_slug
     )
     ext = "".join(f'<li><a href="{SITE}{path}">{label}</a></li>' for label, path in [
-        ("Panama crypto license &mdash; consulting24.co", "/"),
+        ("Panama crypto license, consulting24.co", "/"),
         ("Cost breakdown", "/cost/"),
         ("Application process", "/application-process/"),
     ])
