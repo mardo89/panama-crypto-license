@@ -2383,3 +2383,44 @@ google.auth.exceptions.TransportError: Unable to find the server at oauth2.googl
 [2026-07-20 11:30:03] update-images done: 0 updated, 344 already current
 [2026-07-20 11:30:03] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
 [2026-07-20 11:32:00] AUDIT images: 344 OK, 0 missing, 0 fixed, 0 errors (total checked 344)
+[2026-07-21 11:35:04] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-07-21 11:35:04] No pages to publish — all pillar pages already published.
+[2026-07-21 11:35:05] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-07-21 11:35:06] Published: Territorial tax for crypto founders: how 0% on foreign-source income actually works → https://blog.consulting24.co/2026/07/territorial-tax-for-crypto-founders-how.html
+[2026-07-21 11:35:32] Published: Choosing between direct delivery and advise-and-coordinate for your crypto licence → https://blog.consulting24.co/2026/07/choosing-between-direct-delivery-and.html
+[2026-07-21 11:35:58] Published: Beneficial ownership and KYC for a crypto company: what regulators and banks ask for → https://blog.consulting24.co/2026/07/beneficial-ownership-and-kyc-for-crypto.html
+[2026-07-21 11:36:23] Published: From incorporation to operating: the first 90 days after your Panama company is set up → https://blog.consulting24.co/2026/07/from-incorporation-to-operating-first.html
+[2026-07-21 11:36:49] Published: Substance requirements for offshore crypto licences: what "economic substance" means in practice → https://blog.consulting24.co/2026/07/substance-requirements-for-offshore.html
+[2026-07-21 11:37:16] Published: Crypto compliance officer: when you need one and what the role covers → https://blog.consulting24.co/2026/07/crypto-compliance-officer-when-you-need.html
+[2026-07-21 11:37:42] Published: Passporting a MiCA CASP licence across the EU: how it works and what it does not cover → https://blog.consulting24.co/2026/07/passporting-mica-casp-licence-across-eu.html
+[2026-07-21 11:38:08] Published: Reading a crypto-licensing quote: fixed fee vs variable cost, and what is really included → https://blog.consulting24.co/2026/07/reading-crypto-licensing-quote-fixed.html
+[2026-07-21 11:38:34] Published: Payment rails for crypto businesses: cards, IBANs and settlement explained → https://blog.consulting24.co/2026/07/payment-rails-for-crypto-businesses.html
+[2026-07-21 11:39:00] Published: Do you need a licence, a registration, or just a company? A decision guide for crypto founders → https://blog.consulting24.co/2026/07/do-you-need-licence-registration-or.html
+[2026-07-21 11:39:25] Published: Transaction monitoring and travel rule obligations for a crypto company in 2026 → https://blog.consulting24.co/2026/07/transaction-monitoring-and-travel-rule.html
+[2026-07-21 11:39:52] Published: Migrating an operating crypto business to a new jurisdiction without downtime → https://blog.consulting24.co/2026/07/migrating-operating-crypto-business-to.html
+[2026-07-21 11:40:18] Published: Common reasons crypto licence applications are delayed or rejected, and how to avoid them → https://blog.consulting24.co/2026/07/common-reasons-crypto-licence.html
+[2026-07-21 11:40:43] Published: Stablecoin issuance under MiCA: what changed and who it applies to → https://blog.consulting24.co/2026/07/stablecoin-issuance-under-mica-what.html
+[2026-07-21 11:41:09] Published: Custody vs non-custody: how your model changes your licensing obligations → https://blog.consulting24.co/2026/07/custody-vs-non-custody-how-your-model.html
+[2026-07-21 11:41:35] Published: Annual maintenance of a crypto company: filings, renewals and ongoing costs → https://blog.consulting24.co/2026/07/annual-maintenance-of-crypto-company.html
+[2026-07-21 11:42:01] Published: How Consulting24 vets and coordinates local partners in advise-and-coordinate jurisdictions → https://blog.consulting24.co/2026/07/how-consulting24-vets-and-coordinates.html
+[2026-07-21 11:43:37] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-07-21 11:43:38] updated post [1]: Territorial tax for crypto founders: how 0% on foreign-source income actually works
+[2026-07-21 11:44:00] updated post [2]: Choosing between direct delivery and advise-and-coordinate for your crypto licence
+[2026-07-21 11:44:21] updated post [3]: Beneficial ownership and KYC for a crypto company: what regulators and banks ask for
+[2026-07-21 11:44:42] updated post [4]: From incorporation to operating: the first 90 days after your Panama company is set up
+[2026-07-21 11:45:03] updated post [5]: Substance requirements for offshore crypto licences: what "economic substance" means in practice
+[2026-07-21 11:45:24] updated post [6]: Crypto compliance officer: when you need one and what the role covers
+[2026-07-21 11:45:46] updated post [7]: Passporting a MiCA CASP licence across the EU: how it works and what it does not cover
+[2026-07-21 11:46:07] updated post [8]: Reading a crypto-licensing quote: fixed fee vs variable cost, and what is really included
+[2026-07-21 11:46:28] updated post [9]: Payment rails for crypto businesses: cards, IBANs and settlement explained
+[2026-07-21 11:46:49] updated post [10]: Do you need a licence, a registration, or just a company? A decision guide for crypto founders
+[2026-07-21 11:47:11] updated post [11]: Transaction monitoring and travel rule obligations for a crypto company in 2026
+[2026-07-21 11:47:32] updated post [12]: Migrating an operating crypto business to a new jurisdiction without downtime
+[2026-07-21 11:47:53] updated post [13]: Common reasons crypto licence applications are delayed or rejected, and how to avoid them
+[2026-07-21 11:48:15] updated post [14]: Stablecoin issuance under MiCA: what changed and who it applies to
+[2026-07-21 11:48:36] updated post [15]: Custody vs non-custody: how your model changes your licensing obligations
+[2026-07-21 11:48:57] updated post [16]: Annual maintenance of a crypto company: filings, renewals and ongoing costs
+[2026-07-21 11:49:18] updated post [17]: How Consulting24 vets and coordinates local partners in advise-and-coordinate jurisdictions
+[2026-07-21 11:49:18] update-images done: 17 updated, 344 already current
+[2026-07-21 11:49:19] Connected to blog: Crypto License Guide 2026 — Panama, Lithuania, Dubai &amp; More | Consulting24 (https://blog.consulting24.co/)
+[2026-07-21 11:51:21] AUDIT images: 361 OK, 0 missing, 0 fixed, 0 errors (total checked 361)

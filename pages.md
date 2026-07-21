@@ -912,9 +912,9 @@ Requirements & How to Get One".
 - [x] crypto-fund-license-indonesia                           → /crypto-fund-license-indonesia/
 - [x] crypto-nft-marketplace-license-indonesia                → /crypto-nft-marketplace-license-indonesia/
 - [x] crypto-payment-institution-license-indonesia            → /crypto-payment-institution-license-indonesia/
-- [ ] crypto-gambling-license-indonesia                       → /crypto-gambling-license-indonesia/
-- [ ] crypto-staking-license-indonesia                        → /crypto-staking-license-indonesia/
-- [ ] crypto-token-issuance-license-indonesia                 → /crypto-token-issuance-license-indonesia/
+- [x] crypto-gambling-license-indonesia                       → /crypto-gambling-license-indonesia/
+- [x] crypto-staking-license-indonesia                        → /crypto-staking-license-indonesia/
+- [x] crypto-token-issuance-license-indonesia                 → /crypto-token-issuance-license-indonesia/
 - [ ] crypto-stablecoin-license-indonesia                     → /crypto-stablecoin-license-indonesia/
 - [ ] crypto-exchange-license-vietnam                         → /crypto-exchange-license-vietnam/
 - [ ] crypto-wallet-custody-license-vietnam                   → /crypto-wallet-custody-license-vietnam/
