@@ -23,7 +23,13 @@ def full_unescape(s):
     return s
 
 def tidy_desc(s):
-    s = re.sub(r"\s*(?:\.{2,}|…)+\s*$", "", (s or "").strip()).strip()
+    raw = (s or "").strip()
+    s = re.sub(r"\s*(?:\.{2,}|…)+\s*$", "", raw).strip()
+    # Already a complete, non-truncated sentence: leave it. Google truncates the
+    # *display* near 160 chars, but the stored description stays valid, so there is
+    # no reason to lop off real information (e.g. "...Lithuania and Panama since 2018").
+    if s == raw and s[-1:] in ".!?" and len(s) <= 170:
+        return s
     if len(s) <= 158 and s[-1:] in ".!?":
         return s
     cut = s[:156].rstrip()
@@ -34,6 +40,10 @@ def tidy_desc(s):
     base = cut[:commas[-1]] if commas else cut.rsplit(" ", 1)[0]
     return base.rstrip(" ,;:-") + "."
 
+# words that must never be left dangling at the end of a trimmed title
+_TAIL_STOP = {"by", "and", "or", "of", "the", "for", "to", "a", "an", "in",
+              "on", "with", "vs", "your", "from", "at", "as", "&"}
+
 def trim_title(t):
     t = t.strip()
     if len(t) <= 60:
@@ -42,11 +52,25 @@ def trim_title(t):
             return t.rstrip(" -|") + " - Consulting24"
         return t
     t = t[:60].rsplit(" ", 1)[0].rstrip(" -|:&")
+    # never end on a dangling connective/preposition ("...Regulator by")
+    while t and t.rsplit(" ", 1)[-1].lower() in _TAIL_STOP:
+        t = t.rsplit(" ", 1)[0].rstrip(" -|:&,")
     return t
 
 def is_stub(h): return "generated-redirect-stub" in h or 'content="noindex"' in h
 
+# Hand-authored / builder-owned pages: the generator does not own their meta, so this
+# generator-oriented sweep must not rewrite them (it was truncating curated titles and
+# overwriting the 'Short answer' box with the meta description). Paths are relative to ROOT.
+HAND_AUTHORED = {
+    "index.html", "about/index.html", "contact/index.html",
+    "licensing-index/index.html", "licensing-index/methodology/index.html",
+    "jurisdictions/index.html", "blog/index.html",
+}
+
 def fix_file(f, dry):
+    rel = os.path.relpath(f, ROOT)
+    if rel in HAND_AUTHORED: return 0
     h = open(f, encoding="utf-8").read()
     if is_stub(h): return 0
     orig = h
