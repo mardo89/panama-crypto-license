@@ -9,9 +9,9 @@
   "https://www.consulting24.co/about/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/abu-dhabi-crypto-license/": {
     "escalated": false,
@@ -324,9 +324,9 @@
   "https://www.consulting24.co/blog/beneficial-ownership-and-kyc-for-a-crypto-company-what-regulators-and-/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/blog/branded-crypto-debit-cards-via-a-panama-entity/": {
     "escalated": false,
@@ -429,9 +429,9 @@
   "https://www.consulting24.co/blog/choosing-between-direct-delivery-and-advise-and-coordinate-for-your-cr/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/blog/common-mistakes-when-applying-for-a-bahamas-crypto-license/": {
     "escalated": false,
@@ -2214,9 +2214,9 @@
   "https://www.consulting24.co/blog/mica-casp-capital-requirements-explained-the-50k-125k-150k-tiers-by-ac/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/blog/mica-white-paper-requirements-for-token-issuers/": {
     "escalated": false,
@@ -2270,9 +2270,9 @@
   "https://www.consulting24.co/blog/opening-a-bank-or-emi-account-for-a-licensed-crypto-company-what-gets-/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/blog/panama-aml-kyc-program-what-you-actually-need/": {
     "escalated": false,
@@ -2519,6 +2519,13 @@
     "last_action": "2026-05-29",
     "submits": 1
   },
+  "https://www.consulting24.co/blog/substance-requirements-for-offshore-crypto-licences-what-economic-subs/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/blog/switzerland-crypto-company-costs-broken-down/": {
     "escalated": false,
     "first_seen": "2026-05-31",
@@ -2557,9 +2564,9 @@
   "https://www.consulting24.co/blog/territorial-tax-for-crypto-founders-how-0-on-foreign-source-income-act/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/blog/token-launch-legal-structure-foundation-operating-company/": {
     "escalated": false,
@@ -2606,9 +2613,9 @@
   "https://www.consulting24.co/blog/what-an-aml-ctf-program-actually-contains-for-a-crypto-company-a-pract/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/blog/what-does-a-crypto-aml-compliance-program-include/": {
     "escalated": false,
@@ -2714,6 +2721,13 @@
     "indexed": true,
     "last_action": "2026-05-29",
     "submits": 1
+  },
+  "https://www.consulting24.co/contact/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/cost-crypto-license-cayman-islands/": {
     "escalated": false,
@@ -2922,8 +2936,8 @@
     "escalated": false,
     "first_seen": "2026-07-20",
     "indexed": false,
-    "last_action": "2026-07-21",
-    "submits": 1
+    "last_action": "2026-07-22",
+    "submits": 2
   },
   "https://www.consulting24.co/crypto-broker-license-ireland/": {
     "escalated": false,
@@ -3153,8 +3167,8 @@
     "escalated": false,
     "first_seen": "2026-07-20",
     "indexed": false,
-    "last_action": "2026-07-21",
-    "submits": 1
+    "last_action": "2026-07-22",
+    "submits": 2
   },
   "https://www.consulting24.co/crypto-exchange-license-ireland/": {
     "escalated": false,
@@ -3310,6 +3324,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-exchange-license-vietnam/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-fund-license-abu-dhabi/": {
     "escalated": false,
     "first_seen": "2026-06-04",
@@ -3432,9 +3453,9 @@
   "https://www.consulting24.co/crypto-fund-license-indonesia/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/crypto-fund-license-ireland/": {
     "escalated": false,
@@ -3684,9 +3705,9 @@
   "https://www.consulting24.co/crypto-gambling-license-indonesia/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/crypto-gambling-license-ireland/": {
     "escalated": false,
@@ -3957,9 +3978,9 @@
   "https://www.consulting24.co/crypto-nft-marketplace-license-indonesia/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/crypto-nft-marketplace-license-ireland/": {
     "escalated": false,
@@ -4217,8 +4238,8 @@
     "escalated": false,
     "first_seen": "2026-07-20",
     "indexed": false,
-    "last_action": "2026-07-21",
-    "submits": 1
+    "last_action": "2026-07-22",
+    "submits": 2
   },
   "https://www.consulting24.co/crypto-otc-desk-license-ireland/": {
     "escalated": false,
@@ -4475,9 +4496,9 @@
   "https://www.consulting24.co/crypto-payment-institution-license-indonesia/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/crypto-payment-institution-license-ireland/": {
     "escalated": false,
@@ -4759,6 +4780,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-stablecoin-license-indonesia/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-stablecoin-license-ireland/": {
     "escalated": false,
     "first_seen": "2026-06-05",
@@ -4819,8 +4847,8 @@
     "escalated": false,
     "first_seen": "2026-07-20",
     "indexed": false,
-    "last_action": "2026-07-21",
-    "submits": 1
+    "last_action": "2026-07-22",
+    "submits": 2
   },
   "https://www.consulting24.co/crypto-stablecoin-license-poland/": {
     "escalated": false,
@@ -5028,9 +5056,9 @@
   "https://www.consulting24.co/crypto-staking-license-indonesia/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/crypto-staking-license-ireland/": {
     "escalated": false,
@@ -5301,9 +5329,9 @@
   "https://www.consulting24.co/crypto-token-issuance-license-indonesia/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/crypto-token-issuance-license-ireland/": {
     "escalated": false,
@@ -5582,8 +5610,8 @@
     "escalated": false,
     "first_seen": "2026-07-20",
     "indexed": false,
-    "last_action": "2026-07-21",
-    "submits": 1
+    "last_action": "2026-07-22",
+    "submits": 2
   },
   "https://www.consulting24.co/crypto-wallet-custody-license-ireland/": {
     "escalated": false,
@@ -5704,6 +5732,13 @@
     "last_action": null,
     "submits": 0
   },
+  "https://www.consulting24.co/crypto-wallet-custody-license-vietnam/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
   "https://www.consulting24.co/crypto-wallet-custody-license/": {
     "escalated": false,
     "first_seen": "2026-06-09",
@@ -5815,6 +5850,13 @@
     "indexed": true,
     "last_action": "2026-05-29",
     "submits": 1
+  },
+  "https://www.consulting24.co/editorial-policy/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/el-salvador-crypto-license/": {
     "escalated": false,
@@ -6225,16 +6267,16 @@
   "https://www.consulting24.co/licensing-index/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/licensing-index/methodology/": {
     "escalated": false,
     "first_seen": "2026-07-21",
-    "indexed": null,
-    "last_action": null,
-    "submits": 0
+    "indexed": false,
+    "last_action": "2026-07-22",
+    "submits": 1
   },
   "https://www.consulting24.co/lithuania-crypto-license/": {
     "escalated": false,
@@ -6382,6 +6424,20 @@
     "indexed": true,
     "last_action": "2026-05-29",
     "submits": 1
+  },
+  "https://www.consulting24.co/news/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
+  },
+  "https://www.consulting24.co/news/esma-tells-unauthorised-crypto-firms-to-wind-down-eu-operations-as-mica/": {
+    "escalated": false,
+    "first_seen": "2026-07-22",
+    "indexed": null,
+    "last_action": null,
+    "submits": 0
   },
   "https://www.consulting24.co/offshore-crypto-license-cayman-islands/": {
     "escalated": false,
