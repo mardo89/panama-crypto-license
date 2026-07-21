@@ -146,7 +146,7 @@ def footer():
     <div><h4>Consulting24</h4><p style="color:#a3a3a3">500+ crypto licenses across Estonia, Lithuania, Panama and beyond.</p><p style="margin-top:14px"><strong style="color:#fff">WhatsApp / email</strong><br>mardo@consulting24.co</p></div>
     <div><h4>Jurisdictions</h4><a href="/jurisdictions/">All jurisdictions</a><a href="/">Panama</a><a href="/lithuania-crypto-license/">Lithuania</a><a href="/estonia-crypto-license/">Estonia</a></div>
     <div><h4>Resources</h4><a href="/cost/">Panama cost</a><a href="/best-country-for-crypto-license/">Best country for a crypto license</a><a href="/requirements/">Requirements</a><a href="/blog/">Blog</a></div>
-    <div><h4>Company</h4><a href="/about/">About Consulting24</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
+    <div><h4>Company</h4><a href="/about/">About Consulting24</a><a href="/contact/">Contact</a><a href="https://consulting24.co/">consulting24.co</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
   </div><div class="foot-bottom">&copy; 2026 Consulting24 &middot; X24Consulting O&Uuml; &middot; Reg nr 16971898 &middot; Poordi 3-63, 10156 Tallinn, Estonia &middot; General guidance, not legal advice.</div></div></footer>
 <div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact-top" class="btn btn-primary">Free consultation</a></div>'''
 
@@ -303,9 +303,10 @@ def assemble(slug, crumb, d, kind="landing"):
 </script>
 <link rel="stylesheet" href="{css}">
 </head><body>
+<a href="#main" class="skip">Skip to main content</a>
 {HEADER}
 <div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="{'/blog/' if kind=='blog' else '/jurisdictions/'}">{'Blog' if kind=='blog' else 'Jurisdictions'}</a> &rsaquo; {html.escape(crumb)}</nav></div>
-<article class="wrap">
+<article class="wrap" id="main">
   <h1>{html.escape(d["h1"])}</h1>
 {byline}
 {tldr}
@@ -423,11 +424,28 @@ def qc(d, page_html, keyword=""):
     report["fails"] = fails
     return report
 
+_INTERNAL_SET = set(INTERNAL)
+def _sanitize_internal_links(page_html):
+    """Unwrap internal <a href="/X"> whose target is neither allow-listed nor on disk —
+    kills DeepSeek-hallucinated links (/compliance/, /banking/, ...) before they ship,
+    so the linkcheck 'broken internal links' class cannot recur."""
+    def ok(href):
+        h = href.split("#")[0].split("?")[0]
+        if not h.startswith("/") or h == "/": return True
+        if h in _INTERNAL_SET or h.rstrip("/") + "/" in _INTERNAL_SET: return True
+        p = h.strip("/")
+        return (os.path.exists(os.path.join(ROOT, p, "index.html")) or
+                os.path.exists(os.path.join(ROOT, p)))
+    def repl(m):
+        return m.group(2) if m.group(1).startswith("/") and not ok(m.group(1)) else m.group(0)
+    return re.sub(r'<a\b[^>]*?href="([^"]*)"[^>]*?>(.*?)</a>', repl, page_html, flags=re.S)
+
 def build(kind, slug, keyword, brief):
     crumb = brief.split("|")[0].strip() if "|" in brief else slug.replace("-crypto-license","").replace("-"," ").title()
     user = f"Write a {kind} page. Primary keyword: \"{keyword}\". Slug: /{slug}/. Brief & facts: {brief}\nReturn STRICT JSON per the schema. Remember: 2000+ words, 8+ FAQs, full section structure, internal links from the allow-list, validated official authority links only."
     d = _repair(_trim_meta(_clean_d(call_deepseek(user))), keyword)
     page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/').replace('/panama/', '/')  # guard: old project path → root
+    page = _sanitize_internal_links(page)  # strip hallucinated internal links
     report = qc(d, page, keyword)
     # auto-expand if the only failure is word count (up to 2 retries)
     tries = 0
@@ -437,6 +455,7 @@ def build(kind, slug, keyword, brief):
         exp = (f"This draft is only {cur} words; it MUST reach 2300+. Expand it: deepen every section with more concrete detail, examples, a worked cost/timeline table, more on banking, compliance and common mistakes, and lengthen FAQ answers. Keep all existing internal links and authority_links. Return the SAME strict JSON schema with the fuller content.\n\nCURRENT JSON:\n" + json.dumps(d)[:12000])
         d = _repair(_trim_meta(_clean_d(call_deepseek(exp))), keyword)
         page = assemble(slug, crumb, d, kind).replace('/panama-crypto-license/', '/').replace('/panama/', '/')  # guard: old project path → root
+        page = _sanitize_internal_links(page)  # strip hallucinated internal links
         report = qc(d, page, keyword)
         print(f"  expand retry {tries}: {report['words']} words")
     outdir = os.path.join(ROOT, slug) if kind=="landing" else os.path.join(ROOT, "blog", slug)

@@ -56,6 +56,7 @@ def _head(title, desc, canon, extra_ld):
 <script type="application/ld+json">{extra_ld}</script>
 <link rel="stylesheet" href="../styles.css">
 </head><body>
+<a href="#main" class="skip">Skip to main content</a>
 {HEADER}'''
 
 def build():
@@ -63,7 +64,9 @@ def build():
     if not ref:
         print("licensing-index page: data/jurisdictions.json missing — run build_data_json.py first"); return
     op = _load("licensing-index.json") or {}
-    op_by = {j["slug"]: j for j in op.get("jurisdictions", [])}
+    # operator data lives under each row's "operator" sub-object, present ONLY where the owner
+    # has filled real delivery figures. have_operator is true only if at least one is filled.
+    op_by = {j["slug"]: j["operator"] for j in op.get("jurisdictions", []) if j.get("operator")}
     js = ref["jurisdictions"]
     direct = [j for j in js if j["service_model"] == "direct"]
     have_operator = bool(op_by)
@@ -83,14 +86,16 @@ def build():
             reg = "Company + AML (no licence)"
         elif len(reg) > 52:
             reg = reg[:52].rsplit(" ", 1)[0] + "&hellip;"
+        op_cells = (f'<td>{cost or "&mdash;"}</td><td>{sample or "&mdash;"}</td>') if have_operator else ""
         rows.append(
             f'<tr><td><a href="{j["page"]}">{html.escape(j["name"])}</a></td>'
             f'<td>{model}</td><td>{reg}</td>'
-            f'<td>{html.escape(j.get("timeline") or "on request")}</td>'
-            f'<td>{cost or "&mdash;"}</td><td>{sample or "&mdash;"}</td></tr>')
+            f'<td>{html.escape(j.get("timeline") or "on request")}</td>{op_cells}</tr>')
+    # operator columns appear only once real delivery data is filled (no empty "—" columns)
+    op_head = "<th>Setup (operator)</th><th>Sample</th>" if have_operator else ""
     table = ("<div class='t-wrap'><table class='t-wrap-inner'><thead><tr>"
              "<th>Jurisdiction</th><th>What we do</th><th>Regulator / framework</th>"
-             "<th>Typical timeline</th><th>Setup (operator)</th><th>Sample</th></tr></thead><tbody>"
+             f"<th>Typical timeline</th>{op_head}</tr></thead><tbody>"
              + "".join(rows) + "</tbody></table></div>")
 
     op_note = ("" if have_operator else
@@ -124,7 +129,7 @@ def build():
 
     body = f'''{_head(html.unescape(title), html.unescape(desc), canon, ld)}
 <div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; Licensing Index</nav></div>
-<article class="wrap">
+<article class="wrap" id="main">
   <h1>Crypto Licensing Index 2026</h1>
   <p class="byline" style="color:var(--muted);font-size:.9rem">By <a href="/about/" rel="author">Mardo Soo</a>, Founder &amp; CEO, Consulting24 &middot; Updated {ref.get("updated","2026-07-21")} &middot; <a href="/licensing-index/methodology/">Methodology</a></p>
   <div class="answer-box" style="background:var(--accent-soft);border-left:4px solid var(--accent);border-radius:8px;padding:16px 20px;margin:0 0 22px"><strong style="color:var(--accent-dark)">Short answer:</strong> This is where Consulting24 publishes what it actually sees delivering crypto companies and licences: the regulator, service model and 2026 timeline for {len(js)} jurisdictions, and, per jurisdiction, aggregated setup data from 500+ real deliveries. Consulting24 delivers directly in {", ".join(html.escape(j["name"]) for j in direct)}.</div>
@@ -158,7 +163,7 @@ def build():
                    f"{canon}methodology/", m_ld).replace('href="../styles.css"', 'href="../../styles.css"')
     m_body = f'''{m_head}
 <div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="/licensing-index/">Licensing Index</a> &rsaquo; Methodology</nav></div>
-<article class="wrap">
+<article class="wrap" id="main">
   <h1>Crypto Licensing Index &mdash; Methodology</h1>
   <p>The Index publishes aggregated outcomes from 500+ real crypto-company and licence setups Consulting24 has delivered over 8 years. It is first-party data no law firm or content farm can reproduce.</p>
   <h2>What it publishes</h2>
