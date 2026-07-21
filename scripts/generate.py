@@ -81,12 +81,33 @@ BANNED_MAP = {
   "empowering":"enabling","empowered":"enabled","empowers":"enables","empower":"enable",
   "holistic":"complete","synergies":"alignment","synergy":"alignment","paradigm":"model",
   "it's worth noting that":"note that","that being said,":"still,","in essence,":"","in conclusion,":"",
-  "when it comes to":"for","in today's world":"today","at the end of the day,":"ultimately,","look no further":"start here"}
+  "when it comes to":"for","in today's world":"today","at the end of the day,":"ultimately,","look no further":"start here",
+  # AI-tells the SYSTEM prompt bans but the sanitizer previously let through
+  "navigating the regulatory landscape":"working through the regulatory rules",
+  "navigate the regulatory landscape":"work through the regulatory rules",
+  "navigating the landscape":"working through the rules","navigate the landscape":"work through the rules",
+  "regulatory landscape":"regulatory environment","landscape":"environment",
+  "game-changer":"major advantage","testament to":"reflection of","testament":"reflection",
+  "realm":"area","fostering":"supporting","fosters":"supports","fostered":"supported","foster":"support",
+  "unlocking":"gaining","unlocks":"gains","unlocked":"gained","unlock":"gain",
+  "ever-evolving":"changing","tapestry":"mix","embark on":"start","embarking on":"starting",
+  "elevating":"improving","elevates":"improves","elevate":"improve"}
+
+# Fabricated performance statistics: the SYSTEM prompt forbids them, but DeepSeek still
+# emitted "98% success rate" / "near 100% approval rate" onto live YMYL pages. Scrub any
+# invented success/approval percentage into an unquantified, defensible claim.
+_STAT_RE = re.compile(
+    r"(?:\ba\s+|\ban\s+)?(?:nearly\s+|near\s+|over\s+|about\s+|around\s+|approximately\s+)?"
+    r"\b(?:[5-9]\d|100)\s*%\s+(success|approval)\s+rate\b", re.I)
+
+def _scrub_stats(s):
+    return _STAT_RE.sub(lambda m: f"a strong {m.group(1).lower()} record", s)
 
 def _clean(s):
     if not isinstance(s, str): return s
     for a, b in (("—", "-"), ("–", "-"), ("&mdash;", "-"), ("&ndash;", "-"), ("!", ".")):
         s = s.replace(a, b)
+    s = _scrub_stats(s)
     def _repl(good):
         return lambda m: (good[:1].upper() + good[1:]) if m.group(0)[:1].isupper() else good
     for bad in sorted(BANNED_MAP, key=len, reverse=True):   # longest first (phrases before words)
@@ -419,6 +440,11 @@ def qc(d, page_html, keyword=""):
     report["banned"]=banned
     dashes = ("\u2014" in low) or ("\u2013" in low) or ("!" in re.sub(r"&[a-z]+;"," ",low))
     if dashes: fails.append("em/en-dash or ! present")
+    # YMYL honesty gates: _clean already scrubs these, so a hit here means the sanitizer
+    # was bypassed. Fabricated performance stats and approval guarantees must never ship.
+    if _STAT_RE.search(text): fails.append("fabricated success/approval rate")
+    if re.search(r"\b(guarantee[ds]?|guaranteed)\s+(approval|licence|license|success)\b", low):
+        fails.append("approval guarantee")
     # banned words are auto-replaced in _clean; report only, don't hard-fail
     report["pass"] = not fails
     report["fails"] = fails
