@@ -18,6 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.consulting24.co"
 ORG_ID = f"{BASE}/#business"
 AUTHOR_ID = f"{BASE}/about/#mardo-soo"
+AUTHOR_NAME = "Mardo Soo"
 LINKEDIN = "https://www.linkedin.com/in/mardo-s-00a05ab0/"
 CO_TOKENS = ("dubai", "abu-dhabi", "uae", "vara", "adgm")
 PANAMA_OFFER_PAGES = {"requirements", "application-process", "company-setup", "best-country-crypto-license-panama"}
@@ -94,6 +95,14 @@ def repair(path):
                 if isinstance(n, dict) and n.get("@type") == "Article":
                     au = n.get("author")
                     if isinstance(au, dict):
+                        # @type/name must be normalized too: stamping the Person @id onto a
+                        # stray Organization author (e.g. "Crypto License Panama") made one
+                        # @id resolve to both a Person and an Organization on entity-merge,
+                        # and worksFor is a Person-only property.
+                        if au.get("@type") != "Person":
+                            au["@type"] = "Person"; touched = True
+                        if au.get("name") != AUTHOR_NAME:
+                            au["name"] = AUTHOR_NAME; touched = True
                         if au.get("@id") != AUTHOR_ID:
                             au["@id"] = AUTHOR_ID; touched = True
                         if au.get("sameAs") != [LINKEDIN]:
