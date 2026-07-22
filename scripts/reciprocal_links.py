@@ -13,9 +13,26 @@ Injected once, idempotently, right before </article>.
 Idempotent. Usage: python3 scripts/reciprocal_links.py [--dry-run]
 """
 from __future__ import annotations
-import glob, html, os, re, sys
+import glob, html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# redirect stubs are valid pages on disk but noindex; never link INTO them (equity leak +
+# redirect hop). Resolve any stub target to its final canonical URL via config/redirects.json.
+_RD = {}
+try:
+    _rj = json.load(open(os.path.join(ROOT, "config", "redirects.json")))["redirects"]
+    def _n(p): return "/" + p.strip("/") + "/" if p.strip("/") else "/"
+    _RD = {_n(k): (v if v == "/" else _n(v)) for k, v in _rj.items()}
+except Exception:
+    _RD = {}
+
+def resolve_href(href):
+    seen = set()
+    for _ in range(5):
+        if href in seen or href not in _RD: break
+        seen.add(href); href = _RD[href]
+    return href
 ACT = ["exchange", "token-issuance", "payment-institution", "stablecoin", "gambling",
        "nft-marketplace", "fund", "staking", "otc-desk", "wallet-custody", "broker"]
 SPECIAL = {"bvi": "BVI", "usa": "USA", "uae": "UAE", "el-salvador": "El Salvador",
@@ -34,15 +51,20 @@ def parse(slug):
 
 def is_stub(h): return "generated-redirect-stub" in h or 'content="noindex"' in h
 
-# build the index once
-DIRS = {}
+# build the index once. DIRS = all page dirs; STUBS = the noindex redirect ones.
+DIRS, STUBS = {}, set()
 for d in glob.glob(os.path.join(ROOT, "*")):
     if not os.path.isdir(d): continue
     slug = os.path.basename(d)
-    if os.path.exists(os.path.join(d, "index.html")):
+    idx = os.path.join(d, "index.html")
+    if os.path.exists(idx):
         DIRS[slug] = True
+        head = open(idx, encoding="utf-8").read(400)
+        if "generated-redirect-stub" in head or 'content="noindex"' in head:
+            STUBS.add(slug)
 by_country, by_activity = {}, {}
 for slug in DIRS:
+    if slug in STUBS: continue          # never offer a stub as a sibling link target
     a, c = parse(slug)
     if a:
         by_country.setdefault(c, []).append((a, slug))
@@ -69,7 +91,8 @@ def block_for(slug):
     if not a: return None
     links = []
     if f"{c}-crypto-license" in DIRS:
-        links.append((f"/{c}-crypto-license/", f"{cap(c)} crypto license"))
+        # resolve the country hub through redirects (e.g. /panama-crypto-license/ is a stub -> /)
+        links.append((resolve_href(f"/{c}-crypto-license/"), f"{cap(c)} crypto license"))
     for aa, s in _ring(by_country.get(c, []), slug):
         links.append((f"/{s}/", f"{cap(c)} {act_label(aa)} license"))
     for cc, s in _ring(by_activity.get(a, []), slug):

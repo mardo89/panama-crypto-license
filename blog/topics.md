@@ -490,7 +490,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Beneficial ownership and KYC for a crypto company: what regulators and banks ask for
 - [x] From incorporation to operating: the first 90 days after your Panama company is set up
 - [x] Substance requirements for offshore crypto licences: what "economic substance" means in practice
-- [ ] Crypto compliance officer: when you need one and what the role covers
+- [x] Crypto compliance officer: when you need one and what the role covers
 - [x] Passporting a MiCA CASP licence across the EU: how it works and what it does not cover
 - [ ] Reading a crypto-licensing quote: fixed fee vs variable cost, and what is really included
 - [ ] Payment rails for crypto businesses: cards, IBANs and settlement explained
