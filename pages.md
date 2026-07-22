@@ -921,7 +921,7 @@ Requirements & How to Get One".
 - [x] crypto-broker-license-vietnam                           → /crypto-broker-license-vietnam/
 - [x] crypto-otc-desk-license-vietnam                         → /crypto-otc-desk-license-vietnam/
 - [x] crypto-fund-license-vietnam                             → /crypto-fund-license-vietnam/
-- [ ] crypto-nft-marketplace-license-vietnam                  → /crypto-nft-marketplace-license-vietnam/
+- [x] crypto-nft-marketplace-license-vietnam                  → /crypto-nft-marketplace-license-vietnam/
 - [ ] crypto-payment-institution-license-vietnam              → /crypto-payment-institution-license-vietnam/
 - [ ] crypto-gambling-license-vietnam                         → /crypto-gambling-license-vietnam/
 - [ ] crypto-staking-license-vietnam                          → /crypto-staking-license-vietnam/
