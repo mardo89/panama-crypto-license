@@ -491,7 +491,7 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [ ] From incorporation to operating: the first 90 days after your Panama company is set up
 - [x] Substance requirements for offshore crypto licences: what "economic substance" means in practice
 - [ ] Crypto compliance officer: when you need one and what the role covers
-- [ ] Passporting a MiCA CASP licence across the EU: how it works and what it does not cover
+- [x] Passporting a MiCA CASP licence across the EU: how it works and what it does not cover
 - [ ] Reading a crypto-licensing quote: fixed fee vs variable cost, and what is really included
 - [ ] Payment rails for crypto businesses: cards, IBANs and settlement explained
 - [ ] Do you need a licence, a registration, or just a company? A decision guide for crypto founders
