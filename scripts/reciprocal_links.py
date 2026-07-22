@@ -48,17 +48,31 @@ for slug in DIRS:
         by_country.setdefault(c, []).append((a, slug))
         by_activity.setdefault(a, []).append((c, slug))
 
+def _ring(group, slug, n=3):
+    """Pick n siblings starting AFTER this page's position in the sorted group and wrapping
+    around. Every member is then linked by the n members preceding it in the ring, so no tail
+    entry (e.g. an alphabetically-last country like Vietnam) is left without inbound links,
+    which a plain sorted[:n] slice would strand."""
+    ordered = [x for x in sorted(group)]              # (key, slug) tuples
+    slugs = [s for _, s in ordered]
+    if slug not in slugs: return []
+    i = slugs.index(slug)
+    N = len(ordered)
+    out = []
+    for k in range(1, N):
+        if len(out) >= n: break
+        out.append(ordered[(i + k) % N])
+    return out
+
 def block_for(slug):
     a, c = parse(slug)
     if not a: return None
     links = []
     if f"{c}-crypto-license" in DIRS:
         links.append((f"/{c}-crypto-license/", f"{cap(c)} crypto license"))
-    same_country = [(s, aa) for (aa, s) in sorted(by_country.get(c, [])) if s != slug][:3]
-    for s, aa in same_country:
+    for aa, s in _ring(by_country.get(c, []), slug):
         links.append((f"/{s}/", f"{cap(c)} {act_label(aa)} license"))
-    same_act = [(s, cc) for (cc, s) in sorted(by_activity.get(a, [])) if s != slug][:3]
-    for s, cc in same_act:
+    for cc, s in _ring(by_activity.get(a, []), slug):
         links.append((f"/{s}/", f"{cap(cc)} {act_label(a)} license"))
     links.append(("/", "Panama (EUR 6,000)"))
     seen, uniq = set(), []
@@ -68,16 +82,21 @@ def block_for(slug):
     items = "".join(f'<a href="{href}">{html.escape(label)}</a>' for href, label in uniq)
     return f'<section class="reciprocal related"><h2>Related crypto licenses</h2><div class="related">{items}</div></section>'
 
+_BLOCK_RE = re.compile(r'<section class="reciprocal related">.*?</section>\n?', re.S)
+
 def fix(path, dry):
     slug = os.path.basename(os.path.dirname(path))
     a, c = parse(slug)
     if not a: return False
     h = open(path, encoding="utf-8").read()
-    if is_stub(h) or 'class="reciprocal' in h: return False
+    if is_stub(h): return False
     blk = block_for(slug)
     if not blk or "</article>" not in h: return False
-    h = h.replace("</article>", blk + "\n</article>", 1)
-    if not dry: open(path, "w", encoding="utf-8").write(h)
+    # re-injectable: strip any prior block so an improved ring layout replaces the old slice
+    stripped = _BLOCK_RE.sub("", h)
+    new = stripped.replace("</article>", blk + "\n</article>", 1)
+    if new == h: return False
+    if not dry: open(path, "w", encoding="utf-8").write(new)
     return True
 
 def main():
