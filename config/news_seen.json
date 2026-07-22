@@ -1,0 +1,16 @@
+{
+ "seen": {
+  "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-July-2026": {
+   "date": "2026-07-22T14:49:39+00:00",
+   "feed": "esma",
+   "title": "New Q&As available",
+   "published": false
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/esma-launches-common-supervisory-action-casps-digital-operational-resilience": {
+   "date": "2026-07-22T14:49:43+00:00",
+   "feed": "esma",
+   "title": "ESMA launches Common Supervisory Action on CASPs’ digital operational resilience for custody",
+   "published": true
+  }
+ }
+}

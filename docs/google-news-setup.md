@@ -65,6 +65,57 @@ python3 scripts/news.py correct <slug> "What was wrong and what it now says"
 That appends a dated, visible correction and bumps `dateModified`. Never silently edit a
 published item, and never delete one to hide an error.
 
+## Automated publishing
+
+`scripts/news_auto.py` runs daily inside `scripts/daily_blog.sh` (LaunchAgent
+`com.consulting24.blog`, 11:30). It polls regulator feeds, and for anything new and
+crypto-relevant it downloads the actual document and reports only from that.
+
+The model is never asked what it knows. That is the whole design. Three gates stand between
+a feed entry and a published page:
+
+1. **Grounding gate** (`grounding_report`) — every number, acronym and multi-word proper
+   noun in the generated text must appear in the source document, or the item is rejected.
+   Unit-tested against all the fabrication classes from the July 2026 incident: invented law
+   numbers, invented authority acronyms (AFIP), invented multi-word bodies, invented amounts.
+2. **Templated operator paragraph** — the "What this means" line is *not* model-written. It
+   comes from `OPERATOR_LINE`, keyed on jurisdiction, so 100% of model output faces the gate
+   with no exempt section.
+3. **`news.publish()`** — source URL must resolve, fabrication markers refused, length and
+   headline limits enforced.
+
+Everything that fails is logged to `logs/news_auto.log` and skipped. Under-publishing is the
+correct failure mode, and a day with no regulator activity publishes nothing.
+
+```bash
+python3 scripts/news_auto.py --feeds     # health-check every feed
+python3 scripts/news_auto.py --dry-run   # show what it would publish, write nothing
+python3 scripts/news_auto.py --max 1     # publish, tighter cap (default 2/run)
+```
+
+Caps and knobs live at the top of the file: `MAX_PER_RUN=2` (a lead-gen site posting ten
+regulator summaries a day looks like spam), `MAX_AGE_DAYS=14`, `MIN_SOURCE_CHARS=1200`.
+
+### Feeds
+
+Verified working: ESMA, EBA, MFSA, FCA, SEC. Regulators move these URLs without notice, and
+a silently dead feed is how a news desk quietly stops, so `--feeds` is worth running monthly;
+`poll_feed` also logs `FEED-DEAD` when one breaks.
+
+Probed and currently **not** usable (403, 404 or not a feed): CySEC, Bank of Lithuania,
+Finantsinspektsioon, MAS, BaFin, AMF France, FATF, CNMV, AMLA. Estonia and Lithuania are the
+two jurisdictions Consulting24 actually delivers in, so getting a working source for those
+two would be the single most valuable addition here. Worth revisiting.
+
+### Reviewing what it published
+
+Automation does not remove editorial responsibility. Check `/news/` after a run. If an item
+is wrong, correct it visibly rather than deleting it:
+
+```bash
+python3 scripts/news.py correct <slug> "What was wrong and what it now says"
+```
+
 ## Owner steps that remain
 
 1. **Submit the news sitemap in Search Console.** Property `www.consulting24.co` is already

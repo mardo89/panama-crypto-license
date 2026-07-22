@@ -6,7 +6,15 @@
     <atom:link href="https://www.consulting24.co/news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Regulatory developments affecting crypto licensing, each sourced to a primary regulator publication.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 11:35:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 14:52:03 +0000</lastBuildDate>
+    <item>
+      <title>ESMA launches supervisory action on crypto custody resilience</title>
+      <link>https://www.consulting24.co/news/esma-launches-supervisory-action-on-crypto-custody-resilience/</link>
+      <guid isPermaLink="true">https://www.consulting24.co/news/esma-launches-supervisory-action-on-crypto-custody-resilience/</guid>
+      <pubDate>Wed, 22 Jul 2026 14:49:43 +0000</pubDate>
+      <description>The European Securities and Markets Authority is launching a Common Supervisory Action focusing on the digital operational resilience of Crypto-Asset Service Providers, with a specific emphasis on custody services.</description>
+      <source url="https://www.esma.europa.eu/press-news/esma-news/esma-launches-common-supervisory-action-casps-digital-operational-resilience">European Securities and Markets Authority (ESMA)</source>
+    </item>
     <item>
       <title>ESMA tells unauthorised crypto firms to wind down EU operations as MiCA transition ends</title>
       <link>https://www.consulting24.co/news/esma-tells-unauthorised-crypto-firms-to-wind-down-eu-operations-as-mica/</link>

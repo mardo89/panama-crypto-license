@@ -3804,7 +3804,7 @@
 "lastmod": "2026-07-22"
 },
 "https://www.consulting24.co/news/": {
-"hash": "42b70c1134e54dd2afebe1d8a8bb1b22",
+"hash": "ab47d98fe3a9b718350463f35b1c392a",
 "lastmod": "2026-07-22"
 },
 "https://www.consulting24.co/news/esma-tells-unauthorised-crypto-firms-to-wind-down-eu-operations-as-mica/": {
@@ -3841,6 +3841,10 @@
 },
 "https://www.consulting24.co/blog/passporting-a-mica-casp-licence-across-the-eu-how-it-works-and-what-it/": {
 "hash": "695c2a5d36f4cdaea57b96ad63b30b02",
+"lastmod": "2026-07-22"
+},
+"https://www.consulting24.co/news/esma-launches-supervisory-action-on-crypto-custody-resilience/": {
+"hash": "7a5530ae0a6f07acc836ad32eb173c71",
 "lastmod": "2026-07-22"
 }
 }

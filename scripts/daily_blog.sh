@@ -37,10 +37,23 @@ fi
 # 2) link ALL published Blogger guides from the site blog hub
 "$PY" scripts/link_blogger.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] linker nonzero" >> logs/daily_blog.log
 
+# 2b) NEWS DESK: poll regulator feeds and publish anything new that clears the grounding
+#     gate. Publishing nothing is a normal day, not an error.
+"$PY" scripts/news_auto.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] news_auto nonzero" >> logs/daily_blog.log
+# Always rebuild, even when nothing published: this is what ages items out of the 48h
+# Google News window. Skipping it on a quiet day would leave a stale news sitemap.
+"$PY" scripts/news.py build >> logs/daily_blog.log 2>&1 || echo "[$(ts)] news build nonzero" >> logs/daily_blog.log
+# Only run the full publish (sitemap rebuild + IndexNow ping) when a news page actually
+# appeared, so a quiet day does not re-ping 950 unchanged URLs.
+if [ -n "$(git status --porcelain news/ | grep -v '_drafts')" ]; then
+  "$PY" scripts/publish.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] publish nonzero" >> logs/daily_blog.log
+fi
+
 # 3) deploy if anything changed
-git add blog/index.html config/blog_posted.json config/extra_posts.json config/extra_pages.json img/blog 2>/dev/null
+git add blog/index.html config/blog_posted.json config/extra_posts.json config/extra_pages.json img/blog \
+        news/ news-sitemap.xml sitemap.xml config/news_items.json config/news_seen.json config/page_hashes.json 2>/dev/null
 if ! git diff --cached --quiet 2>/dev/null; then
-  git commit -q -m "daily: publish Blogger batch + sync site blog links" >> logs/daily_blog.log 2>&1
+  git commit -q -m "daily: publish Blogger batch + sync site blog links + news desk" >> logs/daily_blog.log 2>&1
   git push -q origin main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] pushed" >> logs/daily_blog.log
 else
   echo "[$(ts)] no changes to deploy" >> logs/daily_blog.log
