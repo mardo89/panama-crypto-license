@@ -929,7 +929,7 @@ Requirements & How to Get One".
 - [x] crypto-stablecoin-license-vietnam                       → /crypto-stablecoin-license-vietnam/
 - [ ] crypto-exchange-license-india                           → /crypto-exchange-license-india/
 - [ ] crypto-wallet-custody-license-india                     → /crypto-wallet-custody-license-india/
-- [ ] crypto-broker-license-india                             → /crypto-broker-license-india/
+- [x] crypto-broker-license-india                             → /crypto-broker-license-india/
 - [ ] crypto-otc-desk-license-india                           → /crypto-otc-desk-license-india/
 - [ ] crypto-fund-license-india                               → /crypto-fund-license-india/
 - [ ] crypto-nft-marketplace-license-india                    → /crypto-nft-marketplace-license-india/
