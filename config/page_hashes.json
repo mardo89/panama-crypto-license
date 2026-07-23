@@ -84,7 +84,7 @@
 "lastmod": "2026-07-22"
 },
 "https://www.consulting24.co/blog/": {
-"hash": "2234916775cfdd237343baa902eba05b",
+"hash": "6eb0aef6d783660f477c21085be6c2fe",
 "lastmod": "2026-07-23"
 },
 "https://www.consulting24.co/blog/abu-dhabi-crypto-license-requirements-checklist-for-2026/": {
@@ -3396,7 +3396,7 @@
 "lastmod": "2026-07-22"
 },
 "https://www.consulting24.co/jurisdictions/": {
-"hash": "e3fc1e1a5549c83f88c414f97e63a019",
+"hash": "2dc3c84155ce4075ea765130a92a80ee",
 "lastmod": "2026-07-23"
 },
 "https://www.consulting24.co/labuan-crypto-license/": {
@@ -3857,6 +3857,18 @@
 },
 "https://www.consulting24.co/crypto-payment-institution-license-vietnam/": {
 "hash": "db44591d1a70e554525476f6a1fcdaee",
+"lastmod": "2026-07-23"
+},
+"https://www.consulting24.co/crypto-stablecoin-license-vietnam/": {
+"hash": "58b9cb40a0649f1d19280e478b0a48f9",
+"lastmod": "2026-07-23"
+},
+"https://www.consulting24.co/crypto-staking-license-vietnam/": {
+"hash": "8eccd809c06e5b9069198adf848dbc2f",
+"lastmod": "2026-07-23"
+},
+"https://www.consulting24.co/crypto-token-issuance-license-vietnam/": {
+"hash": "a5256fcd51abf6786d113ebe36713c48",
 "lastmod": "2026-07-23"
 }
 }
