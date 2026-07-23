@@ -493,8 +493,8 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [x] Crypto compliance officer: when you need one and what the role covers
 - [x] Passporting a MiCA CASP licence across the EU: how it works and what it does not cover
 - [ ] Reading a crypto-licensing quote: fixed fee vs variable cost, and what is really included
-- [ ] Payment rails for crypto businesses: cards, IBANs and settlement explained
-- [ ] Do you need a licence, a registration, or just a company? A decision guide for crypto founders
+- [x] Payment rails for crypto businesses: cards, IBANs and settlement explained
+- [x] Do you need a licence, a registration, or just a company? A decision guide for crypto founders
 - [ ] Transaction monitoring and travel rule obligations for a crypto company in 2026
 - [ ] Migrating an operating crypto business to a new jurisdiction without downtime
 - [ ] Common reasons crypto licence applications are delayed or rejected, and how to avoid them
