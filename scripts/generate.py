@@ -464,6 +464,16 @@ def qc(d, page_html, keyword=""):
     if _STAT_RE.search(text): fails.append("fabricated success/approval rate")
     if re.search(r"\b(guarantee[ds]?|guaranteed)\s+(approval|licence|license|success)\b", low):
         fails.append("approval guarantee")
+    # Panama fabrication guard: DeepSeek repeatedly invents that Panama ISSUES a crypto licence
+    # (via SBP/UAF/CNV, under a mislabeled "Law 23 ... on Digital Commerce/digital assets").
+    # Truth: Panama has no crypto/VASP licence; Law 23 of 2015 is its AML/CFT law only.
+    if (re.search(r"panama[^.]{0,40}crypto licen[sc]e is issued", low)
+            or re.search(r"law 23 of 2015 on (digital commerce|digital assets|virtual asset)", low)
+            or re.search(r"(sbp|superintendencia de bancos|uaf|financial analysis unit|cnv|"
+                         r"national securities commission)[^.]{0,45}(issues?|grants?)[^.]{0,25}"
+                         r"(crypto|virtual asset)[^.]{0,15}licen", low)
+            or "provider of virtual asset services" in low):
+        fails.append("panama crypto-licence fabrication")
     # banned words are auto-replaced in _clean; report only, don't hard-fail
     report["pass"] = not fails
     report["fails"] = fails
